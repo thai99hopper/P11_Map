@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: B10_Mosque_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: 0a18709028170aa4cbdb54dc301999fe, type: 3}
+  materials:
+  - {fileID: 2100000, guid: db51411206db4c3438b4b08b8d13c1b9, type: 2}
+  - {fileID: 2100000, guid: c5cc1217453c4a948a22f9faf99332cb, type: 2}
+  - {fileID: 2100000, guid: 4e98899f644d65c4fa948f1af30b4e76, type: 2}
