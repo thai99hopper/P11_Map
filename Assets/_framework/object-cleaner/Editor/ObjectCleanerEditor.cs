@@ -47,7 +47,11 @@ public class ObjectCleanerEditor : EditorWindow
                     searchRefactoring = (searchMatch) =>
                     {
                         linkReferenceCount++;
-                    }
+                    },
+                    showDetailedProgressBar = false,
+#if ASSET_USAGE_ADDRESSABLES
+            addressablesSupport = true,
+#endif
                 });
                 fileDelete += CleanAsNormal(material, linkReferenceCount) ? 1 : 0;
             }
@@ -71,9 +75,40 @@ public class ObjectCleanerEditor : EditorWindow
                     searchRefactoring = (searchMatch) =>
                     {
                         linkReferenceCount++;
-                    }
+                    },
+                    showDetailedProgressBar = false,
+#if ASSET_USAGE_ADDRESSABLES
+            addressablesSupport = true,
+#endif
                 });
                 fileDelete += CleanAsMaterial(material, linkReferenceCount) ? 1 : 0;
+            }
+            EditorUtility.DisplayDialog("notice", $"File have been deleted ( Total {fileDelete} )", "ok i know");
+        }
+
+        if (GUILayout.Button("clean as sprite"))
+        {
+            var fileDelete = 0;
+            var path = folderOuput.PickedPath;
+            var objects = GetAtPath<Sprite>(path);
+            foreach (var obj in objects)
+            {
+                int linkReferenceCount = 0;
+                var assetDetector = new AssetUsageDetector();
+                var result = assetDetector.Run(new AssetUsageDetector.Parameters()
+                {
+                    objectsToSearch = new Object[] { obj },
+                    lazySceneSearch = false,
+                    searchRefactoring = (searchMatch) =>
+                    {
+                        linkReferenceCount++;
+                    },
+                    showDetailedProgressBar = false,
+#if ASSET_USAGE_ADDRESSABLES
+            addressablesSupport = true,
+#endif
+                });
+                fileDelete += CleanAsNormal(obj, linkReferenceCount) ? 1 : 0;
             }
             EditorUtility.DisplayDialog("notice", $"File have been deleted ( Total {fileDelete} )", "ok i know");
         }
@@ -94,7 +129,11 @@ public class ObjectCleanerEditor : EditorWindow
                     searchRefactoring = (searchMatch) =>
                     {
                         linkReferenceCount++;
-                    }
+                    },
+                    showDetailedProgressBar = false,
+#if ASSET_USAGE_ADDRESSABLES
+            addressablesSupport = true,
+#endif
                 });
                 fileDelete += CleanAsNormal(obj, linkReferenceCount) ? 1 : 0;
             }
@@ -117,7 +156,11 @@ public class ObjectCleanerEditor : EditorWindow
                     searchRefactoring = (searchMatch) =>
                     {
                         linkReferenceCount++;
-                    }
+                    },
+                    showDetailedProgressBar = false,
+#if ASSET_USAGE_ADDRESSABLES
+            addressablesSupport = true,
+#endif
                 });
                 fileDelete += CleanAsNormal(obj, linkReferenceCount) ? 1 : 0;
             }
@@ -142,6 +185,8 @@ public class ObjectCleanerEditor : EditorWindow
     private bool CleanAsNormal(Object obj, int linkCount)
     {
         var path = AssetDatabase.GetAssetPath(obj);
+        UnityEngine.Debug.Log($"{linkCount} - {obj.name} - {path}");
+        return false; 
         if (linkCount == 0 && !path.Contains(META_FILE))
         {
             UnityEngine.Debug.Log($"[FILE-REMOVE] {path}");
