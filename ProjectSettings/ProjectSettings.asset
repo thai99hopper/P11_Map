@@ -799,7 +799,9 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Standalone: USE_SPINE
+    Android: DebugLog
+    Standalone: USE_SPINE;DebugLog
+    iPhone: DebugLog
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
