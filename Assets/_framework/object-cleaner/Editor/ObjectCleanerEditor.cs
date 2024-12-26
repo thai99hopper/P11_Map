@@ -185,8 +185,6 @@ public class ObjectCleanerEditor : EditorWindow
     private bool CleanAsNormal(Object obj, int linkCount)
     {
         var path = AssetDatabase.GetAssetPath(obj);
-        UnityEngine.Debug.Log($"{linkCount} - {obj.name} - {path}");
-        return false; 
         if (linkCount == 0 && !path.Contains(META_FILE))
         {
             UnityEngine.Debug.Log($"[FILE-REMOVE] {path}");
