@@ -1,10 +1,12 @@
 #if UNITY_EDITOR
 using AssetUsageDetectorNamespace;
+
 #if USE_SPINE
 using Spine.Unity;
 #endif
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
@@ -13,7 +15,7 @@ public class ObjectCleanerEditor : EditorWindow
     public const string FBX_FILE = ".fbx";
     public const string META_FILE = ".meta";
     public const string SHADER_GRAPH_STR = "Shader Graph";
-    
+
     private EditorUIElement_pickFolder folderOuput = new EditorUIElement_pickFolder("output");
 
 
@@ -24,7 +26,7 @@ public class ObjectCleanerEditor : EditorWindow
         window.titleContent = new GUIContent("object cleaner");
         window.Show();
     }
-    
+
     private void OnGUI()
     {
         folderOuput.Draw();
@@ -75,7 +77,7 @@ public class ObjectCleanerEditor : EditorWindow
             }
             EditorUtility.DisplayDialog("notice", $"File have been deleted ( Total {fileDelete} )", "ok i know");
         }
-        
+
         if (GUILayout.Button("clean as texture"))
         {
             var fileDelete = 0;
@@ -98,7 +100,7 @@ public class ObjectCleanerEditor : EditorWindow
             }
             EditorUtility.DisplayDialog("notice", $"File have been deleted ( Total {fileDelete} )", "ok i know");
         }
-        
+
         if (GUILayout.Button("clean as object"))
         {
             var fileDelete = 0;
@@ -122,7 +124,7 @@ public class ObjectCleanerEditor : EditorWindow
             EditorUtility.DisplayDialog("notice", $"File have been deleted ( Total {fileDelete} )", "ok i know");
         }
     }
-    
+
     private bool CleanAsMaterial(Material mat, int linkCount)
     {
         var path = AssetDatabase.GetAssetPath(mat);
@@ -152,15 +154,28 @@ public class ObjectCleanerEditor : EditorWindow
     public static T[] GetAtPath<T>(string path)
     {
         ArrayList al = new ArrayList();
-        Queue<string> queue = new Queue<string>();
-        var directories = System.IO.Directory.GetDirectories(path);
-        queue.Enqueue(path); 
-        
-        while (queue.Count > 0)
-        {
-            var pathFolder = queue.Dequeue();
+        HashSet<string> hashDirectories = new HashSet<string>();
+        var directories = System.IO.Directory.GetDirectories(path).ToList();
+        hashDirectories.Add(path);
 
-            string[] fileEntries = System.IO.Directory.GetFiles(pathFolder);
+        while (directories.Count > 0)
+        {
+            var childDir = new List<string>();
+            foreach (var parentDir in directories)
+            {
+                hashDirectories.Add(parentDir);
+
+                var values = System.IO.Directory.GetDirectories(parentDir).ToList(); 
+                childDir.AddRange(values);
+                foreach (var directory in values)
+                    hashDirectories.Add(directory);
+            }
+            directories = childDir;
+        }
+
+        foreach (var dirPath in hashDirectories)
+        {
+            string[] fileEntries = System.IO.Directory.GetFiles(dirPath);
 
             foreach (string fileName in fileEntries)
             {
@@ -171,9 +186,6 @@ public class ObjectCleanerEditor : EditorWindow
 
                 if (t != null)
                     al.Add(t);
-                directories = System.IO.Directory.GetDirectories(pathFolder);
-                foreach (var directory in directories)
-                    queue.Enqueue(directory);
             }
         }
 
