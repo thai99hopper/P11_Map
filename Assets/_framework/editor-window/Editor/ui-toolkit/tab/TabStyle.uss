@@ -1,0 +1,17 @@
+
+#tab_btn_container {
+    flex-direction: row;
+    background-color: rgb(88, 88, 88);
+}
+
+.tab_btn {
+    flex-grow: 1;
+}
+
+.selected_tab_btn {
+    background-color: rgb(70, 96, 124);
+}
+
+.unselected_tab_content {
+    display: none;
+}

@@ -1,0 +1,14 @@
+.center-window-label {
+    -unity-font-style: bold;
+    font-size: 22px;
+    -unity-text-align: middle-center;
+    flex-grow: 1;
+}
+
+.item-group {
+    background-color: rgb(77, 77, 77);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/_framework/editor-window/Editor/BaseEditorWindowStyle.uss?fileID=7433441132597879392&amp;guid=899602fa4c6e92f4d9a770e087e71eb7&amp;type=3#BaseEditorWindowStyle" />
+    <uie:PropertyField label="camera" binding-path="mainCamera" name="camera" />
+    <ui:VisualElement name="pan-config" class="item-group">
+        <ui:Toggle label="enable pan" binding-path="panConfig.enable" name="enable-pan-config" />
+        <uie:PropertyField name="mouse" label="mouse to pan" binding-path="panConfig.panWithMouse" />
+    </ui:VisualElement>
+    <ui:VisualElement name="zoom-config" class="item-group">
+        <ui:Toggle label="enable zoom" name="enable-zoom-config" binding-path="zoomConfig.enable" />
+        <ui:FloatField label="scroll speed" name="scroll-speed" binding-path="zoomConfig.scrollSpeed" />
+    </ui:VisualElement>
+</ui:UXML>

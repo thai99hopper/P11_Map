@@ -1,0 +1,8 @@
+.parent_pick_file {
+    flex-direction: row;
+}
+
+.pick_file_path {
+    background-color: rgb(42, 42, 42);
+    flex-grow: 1;
+}
