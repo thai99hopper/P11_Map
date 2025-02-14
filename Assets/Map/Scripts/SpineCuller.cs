@@ -1,6 +1,5 @@
-
-using System;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using Spine.Unity;
 using UnityEngine;
 
@@ -8,51 +7,55 @@ public class SpineCuller : MonoBehaviour
 {
     #region core
 
+    private class SpineObjInfo
+    {
+        public GameObject obj;
+        public Bounds bounds;
+    }
+
     public bool debugBounds;
 
-    private List<BoxCollider2D> listColliders = new List<BoxCollider2D>();
+    private List<SpineObjInfo> listSpineObjs = new List<SpineObjInfo>();
     private Camera mainCamera;
 
-    private void Start()
+    private async UniTask Start()
     {
         mainCamera = Camera.main;
 
-        RetrieveListColliders();
-    }
-
-    private void RetrieveListColliders()
-    {
-        var spines = GetComponentsInChildren<SkeletonAnimation>();
-        foreach (var spine in spines)
-        {
-            var boxCollider = spine.GetComponent<BoxCollider2D>();
-            if (boxCollider)
-            {
-                
-                listColliders.Add(boxCollider);
-            }
-            else
-            {
-                throw new Exception($"game object {spine.gameObject.name} does not have BoxCollider2D component");
-            }
-        }
+        //wait for Spine initialize mesh
+        await UniTask.DelayFrame(1);
+        
+        RetrieveListSpineObjs();
     }
 
     private void Update()
     {
         var cameraBounds = GetCameraBounds();
-        foreach (var boxCollider2D in listColliders)
+        foreach (var obj in listSpineObjs)
         {
-            var boxBounds = GetBoxColliderBounds(boxCollider2D);
-            var visible = Intersect(cameraBounds, boxBounds);
-            boxCollider2D.gameObject.SetActive(visible);
+            var visible = Intersect(cameraBounds, obj.bounds);
+            obj.obj.SetActive(visible);
         }
     }
 
     #endregion
 
-    #region get bounds
+    #region private utils
 
+    private void RetrieveListSpineObjs()
+    {
+        var spines = GetComponentsInChildren<SkeletonAnimation>();
+        foreach (var spine in spines)
+        {
+            var mesh = spine.GetComponent<MeshRenderer>();
+            listSpineObjs.Add(new SpineObjInfo()
+            {
+                obj = mesh.gameObject,
+                bounds = mesh.bounds,
+            });
+        }
+    }
+    
     private Rect GetCameraBounds()
     {
         var height = mainCamera.orthographicSize * 2f;
@@ -63,37 +66,25 @@ public class SpineCuller : MonoBehaviour
         return new Rect(pos, sz);
     }
 
-    private Rect GetBoxColliderBounds(BoxCollider2D boxCollider)
-    {
-        var scale = (Vector2)boxCollider.transform.lossyScale;
-        var positiveScale = new Vector2(Mathf.Abs(scale.x), Mathf.Abs(scale.y));
-
-        var sz = boxCollider.size * positiveScale;
-        var offset = boxCollider.offset * scale;
-        var pos = (Vector2)boxCollider.transform.position + offset;
-
-        return new Rect(pos, sz);
-    }
-
     #endregion
 
     #region check intersect
 
-    private bool Intersect(Rect rect1, Rect rect2)
+    private static bool Intersect(Rect rect, Bounds bounds)
     {
-        return IntersectX(rect1, rect2) && IntersectY(rect1, rect2);
+        return IntersectX(rect, bounds) && IntersectY(rect, bounds);
     }
 
-    private bool IntersectX(Rect rect1, Rect rect2)
+    private static bool IntersectX(Rect rect, Bounds bounds)
     {
-        var dist = Mathf.Abs(rect1.position.x - rect2.position.x);
-        return dist < rect1.width / 2 + rect2.width / 2;
+        var dist = Mathf.Abs(rect.position.x - bounds.center.x);
+        return dist < rect.width / 2 + bounds.extents.x;
     }
 
-    private bool IntersectY(Rect rect1, Rect rect2)
+    private static bool IntersectY(Rect rect, Bounds bounds)
     {
-        var dist = Mathf.Abs(rect1.position.y - rect2.position.y);
-        return dist < rect1.height / 2 + rect2.height / 2;
+        var dist = Mathf.Abs(rect.position.y - bounds.center.y);
+        return dist < rect.height / 2 + bounds.extents.y;
     }
 
     #endregion
@@ -102,19 +93,33 @@ public class SpineCuller : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        if (!debugBounds)
+        if (!debugBounds || !mainCamera)
         {
             return;
         }
 
         DrawRect(GetCameraBounds());
-        foreach (var boxCollider2D in listColliders)
+        foreach (var obj in listSpineObjs)
         {
-            DrawRect(GetBoxColliderBounds(boxCollider2D));
+            DrawBounds(obj.bounds);
         }
     }
+    
+    private static void DrawBounds(Bounds bounds)
+    {
+        var min = bounds.min;
+        var max = bounds.max;
+        var p1 = new Vector2(min.x, min.y);
+        var p2 = new Vector2(max.x, min.y);
+        var p3 = new Vector2(max.x, max.y);
+        var p4 = new Vector2(min.x, max.y);
+        DrawLine(p1, p2);
+        DrawLine(p2, p3);
+        DrawLine(p3, p4);
+        DrawLine(p4, p1);
+    }
 
-    private void DrawRect(Rect rect)
+    private static void DrawRect(Rect rect)
     {
         var p1 = rect.position + 0.5f * new Vector2(-rect.width, -rect.height);
         var p2 = rect.position + 0.5f * new Vector2(-rect.width, rect.height);
@@ -126,7 +131,7 @@ public class SpineCuller : MonoBehaviour
         DrawLine(p4, p1);
     }
     
-    private void DrawLine(Vector2 p1, Vector2 p2)
+    private static void DrawLine(Vector2 p1, Vector2 p2)
     {
         var color = Gizmos.color;
         Gizmos.color = Color.red;

@@ -2,7 +2,7 @@
 using Spine.Unity;
 using UnityEngine;
 
-public partial class BuildingOnMapController
+public partial class BuildingOnMapController : MonoBehaviour
 {
     public string buildingId;
     public SkeletonAnimation skeletonAnimation;
