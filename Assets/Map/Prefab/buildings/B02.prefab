@@ -81,7 +81,7 @@ GameObject:
   - component: {fileID: 657758815668734379}
   - component: {fileID: 6709865597000732011}
   - component: {fileID: 1727398223772017942}
-  - component: {fileID: 3790598481284966931}
+  - component: {fileID: 7345106053936870631}
   m_Layer: 6
   m_Name: B02
   m_TagString: Untagged
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0836e2e0ddfb090499c3e8e27add3b55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3790598481284966931
+--- !u!114 &7345106053936870631
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4189168603408027416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f20bdacce61d4740aec9ac359c488ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 093a70aa1586ff5499decb5ffcbc6679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   buildingId: building_basic_01
