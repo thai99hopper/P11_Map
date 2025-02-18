@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 26a175e7faf91e8488b5068e3d38ee07
+guid: 99aabde8b10829c4789f1286d3fd66cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4913127897110404944
-    second: Mat_Luna_D_0
+      213: 5221902677805320540
+    second: Screenshot_isometric_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mat_Luna_D_0
+      name: Screenshot_isometric_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 512
+        width: 338
+        height: 547
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b02cac553011dbb0800000000000000
-      internalID: -4913127897110404944
+      spriteID: c594f3291dce77840800000000000000
+      internalID: 5221902677805320540
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Mat_Luna_D_0: -4913127897110404944
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

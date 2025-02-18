@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 26a175e7faf91e8488b5068e3d38ee07
+guid: 4dea51d2a377cdd4899640cf36e18b80
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4913127897110404944
-    second: Mat_Luna_D_0
+      213: 5644484238134203675
+    second: Mat_Luna_Eye_D_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mat_Luna_D_0
+      name: Mat_Luna_Eye_D_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b02cac553011dbb0800000000000000
-      internalID: -4913127897110404944
+      spriteID: b15d742428c355e40800000000000000
+      internalID: 5644484238134203675
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Mat_Luna_D_0: -4913127897110404944
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
