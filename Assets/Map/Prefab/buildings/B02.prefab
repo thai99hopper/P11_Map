@@ -129,12 +129,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f56ea44c2db28d743ab96ba77d4961e7, type: 2}
-  - {fileID: 2100000, guid: 6c1a9ae80c4c5e04e815623d4055b1c2, type: 2}
-  - {fileID: 2100000, guid: f56ea44c2db28d743ab96ba77d4961e7, type: 2}
-  - {fileID: 2100000, guid: 6c1a9ae80c4c5e04e815623d4055b1c2, type: 2}
-  - {fileID: 2100000, guid: f56ea44c2db28d743ab96ba77d4961e7, type: 2}
-  - {fileID: 2100000, guid: 6c1a9ae80c4c5e04e815623d4055b1c2, type: 2}
+  - {fileID: 2100000, guid: 76787edf8aa60b849955e750ab6830bc, type: 2}
+  - {fileID: 2100000, guid: efeb33b14956391419069c850985b9d9, type: 2}
+  - {fileID: 2100000, guid: 76787edf8aa60b849955e750ab6830bc, type: 2}
+  - {fileID: 2100000, guid: efeb33b14956391419069c850985b9d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -168,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 18c51f0a85c557c4585b5c52fa4eecde, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: faf0c03cad00d2d4698eb9e0535a3c41, type: 2}
   initialSkinName: 
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
@@ -268,6 +266,7 @@ MonoBehaviour:
   skeletonAnimation: {fileID: 6075919514718308158}
   gameplayButton: {fileID: 1727398223772017942}
   popupUpgradePos: {fileID: 7686708458616136786}
+  upgradePos: {fileID: 0}
   parentPartsPos: {fileID: 7644119187393238429}
 --- !u!1 &4249612831237339347
 GameObject:
