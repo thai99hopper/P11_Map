@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6a54e4cc64e31542ac559010eeb8064
+guid: 8151fdbb500c44346a0b296cc7b4d6b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1580725737729430828
-    second: ferris_wheel_0
+      213: -7864599891507842824
+    second: Mat_Fisher_Man_D_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ferris_wheel_0
+      name: Mat_Fisher_Man_D_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 612
-        height: 756
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c251ea4feaddfe510800000000000000
-      internalID: 1580725737729430828
+      spriteID: 8f0791e21145bd290800000000000000
+      internalID: -7864599891507842824
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ferris_wheel_0: 1580725737729430828
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
