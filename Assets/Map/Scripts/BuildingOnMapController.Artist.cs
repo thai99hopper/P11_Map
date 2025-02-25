@@ -8,6 +8,5 @@ public partial class BuildingOnMapController : MonoBehaviour
     public SkeletonAnimation skeletonAnimation;
     public GameplayButton gameplayButton;
     public Transform popupUpgradePos;
-    public Transform upgradePos;
     public Transform parentPartsPos;
 }
