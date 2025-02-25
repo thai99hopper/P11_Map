@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: B30_FireStation_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: 77415ed9b59745d48b0f3cfba46f78b5, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 49f76d1da0bfdfc41a668164407b5cd9, type: 2}
+  - {fileID: 2100000, guid: 3359ef55e89731744a744d3f40233058, type: 2}
+  - {fileID: 2100000, guid: 93d9a5d8b2c4934409331e67558762cb, type: 2}

@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: d14c0ba2f95850546af91b7e90c7ab72
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1385621922575142724
+    second: B23_Cacaofarm_0
+  - first:
+      213: -3124420513002314662
+    second: B23_Cacaofarm_1
+  - first:
+      213: 3503170810102335060
+    second: B23_Cacaofarm_2
+  - first:
+      213: -7671747245633396703
+    second: B23_Cacaofarm_3
+  - first:
+      213: -4239329588004903880
+    second: B23_Cacaofarm_4
+  - first:
+      213: -952006810853118699
+    second: B23_Cacaofarm_5
+  - first:
+      213: -8445097739872858509
+    second: B23_Cacaofarm_6
+  - first:
+      213: -8791952712366400023
+    second: B23_Cacaofarm_7
+  - first:
+      213: -2989013326939760009
+    second: B23_Cacaofarm_8
+  - first:
+      213: 2174073460555629870
+    second: B23_Cacaofarm_9
+  - first:
+      213: -116289260069021114
+    second: B23_Cacaofarm_10
+  - first:
+      213: 2939696547370653638
+    second: B23_Cacaofarm_11
+  - first:
+      213: -4550294770505626591
+    second: B23_Cacaofarm_12
+  - first:
+      213: -5469480171988262181
+    second: B23_Cacaofarm_13
+  - first:
+      213: 2834886228253041609
+    second: B23_Cacaofarm_14
+  - first:
+      213: -8068453902095964958
+    second: B23_Cacaofarm_15
+  - first:
+      213: -2651287793152737242
+    second: B23_Cacaofarm_16
+  - first:
+      213: -7878156311187382975
+    second: B23_Cacaofarm_17
+  - first:
+      213: -2819775126816416689
+    second: B23_Cacaofarm_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: B23_Cacaofarm_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1712
+        width: 459
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb03ae7e33845cce0800000000000000
+      internalID: -1385621922575142724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1558
+        width: 459
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54ad89e814d3a4d0800000000000000
+      internalID: -3124420513002314662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_2
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1558
+        width: 399
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456caab8a43cd9030800000000000000
+      internalID: 3503170810102335060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_3
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1819
+        width: 333
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120a079d68a788590800000000000000
+      internalID: -7671747245633396703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_4
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1629
+        width: 161
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8342a2d5330ea25c0800000000000000
+      internalID: -4239329588004903880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_5
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1806
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51de85779dac9c2f0800000000000000
+      internalID: -952006810853118699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_6
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1558
+        width: 161
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e8c61895cfcca80800000000000000
+      internalID: -8445097739872858509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_7
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1735
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed5e510795bcf580800000000000000
+      internalID: -8791952712366400023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 1196
+        height: 1471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ad8d23734e486d0800000000000000
+      internalID: -2989013326939760009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_9
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 563
+        width: 727
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25c50c2b4cdb2e10800000000000000
+      internalID: 2174073460555629870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_10
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1109
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a946ab88bd26ef0800000000000000
+      internalID: -116289260069021114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_11
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 309
+        width: 173
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c758754f66ebc820800000000000000
+      internalID: 2939696547370653638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_12
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 296
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cc1b4c30b1ad0c0800000000000000
+      internalID: -4550294770505626591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_13
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 300
+        width: 100
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2e89a13c08814b0800000000000000
+      internalID: -5469480171988262181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_14
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 220
+        width: 121
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c36ba5310a875720800000000000000
+      internalID: 2834886228253041609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_15
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 231
+        width: 75
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4a4feace7170090800000000000000
+      internalID: -8068453902095964958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_16
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 149
+        width: 115
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6204dcb9ccbb43bd0800000000000000
+      internalID: -2651287793152737242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_17
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 87
+        width: 123
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d9ca2439a2ba290800000000000000
+      internalID: -7878156311187382975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B23_Cacaofarm_18
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 171
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c10a346752ed8d0800000000000000
+      internalID: -2819775126816416689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B23_Cacaofarm_0: -1385621922575142724
+      B23_Cacaofarm_1: -3124420513002314662
+      B23_Cacaofarm_10: -116289260069021114
+      B23_Cacaofarm_11: 2939696547370653638
+      B23_Cacaofarm_12: -4550294770505626591
+      B23_Cacaofarm_13: -5469480171988262181
+      B23_Cacaofarm_14: 2834886228253041609
+      B23_Cacaofarm_15: -8068453902095964958
+      B23_Cacaofarm_16: -2651287793152737242
+      B23_Cacaofarm_17: -7878156311187382975
+      B23_Cacaofarm_18: -2819775126816416689
+      B23_Cacaofarm_2: 3503170810102335060
+      B23_Cacaofarm_3: -7671747245633396703
+      B23_Cacaofarm_4: -4239329588004903880
+      B23_Cacaofarm_5: -952006810853118699
+      B23_Cacaofarm_6: -8445097739872858509
+      B23_Cacaofarm_7: -8791952712366400023
+      B23_Cacaofarm_8: -2989013326939760009
+      B23_Cacaofarm_9: 2174073460555629870
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 46995935ebc8b004c8f477631b39b77c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3609984780837220955
+    second: B26_BeachsafetyHouse_0
+  - first:
+      213: 8936402210082788017
+    second: B26_BeachsafetyHouse_1
+  - first:
+      213: 7981763579352022214
+    second: B26_BeachsafetyHouse_2
+  - first:
+      213: 6209647736858571877
+    second: B26_BeachsafetyHouse_3
+  - first:
+      213: 9164397697688302807
+    second: B26_BeachsafetyHouse_4
+  - first:
+      213: 6150459434406889933
+    second: B26_BeachsafetyHouse_5
+  - first:
+      213: 8746856294998194686
+    second: B26_BeachsafetyHouse_6
+  - first:
+      213: -8039965995323037070
+    second: B26_BeachsafetyHouse_7
+  - first:
+      213: -2174920082795051640
+    second: B26_BeachsafetyHouse_8
+  - first:
+      213: 4922394682149938926
+    second: B26_BeachsafetyHouse_9
+  - first:
+      213: 7741278803164727642
+    second: B26_BeachsafetyHouse_10
+  - first:
+      213: 1974369831273058257
+    second: B26_BeachsafetyHouse_11
+  - first:
+      213: 5904266087724224321
+    second: B26_BeachsafetyHouse_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 674
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b527e5a180e391230800000000000000
+      internalID: 3609984780837220955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_1
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1401
+        width: 372
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b21006867a740c70800000000000000
+      internalID: 8936402210082788017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_2
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1612
+        width: 451
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc7d6cafabe4ce60800000000000000
+      internalID: 7981763579352022214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_3
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1927
+        width: 164
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56473cf67b91d2650800000000000000
+      internalID: 6209647736858571877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_4
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 1612
+        width: 176
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d47e17a62b7e2f70800000000000000
+      internalID: 9164397697688302807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_5
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 1714
+        width: 170
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9c541e442da5550800000000000000
+      internalID: 6150459434406889933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_6
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1542
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9b1cc1573136970800000000000000
+      internalID: 8746856294998194686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 1060
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27aec8a568d4c6090800000000000000
+      internalID: -8039965995323037070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_8
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 800
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885432a35b121d1e0800000000000000
+      internalID: -2174920082795051640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_9
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 102
+        width: 779
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6a1d922ebdf4440800000000000000
+      internalID: 4922394682149938926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_10
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 758
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5905e17e0c8e6b60800000000000000
+      internalID: 7741278803164727642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_11
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 615
+        width: 91
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df4740a6ee566b10800000000000000
+      internalID: 1974369831273058257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B26_BeachsafetyHouse_12
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 43
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f003289ba20f150800000000000000
+      internalID: 5904266087724224321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B26_BeachsafetyHouse_0: 3609984780837220955
+      B26_BeachsafetyHouse_1: 8936402210082788017
+      B26_BeachsafetyHouse_10: 7741278803164727642
+      B26_BeachsafetyHouse_11: 1974369831273058257
+      B26_BeachsafetyHouse_12: 5904266087724224321
+      B26_BeachsafetyHouse_2: 7981763579352022214
+      B26_BeachsafetyHouse_3: 6209647736858571877
+      B26_BeachsafetyHouse_4: 9164397697688302807
+      B26_BeachsafetyHouse_5: 6150459434406889933
+      B26_BeachsafetyHouse_6: 8746856294998194686
+      B26_BeachsafetyHouse_7: -8039965995323037070
+      B26_BeachsafetyHouse_8: -2174920082795051640
+      B26_BeachsafetyHouse_9: 4922394682149938926
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
