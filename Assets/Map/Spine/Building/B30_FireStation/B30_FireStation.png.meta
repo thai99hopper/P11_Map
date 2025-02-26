@@ -50,21 +50,6 @@ TextureImporter:
   - first:
       213: -8152083800390942531
     second: B30_FireStation_15
-  - first:
-      213: -7267071412718641083
-    second: B30_FireStation_16
-  - first:
-      213: 2853955341470314398
-    second: B30_FireStation_17
-  - first:
-      213: -5983436053705919936
-    second: B30_FireStation_18
-  - first:
-      213: 7113890672596186623
-    second: B30_FireStation_19
-  - first:
-      213: -4101642289429097147
-    second: B30_FireStation_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -190,9 +175,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1912
-        width: 75
-        height: 127
+        y: 1495
+        width: 507
+        height: 427
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,10 +196,10 @@ TextureImporter:
       name: B30_FireStation_1
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1932
-        width: 58
-        height: 86
+        x: 504
+        y: 1894
+        width: 76
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,10 +218,10 @@ TextureImporter:
       name: B30_FireStation_2
       rect:
         serializedVersion: 2
-        x: 112
-        y: 1853
-        width: 46
-        height: 80
+        x: 582
+        y: 1914
+        width: 58
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +240,10 @@ TextureImporter:
       name: B30_FireStation_3
       rect:
         serializedVersion: 2
-        x: 175
-        y: 1924
-        width: 57
-        height: 86
+        x: 617
+        y: 1835
+        width: 46
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +262,10 @@ TextureImporter:
       name: B30_FireStation_4
       rect:
         serializedVersion: 2
-        x: 231
-        y: 1854
-        width: 297
-        height: 194
+        x: 680
+        y: 1906
+        width: 57
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +284,10 @@ TextureImporter:
       name: B30_FireStation_5
       rect:
         serializedVersion: 2
-        x: 527
-        y: 1853
-        width: 210
-        height: 159
+        x: 834
+        y: 1832
+        width: 297
+        height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +306,10 @@ TextureImporter:
       name: B30_FireStation_6
       rect:
         serializedVersion: 2
-        x: 1146
-        y: 958
-        width: 727
-        height: 995
+        x: 1864
+        y: 1839
+        width: 159
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,10 +328,10 @@ TextureImporter:
       name: B30_FireStation_7
       rect:
         serializedVersion: 2
-        x: 205
-        y: 1704
-        width: 225
-        height: 151
+        x: 506
+        y: 1495
+        width: 534
+        height: 341
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +350,10 @@ TextureImporter:
       name: B30_FireStation_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1202
-        width: 360
-        height: 378
+        x: 1040
+        y: 1496
+        width: 516
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,10 +372,10 @@ TextureImporter:
       name: B30_FireStation_9
       rect:
         serializedVersion: 2
-        x: 992
-        y: 1515
-        width: 155
-        height: 74
+        x: 1555
+        y: 1502
+        width: 311
+        height: 348
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +394,10 @@ TextureImporter:
       name: B30_FireStation_10
       rect:
         serializedVersion: 2
-        x: 1889
-        y: 1504
-        width: 64
-        height: 85
+        x: 1757
+        y: 1194
+        width: 234
+        height: 309
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,10 +416,10 @@ TextureImporter:
       name: B30_FireStation_11
       rect:
         serializedVersion: 2
-        x: 446
-        y: 957
-        width: 575
-        height: 424
+        x: 1864
+        y: 1502
+        width: 170
+        height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,10 +438,10 @@ TextureImporter:
       name: B30_FireStation_12
       rect:
         serializedVersion: 2
-        x: 756
-        y: 872
-        width: 121
-        height: 87
+        x: 0
+        y: 54
+        width: 1472
+        height: 1443
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +460,10 @@ TextureImporter:
       name: B30_FireStation_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 588
-        width: 38
-        height: 34
+        x: 1470
+        y: 860
+        width: 257
+        height: 272
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,10 +482,10 @@ TextureImporter:
       name: B30_FireStation_14
       rect:
         serializedVersion: 2
-        x: 58
-        y: 124
-        width: 1396
-        height: 779
+        x: 1471
+        y: 602
+        width: 231
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +504,10 @@ TextureImporter:
       name: B30_FireStation_15
       rect:
         serializedVersion: 2
-        x: 1568
-        y: 571
-        width: 311
-        height: 348
+        x: 1695
+        y: 53
+        width: 230
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,116 +518,6 @@ TextureImporter:
       bones: []
       spriteID: db04b72a9fafdde80800000000000000
       internalID: -8152083800390942531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_16
-      rect:
-        serializedVersion: 2
-        x: 1877
-        y: 571
-        width: 170
-        height: 339
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 540628f7d0d262b90800000000000000
-      internalID: -7267071412718641083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_17
-      rect:
-        serializedVersion: 2
-        x: 1498
-        y: 498
-        width: 72
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9faa2d13494b9720800000000000000
-      internalID: 2853955341470314398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_18
-      rect:
-        serializedVersion: 2
-        x: 1568
-        y: 66
-        width: 427
-        height: 507
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 042f79a5c9096fca0800000000000000
-      internalID: -5983436053705919936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_19
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 65
-        width: 136
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff57f0f20ed99b260800000000000000
-      internalID: 7113890672596186623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_20
-      rect:
-        serializedVersion: 2
-        x: 714
-        y: 84
-        width: 59
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 545dbd6b11a0417c0800000000000000
-      internalID: -4101642289429097147
       vertices: []
       indices: 
       edges: []
@@ -669,12 +544,7 @@ TextureImporter:
       B30_FireStation_13: -1841126522281691949
       B30_FireStation_14: -8819736811676436121
       B30_FireStation_15: -8152083800390942531
-      B30_FireStation_16: -7267071412718641083
-      B30_FireStation_17: 2853955341470314398
-      B30_FireStation_18: -5983436053705919936
-      B30_FireStation_19: 7113890672596186623
       B30_FireStation_2: 6129556779997366699
-      B30_FireStation_20: -4101642289429097147
       B30_FireStation_3: -2559229296559425281
       B30_FireStation_4: -6174791162922647586
       B30_FireStation_5: -6815691415438884482

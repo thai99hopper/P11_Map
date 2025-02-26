@@ -14,18 +14,6 @@ TextureImporter:
   - first:
       213: 5107308292378917853
     second: B30_FireStation_2_3
-  - first:
-      213: 6997765300831795992
-    second: B30_FireStation_2_4
-  - first:
-      213: -4114579042310301073
-    second: B30_FireStation_2_5
-  - first:
-      213: 621273378902929937
-    second: B30_FireStation_2_6
-  - first:
-      213: -10258552463059560
-    second: B30_FireStation_2_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -150,10 +138,10 @@ TextureImporter:
       name: B30_FireStation_2_0
       rect:
         serializedVersion: 2
-        x: 756
-        y: 1603
-        width: 259
-        height: 230
+        x: 0
+        y: 1053
+        width: 727
+        height: 995
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +160,10 @@ TextureImporter:
       name: B30_FireStation_2_1
       rect:
         serializedVersion: 2
-        x: 1013
-        y: 1249
-        width: 924
-        height: 799
+        x: 743
+        y: 1599
+        width: 64
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,9 +183,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 730
-        width: 410
-        height: 516
+        y: 130
+        width: 798
+        height: 924
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +204,10 @@ TextureImporter:
       name: B30_FireStation_2_3
       rect:
         serializedVersion: 2
-        x: 266
-        y: 1227
-        width: 260
-        height: 231
+        x: 806
+        y: 130
+        width: 983
+        height: 1033
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,94 +218,6 @@ TextureImporter:
       bones: []
       spriteID: ddbf6ad05ddc0e640800000000000000
       internalID: 5107308292378917853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_2_4
-      rect:
-        serializedVersion: 2
-        x: 408
-        y: 972
-        width: 272
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81b32a1277e0d1160800000000000000
-      internalID: 6997765300831795992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_2_5
-      rect:
-        serializedVersion: 2
-        x: 1405
-        y: 729
-        width: 452
-        height: 522
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6ad3d6392416e6c0800000000000000
-      internalID: -4114579042310301073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_2_6
-      rect:
-        serializedVersion: 2
-        x: 775
-        y: 729
-        width: 298
-        height: 307
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1127ae1b8d43f9800800000000000000
-      internalID: 621273378902929937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_2_7
-      rect:
-        serializedVersion: 2
-        x: 1071
-        y: 794
-        width: 284
-        height: 207
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8959780a6ed8bdff0800000000000000
-      internalID: -10258552463059560
       vertices: []
       indices: 
       edges: []
@@ -340,10 +240,6 @@ TextureImporter:
       B30_FireStation_2_1: 4177380161881576910
       B30_FireStation_2_2: -3070418837329385628
       B30_FireStation_2_3: 5107308292378917853
-      B30_FireStation_2_4: 6997765300831795992
-      B30_FireStation_2_5: -4114579042310301073
-      B30_FireStation_2_6: 621273378902929937
-      B30_FireStation_2_7: -10258552463059560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
