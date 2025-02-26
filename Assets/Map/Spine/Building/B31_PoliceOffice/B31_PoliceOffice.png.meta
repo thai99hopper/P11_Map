@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 6402e0314422fa14e9e9d7c0552f429a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7916123836375132677
+    second: B31_PoliceOffice_0
+  - first:
+      213: -4118313770051128481
+    second: B31_PoliceOffice_1
+  - first:
+      213: 6207326173677944506
+    second: B31_PoliceOffice_2
+  - first:
+      213: 1307591196022564081
+    second: B31_PoliceOffice_3
+  - first:
+      213: 4578431534721175535
+    second: B31_PoliceOffice_4
+  - first:
+      213: 3261654362371068460
+    second: B31_PoliceOffice_5
+  - first:
+      213: -8892779433636216982
+    second: B31_PoliceOffice_6
+  - first:
+      213: 7314832444904565166
+    second: B31_PoliceOffice_7
+  - first:
+      213: 9053525750261992685
+    second: B31_PoliceOffice_8
+  - first:
+      213: 6416297635750211838
+    second: B31_PoliceOffice_9
+  - first:
+      213: 630097065379584393
+    second: B31_PoliceOffice_10
+  - first:
+      213: 5765053219083625171
+    second: B31_PoliceOffice_11
+  - first:
+      213: 7286512433748338793
+    second: B31_PoliceOffice_12
+  - first:
+      213: 3138589550061509167
+    second: B31_PoliceOffice_13
+  - first:
+      213: -5946931775851299854
+    second: B31_PoliceOffice_14
+  - first:
+      213: 5574701371545497207
+    second: B31_PoliceOffice_15
+  - first:
+      213: -4699057705188356349
+    second: B31_PoliceOffice_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: B31_PoliceOffice_0
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1643
+        width: 111
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a642110b8bbdd60800000000000000
+      internalID: 7916123836375132677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1387
+        width: 589
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53b086227fc8d6c0800000000000000
+      internalID: -4118313770051128481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_2
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1556
+        width: 111
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abefe03644ad42650800000000000000
+      internalID: 6207326173677944506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_3
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 919
+        width: 727
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f46a5ec34f752210800000000000000
+      internalID: 1307591196022564081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_4
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1465
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef8087293bd98f30800000000000000
+      internalID: 4578431534721175535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1030
+        width: 77
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c221b319c59b34d20800000000000000
+      internalID: 3261654362371068460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_6
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1143
+        width: 89
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fb6389830869480800000000000000
+      internalID: -8892779433636216982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 918
+        width: 82
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9e90e5a51838560800000000000000
+      internalID: 7314832444904565166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_8
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 833
+        width: 121
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decc735c3b594ad70800000000000000
+      internalID: 9053525750261992685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_9
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 662
+        width: 273
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0f11864b44b0950800000000000000
+      internalID: 6416297635750211838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 549
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98957fb41fd8eb800800000000000000
+      internalID: 630097065379584393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 85
+        width: 1396
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2a3b2bb55910050800000000000000
+      internalID: 5765053219083625171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_12
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 381
+        width: 328
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9686901f374ee1560800000000000000
+      internalID: 7286512433748338793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_13
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 459
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a5b2b11928e8b20800000000000000
+      internalID: 3138589550061509167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_14
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 26
+        width: 136
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb76ecde01487da0800000000000000
+      internalID: -5946931775851299854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_15
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 45
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e2ad38c515d5d40800000000000000
+      internalID: 5574701371545497207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B31_PoliceOffice_16
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 27
+        width: 368
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f8f2fe9e799ceb0800000000000000
+      internalID: -4699057705188356349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B31_PoliceOffice_0: 7916123836375132677
+      B31_PoliceOffice_1: -4118313770051128481
+      B31_PoliceOffice_10: 630097065379584393
+      B31_PoliceOffice_11: 5765053219083625171
+      B31_PoliceOffice_12: 7286512433748338793
+      B31_PoliceOffice_13: 3138589550061509167
+      B31_PoliceOffice_14: -5946931775851299854
+      B31_PoliceOffice_15: 5574701371545497207
+      B31_PoliceOffice_16: -4699057705188356349
+      B31_PoliceOffice_2: 6207326173677944506
+      B31_PoliceOffice_3: 1307591196022564081
+      B31_PoliceOffice_4: 4578431534721175535
+      B31_PoliceOffice_5: 3261654362371068460
+      B31_PoliceOffice_6: -8892779433636216982
+      B31_PoliceOffice_7: 7314832444904565166
+      B31_PoliceOffice_8: 9053525750261992685
+      B31_PoliceOffice_9: 6416297635750211838
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
