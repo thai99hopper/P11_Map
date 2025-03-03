@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 6474faa02b433d14188141d7b8ebe391
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -82508481187416067
+    second: B28_FerrisWheel_0
+  - first:
+      213: -5319873196934722360
+    second: B28_FerrisWheel_1
+  - first:
+      213: 7676296501530010533
+    second: B28_FerrisWheel_2
+  - first:
+      213: 7491957555338651505
+    second: B28_FerrisWheel_3
+  - first:
+      213: 1035237463623890793
+    second: B28_FerrisWheel_4
+  - first:
+      213: 3883100547883741480
+    second: B28_FerrisWheel_5
+  - first:
+      213: 9037484427456060871
+    second: B28_FerrisWheel_6
+  - first:
+      213: -7436037530377883633
+    second: B28_FerrisWheel_7
+  - first:
+      213: -6318070530587851369
+    second: B28_FerrisWheel_8
+  - first:
+      213: -4929458981362579396
+    second: B28_FerrisWheel_9
+  - first:
+      213: 4207360495867313901
+    second: B28_FerrisWheel_10
+  - first:
+      213: -6377584680379057849
+    second: B28_FerrisWheel_11
+  - first:
+      213: -8067501268945894535
+    second: B28_FerrisWheel_12
+  - first:
+      213: -3508965678693829473
+    second: B28_FerrisWheel_13
+  - first:
+      213: -2931407805954310118
+    second: B28_FerrisWheel_14
+  - first:
+      213: -1680030500296669964
+    second: B28_FerrisWheel_15
+  - first:
+      213: 8531984689897113333
+    second: B28_FerrisWheel_16
+  - first:
+      213: -5465058679487357817
+    second: B28_FerrisWheel_17
+  - first:
+      213: -7296776727363155029
+    second: B28_FerrisWheel_18
+  - first:
+      213: -6164392020400901677
+    second: B28_FerrisWheel_19
+  - first:
+      213: -1602626631878065694
+    second: B28_FerrisWheel_20
+  - first:
+      213: 8556945506863525959
+    second: B28_FerrisWheel_21
+  - first:
+      213: 2162186086926447533
+    second: B28_FerrisWheel_22
+  - first:
+      213: 1062511732353852992
+    second: B28_FerrisWheel_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: B28_FerrisWheel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1713
+        width: 491
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7fdd739fedadef0800000000000000
+      internalID: -82508481187416067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_1
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1879
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc859663830c26b0800000000000000
+      internalID: -5319873196934722360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1711
+        width: 373
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a325445ffea78a60800000000000000
+      internalID: 7676296501530010533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_3
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1896
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177a346d3b7c8f760800000000000000
+      internalID: 7491957555338651505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_4
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1742
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9677a7dfcf6ed5e00800000000000000
+      internalID: 1035237463623890793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 956
+        width: 1385
+        height: 757
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8213cbfef5b83e530800000000000000
+      internalID: 3883100547883741480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_6
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1504
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd94a144389b6d70800000000000000
+      internalID: 9037484427456060871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_7
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1158
+        width: 66
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f007a519343edc890800000000000000
+      internalID: -7436037530377883633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_8
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1175
+        width: 51
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7958276b354b158a0800000000000000
+      internalID: -6318070530587851369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_9
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1167
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3846018c2b079bb0800000000000000
+      internalID: -4929458981362579396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_10
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 1117
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deebe26541c836a30800000000000000
+      internalID: 4207360495867313901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_11
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1104
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7497809e5844e77a0800000000000000
+      internalID: -6377584680379057849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_12
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1059
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973877fd65a7a0090800000000000000
+      internalID: -8067501268945894535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_13
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1021
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94ba687e46ad4fc0800000000000000
+      internalID: -3508965678693829473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_14
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 956
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10494ab12c8157d0800000000000000
+      internalID: -2931407805954310118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_15
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 980
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4cef149255fa8e0800000000000000
+      internalID: -1680030500296669964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 123
+        width: 1396
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6836efed2b76670800000000000000
+      internalID: 8531984689897113333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_17
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 871
+        width: 121
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c9d7c06163824b0800000000000000
+      internalID: -5465058679487357817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_18
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 480
+        width: 326
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab8e28f934acba90800000000000000
+      internalID: -7296776727363155029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 587
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d170c72e1ea37aa0800000000000000
+      internalID: -6164392020400901677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_20
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 497
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1c353c19352c9e0800000000000000
+      internalID: -1602626631878065694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_21
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 64
+        width: 136
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740b9f21a9060c670800000000000000
+      internalID: 8556945506863525959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_22
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 83
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3fa815ac0a10e10800000000000000
+      internalID: 2162186086926447533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B28_FerrisWheel_23
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 64
+        width: 403
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046e2a88acccebe00800000000000000
+      internalID: 1062511732353852992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B28_FerrisWheel_0: -82508481187416067
+      B28_FerrisWheel_1: -5319873196934722360
+      B28_FerrisWheel_10: 4207360495867313901
+      B28_FerrisWheel_11: -6377584680379057849
+      B28_FerrisWheel_12: -8067501268945894535
+      B28_FerrisWheel_13: -3508965678693829473
+      B28_FerrisWheel_14: -2931407805954310118
+      B28_FerrisWheel_15: -1680030500296669964
+      B28_FerrisWheel_16: 8531984689897113333
+      B28_FerrisWheel_17: -5465058679487357817
+      B28_FerrisWheel_18: -7296776727363155029
+      B28_FerrisWheel_19: -6164392020400901677
+      B28_FerrisWheel_2: 7676296501530010533
+      B28_FerrisWheel_20: -1602626631878065694
+      B28_FerrisWheel_21: 8556945506863525959
+      B28_FerrisWheel_22: 2162186086926447533
+      B28_FerrisWheel_23: 1062511732353852992
+      B28_FerrisWheel_3: 7491957555338651505
+      B28_FerrisWheel_4: 1035237463623890793
+      B28_FerrisWheel_5: 3883100547883741480
+      B28_FerrisWheel_6: 9037484427456060871
+      B28_FerrisWheel_7: -7436037530377883633
+      B28_FerrisWheel_8: -6318070530587851369
+      B28_FerrisWheel_9: -4929458981362579396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
