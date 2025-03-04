@@ -53,7 +53,7 @@ public partial class McOnMapController : MonoBehaviour
                 if (status == 0)
                     StartMovement();
                 else
-                    StartEmo();
+                StartEmo();
             }
         }
 
@@ -94,7 +94,11 @@ public partial class McOnMapController : MonoBehaviour
 
             SetActiveMoveAni(false);
             RandomFreeTime();
-            model.localRotation = Quaternion.Euler(firstAngleModel.x, firstAngleModel.y, firstAngleModel.z);
+
+            var angleX = isEmo ? emoPos.localEulerAngles.x : firstAngleModel.x;
+            var angleY = isEmo ? emoPos.localEulerAngles.y : firstAngleModel.y;
+            var angleZ = isEmo ? emoPos.localEulerAngles.z : firstAngleModel.z;
+            model.localRotation = Quaternion.Euler(angleX, angleY, angleZ);
         }
         else
         {
