@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: e70423c26d7069c41bc9d7e0b93ab51d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6574660903270604896
+    second: Mat_Strawberry_Farmer_Eye_D_0
+  - first:
+      213: -7001800593394128141
+    second: Mat_Strawberry_Farmer_Eye_D_1
+  - first:
+      213: -8573470934381029357
+    second: Mat_Strawberry_Farmer_Eye_D_2
+  - first:
+      213: -8131315993448716994
+    second: Mat_Strawberry_Farmer_Eye_D_3
+  - first:
+      213: -5815502251455345803
+    second: Mat_Strawberry_Farmer_Eye_D_4
+  - first:
+      213: -2025900906119426824
+    second: Mat_Strawberry_Farmer_Eye_D_5
+  - first:
+      213: -2034643196583422673
+    second: Mat_Strawberry_Farmer_Eye_D_6
+  - first:
+      213: -5421162315108815231
+    second: Mat_Strawberry_Farmer_Eye_D_7
+  - first:
+      213: 3367436185505308689
+    second: Mat_Strawberry_Farmer_Eye_D_8
+  - first:
+      213: 8133297280104665011
+    second: Mat_Strawberry_Farmer_Eye_D_9
+  - first:
+      213: -7518979671218438800
+    second: Mat_Strawberry_Farmer_Eye_D_10
+  - first:
+      213: -6255264689936244098
+    second: Mat_Strawberry_Farmer_Eye_D_11
+  - first:
+      213: -1354990026708128222
+    second: Mat_Strawberry_Farmer_Eye_D_12
+  - first:
+      213: 4976658022181671237
+    second: Mat_Strawberry_Farmer_Eye_D_13
+  - first:
+      213: 4574322840476155843
+    second: Mat_Strawberry_Farmer_Eye_D_14
+  - first:
+      213: -8749516871788617331
+    second: Mat_Strawberry_Farmer_Eye_D_15
+  - first:
+      213: -7395317408962014365
+    second: Mat_Strawberry_Farmer_Eye_D_16
+  - first:
+      213: 2036943164970455833
+    second: Mat_Strawberry_Farmer_Eye_D_17
+  - first:
+      213: 1697734768918301095
+    second: Mat_Strawberry_Farmer_Eye_D_18
+  - first:
+      213: -4722913307954707382
+    second: Mat_Strawberry_Farmer_Eye_D_19
+  - first:
+      213: 6632339330078890552
+    second: Mat_Strawberry_Farmer_Eye_D_20
+  - first:
+      213: 3880398101719085964
+    second: Mat_Strawberry_Farmer_Eye_D_21
+  - first:
+      213: -641204351088698602
+    second: Mat_Strawberry_Farmer_Eye_D_22
+  - first:
+      213: 3354708154699066073
+    second: Mat_Strawberry_Farmer_Eye_D_23
+  - first:
+      213: -1607993676826033230
+    second: Mat_Strawberry_Farmer_Eye_D_24
+  - first:
+      213: -2042603844937782683
+    second: Mat_Strawberry_Farmer_Eye_D_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060e71ae143ed3b50800000000000000
+      internalID: 6574660903270604896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_1
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faaf9a157b94de90800000000000000
+      internalID: -7001800593394128141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_2
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31815100c99e40980800000000000000
+      internalID: -8573470934381029357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_3
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35690e7f23c72f80800000000000000
+      internalID: -8131315993448716994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_4
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1772
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b058f938f2b4fa0800000000000000
+      internalID: -5815502251455345803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_5
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1772
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc0c9c0cdd82e3e0800000000000000
+      internalID: -2025900906119426824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1241
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25dafeeace73c3e0800000000000000
+      internalID: -2034643196583422673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_7
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1241
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e6432d89924c4b0800000000000000
+      internalID: -5421162315108815231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_8
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1243
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11027d88e598bbe20800000000000000
+      internalID: 3367436185505308689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1243
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf0a41c8c64fd070800000000000000
+      internalID: 8133297280104665011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_10
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1236
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d34a783d737a790800000000000000
+      internalID: -7518979671218438800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_11
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1236
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e726e4408e5d039a0800000000000000
+      internalID: -6255264689936244098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 787
+        width: 121
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e6ddfefbb123de0800000000000000
+      internalID: -1354990026708128222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_13
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 680
+        width: 161
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5419cbc8a14a01540800000000000000
+      internalID: 4976658022181671237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_14
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 682
+        width: 161
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf798a33624b7f30800000000000000
+      internalID: 4574322840476155843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_15
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 685
+        width: 153
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81a0c413c8739680800000000000000
+      internalID: -8749516871788617331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_16
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 689
+        width: 153
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3639e85affd8e5990800000000000000
+      internalID: -7395317408962014365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_17
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 686
+        width: 159
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91359bf240da44c10800000000000000
+      internalID: 2036943164970455833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_18
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 686
+        width: 161
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9843007c09f8710800000000000000
+      internalID: 1697734768918301095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 55
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4405669e57d47eb0800000000000000
+      internalID: -4722913307954707382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 201
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a54372b7dca0c50800000000000000
+      internalID: 6632339330078890552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_21
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 55
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83f018a381f9d530800000000000000
+      internalID: 3880398101719085964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_22
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 56
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b5ce83a0cf917f0800000000000000
+      internalID: -641204351088698602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_23
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 52
+        width: 172
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daa1fdea415e8e20800000000000000
+      internalID: 3354708154699066073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_24
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 97
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3c5bb35424fa9e0800000000000000
+      internalID: -1607993676826033230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Strawberry_Farmer_Eye_D_25
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 97
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ae2ad00a637a3e0800000000000000
+      internalID: -2042603844937782683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
