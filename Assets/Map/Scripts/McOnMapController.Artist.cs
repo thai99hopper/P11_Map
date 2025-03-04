@@ -27,12 +27,12 @@ public partial class McOnMapController : MonoBehaviour
 
     [Header("Other")]
     bool isOutsideScreen = false;
-    [SerializeField] float firstAngleModel;
+    [SerializeField] Vector3 firstAngleModel;
     [SerializeField] int idleIdx;
 
     private void Start()
     {
-        firstAngleModel = model.localEulerAngles.y;
+        firstAngleModel = model.localEulerAngles;
         SetupMovePos();
         ChangedIdleAnim();
         RandomFreeTime();
@@ -94,7 +94,7 @@ public partial class McOnMapController : MonoBehaviour
 
             SetActiveMoveAni(false);
             RandomFreeTime();
-            model.localRotation = Quaternion.Euler(0, firstAngleModel, 0);
+            model.localRotation = Quaternion.Euler(firstAngleModel.x, firstAngleModel.y, firstAngleModel.z);
         }
         else
         {
