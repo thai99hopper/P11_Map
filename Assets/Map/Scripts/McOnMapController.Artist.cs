@@ -13,7 +13,7 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] float idleTime;
 
     [Header("Movement")]
-    [SerializeField] float speedMove;
+    [SerializeField] float speedMove = 5f;
     [SerializeField] bool isMove = false;
     [SerializeField] bool isMoveAnim = false;
     [SerializeField] Transform posWillMove; 
@@ -29,6 +29,9 @@ public partial class McOnMapController : MonoBehaviour
     bool isOutsideScreen = false;
     [SerializeField] Vector3 firstAngleModel;
     [SerializeField] int idleIdx;
+
+    [Header("Debug")]
+    [SerializeField] bool isAutoEmo = false;           
 
     private void Start()
     {
@@ -50,10 +53,10 @@ public partial class McOnMapController : MonoBehaviour
             if (idleTime <= 0)
             {
                 var status = Random.Range(0, 2);
-                if (status == 0)
-                    StartMovement();
+                if (status == 0 || isAutoEmo)
+                    StartEmo();
                 else
-                StartEmo();
+                    StartMovement();
             }
         }
 
@@ -185,8 +188,8 @@ public partial class McOnMapController : MonoBehaviour
             item.localPosition = new Vector3(posCurrent.x, posCurrent.y, posCurrent.y);
         }
 
-        var emoPosCurrent = emoPos.localPosition;
-        emoPos.localPosition = new Vector3(emoPosCurrent.x, emoPosCurrent.y, emoPosCurrent.y);
+        //var emoPosCurrent = emoPos.localPosition;
+        //emoPos.localPosition = new Vector3(emoPosCurrent.x, emoPosCurrent.y, emoPosCurrent.y);
     }
 
     void RandomFreeTime()
