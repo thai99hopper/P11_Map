@@ -1,22 +1,34 @@
 ﻿using UnityEngine;
-using UnityEngine.UIElements;
 
 public partial class McOnMapController : MonoBehaviour
 {
     [SerializeField] Animator animator;
     [SerializeField] Transform model;
     [SerializeField] Transform movePos;
+    [SerializeField] Transform emoPos;
+
+    [Header("Idle")]
+    [SerializeField] float minFreeTime = 5f;
+    [SerializeField] float maxFreeTime = 10f;
+    [SerializeField] float idleTime;
+
+    [Header("Movement")]
     [SerializeField] float speedMove;
-    [SerializeField] float rotateSpeed;
-    float rangeAnim = 3;
-    float timeStartIdleAnim;
-
-    [SerializeField] float freeTime;
     [SerializeField] bool isMove = false;
-    [SerializeField] Transform posWillMove;
+    [SerializeField] bool isMoveAnim = false;
+    [SerializeField] Transform posWillMove; 
+    [SerializeField] int movePosIdx;
 
+    [Header("Emo")]
+    [SerializeField] float minEmoTime = 30f;
+    [SerializeField] float maxEmoTime = 45f;
+    [SerializeField] bool isEmo = false;
+    [SerializeField] float emoTime;
+
+    [Header("Other")]
     bool isOutsideScreen = false;
     [SerializeField] float firstAngleModel;
+    [SerializeField] int idleIdx;
 
     private void Start()
     {
@@ -29,59 +41,57 @@ public partial class McOnMapController : MonoBehaviour
 
     private void Update()
     {
-        UpdateOutsideCam();
+        //UpdateOutsideCam();
 
-        if (!isMove)
+        if (!isMove && !isEmo)
         {
-            freeTime -= Time.deltaTime;
+            idleTime -= Time.deltaTime;
 
-            if (freeTime <= 0)
-                StartMovement();
+            if (idleTime <= 0)
+            {
+                var status = Random.Range(0, 2);
+                if (status == 0)
+                    StartMovement();
+                else
+                    StartEmo();
+            }
         }
-        isMove = freeTime < 0;
 
-        if (!isMove)
-        {
-            if (IsCompleteIdleAnimCurrent())
-                ChangedIdleAnim();
-        }
-        else
+        if (isMove && isMoveAnim)
         {
             UpdateMovement();
         }
+
+        if (!isMove && isEmo)
+        {
+            UpdateEmo();
+        }
     }
 
-    void SetupMovePos()
-    {
-        foreach(Transform item in movePos)
-        {
-            var posCurrent = item.localPosition;
-            item.localPosition = new Vector3(posCurrent.x, posCurrent.y, posCurrent.y);
-        }    
-    }    
-
-    void UpdateOutsideCam()
-    {
-        var isOutsideScreen = IsObjectOutsideCamera();
-        if (!isOutsideScreen && this.isOutsideScreen && !isMove)
-        {
-            EnableEmoAnim();
-        }
-        this.isOutsideScreen = isOutsideScreen;
-    }    
-
+    #region movement
     void StartMovement()
     {
         SetActiveMoveAni(true);
 
-        var index = Random.Range(1, movePos.childCount+1);
-        posWillMove = movePos.Find($"pos-{index}");
-    }    
+        int indexNext;
+        do
+        {
+            indexNext = Random.Range(1, movePos.childCount + 1);
+        } while (indexNext == movePosIdx);
+
+        movePosIdx = indexNext;
+        posWillMove = movePos.Find($"pos-{movePosIdx}");
+    }
 
     void UpdateMovement()
     {
         if (Vector3.SqrMagnitude(posWillMove.position - model.position) < 0.1f * 0.1f)
         {
+            if (isEmo)
+            {
+                SetActiveEmoAni(true);
+            }
+
             SetActiveMoveAni(false);
             RandomFreeTime();
             model.localRotation = Quaternion.Euler(0, firstAngleModel, 0);
@@ -92,7 +102,7 @@ public partial class McOnMapController : MonoBehaviour
             model.position += speedMove * normalized * Time.deltaTime;
 
             UpdateRotation();
-        }    
+        }
     }
 
     protected void UpdateRotation()
@@ -103,6 +113,46 @@ public partial class McOnMapController : MonoBehaviour
         model.localRotation = Quaternion.Euler(0, targetYAngle, 0);
     }
 
+    void SetActiveMoveAni(bool val)
+    {
+        animator.SetBool("move", val);
+        isMove = val;
+    }
+    #endregion
+
+    #region emo
+    void StartEmo()
+    {
+        isEmo = true;
+        RandomEmoTime();
+        posWillMove = emoPos;
+        SetActiveMoveAni(true);
+    }
+
+    void UpdateEmo()
+    {
+        emoTime -= Time.deltaTime;
+
+        if (emoTime < 0)
+        {
+            isEmo = false;
+            SetActiveEmoAni(false);
+            StartMovement();
+        }
+    }
+
+    void RandomEmoTime()
+    {
+        emoTime = Random.Range(minEmoTime, maxEmoTime);
+    }
+
+    void SetActiveEmoAni(bool val)
+    {
+        animator.SetBool("emo", val);
+    }
+    #endregion
+
+    #region outside
     bool IsObjectOutsideCamera()
     {
         Vector3 viewportPos = Camera.main.WorldToViewportPoint(transform.position);
@@ -112,30 +162,55 @@ public partial class McOnMapController : MonoBehaviour
                viewportPos.z < 0;
     }
 
-    void RandomFreeTime()
+    void UpdateOutsideCam()
     {
-        freeTime = Random.Range(7f, 15f);
+        var isOutsideScreen = IsObjectOutsideCamera();
+        if (!isOutsideScreen && this.isOutsideScreen && !isMove)
+        {
+            //EnableEmoAnim();
+        }
+        this.isOutsideScreen = isOutsideScreen;
+    }
+    #endregion
+
+    void SetupMovePos()
+    {
+        foreach (Transform item in movePos)
+        {
+            var posCurrent = item.localPosition;
+            item.localPosition = new Vector3(posCurrent.x, posCurrent.y, posCurrent.y);
+        }
+
+        var emoPosCurrent = emoPos.localPosition;
+        emoPos.localPosition = new Vector3(emoPosCurrent.x, emoPosCurrent.y, emoPosCurrent.y);
     }
 
-    bool IsCompleteIdleAnimCurrent()
+    void RandomFreeTime()
     {
-        return Time.realtimeSinceStartup - timeStartIdleAnim >= rangeAnim;
-    }      
+        idleTime = Random.Range(minFreeTime, maxFreeTime);
+        isMoveAnim = false;
+    }
 
     void ChangedIdleAnim()
     {
-        timeStartIdleAnim = Time.realtimeSinceStartup;
-        var val = Random.Range(1, 5);
-        animator.SetInteger("idle-type", val);
-    }    
+        if (idleIdx != 1 || isMove)
+        {
+            idleIdx = 1;
+        }
+        else
+        {
+            idleIdx = Random.Range(2, 5);
+        }
+        animator.SetInteger("idle-type", idleIdx);
+    }
 
-    void EnableEmoAnim()
+    public void OnTriggerEndIdleAnim()
     {
-        animator.SetTrigger("emo");
-    }    
+        ChangedIdleAnim();
+    }
 
-    void SetActiveMoveAni(bool val)
+    public void OnTriggerStartMove()
     {
-        animator.SetBool("move", val);
-    }    
+        isMoveAnim = true;
+    }
 }
