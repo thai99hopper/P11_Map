@@ -195,6 +195,7 @@ public partial class McOnMapController : MonoBehaviour
     #region trigger
     public void OnTriggerEndIdleAnim()
     {
+        SetIsMoveAnim(false);
         ChangedIdleAnim();
     }
 
