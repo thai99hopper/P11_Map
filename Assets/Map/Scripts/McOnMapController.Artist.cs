@@ -2,10 +2,11 @@
 
 public partial class McOnMapController : MonoBehaviour
 {
+    #region base
     [SerializeField] Animator animator;
     [SerializeField] Transform model;
+    [SerializeField] Transform modelEmo;
     [SerializeField] Transform movePos;
-    [SerializeField] Transform emoPos;
 
     [Header("Idle")]
     [SerializeField] float minFreeTime = 5f;
@@ -16,14 +17,11 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] float speedMove = 5f;
     [SerializeField] bool isMove = false;
     [SerializeField] bool isMoveAnim = false;
-    [SerializeField] Transform posWillMove; 
+    [SerializeField] Transform posWillMove;
     [SerializeField] int movePosIdx;
 
     [Header("Emo")]
-    [SerializeField] float minEmoTime = 30f;
-    [SerializeField] float maxEmoTime = 45f;
     [SerializeField] bool isEmo = false;
-    [SerializeField] float emoTime;
 
     [Header("Other")]
     bool isOutsideScreen = false;
@@ -31,7 +29,18 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] int idleIdx;
 
     [Header("Debug")]
-    [SerializeField] bool isAutoEmo = false;           
+    [SerializeField] bool isAutoEmo = false;
+
+    void SetAnimBool(string name, bool value)
+    {
+        animator.SetBool(name, value);
+    }
+
+    void SetAnimInteger(string name, int value)
+    {
+        animator.SetInteger(name, value);
+    }
+    #endregion
 
     private void Start()
     {
@@ -39,12 +48,13 @@ public partial class McOnMapController : MonoBehaviour
         SetupMovePos();
         ChangedIdleAnim();
         RandomFreeTime();
+        UpdateModel();
         isOutsideScreen = IsObjectOutsideCamera();
     }
 
     private void Update()
     {
-        //UpdateOutsideCam();
+        UpdateOutsideCam();
 
         if (!isMove && !isEmo)
         {
@@ -52,22 +62,13 @@ public partial class McOnMapController : MonoBehaviour
 
             if (idleTime <= 0)
             {
-                var status = Random.Range(0, 2);
-                if (status == 0 || isAutoEmo)
-                    StartEmo();
-                else
-                    StartMovement();
+                StartMovement();
             }
         }
 
         if (isMove && isMoveAnim)
         {
             UpdateMovement();
-        }
-
-        if (!isMove && isEmo)
-        {
-            UpdateEmo();
         }
     }
 
@@ -90,17 +91,12 @@ public partial class McOnMapController : MonoBehaviour
     {
         if (Vector3.SqrMagnitude(posWillMove.position - model.position) < 0.1f * 0.1f)
         {
-            if (isEmo)
-            {
-                SetActiveEmoAni(true);
-            }
-
             SetActiveMoveAni(false);
             RandomFreeTime();
 
-            var angleX = isEmo ? emoPos.localEulerAngles.x : firstAngleModel.x;
-            var angleY = isEmo ? emoPos.localEulerAngles.y : firstAngleModel.y;
-            var angleZ = isEmo ? emoPos.localEulerAngles.z : firstAngleModel.z;
+            var angleX = firstAngleModel.x;
+            var angleY = firstAngleModel.y;
+            var angleZ = firstAngleModel.z;
             model.localRotation = Quaternion.Euler(angleX, angleY, angleZ);
         }
         else
@@ -122,40 +118,16 @@ public partial class McOnMapController : MonoBehaviour
 
     void SetActiveMoveAni(bool val)
     {
-        animator.SetBool("move", val);
+        SetAnimBool("move", val);
         isMove = val;
-    }
-    #endregion
 
-    #region emo
-    void StartEmo()
-    {
-        isEmo = true;
-        RandomEmoTime();
-        posWillMove = emoPos;
-        SetActiveMoveAni(true);
+        if (!val)
+            SetIsMoveAnim(false);
     }
 
-    void UpdateEmo()
+    void SetIsMoveAnim(bool val)
     {
-        emoTime -= Time.deltaTime;
-
-        if (emoTime < 0)
-        {
-            isEmo = false;
-            SetActiveEmoAni(false);
-            StartMovement();
-        }
-    }
-
-    void RandomEmoTime()
-    {
-        emoTime = Random.Range(minEmoTime, maxEmoTime);
-    }
-
-    void SetActiveEmoAni(bool val)
-    {
-        animator.SetBool("emo", val);
+        isMoveAnim = val;
     }
     #endregion
 
@@ -172,14 +144,16 @@ public partial class McOnMapController : MonoBehaviour
     void UpdateOutsideCam()
     {
         var isOutsideScreen = IsObjectOutsideCamera();
-        if (!isOutsideScreen && this.isOutsideScreen && !isMove)
+        if (isOutsideScreen && !this.isOutsideScreen)
         {
-            //EnableEmoAnim();
+            isEmo = !isEmo;
+            UpdateModel();
         }
         this.isOutsideScreen = isOutsideScreen;
     }
     #endregion
 
+    #region other
     void SetupMovePos()
     {
         foreach (Transform item in movePos)
@@ -195,7 +169,6 @@ public partial class McOnMapController : MonoBehaviour
     void RandomFreeTime()
     {
         idleTime = Random.Range(minFreeTime, maxFreeTime);
-        isMoveAnim = false;
     }
 
     void ChangedIdleAnim()
@@ -208,9 +181,18 @@ public partial class McOnMapController : MonoBehaviour
         {
             idleIdx = Random.Range(2, 5);
         }
-        animator.SetInteger("idle-type", idleIdx);
+
+        SetAnimInteger("idle-type", idleIdx);
     }
 
+    void UpdateModel()
+    {
+        model.gameObject.SetActive(!isEmo);
+        modelEmo.gameObject.SetActive(isEmo);
+    }    
+    #endregion
+
+    #region trigger
     public void OnTriggerEndIdleAnim()
     {
         ChangedIdleAnim();
@@ -218,6 +200,7 @@ public partial class McOnMapController : MonoBehaviour
 
     public void OnTriggerStartMove()
     {
-        isMoveAnim = true;
+        SetIsMoveAnim(true);
     }
+    #endregion
 }
