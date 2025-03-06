@@ -134,11 +134,18 @@ public partial class McOnMapController : MonoBehaviour
     #region outside
     bool IsObjectOutsideCamera()
     {
-        Vector3 viewportPos = Camera.main.WorldToViewportPoint(transform.position);
+        Vector3 viewportPos = Camera.main.WorldToViewportPoint(model.transform.position);
+        Vector3 viewportEmoPos = Camera.main.WorldToViewportPoint(modelEmo.transform.position);
 
-        return viewportPos.x < 0 || viewportPos.x > 1 ||
-               viewportPos.y < 0 || viewportPos.y > 1 ||
-               viewportPos.z < 0;
+        var outsidePos = viewportPos.x < 0 || viewportPos.x > 1 ||
+                        viewportPos.y < 0 || viewportPos.y > 1 ||
+                        viewportPos.z < 0;
+
+        var outsideEmoPos = viewportEmoPos.x < 0 || viewportEmoPos.x > 1 ||
+                       viewportEmoPos.y < 0 || viewportEmoPos.y > 1 ||
+                       viewportEmoPos.z < 0;
+
+        return outsidePos && outsideEmoPos;
     }
 
     void UpdateOutsideCam()
@@ -195,7 +202,7 @@ public partial class McOnMapController : MonoBehaviour
     #region trigger
     public void OnTriggerEndIdleAnim()
     {
-        SetIsMoveAnim(false);
+       // SetIsMoveAnim(false);
         ChangedIdleAnim();
     }
 
