@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: fb80d1e0ec7c87e4691d6bbedb97df65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1497314164617249630
+    second: A02_Sunbathing_0
+  - first:
+      213: -3545370512096920634
+    second: A02_Sunbathing_1
+  - first:
+      213: 6262871557211378428
+    second: A02_Sunbathing_2
+  - first:
+      213: -4226928087376331058
+    second: A02_Sunbathing_3
+  - first:
+      213: 6880241037667161520
+    second: A02_Sunbathing_4
+  - first:
+      213: 1958160393333761113
+    second: A02_Sunbathing_5
+  - first:
+      213: -2751067997346419775
+    second: A02_Sunbathing_6
+  - first:
+      213: -8697915105176239988
+    second: A02_Sunbathing_7
+  - first:
+      213: 1189411682234019002
+    second: A02_Sunbathing_8
+  - first:
+      213: 3740218177111877055
+    second: A02_Sunbathing_9
+  - first:
+      213: -4297586716029029811
+    second: A02_Sunbathing_10
+  - first:
+      213: 7109327837912501437
+    second: A02_Sunbathing_11
+  - first:
+      213: 6221938665976538052
+    second: A02_Sunbathing_12
+  - first:
+      213: 8236147668267917172
+    second: A02_Sunbathing_13
+  - first:
+      213: 5025851055389809053
+    second: A02_Sunbathing_14
+  - first:
+      213: 2106280342805394283
+    second: A02_Sunbathing_15
+  - first:
+      213: -3619798324356571698
+    second: A02_Sunbathing_16
+  - first:
+      213: -4232277066447819935
+    second: A02_Sunbathing_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A02_Sunbathing_0
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 839
+        width: 193
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e530c23bc4787c410800000000000000
+      internalID: 1497314164617249630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_1
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 985
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb715dad405ccec0800000000000000
+      internalID: -3545370512096920634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 911
+        width: 79
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf25b79cf703ae650800000000000000
+      internalID: 6262871557211378428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 408
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eceffccbc4fe655c0800000000000000
+      internalID: -4226928087376331058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_4
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 954
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5573b45c68b7f50800000000000000
+      internalID: 6880241037667161520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_5
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 818
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954e5e1c088cc2b10800000000000000
+      internalID: 1958160393333761113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_6
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 822
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cba8317b3e32d9d0800000000000000
+      internalID: -2751067997346419775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_7
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 818
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80477d9b4cca4780800000000000000
+      internalID: -8697915105176239988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_8
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 535
+        width: 408
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc224b8f93a18010800000000000000
+      internalID: 1189411682234019002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 560
+        width: 227
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb566359d9ce7e330800000000000000
+      internalID: 3740218177111877055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_10
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 561
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42f6afb6a7eb54c0800000000000000
+      internalID: -4297586716029029811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 177
+        width: 688
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc0292700869a260800000000000000
+      internalID: 7109327837912501437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_12
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 149
+        width: 69
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3accf5044c85650800000000000000
+      internalID: 6221938665976538052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_13
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 35
+        width: 465
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f55c4daacac4270800000000000000
+      internalID: 8236147668267917172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_14
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 35
+        width: 465
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99188228e86fb540800000000000000
+      internalID: 5025851055389809053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_15
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 127
+        width: 396
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63bd4eefc20b3d10800000000000000
+      internalID: 2106280342805394283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_16
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 131
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd1c2e3a94e3cdc0800000000000000
+      internalID: -3619798324356571698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A02_Sunbathing_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b685f7e6ee345c0800000000000000
+      internalID: -4232277066447819935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A02_Sunbathing_0: 1497314164617249630
+      A02_Sunbathing_1: -3545370512096920634
+      A02_Sunbathing_10: -4297586716029029811
+      A02_Sunbathing_11: 7109327837912501437
+      A02_Sunbathing_12: 6221938665976538052
+      A02_Sunbathing_13: 8236147668267917172
+      A02_Sunbathing_14: 5025851055389809053
+      A02_Sunbathing_15: 2106280342805394283
+      A02_Sunbathing_16: -3619798324356571698
+      A02_Sunbathing_17: -4232277066447819935
+      A02_Sunbathing_2: 6262871557211378428
+      A02_Sunbathing_3: -4226928087376331058
+      A02_Sunbathing_4: 6880241037667161520
+      A02_Sunbathing_5: 1958160393333761113
+      A02_Sunbathing_6: -2751067997346419775
+      A02_Sunbathing_7: -8697915105176239988
+      A02_Sunbathing_8: 1189411682234019002
+      A02_Sunbathing_9: 3740218177111877055
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

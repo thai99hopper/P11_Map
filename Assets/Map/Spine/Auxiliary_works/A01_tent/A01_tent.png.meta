@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eb896a50cef2e5643b00a821019c9f25
+guid: 301a6d8e6bbe9a34cb5458d354c1edff
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -56,6 +56,12 @@ TextureImporter:
   - first:
       213: 451238154257894454
     second: A01_tent_17
+  - first:
+      213: -4069257098578094343
+    second: A01_tent_18
+  - first:
+      213: -3356948344839869587
+    second: A01_tent_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -181,9 +187,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 837
-        width: 129
-        height: 166
+        y: 1927
+        width: 76
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +208,10 @@ TextureImporter:
       name: A01_tent_1
       rect:
         serializedVersion: 2
-        x: 129
-        y: 915
+        x: 75
+        y: 1913
         width: 144
-        height: 81
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +230,8 @@ TextureImporter:
       name: A01_tent_2
       rect:
         serializedVersion: 2
-        x: 210
-        y: 989
+        x: 156
+        y: 2001
         width: 11
         height: 10
       alignment: 0
@@ -246,8 +252,8 @@ TextureImporter:
       name: A01_tent_3
       rect:
         serializedVersion: 2
-        x: 247
-        y: 989
+        x: 193
+        y: 2001
         width: 11
         height: 11
       alignment: 0
@@ -268,10 +274,10 @@ TextureImporter:
       name: A01_tent_4
       rect:
         serializedVersion: 2
-        x: 1705
-        y: 762
-        width: 305
-        height: 262
+        x: 224
+        y: 1996
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,10 +296,10 @@ TextureImporter:
       name: A01_tent_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 836
-        width: 77
-        height: 80
+        x: 260
+        y: 1996
+        width: 16
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +318,10 @@ TextureImporter:
       name: A01_tent_6
       rect:
         serializedVersion: 2
-        x: 271
-        y: 836
-        width: 66
-        height: 72
+        x: 688
+        y: 1691
+        width: 586
+        height: 357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +340,10 @@ TextureImporter:
       name: A01_tent_7
       rect:
         serializedVersion: 2
-        x: 278
-        y: 905
-        width: 16
-        height: 15
+        x: 217
+        y: 1927
+        width: 66
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +362,10 @@ TextureImporter:
       name: A01_tent_8
       rect:
         serializedVersion: 2
-        x: 314
-        y: 905
-        width: 16
-        height: 14
+        x: 1274
+        y: 1691
+        width: 262
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +384,10 @@ TextureImporter:
       name: A01_tent_9
       rect:
         serializedVersion: 2
-        x: 28
-        y: 158
-        width: 646
-        height: 679
+        x: 59
+        y: 1888
+        width: 31
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +406,10 @@ TextureImporter:
       name: A01_tent_10
       rect:
         serializedVersion: 2
-        x: 702
-        y: 158
-        width: 646
-        height: 679
+        x: 59
+        y: 1696
+        width: 424
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +428,10 @@ TextureImporter:
       name: A01_tent_11
       rect:
         serializedVersion: 2
-        x: 1348
-        y: 251
-        width: 357
-        height: 586
+        x: 0
+        y: 1783
+        width: 61
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +450,10 @@ TextureImporter:
       name: A01_tent_12
       rect:
         serializedVersion: 2
-        x: 1825
-        y: 744
-        width: 16
-        height: 18
+        x: 493
+        y: 1792
+        width: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +472,10 @@ TextureImporter:
       name: A01_tent_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 330
-        width: 6
-        height: 11
+        x: 511
+        y: 1696
+        width: 129
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,8 +494,8 @@ TextureImporter:
       name: A01_tent_14
       rect:
         serializedVersion: 2
-        x: 674
-        y: 330
+        x: 0
+        y: 1189
         width: 6
         height: 11
       alignment: 0
@@ -510,10 +516,10 @@ TextureImporter:
       name: A01_tent_15
       rect:
         serializedVersion: 2
-        x: 1705
-        y: 310
-        width: 232
-        height: 424
+        x: 12
+        y: 1012
+        width: 677
+        height: 685
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,10 +538,10 @@ TextureImporter:
       name: A01_tent_16
       rect:
         serializedVersion: 2
-        x: 1718
-        y: 310
-        width: 27
-        height: 31
+        x: 688
+        y: 1184
+        width: 6
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +560,10 @@ TextureImporter:
       name: A01_tent_17
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 251
-        width: 45
-        height: 61
+        x: 716
+        y: 1012
+        width: 646
+        height: 679
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,6 +574,50 @@ TextureImporter:
       bones: []
       spriteID: 63c05a5e5be134600800000000000000
       internalID: 451238154257894454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A01_tent_18
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1184
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6148b8a381787c0800000000000000
+      internalID: -4069257098578094343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A01_tent_19
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1012
+        width: 646
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6beb782449b961d0800000000000000
+      internalID: -3356948344839869587
       vertices: []
       indices: 
       edges: []
@@ -596,6 +646,8 @@ TextureImporter:
       A01_tent_15: 9208001846810040739
       A01_tent_16: 2032890102451717598
       A01_tent_17: 451238154257894454
+      A01_tent_18: -4069257098578094343
+      A01_tent_19: -3356948344839869587
       A01_tent_2: 4954994706127925110
       A01_tent_3: -2473685691889895061
       A01_tent_4: -2553502294567870189

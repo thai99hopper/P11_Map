@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 94be41e9e0844ca47927f16a648fed91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 791672117250613009
+    second: A03_MusicArea_0
+  - first:
+      213: 3307309025088685468
+    second: A03_MusicArea_1
+  - first:
+      213: 5562993193685500009
+    second: A03_MusicArea_2
+  - first:
+      213: -3250617160139395351
+    second: A03_MusicArea_3
+  - first:
+      213: -967807256562562507
+    second: A03_MusicArea_4
+  - first:
+      213: 2446714840521293868
+    second: A03_MusicArea_5
+  - first:
+      213: 3953242778455854509
+    second: A03_MusicArea_6
+  - first:
+      213: 5866715208533479901
+    second: A03_MusicArea_7
+  - first:
+      213: -3559967997602086358
+    second: A03_MusicArea_8
+  - first:
+      213: -7191681526573633903
+    second: A03_MusicArea_9
+  - first:
+      213: 5397645933201872155
+    second: A03_MusicArea_10
+  - first:
+      213: -1964455602904979706
+    second: A03_MusicArea_11
+  - first:
+      213: 2348854198127070654
+    second: A03_MusicArea_12
+  - first:
+      213: -8485647047475870601
+    second: A03_MusicArea_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A03_MusicArea_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 586
+        width: 799
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fdd4f98959cfa00800000000000000
+      internalID: 791672117250613009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_1
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 876
+        width: 315
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95cad2190ce5ed20800000000000000
+      internalID: 3307309025088685468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_2
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 918
+        width: 102
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9604a8de5d8b33d40800000000000000
+      internalID: 5562993193685500009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_3
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 622
+        width: 233
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee2a155aec73e2d0800000000000000
+      internalID: -3250617160139395351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_4
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 918
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a0b858d68a192f0800000000000000
+      internalID: -967807256562562507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_5
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 918
+        width: 95
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20c2f72f2a74f120800000000000000
+      internalID: 2446714840521293868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_6
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 692
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad4db0ac5dbcd630800000000000000
+      internalID: 3953242778455854509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_7
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 768
+        width: 111
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd115032662ca6150800000000000000
+      internalID: 5866715208533479901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_8
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 622
+        width: 207
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a224b2bb7f3789ec0800000000000000
+      internalID: -3559967997602086358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_9
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 622
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ee6d631c3023c90800000000000000
+      internalID: -7191681526573633903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_10
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 84
+        width: 686
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1554d7d06a48ea40800000000000000
+      internalID: 5397645933201872155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 853
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607a2db890adcb4e0800000000000000
+      internalID: -1964455602904979706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_12
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 84
+        width: 101
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd8c8cc27ec89020800000000000000
+      internalID: 2348854198127070654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A03_MusicArea_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 83
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774cbdd18fcec3a80800000000000000
+      internalID: -8485647047475870601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A03_MusicArea_0: 791672117250613009
+      A03_MusicArea_1: 3307309025088685468
+      A03_MusicArea_10: 5397645933201872155
+      A03_MusicArea_11: -1964455602904979706
+      A03_MusicArea_12: 2348854198127070654
+      A03_MusicArea_13: -8485647047475870601
+      A03_MusicArea_2: 5562993193685500009
+      A03_MusicArea_3: -3250617160139395351
+      A03_MusicArea_4: -967807256562562507
+      A03_MusicArea_5: 2446714840521293868
+      A03_MusicArea_6: 3953242778455854509
+      A03_MusicArea_7: 5866715208533479901
+      A03_MusicArea_8: -3559967997602086358
+      A03_MusicArea_9: -7191681526573633903
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
