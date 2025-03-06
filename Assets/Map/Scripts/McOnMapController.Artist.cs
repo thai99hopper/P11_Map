@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 
 public partial class McOnMapController : MonoBehaviour
 {
@@ -48,7 +49,7 @@ public partial class McOnMapController : MonoBehaviour
         SetupMovePos();
         ChangedIdleAnim();
         RandomFreeTime();
-        UpdateModel();
+        SetActiveModel();
         isOutsideScreen = IsObjectOutsideCamera();
     }
 
@@ -65,6 +66,11 @@ public partial class McOnMapController : MonoBehaviour
                 StartMovement();
             }
         }
+
+        if (isMove)
+            SetActiveMoveAni(true);
+        else
+            SetIsMoveAnim(false);
 
         if (isMove && isMoveAnim)
         {
@@ -154,7 +160,7 @@ public partial class McOnMapController : MonoBehaviour
         if (isOutsideScreen && !this.isOutsideScreen)
         {
             isEmo = !isEmo;
-            UpdateModel();
+            SetActiveModel();
         }
         this.isOutsideScreen = isOutsideScreen;
     }
@@ -192,7 +198,7 @@ public partial class McOnMapController : MonoBehaviour
         SetAnimInteger("idle-type", idleIdx);
     }
 
-    void UpdateModel()
+    void SetActiveModel()
     {
         model.gameObject.SetActive(!isEmo);
         modelEmo.gameObject.SetActive(isEmo);
@@ -202,7 +208,6 @@ public partial class McOnMapController : MonoBehaviour
     #region trigger
     public void OnTriggerEndIdleAnim()
     {
-       // SetIsMoveAnim(false);
         ChangedIdleAnim();
     }
 
