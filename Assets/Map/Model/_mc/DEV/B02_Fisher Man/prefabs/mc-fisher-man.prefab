@@ -123,9 +123,14 @@ MonoBehaviour:
   posWillMove: {fileID: 0}
   movePosIdx: 0
   isEmo: 0
+  speedEmoMove: 5
+  moveEmoPos: {fileID: 0}
+  posWillMoveEmo: {fileID: 0}
+  isStartPoint: 1
+  isEmoMove: 0
+  isOutsideScreen: 0
   firstAngleModel: {x: 0, y: 0, z: 0}
   idleIdx: 0
-  isAutoEmo: 0
 --- !u!1 &5370888894529698560
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,6 +203,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6094203137398564599}
     m_Modifications:
+    - target: {fileID: 3278539078078077984, guid: 14cee411366ce86478ba50d387696f74, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3278539078078077984, guid: 14cee411366ce86478ba50d387696f74, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b8537f5fb2f2c470e8b29dc4c3b8faad, type: 2}
     - target: {fileID: 3968586118780323885, guid: 14cee411366ce86478ba50d387696f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.01

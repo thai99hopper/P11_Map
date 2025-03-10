@@ -209,15 +209,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5666314278365711928, guid: a80d7aeeacfa0034d8c847c0dcb8584d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5666314278365711928, guid: a80d7aeeacfa0034d8c847c0dcb8584d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5666314278365711928, guid: a80d7aeeacfa0034d8c847c0dcb8584d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5666314278365711928, guid: a80d7aeeacfa0034d8c847c0dcb8584d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -263,6 +263,14 @@ PrefabInstance:
       propertyPath: mcController
       value: 
       objectReference: {fileID: 2120919269388945275}
+    - target: {fileID: 7283821233022320925, guid: a80d7aeeacfa0034d8c847c0dcb8584d, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7283821233022320925, guid: a80d7aeeacfa0034d8c847c0dcb8584d, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b8537f5fb2f2c470e8b29dc4c3b8faad, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -288,15 +296,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2560132104610257611, guid: 981d7a9864ece0c45989ae1e29149c4a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2560132104610257611, guid: 981d7a9864ece0c45989ae1e29149c4a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2560132104610257611, guid: 981d7a9864ece0c45989ae1e29149c4a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2560132104610257611, guid: 981d7a9864ece0c45989ae1e29149c4a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -342,6 +350,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Baker-emo
       objectReference: {fileID: 0}
+    - target: {fileID: 4793977112960851976, guid: 981d7a9864ece0c45989ae1e29149c4a, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793977112960851976, guid: 981d7a9864ece0c45989ae1e29149c4a, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b8537f5fb2f2c470e8b29dc4c3b8faad, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
