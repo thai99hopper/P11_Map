@@ -508,13 +508,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8461633102200578783}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 23.19159, y: -4.7879, z: -2.0883522}
   m_LocalScale: {x: -0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3373781616805661967}
   - {fileID: 799561500307526752}
+  - {fileID: 2120412703537976593}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &8144241339320975245
@@ -601,7 +602,7 @@ MonoBehaviour:
   disableRenderingOnOverride: 1
   updateTiming: 1
   unscaledTime: 0
-  _animationName: building_lv3
+  _animationName: building_lv2_3
   loop: 1
   timeScale: 1
 --- !u!33 &4374318277778593777
@@ -665,7 +666,12 @@ MonoBehaviour:
   gameplayButton: {fileID: 1188162007949233577}
   popupUpgradePos: {fileID: 3373781616805661967}
   parentPartsPos: {fileID: 799561500307526752}
-  startLevelBuildingOnSpine: 0
+  slotObjects:
+  - level: 2
+    part: 3
+    obj: {fileID: 1596218969305059243}
+  levelTest: 0
+  partTest: 0
 --- !u!114 &1188162007949233577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,3 +684,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0836e2e0ddfb090499c3e8e27add3b55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1938660430786736890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 955181152363778982}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.082
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.344
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.149
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94309574
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.28580186
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.16598271
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.03657293
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -31.799
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23.139
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -11.116
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+      propertyPath: m_Name
+      value: The clamp soup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+--- !u!1 &1596218969305059243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+  m_PrefabInstance: {fileID: 1938660430786736890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2120412703537976593 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8e305d7fe4ab51d4993cb732d34addd1, type: 3}
+  m_PrefabInstance: {fileID: 1938660430786736890}
+  m_PrefabAsset: {fileID: 0}
