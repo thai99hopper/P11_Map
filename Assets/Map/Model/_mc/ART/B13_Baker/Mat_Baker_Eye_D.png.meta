@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 1ab6ac5b1c77f7646a176ecb894a0ea4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6128291403270483927
+    second: Mat_Baker_Eye_D_0
+  - first:
+      213: 7299636904164177799
+    second: Mat_Baker_Eye_D_1
+  - first:
+      213: 976754504999255122
+    second: Mat_Baker_Eye_D_2
+  - first:
+      213: -1102292439173262378
+    second: Mat_Baker_Eye_D_3
+  - first:
+      213: 4525936168235670530
+    second: Mat_Baker_Eye_D_4
+  - first:
+      213: 1491334315171396808
+    second: Mat_Baker_Eye_D_5
+  - first:
+      213: 4654337185124788829
+    second: Mat_Baker_Eye_D_6
+  - first:
+      213: -2504889735864451483
+    second: Mat_Baker_Eye_D_7
+  - first:
+      213: -1237470216271065591
+    second: Mat_Baker_Eye_D_8
+  - first:
+      213: -9020263127658447595
+    second: Mat_Baker_Eye_D_9
+  - first:
+      213: 3977245275575292967
+    second: Mat_Baker_Eye_D_10
+  - first:
+      213: 983572202125669855
+    second: Mat_Baker_Eye_D_11
+  - first:
+      213: -3005741897967858726
+    second: Mat_Baker_Eye_D_12
+  - first:
+      213: -4920307931091570094
+    second: Mat_Baker_Eye_D_13
+  - first:
+      213: -2072680620079880949
+    second: Mat_Baker_Eye_D_14
+  - first:
+      213: -5849550176038944405
+    second: Mat_Baker_Eye_D_15
+  - first:
+      213: -6698126367855109616
+    second: Mat_Baker_Eye_D_16
+  - first:
+      213: -2551798471168495222
+    second: Mat_Baker_Eye_D_17
+  - first:
+      213: -3841211681458863053
+    second: Mat_Baker_Eye_D_18
+  - first:
+      213: -1805866248732171388
+    second: Mat_Baker_Eye_D_19
+  - first:
+      213: 1759193955129134706
+    second: Mat_Baker_Eye_D_20
+  - first:
+      213: 29462429657829223
+    second: Mat_Baker_Eye_D_21
+  - first:
+      213: 667045479593653167
+    second: Mat_Baker_Eye_D_22
+  - first:
+      213: -250643651086745478
+    second: Mat_Baker_Eye_D_23
+  - first:
+      213: 5330856159477752510
+    second: Mat_Baker_Eye_D_24
+  - first:
+      213: 4639757731140184765
+    second: Mat_Baker_Eye_D_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df640cef801c0550800000000000000
+      internalID: 6128291403270483927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_1
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787b906d6158d4560800000000000000
+      internalID: 7299636904164177799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_2
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c3e371c012e8d00800000000000000
+      internalID: 976754504999255122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_3
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d39a74edded3b0f0800000000000000
+      internalID: -1102292439173262378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_4
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1772
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c97cf27fa5fce30800000000000000
+      internalID: 4525936168235670530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_5
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1772
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc342188a842b410800000000000000
+      internalID: 1491334315171396808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1241
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a21489207879040800000000000000
+      internalID: 4654337185124788829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_7
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1241
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ef6448e08dc3dd0800000000000000
+      internalID: -2504889735864451483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_8
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1243
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e890b056f93dee0800000000000000
+      internalID: -1237470216271065591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1243
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d3d5f0a7691d280800000000000000
+      internalID: -9020263127658447595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_10
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1236
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724144b7183023730800000000000000
+      internalID: 3977245275575292967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_11
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1236
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd536a6e4b956ad00800000000000000
+      internalID: 983572202125669855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 787
+        width: 121
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb0e1d3ba57946d0800000000000000
+      internalID: -3005741897967858726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_13
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 680
+        width: 161
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252ffbd610e87bbb0800000000000000
+      internalID: -4920307931091570094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_14
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 682
+        width: 161
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b056d4325fb5c33e0800000000000000
+      internalID: -2072680620079880949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_15
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 685
+        width: 153
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61006d6b1932dea0800000000000000
+      internalID: -5849550176038944405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_16
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 689
+        width: 153
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a915f7e897b03a0800000000000000
+      internalID: -6698126367855109616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_17
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 686
+        width: 159
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81fd9b7fc0369cd0800000000000000
+      internalID: -2551798471168495222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_18
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 686
+        width: 161
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334409bc35641bac0800000000000000
+      internalID: -3841211681458863053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 55
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483a374f63640f6e0800000000000000
+      internalID: -1805866248732171388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 201
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e8c72e499e96810800000000000000
+      internalID: 1759193955129134706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_21
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 55
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f89f57ceba86000800000000000000
+      internalID: 29462429657829223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_22
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 56
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3b53c5452d14900800000000000000
+      internalID: 667045479593653167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_23
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 52
+        width: 172
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7084c36de8858cf0800000000000000
+      internalID: -250643651086745478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_24
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 97
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2ef56de610bf940800000000000000
+      internalID: 5330856159477752510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Baker_Eye_D_25
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 97
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbaab70f21bb36040800000000000000
+      internalID: 4639757731140184765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
