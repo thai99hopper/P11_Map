@@ -60,6 +60,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 2.728
       objectReference: {fileID: 0}
+    - target: {fileID: -801842751609519081, guid: 769f7d39d4e5b81468eda1e0d222ac40, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -801842751609519081, guid: 769f7d39d4e5b81468eda1e0d222ac40, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b8537f5fb2f2c470e8b29dc4c3b8faad, type: 2}
     - target: {fileID: 919132149155446097, guid: 769f7d39d4e5b81468eda1e0d222ac40, type: 3}
       propertyPath: m_Name
       value: strawberry-farmer

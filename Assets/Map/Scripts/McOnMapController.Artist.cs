@@ -24,13 +24,17 @@ public partial class McOnMapController : MonoBehaviour
     [Header("Emo")]
     [SerializeField] bool isEmo = false;
 
+    [Header("Special Emo (Can Null)")]
+    [SerializeField] float speedEmoMove = 5f;
+    [SerializeField] Transform moveEmoPos;
+    [SerializeField] Transform posWillMoveEmo;
+    [SerializeField] bool isStartPoint = true;
+    [SerializeField] bool isEmoMove = false;
+
     [Header("Other")]
-    bool isOutsideScreen = false;
+    [SerializeField] bool isOutsideScreen = false;
     [SerializeField] Vector3 firstAngleModel;
     [SerializeField] int idleIdx;
-
-    [Header("Debug")]
-    [SerializeField] bool isAutoEmo = false;
 
     void SetAnimBool(string name, bool value)
     {
@@ -76,7 +80,38 @@ public partial class McOnMapController : MonoBehaviour
         {
             UpdateMovement();
         }
+
+        if(isEmoMove)
+        {
+            UpdateMovementEmo();
+        }    
     }
+
+    #region emo
+    void UpdateMovementEmo()
+    {
+        var normalized = (posWillMoveEmo.position - modelEmo.position).normalized;
+        modelEmo.position += speedEmoMove * normalized * Time.deltaTime;
+
+       // UpdateRotationEmo();
+    }
+
+    void UpdateRotationEmo()
+    {
+        var normalized = (posWillMoveEmo.localPosition - modelEmo.localPosition).normalized;
+
+        float targetYAngle = Mathf.Atan2(normalized.x, normalized.z) * Mathf.Rad2Deg;
+        modelEmo.localRotation = Quaternion.Euler(0, targetYAngle, 0);
+    }
+
+    void UpdateWillMoveEmo()
+    {
+        int indexPoint = isStartPoint ? 2 : 1;
+        posWillMoveEmo = moveEmoPos.Find($"pos-{indexPoint}");
+
+        isStartPoint = !isStartPoint;
+    }    
+    #endregion
 
     #region movement
     void StartMovement()
@@ -175,6 +210,15 @@ public partial class McOnMapController : MonoBehaviour
             item.localPosition = new Vector3(posCurrent.x, posCurrent.y, posCurrent.y);
         }
 
+        if (moveEmoPos != null)
+        {
+            foreach (Transform item in moveEmoPos)
+            {
+                var posCurrent = item.localPosition;
+                item.localPosition = new Vector3(posCurrent.x, posCurrent.y, posCurrent.y);
+            }
+        }
+
         //var emoPosCurrent = emoPos.localPosition;
         //emoPos.localPosition = new Vector3(emoPosCurrent.x, emoPosCurrent.y, emoPosCurrent.y);
     }
@@ -215,5 +259,16 @@ public partial class McOnMapController : MonoBehaviour
     {
         SetIsMoveAnim(true);
     }
+
+    public void OnTriggerStartEmoMove()
+    {
+        UpdateWillMoveEmo();
+        isEmoMove = true;
+    }   
+    
+    public void OnTriggerEndEmoMove()
+    {
+        isEmoMove = false;
+    }    
     #endregion
 }

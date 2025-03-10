@@ -12,5 +12,15 @@ public class McOnMap : MonoBehaviour
     public void OnTriggerStartMove()
     {
         mcController.OnTriggerStartMove();
-    }    
+    }
+
+    public void OnTriggerStartEmoMove()
+    {
+        mcController.OnTriggerStartEmoMove();
+    }
+
+    public void OnTriggerEndEmoMove()
+    {
+        mcController.OnTriggerEndEmoMove();
+    }
 }
