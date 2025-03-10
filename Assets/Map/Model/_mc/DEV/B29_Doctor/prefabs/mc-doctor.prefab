@@ -81,9 +81,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  model: {fileID: 0}
-  modelEmo: {fileID: 0}
+  animator: {fileID: 1532359164886185453}
+  model: {fileID: 5049492172159882303}
+  modelEmo: {fileID: 5652445128490302422}
   movePos: {fileID: 6712385803518529953}
   minFreeTime: 5
   maxFreeTime: 10
@@ -318,6 +318,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c0faed144c7878479d0940b6cd36dfa, type: 3}
+--- !u!95 &1532359164886185453 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7694977045167938501, guid: 6c0faed144c7878479d0940b6cd36dfa, type: 3}
+  m_PrefabInstance: {fileID: 9191288635438132776}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5049492172159882303 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4151582391664343575, guid: 6c0faed144c7878479d0940b6cd36dfa, type: 3}
