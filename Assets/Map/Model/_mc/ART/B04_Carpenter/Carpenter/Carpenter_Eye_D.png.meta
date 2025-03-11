@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 642b829dc2009564bbef3fac4083955f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3061155218133776974
+    second: Carpenter_Eye_D_0
+  - first:
+      213: -4239025619264254519
+    second: Carpenter_Eye_D_1
+  - first:
+      213: 3267957327504644707
+    second: Carpenter_Eye_D_2
+  - first:
+      213: 1808468216091393437
+    second: Carpenter_Eye_D_3
+  - first:
+      213: -812147968625410220
+    second: Carpenter_Eye_D_4
+  - first:
+      213: -4550145084468822663
+    second: Carpenter_Eye_D_5
+  - first:
+      213: -1442299914198759706
+    second: Carpenter_Eye_D_6
+  - first:
+      213: 8148882807524580474
+    second: Carpenter_Eye_D_7
+  - first:
+      213: -7120649373103948440
+    second: Carpenter_Eye_D_8
+  - first:
+      213: -7691999234976619316
+    second: Carpenter_Eye_D_9
+  - first:
+      213: 7338789394968789659
+    second: Carpenter_Eye_D_10
+  - first:
+      213: -9036644295881086717
+    second: Carpenter_Eye_D_11
+  - first:
+      213: 8287950472042662624
+    second: Carpenter_Eye_D_12
+  - first:
+      213: 2861977728574860058
+    second: Carpenter_Eye_D_13
+  - first:
+      213: 8148031452975424930
+    second: Carpenter_Eye_D_14
+  - first:
+      213: -5640729193430192996
+    second: Carpenter_Eye_D_15
+  - first:
+      213: -7682019027745005503
+    second: Carpenter_Eye_D_16
+  - first:
+      213: 8642836173114275727
+    second: Carpenter_Eye_D_17
+  - first:
+      213: -2625817642984622157
+    second: Carpenter_Eye_D_18
+  - first:
+      213: -9197336328406750585
+    second: Carpenter_Eye_D_19
+  - first:
+      213: -5894541148510805782
+    second: Carpenter_Eye_D_20
+  - first:
+      213: 1268675323438195390
+    second: Carpenter_Eye_D_21
+  - first:
+      213: -280507274238337238
+    second: Carpenter_Eye_D_22
+  - first:
+      213: 1214562439571173383
+    second: Carpenter_Eye_D_23
+  - first:
+      213: -4818580339163343319
+    second: Carpenter_Eye_D_24
+  - first:
+      213: -5187311858666932195
+    second: Carpenter_Eye_D_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b58dcc3c879485d0800000000000000
+      internalID: -3061155218133776974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_1
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd49f998a4fb25c0800000000000000
+      internalID: -4239025619264254519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_2
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a9c0fffdd1a5d20800000000000000
+      internalID: 3267957327504644707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_3
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d36b7c248f81910800000000000000
+      internalID: 1808468216091393437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_4
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1772
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ff609b9bbaab4f0800000000000000
+      internalID: -812147968625410220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_5
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1772
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dfeb34723aad0c0800000000000000
+      internalID: -4550145084468822663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1241
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e64b92aedbebfbe0800000000000000
+      internalID: -1442299914198759706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_7
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1241
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c5ac22db5a61170800000000000000
+      internalID: 8148882807524580474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_8
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1243
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86df70a3f1f5e2d90800000000000000
+      internalID: -7120649373103948440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1243
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc464a22377804590800000000000000
+      internalID: -7691999234976619316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_10
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1236
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92c488721e98d560800000000000000
+      internalID: 7338789394968789659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_11
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1236
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309a27e14e3679280800000000000000
+      internalID: -9036644295881086717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 787
+        width: 121
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea422afa07b40370800000000000000
+      internalID: 8287950472042662624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_13
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 680
+        width: 161
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ba8caa499c7b720800000000000000
+      internalID: 2861977728574860058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_14
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 682
+        width: 161
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a56f45bf6f931170800000000000000
+      internalID: 8148031452975424930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_15
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 685
+        width: 153
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cea673faa18b1b0800000000000000
+      internalID: -5640729193430192996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_16
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 689
+        width: 153
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140a775356cf36590800000000000000
+      internalID: -7682019027745005503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_17
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 686
+        width: 159
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f877f5e25b581f770800000000000000
+      internalID: 8642836173114275727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_18
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 686
+        width: 161
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7b2f014c83f8bd0800000000000000
+      internalID: -2625817642984622157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 55
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a2581c65f7c5080800000000000000
+      internalID: -9197336328406750585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 201
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae027195e02623ea0800000000000000
+      internalID: -5894541148510805782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_21
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 55
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb266d42c7d3b9110800000000000000
+      internalID: 1268675323438195390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_22
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 56
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f5c1ace107b1cf0800000000000000
+      internalID: -280507274238337238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_23
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 52
+        width: 172
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700fb209a1efad010800000000000000
+      internalID: 1214562439571173383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_24
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 97
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926dc7226b6f02db0800000000000000
+      internalID: -4818580339163343319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carpenter_Eye_D_25
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 97
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d187cfc1957f208b0800000000000000
+      internalID: -5187311858666932195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
