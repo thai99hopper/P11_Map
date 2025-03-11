@@ -1,5 +1,12 @@
-﻿using Unity.VisualScripting;
+﻿using System.Collections.Generic;
 using UnityEngine;
+
+[System.Serializable]
+public partial class IdleAnimationObject
+{
+    public int idleIdx;
+    public List<GameObject> models;
+}
 
 public partial class McOnMapController : MonoBehaviour
 {
@@ -13,6 +20,7 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] float minFreeTime = 5f;
     [SerializeField] float maxFreeTime = 10f;
     [SerializeField] float idleTime;
+    [SerializeField] List<IdleAnimationObject> idleAnimationObjects;
 
     [Header("Movement")]
     [SerializeField] float speedMove = 5f;
@@ -81,10 +89,10 @@ public partial class McOnMapController : MonoBehaviour
             UpdateMovement();
         }
 
-        if(isEmoMove)
+        if (isEmoMove)
         {
             UpdateMovementEmo();
-        }    
+        }
     }
 
     #region emo
@@ -93,7 +101,7 @@ public partial class McOnMapController : MonoBehaviour
         var normalized = (posWillMoveEmo.position - modelEmo.position).normalized;
         modelEmo.position += speedEmoMove * normalized * Time.deltaTime;
 
-       // UpdateRotationEmo();
+        // UpdateRotationEmo();
     }
 
     void UpdateRotationEmo()
@@ -110,7 +118,7 @@ public partial class McOnMapController : MonoBehaviour
         posWillMoveEmo = moveEmoPos.Find($"pos-{indexPoint}");
 
         isStartPoint = !isStartPoint;
-    }    
+    }
     #endregion
 
     #region movement
@@ -201,6 +209,32 @@ public partial class McOnMapController : MonoBehaviour
     }
     #endregion
 
+    #region idle
+    void ChangedIdleAnim()
+    {
+        if (idleIdx != 1 || isMove)
+        {
+            idleIdx = 1;
+        }
+        else
+        {
+            idleIdx = 4;// Random.Range(2, 5);
+        }
+
+        foreach (var idleAnim in idleAnimationObjects)
+        {
+            var isActive = idleAnim.idleIdx == idleIdx;
+
+            foreach(var model in idleAnim.models)
+            {
+                model.gameObject.SetActive(isActive);
+            }    
+        }
+
+        SetAnimInteger("idle-type", idleIdx);
+    }
+    #endregion
+
     #region other
     void SetupMovePos()
     {
@@ -228,25 +262,11 @@ public partial class McOnMapController : MonoBehaviour
         idleTime = Random.Range(minFreeTime, maxFreeTime);
     }
 
-    void ChangedIdleAnim()
-    {
-        if (idleIdx != 1 || isMove)
-        {
-            idleIdx = 1;
-        }
-        else
-        {
-            idleIdx = Random.Range(2, 5);
-        }
-
-        SetAnimInteger("idle-type", idleIdx);
-    }
-
     void SetActiveModel()
     {
         model.gameObject.SetActive(!isEmo);
         modelEmo.gameObject.SetActive(isEmo);
-    }    
+    }
     #endregion
 
     #region trigger
@@ -264,11 +284,11 @@ public partial class McOnMapController : MonoBehaviour
     {
         UpdateWillMoveEmo();
         isEmoMove = true;
-    }   
-    
+    }
+
     public void OnTriggerEndEmoMove()
     {
         isEmoMove = false;
-    }    
+    }
     #endregion
 }
