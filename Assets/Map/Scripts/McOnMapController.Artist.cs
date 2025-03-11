@@ -218,7 +218,7 @@ public partial class McOnMapController : MonoBehaviour
         }
         else
         {
-            idleIdx = 4;// Random.Range(2, 5);
+            idleIdx = Random.Range(2, 5);
         }
 
         foreach (var idleAnim in idleAnimationObjects)
