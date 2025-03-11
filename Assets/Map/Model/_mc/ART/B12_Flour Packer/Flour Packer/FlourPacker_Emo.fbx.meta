@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7e59d25ceb052894c972ee2bcca16280
+guid: 23d179d2feed8e345a9747510011645c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Conveyor_belt1
-    second: {fileID: 2100000, guid: 318cbf602ed09624ba228c88aface45a, type: 2}
+      name: Flour_Packer_rig_Mat_Flour_Packer
+    second: {fileID: 2100000, guid: 54b822a1e03567a4280c97e950085813, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flour_Packer_rig_Mat_Flour_Packer_Eye
+    second: {fileID: 2100000, guid: 9012b36ec26738b4e942525cadb31494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flour_Packet
+    second: {fileID: 2100000, guid: 32f9fd09ec632c34f8537eb795a678a4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

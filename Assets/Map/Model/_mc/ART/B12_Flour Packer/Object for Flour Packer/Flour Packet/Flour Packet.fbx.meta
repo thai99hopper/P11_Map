@@ -3,7 +3,12 @@ guid: f3d0af0a5aa132d4d9a2b702d50efff4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flour_Packet
+    second: {fileID: 2100000, guid: 69828198ed60493439861abfceecb5c0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
