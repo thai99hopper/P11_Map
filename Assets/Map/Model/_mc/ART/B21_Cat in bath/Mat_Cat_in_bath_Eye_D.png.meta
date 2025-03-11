@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 000f5c73f17a58141a821d8dad010783
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2595137454671170744
+    second: Mat_Cat_in_bath_Eye_D_0
+  - first:
+      213: 7944010157823340127
+    second: Mat_Cat_in_bath_Eye_D_1
+  - first:
+      213: -6360900607726573579
+    second: Mat_Cat_in_bath_Eye_D_2
+  - first:
+      213: 4316188353578604193
+    second: Mat_Cat_in_bath_Eye_D_3
+  - first:
+      213: -3561615573756736443
+    second: Mat_Cat_in_bath_Eye_D_4
+  - first:
+      213: 7029842881430086367
+    second: Mat_Cat_in_bath_Eye_D_5
+  - first:
+      213: -1371795228056579667
+    second: Mat_Cat_in_bath_Eye_D_6
+  - first:
+      213: -2391653121140415306
+    second: Mat_Cat_in_bath_Eye_D_7
+  - first:
+      213: 3123053849863093112
+    second: Mat_Cat_in_bath_Eye_D_8
+  - first:
+      213: 1526209749104190462
+    second: Mat_Cat_in_bath_Eye_D_9
+  - first:
+      213: 5875358100084375068
+    second: Mat_Cat_in_bath_Eye_D_10
+  - first:
+      213: 6084301224522856432
+    second: Mat_Cat_in_bath_Eye_D_11
+  - first:
+      213: -8741846950190647268
+    second: Mat_Cat_in_bath_Eye_D_12
+  - first:
+      213: 4907254975557123436
+    second: Mat_Cat_in_bath_Eye_D_13
+  - first:
+      213: 6412682633162770106
+    second: Mat_Cat_in_bath_Eye_D_14
+  - first:
+      213: 2465243140070891690
+    second: Mat_Cat_in_bath_Eye_D_15
+  - first:
+      213: -7046510031268218469
+    second: Mat_Cat_in_bath_Eye_D_16
+  - first:
+      213: 3029196747160074945
+    second: Mat_Cat_in_bath_Eye_D_17
+  - first:
+      213: -1256170860916861484
+    second: Mat_Cat_in_bath_Eye_D_18
+  - first:
+      213: -2073605299079697322
+    second: Mat_Cat_in_bath_Eye_D_19
+  - first:
+      213: 3372370858279769107
+    second: Mat_Cat_in_bath_Eye_D_20
+  - first:
+      213: 7043819306901657179
+    second: Mat_Cat_in_bath_Eye_D_21
+  - first:
+      213: 8446466639197678489
+    second: Mat_Cat_in_bath_Eye_D_22
+  - first:
+      213: -8194095201163747451
+    second: Mat_Cat_in_bath_Eye_D_23
+  - first:
+      213: -9054167650489234497
+    second: Mat_Cat_in_bath_Eye_D_24
+  - first:
+      213: -3753472955995082416
+    second: Mat_Cat_in_bath_Eye_D_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc8cf0f3c7c30420800000000000000
+      internalID: 2595137454671170744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_1
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ea72d362bce3e60800000000000000
+      internalID: 7944010157823340127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_2
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f724e8499a89b7a0800000000000000
+      internalID: -6360900607726573579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_3
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a61bbe707e26eb30800000000000000
+      internalID: 4316188353578604193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_4
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1772
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c0bb38189929ec0800000000000000
+      internalID: -3561615573756736443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_5
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1772
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2e27edad40f8160800000000000000
+      internalID: 7029842881430086367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1241
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da19c17128766fce0800000000000000
+      internalID: -1371795228056579667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_7
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1241
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4a87868242fced0800000000000000
+      internalID: -2391653121140415306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_8
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1243
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b71870ee0575b20800000000000000
+      internalID: 3123053849863093112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1243
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3e71c3eaf2e2510800000000000000
+      internalID: 1526209749104190462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_10
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1236
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e3eb32017798150800000000000000
+      internalID: 5875358100084375068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_11
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1236
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7b82a4ab7cf6450800000000000000
+      internalID: 6084301224522856432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 787
+        width: 121
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18fd0dd388bea680800000000000000
+      internalID: -8741846950190647268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_13
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 680
+        width: 161
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6db95886621a1440800000000000000
+      internalID: 4907254975557123436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_14
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 682
+        width: 161
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6cbf601ec6ef850800000000000000
+      internalID: 6412682633162770106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_15
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 685
+        width: 153
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0e4e0139d463220800000000000000
+      internalID: 2465243140070891690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_16
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 689
+        width: 153
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99f708e574c53e90800000000000000
+      internalID: -7046510031268218469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_17
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 686
+        width: 159
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cabe35646ed90a20800000000000000
+      internalID: 3029196747160074945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_18
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 686
+        width: 161
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d59ad9e14f219ee0800000000000000
+      internalID: -1256170860916861484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 55
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cacf787f21933e0800000000000000
+      internalID: -2073605299079697322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 201
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31415a29d611dce20800000000000000
+      internalID: 3372370858279769107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_21
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 55
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5659e1075ca0c160800000000000000
+      internalID: 7043819306901657179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_22
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 56
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ba09438a0e73570800000000000000
+      internalID: 8446466639197678489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_23
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 52
+        width: 172
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fd6e624d9b84e80800000000000000
+      internalID: -8194095201163747451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_24
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 97
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb81cf2e72295280800000000000000
+      internalID: -9054167650489234497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Cat_in_bath_Eye_D_25
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 97
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051b0e7bb3cf8ebc0800000000000000
+      internalID: -3753472955995082416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
