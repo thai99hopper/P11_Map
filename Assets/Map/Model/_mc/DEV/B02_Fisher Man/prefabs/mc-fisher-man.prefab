@@ -117,6 +117,13 @@ MonoBehaviour:
   minFreeTime: 5
   maxFreeTime: 10
   idleTime: 0
+  idleAnimationObjects:
+  - idleIdx: 3
+    models:
+    - {fileID: 7064345289264178976}
+  - idleIdx: 4
+    models:
+    - {fileID: 3588251473207140195}
   speedMove: 5
   isMove: 0
   isMoveAnim: 0
@@ -317,39 +324,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 7.277
       objectReference: {fileID: 0}
+    - target: {fileID: 4183486161687732315, guid: 1eca52bd0aadcce4a9d604dca426e8a6, type: 3}
+      propertyPath: mcController
+      value: 
+      objectReference: {fileID: 2747551371594594146}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 151195722117191729, guid: 1eca52bd0aadcce4a9d604dca426e8a6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 769433196735243507}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eca52bd0aadcce4a9d604dca426e8a6, type: 3}
 --- !u!95 &8244224803072886 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6305165127040844731, guid: 1eca52bd0aadcce4a9d604dca426e8a6, type: 3}
   m_PrefabInstance: {fileID: 6313264181603117261}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &6162085270267900156 stripped
+--- !u!1 &3588251473207140195 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 151195722117191729, guid: 1eca52bd0aadcce4a9d604dca426e8a6, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7372744326032275374, guid: 1eca52bd0aadcce4a9d604dca426e8a6, type: 3}
   m_PrefabInstance: {fileID: 6313264181603117261}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &769433196735243507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6162085270267900156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8731b8a78f182c146bb2aaad3600b122, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mcController: {fileID: 2747551371594594146}
 --- !u!4 &6831907081366039110 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 671870984783577739, guid: 1eca52bd0aadcce4a9d604dca426e8a6, type: 3}
+  m_PrefabInstance: {fileID: 6313264181603117261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7064345289264178976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3860887588343451629, guid: 1eca52bd0aadcce4a9d604dca426e8a6, type: 3}
   m_PrefabInstance: {fileID: 6313264181603117261}
   m_PrefabAsset: {fileID: 0}

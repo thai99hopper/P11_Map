@@ -118,6 +118,13 @@ MonoBehaviour:
   minFreeTime: 5
   maxFreeTime: 10
   idleTime: 0
+  idleAnimationObjects:
+  - idleIdx: 3
+    models:
+    - {fileID: 6732293215169861064}
+  - idleIdx: 4
+    models:
+    - {fileID: 2983337259201578160}
   speedMove: 5
   isMove: 0
   isMoveAnim: 0
@@ -229,9 +236,19 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2334180778128361910, guid: ffe8c920cc678124fb39bf2a65e80c6d, type: 3}
   m_PrefabInstance: {fileID: 203712410218701624}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2983337259201578160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3149505109609244552, guid: ffe8c920cc678124fb39bf2a65e80c6d, type: 3}
+  m_PrefabInstance: {fileID: 203712410218701624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6239113637330758207 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6072668242433378567, guid: ffe8c920cc678124fb39bf2a65e80c6d, type: 3}
+  m_PrefabInstance: {fileID: 203712410218701624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6732293215169861064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6899042221829682928, guid: ffe8c920cc678124fb39bf2a65e80c6d, type: 3}
   m_PrefabInstance: {fileID: 203712410218701624}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5050180060591842973
