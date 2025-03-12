@@ -3,7 +3,12 @@ guid: 34f98290e2b5f6c45ac1c61c496e9523
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SawTable
+    second: {fileID: 2100000, guid: 16eef671ff649b4409fbd869a5b2a510, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
