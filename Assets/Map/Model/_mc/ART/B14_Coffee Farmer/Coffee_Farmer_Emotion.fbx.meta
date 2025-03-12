@@ -12,8 +12,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Coffee_Farmer_rig_Mat_Coffee_Farmer1
+    second: {fileID: 2100000, guid: 050cfb0bc95593445a0b64ea29682e11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Coffee_Farmer_rig_Mat_Coffee_Farmer_Eye
     second: {fileID: 2100000, guid: 266f2eea883dd614a88aaab29ebed21b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coffee_Farmer_rig_Mat_Coffee_Farmer_Eye1
+    second: {fileID: 2100000, guid: e8b8fec7c2d10154191f940334586705, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -32,6 +42,26 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Coffee_Farmer_rig_lambert13
+    second: {fileID: 2100000, guid: f371bc0b6563ba542824d007044d145d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coffee_Farmer_rig_lambert14
+    second: {fileID: 2100000, guid: 310c94a4bcf211446bb9e8a4b5192659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coffee_Farmer_rig_lambert15
+    second: {fileID: 2100000, guid: d67054c1425c98f4e80198adcac99d1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coffee_Farmer_rig_lambert16
+    second: {fileID: 2100000, guid: 8fa8d91119c6df8439120a97aa0cbf42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Coffee_Farmer_rig_lambert9
     second: {fileID: 2100000, guid: 10c14e075d1c92b47a79feb94a9a3cc6, type: 2}
   - first:
@@ -42,8 +72,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Coffee_Packet2
+    second: {fileID: 2100000, guid: 814501d7740244246a78017805a5e6a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Coffee_bean2
     second: {fileID: 2100000, guid: 31c1dfb547918b543a9d2647b14e6ef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coffee_bean3
+    second: {fileID: 2100000, guid: e68712f6e114caa46ac0d33ead9b0e29, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -12,13 +12,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Butterfly_rig_Mat_Butterfly54
+    second: {fileID: 2100000, guid: 002b27d83a26aec45a0c3fb8d81f2ef9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Sushi_Chef_rig_Mat_Tourist_1_Eye1
     second: {fileID: 2100000, guid: d1e183cb882ce4140a94736d6c5f71a9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_Mat_Tourist_1_Eye4
+    second: {fileID: 2100000, guid: ce2b4554a99737748893ae1ff1d6cc54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Sushi_Chef_rig_Mat_Tourist_2
     second: {fileID: 2100000, guid: bb27780f8aa7cff4d80f5eea5073608b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_Mat_Tourist_5
+    second: {fileID: 2100000, guid: 01fd3bc7ef8c8424aa4938b38d2fa037, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -32,8 +47,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_lambert335
+    second: {fileID: 2100000, guid: 344fa57019857c54fab678b234477ae4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_lambert336
+    second: {fileID: 2100000, guid: 208ab827c18c7304380122b6086cda93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_lambert337
+    second: {fileID: 2100000, guid: 966a9fe29846f934f81f87423775bb17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_lambert338
+    second: {fileID: 2100000, guid: 872d8e8bc40100e4f94fed57f0bad425, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: lambert10
     second: {fileID: 2100000, guid: 536ee31e77973dc4eb2f1dd94863d23f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert259
+    second: {fileID: 2100000, guid: 5aba865c091fe534fa83ecc366d98a00, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

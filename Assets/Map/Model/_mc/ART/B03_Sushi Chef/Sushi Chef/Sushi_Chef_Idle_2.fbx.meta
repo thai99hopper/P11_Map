@@ -3,52 +3,7 @@ guid: e46e5fc44f6795c44ad9b228accf2284
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Butterfly_rig_Mat_Butterfly
-    second: {fileID: 2100000, guid: 279b2bfd9f91e1e42800b32c00030ef5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Sushi_Chef_rig_Mat_Sushi_Chef9
-    second: {fileID: 2100000, guid: 537a8e74af4c253428c5b532253e4f6c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Sushi_Chef_rig_Mat_Sushi_Chef_Eye9
-    second: {fileID: 2100000, guid: 735fc61ef283ce041ac8e8af0024deaa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Sushi_Chef_rig_lambert33
-    second: {fileID: 2100000, guid: 13e1deda14ca0d849993febb28751978, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Sushi_Chef_rig_lambert34
-    second: {fileID: 2100000, guid: 8e7ab25177bc7474ca918c70a019562b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Sushi_Chef_rig_lambert35
-    second: {fileID: 2100000, guid: 6a6ece720fc3f42479fb8e48526a16ee, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Sushi_Chef_rig_lambert36
-    second: {fileID: 2100000, guid: bea46755cc53cb842bed8e6dd9256fed, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Sushi_Chef_rig_lambert37
-    second: {fileID: 2100000, guid: 854514d27bda3d84a86b7e615b75fefb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert10
-    second: {fileID: 2100000, guid: 2179a68a1b95dfa43ae4d9980b5d00a2, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

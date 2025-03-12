@@ -12,13 +12,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Butterfly_rig_Mat_Butterfly35
+    second: {fileID: 2100000, guid: 8c1bf5364c995d04180fe01d1f2eb42e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Sushi_Chef_rig_Mat_Bath
     second: {fileID: 2100000, guid: 3882ca7fb67ab944ebc7955b46327000, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_Mat_Bath12
+    second: {fileID: 2100000, guid: 19e401f2930527e4f8f1b6159bba7ebc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Sushi_Chef_rig_Mat_Bath_Eye
     second: {fileID: 2100000, guid: 4c591b85d7d36e844afda84e87cf97d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_Mat_Bath_Eye12
+    second: {fileID: 2100000, guid: bf9e0d9b3a86532488e72949799e7d20, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -37,8 +52,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_lambert235
+    second: {fileID: 2100000, guid: 61d554c56712f3c4ba24296b8f4db29b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_lambert236
+    second: {fileID: 2100000, guid: d78da27115da53845b8af9f214bc2322, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_lambert237
+    second: {fileID: 2100000, guid: 947449ca44efda24fae11509d4cf5e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sushi_Chef_rig_lambert238
+    second: {fileID: 2100000, guid: f3035e8c7d4c27544ab5b9ea7d1cda8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Sushi_Chef_rig_lambert7
     second: {fileID: 2100000, guid: 43d15321898b0eb46b4365c46490e367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert238
+    second: {fileID: 2100000, guid: 5c5067c7daeca7e4b80fe501a05cb298, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

@@ -3,22 +3,7 @@ guid: dbf88488e122aaf43bcfe6ac23077d60
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Fish
-    second: {fileID: 2100000, guid: 2281fcf8e1b7832498cf3876e3236fda, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Outline
-    second: {fileID: 2100000, guid: b8537f5fb2f2c470e8b29dc4c3b8faad, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Table
-    second: {fileID: 2100000, guid: fd6aaca4ea107d943b91885f13e28a3a, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
