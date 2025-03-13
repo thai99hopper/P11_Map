@@ -282,7 +282,15 @@ public partial class McOnMapController : MonoBehaviour
                 var currentScale = modelEmo.localScale;
                 modelEmo.localScale = new Vector3(System.Math.Abs(currentScale.x), currentScale.y, currentScale.z);
             }
-        }    
+        }
+
+        if (!isEmo)
+        {
+            idleIdx = 1;
+            isMove = false;
+            isMoveAnim = false;
+            SetAnimInteger("idle-type", idleIdx);
+        }
 
         model.gameObject.SetActive(!isEmo);
         modelEmo.gameObject.SetActive(isEmo);
