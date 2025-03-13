@@ -39,6 +39,8 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] bool isRotationEmoMoveEnd = false;
     [SerializeField] bool isStartPoint = true;
     [SerializeField] bool isEmoMove = false;
+    Transform GetFirstPositionEmoMove { get => moveEmoPos == null ? modelEmo.transform : moveEmoPos.Find($"pos-1"); }
+    bool isHaveEmoMove { get => moveEmoPos != null; }
 
     [Header("Other")]
     [SerializeField] bool isOutsideScreen = false;
@@ -182,7 +184,7 @@ public partial class McOnMapController : MonoBehaviour
     bool IsObjectOutsideCamera()
     {
         Vector3 viewportPos = Camera.main.WorldToViewportPoint(model.transform.position);
-        Vector3 viewportEmoPos = Camera.main.WorldToViewportPoint(modelEmo.transform.position);
+        Vector3 viewportEmoPos = Camera.main.WorldToViewportPoint(GetFirstPositionEmoMove.position);
 
         var outsidePos = viewportPos.x < 0 || viewportPos.x > 1 ||
                         viewportPos.y < 0 || viewportPos.y > 1 ||
@@ -225,6 +227,8 @@ public partial class McOnMapController : MonoBehaviour
 
             foreach(var model in idleAnim.models)
             {
+                if (model == null)
+                    Debug.LogError($"[MC Missing] missing idle model {this.name}");
                 model.gameObject.SetActive(isActive);
             }    
         }
@@ -262,7 +266,7 @@ public partial class McOnMapController : MonoBehaviour
 
     void SetActiveModel()
     {
-        if(isEmo)
+        if(isEmo && isHaveEmoMove)
         {
             isStartPoint = true;
             isEmoMove = false;

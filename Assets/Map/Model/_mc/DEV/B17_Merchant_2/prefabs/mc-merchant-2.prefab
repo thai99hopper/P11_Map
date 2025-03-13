@@ -54,13 +54,7 @@ MonoBehaviour:
   minFreeTime: 5
   maxFreeTime: 10
   idleTime: 0
-  idleAnimationObjects:
-  - idleIdx: 3
-    models:
-    - {fileID: 0}
-  - idleIdx: 4
-    models:
-    - {fileID: 0}
+  idleAnimationObjects: []
   speedMove: 5
   isMove: 0
   isMoveAnim: 0
@@ -70,6 +64,7 @@ MonoBehaviour:
   speedEmoMove: 5
   moveEmoPos: {fileID: 0}
   posWillMoveEmo: {fileID: 0}
+  isRotationEmoMoveEnd: 0
   isStartPoint: 1
   isEmoMove: 0
   isOutsideScreen: 0
