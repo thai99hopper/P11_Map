@@ -81,6 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buildingId: 
   animator: {fileID: 5373041734885662752}
   model: {fileID: 2115112058871995758}
   modelEmo: {fileID: 5851106274631111806}
@@ -282,15 +283,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1862232256833142690, guid: c954cd73e85fce84b8b133142516cbc7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.41
+      value: 1.351
       objectReference: {fileID: 0}
     - target: {fileID: 1862232256833142690, guid: c954cd73e85fce84b8b133142516cbc7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.57
+      value: -2.63
       objectReference: {fileID: 0}
     - target: {fileID: 1862232256833142690, guid: c954cd73e85fce84b8b133142516cbc7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.28
+      value: 0.216
       objectReference: {fileID: 0}
     - target: {fileID: 1862232256833142690, guid: c954cd73e85fce84b8b133142516cbc7, type: 3}
       propertyPath: m_LocalRotation.w
