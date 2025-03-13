@@ -98,6 +98,7 @@ public partial class McOnMapController : MonoBehaviour
     #region emo
     void UpdateMovementEmo()
     {
+        if (moveEmoPos == null) return;
         var normalized = (posWillMoveEmo.position - modelEmo.position).normalized;
         modelEmo.position += speedEmoMove * normalized * Time.deltaTime;
 
@@ -114,6 +115,7 @@ public partial class McOnMapController : MonoBehaviour
 
     void UpdateWillMoveEmo()
     {
+        if (moveEmoPos == null) return;
         int indexPoint = isStartPoint ? 2 : 1;
         posWillMoveEmo = moveEmoPos.Find($"pos-{indexPoint}");
 
