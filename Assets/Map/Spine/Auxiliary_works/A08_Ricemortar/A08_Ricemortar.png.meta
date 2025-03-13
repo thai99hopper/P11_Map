@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 02b001d1b6083e14c9b4e745ef908636
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6912082719074661201
+    second: A08_Ricemortar_0
+  - first:
+      213: -4881757138563883389
+    second: A08_Ricemortar_1
+  - first:
+      213: 9095274959568973452
+    second: A08_Ricemortar_2
+  - first:
+      213: 8019306130924273529
+    second: A08_Ricemortar_3
+  - first:
+      213: 1456831947760527323
+    second: A08_Ricemortar_4
+  - first:
+      213: -1191961286460878932
+    second: A08_Ricemortar_5
+  - first:
+      213: -7237302734024246235
+    second: A08_Ricemortar_6
+  - first:
+      213: 2369910308231376769
+    second: A08_Ricemortar_7
+  - first:
+      213: 6301422977996022109
+    second: A08_Ricemortar_8
+  - first:
+      213: -1588047924687081413
+    second: A08_Ricemortar_9
+  - first:
+      213: 6245911326319941394
+    second: A08_Ricemortar_10
+  - first:
+      213: 8786338355434837084
+    second: A08_Ricemortar_11
+  - first:
+      213: 923494930440326970
+    second: A08_Ricemortar_12
+  - first:
+      213: -4571102248637850780
+    second: A08_Ricemortar_13
+  - first:
+      213: -5034452601166428435
+    second: A08_Ricemortar_14
+  - first:
+      213: -4354905168371140859
+    second: A08_Ricemortar_15
+  - first:
+      213: 8044776326550267876
+    second: A08_Ricemortar_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A08_Ricemortar_0
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 721
+        width: 132
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153bf887c96acef50800000000000000
+      internalID: 6912082719074661201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 590
+        width: 283
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e1c244fb3804cb0800000000000000
+      internalID: -4881757138563883389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_2
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 884
+        width: 229
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e2d9b0368e83e70800000000000000
+      internalID: 9095274959568973452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_3
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 590
+        width: 182
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f7ade107c4a4f60800000000000000
+      internalID: 8019306130924273529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 590
+        width: 299
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7e4b710f4b73410800000000000000
+      internalID: 1456831947760527323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 582
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf4b76768d457fe0800000000000000
+      internalID: -1191961286460878932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_6
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 294
+        width: 204
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c758e128fef8b90800000000000000
+      internalID: -7237302734024246235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_7
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 433
+        width: 97
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18feaa77edc93e020800000000000000
+      internalID: 2369910308231376769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 435
+        width: 182
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51efe6efc6237750800000000000000
+      internalID: 6301422977996022109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_9
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 518
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30faba83de16f9e0800000000000000
+      internalID: -1588047924687081413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_10
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 492
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21793ef424feda650800000000000000
+      internalID: 6245911326319941394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 512
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c545518ae285fe970800000000000000
+      internalID: 8786338355434837084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_12
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 414
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f05c01fb9e0dc00800000000000000
+      internalID: 923494930440326970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_13
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 24
+        width: 221
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b93fd39be2090c0800000000000000
+      internalID: -4571102248637850780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_14
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 273
+        width: 155
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de60fec6808022ab0800000000000000
+      internalID: -5034452601166428435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_15
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 367
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507b9b892d44093c0800000000000000
+      internalID: -4354905168371140859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A08_Ricemortar_16
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 25
+        width: 235
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e720892279c4af60800000000000000
+      internalID: 8044776326550267876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A08_Ricemortar_0: 6912082719074661201
+      A08_Ricemortar_1: -4881757138563883389
+      A08_Ricemortar_10: 6245911326319941394
+      A08_Ricemortar_11: 8786338355434837084
+      A08_Ricemortar_12: 923494930440326970
+      A08_Ricemortar_13: -4571102248637850780
+      A08_Ricemortar_14: -5034452601166428435
+      A08_Ricemortar_15: -4354905168371140859
+      A08_Ricemortar_16: 8044776326550267876
+      A08_Ricemortar_2: 9095274959568973452
+      A08_Ricemortar_3: 8019306130924273529
+      A08_Ricemortar_4: 1456831947760527323
+      A08_Ricemortar_5: -1191961286460878932
+      A08_Ricemortar_6: -7237302734024246235
+      A08_Ricemortar_7: 2369910308231376769
+      A08_Ricemortar_8: 6301422977996022109
+      A08_Ricemortar_9: -1588047924687081413
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

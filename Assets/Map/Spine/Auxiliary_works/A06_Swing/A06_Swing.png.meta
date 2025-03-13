@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 9ac363a2ae8a43f4583c872884d16aa9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3936715682926946098
+    second: A06_Swing_0
+  - first:
+      213: 9003246221988310361
+    second: A06_Swing_1
+  - first:
+      213: 1156555355997479215
+    second: A06_Swing_2
+  - first:
+      213: 7304641950782572055
+    second: A06_Swing_3
+  - first:
+      213: -4915099623834273216
+    second: A06_Swing_4
+  - first:
+      213: -3644637912928274531
+    second: A06_Swing_5
+  - first:
+      213: -1559144735797240839
+    second: A06_Swing_6
+  - first:
+      213: -6142287657506520125
+    second: A06_Swing_7
+  - first:
+      213: 613808777855320317
+    second: A06_Swing_8
+  - first:
+      213: -780242863893808419
+    second: A06_Swing_9
+  - first:
+      213: 7786859162149782095
+    second: A06_Swing_10
+  - first:
+      213: -3989551029474778787
+    second: A06_Swing_11
+  - first:
+      213: 4630255598834724357
+    second: A06_Swing_12
+  - first:
+      213: 2982613094817371044
+    second: A06_Swing_13
+  - first:
+      213: 1468946624871986687
+    second: A06_Swing_14
+  - first:
+      213: 5537938823940392735
+    second: A06_Swing_15
+  - first:
+      213: -1870860718881567901
+    second: A06_Swing_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A06_Swing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1881
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec81e69a1f9fd59c0800000000000000
+      internalID: -3936715682926946098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1633
+        width: 262
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95dadf6dcb4f1fc70800000000000000
+      internalID: 9003246221988310361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_2
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1834
+        width: 269
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f212e45f7f8ec0010800000000000000
+      internalID: 1156555355997479215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_3
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1711
+        width: 318
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716cfcf072d4f5560800000000000000
+      internalID: 7304641950782572055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1175
+        width: 509
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ab3b5feee0acbb0800000000000000
+      internalID: -4915099623834273216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_5
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 677
+        width: 284
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d973df8d025ab6dc0800000000000000
+      internalID: -3644637912928274531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_6
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1455
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb926d9f1ecc5ae0800000000000000
+      internalID: -1559144735797240839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_7
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1026
+        width: 340
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3ce023be532caa0800000000000000
+      internalID: -6142287657506520125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_8
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1455
+        width: 177
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df04514d4dfa48800800000000000000
+      internalID: 613808777855320317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 716
+        width: 509
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda731bcf350c25f0800000000000000
+      internalID: -780242863893808419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6
+        width: 619
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f420fe3c62b701c60800000000000000
+      internalID: 7786859162149782095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_11
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 629
+        width: 177
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51acdae97442a8c0800000000000000
+      internalID: -3989551029474778787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_12
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 367
+        width: 315
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50eaecb5fe8f14040800000000000000
+      internalID: 4630255598834724357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_13
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 378
+        width: 159
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a39403aece546920800000000000000
+      internalID: 2982613094817371044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 167
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5f0892c2fb26410800000000000000
+      internalID: 1468946624871986687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_15
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17cfc4e406badc40800000000000000
+      internalID: 5537938823940392735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_16
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 5
+        width: 201
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b05d2a61e5906e0800000000000000
+      internalID: -1870860718881567901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A06_Swing_0: -3936715682926946098
+      A06_Swing_1: 9003246221988310361
+      A06_Swing_10: 7786859162149782095
+      A06_Swing_11: -3989551029474778787
+      A06_Swing_12: 4630255598834724357
+      A06_Swing_13: 2982613094817371044
+      A06_Swing_14: 1468946624871986687
+      A06_Swing_15: 5537938823940392735
+      A06_Swing_16: -1870860718881567901
+      A06_Swing_2: 1156555355997479215
+      A06_Swing_3: 7304641950782572055
+      A06_Swing_4: -4915099623834273216
+      A06_Swing_5: -3644637912928274531
+      A06_Swing_6: -1559144735797240839
+      A06_Swing_7: -6142287657506520125
+      A06_Swing_8: 613808777855320317
+      A06_Swing_9: -780242863893808419
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

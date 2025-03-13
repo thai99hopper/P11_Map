@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: eda6c81a49cc6f8479909fe820c05da8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2821817240307312129
+    second: A07_Lotuspond_0
+  - first:
+      213: -6605680691230570221
+    second: A07_Lotuspond_1
+  - first:
+      213: -9037021747659628133
+    second: A07_Lotuspond_2
+  - first:
+      213: -672168799613811615
+    second: A07_Lotuspond_3
+  - first:
+      213: -5125658729596624407
+    second: A07_Lotuspond_4
+  - first:
+      213: -4472264648693141861
+    second: A07_Lotuspond_5
+  - first:
+      213: 3069269034157660311
+    second: A07_Lotuspond_6
+  - first:
+      213: -5878534935863122521
+    second: A07_Lotuspond_7
+  - first:
+      213: 7810384975631071393
+    second: A07_Lotuspond_8
+  - first:
+      213: 370266979470700668
+    second: A07_Lotuspond_9
+  - first:
+      213: -2987942642163657897
+    second: A07_Lotuspond_10
+  - first:
+      213: 7277171675607482833
+    second: A07_Lotuspond_11
+  - first:
+      213: 8357084009727163635
+    second: A07_Lotuspond_12
+  - first:
+      213: 3764278524089101592
+    second: A07_Lotuspond_13
+  - first:
+      213: -1246619826935855937
+    second: A07_Lotuspond_14
+  - first:
+      213: -7739850889572284466
+    second: A07_Lotuspond_15
+  - first:
+      213: 1259614168954681488
+    second: A07_Lotuspond_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A07_Lotuspond_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 706
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106279554db192720800000000000000
+      internalID: 2821817240307312129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_1
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 318
+        width: 387
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3198b83e868e354a0800000000000000
+      internalID: -6605680691230570221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_2
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 821
+        width: 75
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91a447c99c069280800000000000000
+      internalID: -9037021747659628133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_3
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 847
+        width: 65
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1640bedb90afba6f0800000000000000
+      internalID: -672168799613811615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 821
+        width: 34
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e16386da800ed8b0800000000000000
+      internalID: -5125658729596624407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_5
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 924
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9eab114ff25fe1c0800000000000000
+      internalID: -4472264648693141861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_6
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 873
+        width: 43
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798d215cceb389a20800000000000000
+      internalID: 3069269034157660311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_7
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 922
+        width: 44
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5a7242f9f3b6ea0800000000000000
+      internalID: -5878534935863122521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_8
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 922
+        width: 41
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8b98f01cf046c60800000000000000
+      internalID: 7810384975631071393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_9
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 940
+        width: 33
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7078672bd3732500800000000000000
+      internalID: 370266979470700668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_10
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 693
+        width: 146
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753d79c6ff1b886d0800000000000000
+      internalID: -2987942642163657897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_11
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 775
+        width: 53
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d14e163515bdf460800000000000000
+      internalID: 7277171675607482833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253
+        width: 706
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc72ed01a35af370800000000000000
+      internalID: 8357084009727163635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_13
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 327
+        width: 367
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d66f7af576d3430800000000000000
+      internalID: 3764278524089101592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_14
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 384
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4878d4fdd13bee0800000000000000
+      internalID: -1246619826935855937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_15
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 318
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec78d889f96869490800000000000000
+      internalID: -7739850889572284466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A07_Lotuspond_16
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 323
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098b796b96c0b7110800000000000000
+      internalID: 1259614168954681488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A07_Lotuspond_0: 2821817240307312129
+      A07_Lotuspond_1: -6605680691230570221
+      A07_Lotuspond_10: -2987942642163657897
+      A07_Lotuspond_11: 7277171675607482833
+      A07_Lotuspond_12: 8357084009727163635
+      A07_Lotuspond_13: 3764278524089101592
+      A07_Lotuspond_14: -1246619826935855937
+      A07_Lotuspond_15: -7739850889572284466
+      A07_Lotuspond_16: 1259614168954681488
+      A07_Lotuspond_2: -9037021747659628133
+      A07_Lotuspond_3: -672168799613811615
+      A07_Lotuspond_4: -5125658729596624407
+      A07_Lotuspond_5: -4472264648693141861
+      A07_Lotuspond_6: 3069269034157660311
+      A07_Lotuspond_7: -5878534935863122521
+      A07_Lotuspond_8: 7810384975631071393
+      A07_Lotuspond_9: 370266979470700668
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
