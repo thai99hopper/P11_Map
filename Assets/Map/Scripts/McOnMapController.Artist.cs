@@ -11,6 +11,8 @@ public partial class IdleAnimationObject
 public partial class McOnMapController : MonoBehaviour
 {
     #region base
+    [SerializeField] string buildingId;
+    bool isCanChangeToEmo = true;
     [SerializeField] Animator animator;
     [SerializeField] Transform model;
     [SerializeField] Transform modelEmo;
@@ -203,6 +205,8 @@ public partial class McOnMapController : MonoBehaviour
         if (isOutsideScreen && !this.isOutsideScreen)
         {
             isEmo = !isEmo;
+            if(!isCanChangeToEmo)
+                isEmo = false;
             SetActiveModel();
         }
         this.isOutsideScreen = isOutsideScreen;
