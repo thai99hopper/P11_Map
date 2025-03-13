@@ -3,7 +3,12 @@ guid: 22b18ff9ec083ea41a6c85323a8b0d95
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ball_of_Swool1_Ball_of_Swool_lambert10
+    second: {fileID: 2100000, guid: 4d90987c4a3c71e4a90689bfb2ec93f2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
