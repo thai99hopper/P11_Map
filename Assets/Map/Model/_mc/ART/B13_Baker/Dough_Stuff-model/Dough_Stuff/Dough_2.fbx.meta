@@ -3,7 +3,12 @@ guid: de87dc49876c4ac45900a7c3d6b8e694
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dough_Stuff
+    second: {fileID: 2100000, guid: f3ab4789cb91c894c853a1deb9139e53, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
