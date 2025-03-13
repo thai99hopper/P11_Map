@@ -180624,14 +180624,14 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0
+  - time: 5.7
     functionName: OnTriggerStartEmoMove
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 9.433333
+  - time: 8.166667
     functionName: OnTriggerEndEmoMove
     data: 
     objectReferenceParameter: {fileID: 0}

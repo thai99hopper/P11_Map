@@ -36,6 +36,7 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] float speedEmoMove = 5f;
     [SerializeField] Transform moveEmoPos;
     [SerializeField] Transform posWillMoveEmo;
+    [SerializeField] bool isRotationEmoMoveEnd = false;
     [SerializeField] bool isStartPoint = true;
     [SerializeField] bool isEmoMove = false;
 
@@ -101,16 +102,6 @@ public partial class McOnMapController : MonoBehaviour
         if (moveEmoPos == null) return;
         var normalized = (posWillMoveEmo.position - modelEmo.position).normalized;
         modelEmo.position += speedEmoMove * normalized * Time.deltaTime;
-
-        // UpdateRotationEmo();
-    }
-
-    void UpdateRotationEmo()
-    {
-        var normalized = (posWillMoveEmo.localPosition - modelEmo.localPosition).normalized;
-
-        float targetYAngle = Mathf.Atan2(normalized.x, normalized.z) * Mathf.Rad2Deg;
-        modelEmo.localRotation = Quaternion.Euler(0, targetYAngle, 0);
     }
 
     void UpdateWillMoveEmo()
@@ -120,6 +111,11 @@ public partial class McOnMapController : MonoBehaviour
         posWillMoveEmo = moveEmoPos.Find($"pos-{indexPoint}");
 
         isStartPoint = !isStartPoint;
+        if (isRotationEmoMoveEnd)
+        {
+            var currentScale = modelEmo.localScale;
+            modelEmo.localScale = new Vector3(currentScale.x * -1, currentScale.y, currentScale.z);
+        }
     }
     #endregion
 
@@ -246,14 +242,14 @@ public partial class McOnMapController : MonoBehaviour
             item.localPosition = new Vector3(posCurrent.x, posCurrent.y, posCurrent.y);
         }
 
-        if (moveEmoPos != null)
-        {
-            foreach (Transform item in moveEmoPos)
-            {
-                var posCurrent = item.localPosition;
-                item.localPosition = new Vector3(posCurrent.x, posCurrent.y, posCurrent.y);
-            }
-        }
+        //if (moveEmoPos != null)
+        //{
+        //    foreach (Transform item in moveEmoPos)
+        //    {
+        //        var posCurrent = item.localPosition;
+        //        item.localPosition = new Vector3(posCurrent.x, posCurrent.y, posCurrent.y);
+        //    }
+        //}
 
         //var emoPosCurrent = emoPos.localPosition;
         //emoPos.localPosition = new Vector3(emoPosCurrent.x, emoPosCurrent.y, emoPosCurrent.y);
@@ -266,6 +262,20 @@ public partial class McOnMapController : MonoBehaviour
 
     void SetActiveModel()
     {
+        if(isEmo)
+        {
+            isStartPoint = true;
+            isEmoMove = false;
+            var posWillMoveEmo1 = moveEmoPos.Find($"pos-1");
+            modelEmo.position = posWillMoveEmo1.position;
+
+            if (isRotationEmoMoveEnd)
+            {
+                var currentScale = modelEmo.localScale;
+                modelEmo.localScale = new Vector3(System.Math.Abs(currentScale.x), currentScale.y, currentScale.z);
+            }
+        }    
+
         model.gameObject.SetActive(!isEmo);
         modelEmo.gameObject.SetActive(isEmo);
     }
