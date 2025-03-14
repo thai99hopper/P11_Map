@@ -60,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 1729955788426921718}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.71, y: 9.77, z: -2.0883522}
+  m_LocalPosition: {x: 10.71, y: 9.77, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -96,6 +96,8 @@ MonoBehaviour:
   posWillMove: {fileID: 0}
   movePosIdx: 3
   isEmo: 0
+  buildingLevelAllowEmo: 2
+  buildingPartAllowEmo: 3
   speedEmoMove: 5
   moveEmoPos: {fileID: 0}
   posWillMoveEmo: {fileID: 0}
@@ -1171,15 +1173,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8354165051464593876, guid: 4be2544cc3dfe1d468edf27731e0d542, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.548
+      value: 1.547
       objectReference: {fileID: 0}
     - target: {fileID: 8354165051464593876, guid: 4be2544cc3dfe1d468edf27731e0d542, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.107
+      value: 0.135
       objectReference: {fileID: 0}
     - target: {fileID: 8354165051464593876, guid: 4be2544cc3dfe1d468edf27731e0d542, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.534
+      value: -0.549
       objectReference: {fileID: 0}
     - target: {fileID: 8354165051464593876, guid: 4be2544cc3dfe1d468edf27731e0d542, type: 3}
       propertyPath: m_LocalRotation.w
