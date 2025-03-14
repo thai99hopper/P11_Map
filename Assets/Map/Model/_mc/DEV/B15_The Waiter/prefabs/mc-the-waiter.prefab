@@ -52,8 +52,8 @@ MonoBehaviour:
   model: {fileID: 6603761566211254761}
   modelEmo: {fileID: 3843504419291461589}
   movePos: {fileID: 1956025489055166653}
-  minFreeTime: 5
-  maxFreeTime: 10
+  minFreeTime: 40
+  maxFreeTime: 55
   idleTime: 0
   idleAnimationObjects:
   - idleIdx: 3
