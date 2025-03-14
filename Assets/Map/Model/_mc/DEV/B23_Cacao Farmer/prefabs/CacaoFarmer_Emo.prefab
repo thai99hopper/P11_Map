@@ -172,6 +172,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.51753
       objectReference: {fileID: 0}
+    - target: {fileID: -5114215866964694271, guid: 604ce1cceda253248aa07bae1c1c114e, type: 3}
+      propertyPath: m_Name
+      value: Eye
+      objectReference: {fileID: 0}
     - target: {fileID: -4737485105531570011, guid: 604ce1cceda253248aa07bae1c1c114e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 1.5194806
@@ -547,6 +551,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 604ce1cceda253248aa07bae1c1c114e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4239351129788441022}
+    - targetCorrespondingSourceObject: {fileID: 6448017709848169942, guid: 604ce1cceda253248aa07bae1c1c114e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2775284114394864890}
   m_SourcePrefab: {fileID: 100100000, guid: 604ce1cceda253248aa07bae1c1c114e, type: 3}
 --- !u!1 &922443681265159811 stripped
 GameObject:
@@ -564,6 +571,33 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 48e70616be500df42952c1c2c69a4a95, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &6446816573238656516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6448017709848169942, guid: 604ce1cceda253248aa07bae1c1c114e, type: 3}
+  m_PrefabInstance: {fileID: 3452973033206738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2775284114394864890
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6446816573238656516}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 667bdabd68ebd0f4ea5275e0447a207f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
