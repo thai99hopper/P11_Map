@@ -81,6 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buildingId: building_basic_01
   animator: {fileID: 7520911150715209913}
   model: {fileID: 7447222923687360684}
   modelEmo: {fileID: 4646198010857335623}
@@ -101,9 +102,12 @@ MonoBehaviour:
   posWillMove: {fileID: 0}
   movePosIdx: 3
   isEmo: 0
+  buildingLevelAllowEmo: 2
+  buildingPartAllowEmo: 3
   speedEmoMove: 5
   moveEmoPos: {fileID: 0}
   posWillMoveEmo: {fileID: 0}
+  isRotationEmoMoveEnd: 0
   isStartPoint: 1
   isEmoMove: 0
   isOutsideScreen: 0
