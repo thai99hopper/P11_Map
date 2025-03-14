@@ -52,6 +52,7 @@ MonoBehaviour:
   model: {fileID: 2452117765335431422}
   modelEmo: {fileID: 5288237477077630686}
   movePos: {fileID: 1956025489055166653}
+  interactiveModels: []
   minFreeTime: 45
   maxFreeTime: 55
   idleTime: 0
@@ -302,7 +303,7 @@ PrefabInstance:
       objectReference: {fileID: 5856218249000212418}
     - target: {fileID: 5680688674959316226, guid: 7f4e011263227cf4181215e22b2f7733, type: 3}
       propertyPath: m_Name
-      value: MerchantCat_Idle01_Cp
+      value: Merchant_3
       objectReference: {fileID: 0}
     - target: {fileID: 5680688674959316226, guid: 7f4e011263227cf4181215e22b2f7733, type: 3}
       propertyPath: m_IsActive

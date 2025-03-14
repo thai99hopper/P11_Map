@@ -2,10 +2,17 @@
 using UnityEngine;
 
 [System.Serializable]
-public partial class IdleAnimationObject
+public class IdleAnimationObject
 {
     public int idleIdx;
     public List<GameObject> models;
+}
+
+[System.Serializable]
+public class InteractiveModel
+{
+    public Transform interactiveModel;
+    public Transform interactiveModelEmo;
 }
 
 public partial class McOnMapController : MonoBehaviour
@@ -17,6 +24,9 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] Transform model;
     [SerializeField] Transform modelEmo;
     [SerializeField] Transform movePos;
+
+    [Header("Interactive Model (Can Null)")]
+    [SerializeField] List<InteractiveModel> interactiveModels;
 
     [Header("Idle")]
     [SerializeField] float minFreeTime = 40f;
@@ -62,6 +72,7 @@ public partial class McOnMapController : MonoBehaviour
     }
     #endregion
 
+    #region life-cycle
     private void Start()
     {
         firstAngleModel = model.localEulerAngles;
@@ -101,6 +112,7 @@ public partial class McOnMapController : MonoBehaviour
             UpdateMovementEmo();
         }
     }
+    #endregion
 
     #region emo
     void UpdateMovementEmo()
@@ -185,20 +197,38 @@ public partial class McOnMapController : MonoBehaviour
     #endregion
 
     #region outside
+    bool IsObjectOutsideCamera(Vector3 viewportPos)
+    {
+        return viewportPos.x < 0 || viewportPos.x > 1 ||
+            viewportPos.y < 0 || viewportPos.y > 1 ||
+            viewportPos.z < 0;
+    }
+
     bool IsObjectOutsideCamera()
     {
         Vector3 viewportPos = Camera.main.WorldToViewportPoint(model.transform.position);
         Vector3 viewportEmoPos = Camera.main.WorldToViewportPoint(GetFirstPositionEmoMove.position);
 
-        var outsidePos = viewportPos.x < 0 || viewportPos.x > 1 ||
-                        viewportPos.y < 0 || viewportPos.y > 1 ||
-                        viewportPos.z < 0;
+        var isOutside = true;
+        isOutside &= IsObjectOutsideCamera(viewportPos);
+        isOutside &= IsObjectOutsideCamera(viewportEmoPos);
 
-        var outsideEmoPos = viewportEmoPos.x < 0 || viewportEmoPos.x > 1 ||
-                       viewportEmoPos.y < 0 || viewportEmoPos.y > 1 ||
-                       viewportEmoPos.z < 0;
+        foreach (InteractiveModel item in interactiveModels)
+        {
+            if (item.interactiveModel != null)
+            {
+                Vector3 viewportInteractivePos = Camera.main.WorldToViewportPoint(item.interactiveModel.transform.position);
+                isOutside &= IsObjectOutsideCamera(viewportInteractivePos);
+            }
 
-        return outsidePos && outsideEmoPos;
+            if (item.interactiveModelEmo != null)
+            {
+                Vector3 viewportInteractiveEmoPos = Camera.main.WorldToViewportPoint(item.interactiveModelEmo.transform.position);
+                isOutside &= IsObjectOutsideCamera(viewportInteractiveEmoPos);
+            }
+        }    
+
+        return isOutside;
     }
 
     void UpdateOutsideCam()
