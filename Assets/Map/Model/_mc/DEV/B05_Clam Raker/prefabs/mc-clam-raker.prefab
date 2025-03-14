@@ -111,6 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buildingId: building_basic_05
   animator: {fileID: 2501492682800392846}
   model: {fileID: 6239113637330758207}
   modelEmo: {fileID: 8391141513549988491}
@@ -131,9 +132,12 @@ MonoBehaviour:
   posWillMove: {fileID: 0}
   movePosIdx: 0
   isEmo: 0
+  buildingLevelAllowEmo: 2
+  buildingPartAllowEmo: 3
   speedEmoMove: 5
   moveEmoPos: {fileID: 0}
   posWillMoveEmo: {fileID: 0}
+  isRotationEmoMoveEnd: 0
   isStartPoint: 1
   isEmoMove: 0
   isOutsideScreen: 0
@@ -164,7 +168,7 @@ Transform:
   m_GameObject: {fileID: 6784772783276239079}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.1, y: 0.51, z: 0}
+  m_LocalPosition: {x: 3.77, y: 0.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -184,15 +188,15 @@ PrefabInstance:
       objectReference: {fileID: 6789389760476433031}
     - target: {fileID: 6072668242433378567, guid: ffe8c920cc678124fb39bf2a65e80c6d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.62
+      value: 2.74
       objectReference: {fileID: 0}
     - target: {fileID: 6072668242433378567, guid: ffe8c920cc678124fb39bf2a65e80c6d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.01
+      value: -0.52
       objectReference: {fileID: 0}
     - target: {fileID: 6072668242433378567, guid: ffe8c920cc678124fb39bf2a65e80c6d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.52
       objectReference: {fileID: 0}
     - target: {fileID: 6072668242433378567, guid: ffe8c920cc678124fb39bf2a65e80c6d, type: 3}
       propertyPath: m_LocalRotation.w
