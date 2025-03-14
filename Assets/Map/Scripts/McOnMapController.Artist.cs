@@ -33,6 +33,8 @@ public partial class McOnMapController : MonoBehaviour
 
     [Header("Emo")]
     [SerializeField] bool isEmo = false;
+    [SerializeField] int buildingLevelAllowEmo;
+    [SerializeField] int buildingPartAllowEmo;
 
     [Header("Special Emo (Can Null)")]
     [SerializeField] float speedEmoMove = 5f;
