@@ -19,8 +19,8 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] Transform movePos;
 
     [Header("Idle")]
-    [SerializeField] float minFreeTime = 5f;
-    [SerializeField] float maxFreeTime = 10f;
+    [SerializeField] float minFreeTime = 40f;
+    [SerializeField] float maxFreeTime = 55f;
     [SerializeField] float idleTime;
     [SerializeField] List<IdleAnimationObject> idleAnimationObjects;
 
