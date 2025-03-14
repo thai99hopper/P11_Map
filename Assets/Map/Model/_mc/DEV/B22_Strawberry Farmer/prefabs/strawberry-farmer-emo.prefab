@@ -540,6 +540,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -58.30122
       objectReference: {fileID: 0}
+    - target: {fileID: 7263085141602414787, guid: 39fc05060c6392444ae8dfe3037b788b, type: 3}
+      propertyPath: m_Name
+      value: Eye
+      objectReference: {fileID: 0}
     - target: {fileID: 8060034587997659694, guid: 39fc05060c6392444ae8dfe3037b788b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 8.345243
@@ -638,7 +642,37 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 39fc05060c6392444ae8dfe3037b788b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7230004939254510103}
+    - targetCorrespondingSourceObject: {fileID: -6673518281260927255, guid: 39fc05060c6392444ae8dfe3037b788b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2763347563126904590}
   m_SourcePrefab: {fileID: 100100000, guid: 39fc05060c6392444ae8dfe3037b788b, type: 3}
+--- !u!1 &5012979627102979207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6673518281260927255, guid: 39fc05060c6392444ae8dfe3037b788b, type: 3}
+  m_PrefabInstance: {fileID: 7418352253639307886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2763347563126904590
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5012979627102979207}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 667bdabd68ebd0f4ea5275e0447a207f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7652215842367508287 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 39fc05060c6392444ae8dfe3037b788b, type: 3}
