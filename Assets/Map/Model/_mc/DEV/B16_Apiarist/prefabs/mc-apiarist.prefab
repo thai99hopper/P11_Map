@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buildingId: 
   animator: {fileID: 3888490329762872276}
   model: {fileID: 9097427526526383328}
   modelEmo: {fileID: 7073506683379083104}
@@ -67,9 +68,12 @@ MonoBehaviour:
   posWillMove: {fileID: 0}
   movePosIdx: 0
   isEmo: 0
+  buildingLevelAllowEmo: 0
+  buildingPartAllowEmo: 0
   speedEmoMove: 5
   moveEmoPos: {fileID: 0}
   posWillMoveEmo: {fileID: 0}
+  isRotationEmoMoveEnd: 0
   isStartPoint: 1
   isEmoMove: 0
   isOutsideScreen: 0
@@ -100,7 +104,7 @@ Transform:
   m_GameObject: {fileID: 1055737726728208335}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7, y: 1.62, z: 0}
+  m_LocalPosition: {x: -2.26, y: -1.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -164,7 +168,7 @@ Transform:
   m_GameObject: {fileID: 8146041624972441685}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.49, y: -1.28, z: 0}
+  m_LocalPosition: {x: -0.404, y: -0.406, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -196,43 +200,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3
+      value: -1.883
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.338
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.101
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: -0.9404005
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.12599093
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0.31289247
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.043261625
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -12.116
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 322.19
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 9.431
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -266,11 +270,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 452222598882059039, guid: 47d1819f5473ab448aac5017d3d245b5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.609
       objectReference: {fileID: 0}
     - target: {fileID: 452222598882059039, guid: 47d1819f5473ab448aac5017d3d245b5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.54
       objectReference: {fileID: 0}
     - target: {fileID: 452222598882059039, guid: 47d1819f5473ab448aac5017d3d245b5, type: 3}
       propertyPath: m_LocalPosition.z
