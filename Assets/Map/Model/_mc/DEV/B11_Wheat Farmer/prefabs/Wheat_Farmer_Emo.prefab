@@ -448,6 +448,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.1055994
       objectReference: {fileID: 0}
+    - target: {fileID: 7791810488909929624, guid: ca30c98d1b84c124fbf420678c3d079d, type: 3}
+      propertyPath: m_Name
+      value: Eye
+      objectReference: {fileID: 0}
     - target: {fileID: 8060034587997659694, guid: ca30c98d1b84c124fbf420678c3d079d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -0.14860106
@@ -538,7 +542,37 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ca30c98d1b84c124fbf420678c3d079d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3792289728167193514}
+    - targetCorrespondingSourceObject: {fileID: 8538828211097504705, guid: ca30c98d1b84c124fbf420678c3d079d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1720408579448119921}
   m_SourcePrefab: {fileID: 100100000, guid: ca30c98d1b84c124fbf420678c3d079d, type: 3}
+--- !u!1 &164572633260266724 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8538828211097504705, guid: ca30c98d1b84c124fbf420678c3d079d, type: 3}
+  m_PrefabInstance: {fileID: 8415168268108013349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1720408579448119921
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164572633260266724}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 667bdabd68ebd0f4ea5275e0447a207f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8649663524118372980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ca30c98d1b84c124fbf420678c3d079d, type: 3}
