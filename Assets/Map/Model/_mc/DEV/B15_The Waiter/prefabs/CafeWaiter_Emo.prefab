@@ -444,6 +444,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 124.147385
       objectReference: {fileID: 0}
+    - target: {fileID: 6090307592801018733, guid: 50e9ef9b496933641b2aaa6260316dec, type: 3}
+      propertyPath: m_Name
+      value: Eye
+      objectReference: {fileID: 0}
     - target: {fileID: 6584378880951276653, guid: 50e9ef9b496933641b2aaa6260316dec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -70.90813
@@ -547,6 +551,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 50e9ef9b496933641b2aaa6260316dec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5005656541640619686}
+    - targetCorrespondingSourceObject: {fileID: -807600285304816729, guid: 50e9ef9b496933641b2aaa6260316dec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1384803615935728973}
   m_SourcePrefab: {fileID: 100100000, guid: 50e9ef9b496933641b2aaa6260316dec, type: 3}
 --- !u!1 &4022964919523292678 stripped
 GameObject:
@@ -564,6 +571,33 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 3acaff9982048d34f9a560587c57d4ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &5755542357724426480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -807600285304816729, guid: 50e9ef9b496933641b2aaa6260316dec, type: 3}
+  m_PrefabInstance: {fileID: 4257336057286495063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1384803615935728973
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5755542357724426480}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 667bdabd68ebd0f4ea5275e0447a207f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
