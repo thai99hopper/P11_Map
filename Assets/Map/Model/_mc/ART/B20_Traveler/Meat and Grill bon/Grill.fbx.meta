@@ -3,7 +3,12 @@ guid: 920f6ce8e3b342d47a10d7b2b5297fb2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grill
+    second: {fileID: 2100000, guid: f77f1d04400eced4caaafa7479cdad1b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
