@@ -86,8 +86,9 @@ MonoBehaviour:
   model: {fileID: 2115112058871995758}
   modelEmo: {fileID: 5851106274631111806}
   movePos: {fileID: 6712385803518529953}
-  minFreeTime: 5
-  maxFreeTime: 10
+  interactiveModels: []
+  minFreeTime: 35
+  maxFreeTime: 55
   idleTime: 0
   idleAnimationObjects: []
   speedMove: 5
@@ -96,6 +97,8 @@ MonoBehaviour:
   posWillMove: {fileID: 0}
   movePosIdx: 3
   isEmo: 0
+  buildingLevelAllowEmo: 0
+  buildingPartAllowEmo: 0
   speedEmoMove: 5
   moveEmoPos: {fileID: 0}
   posWillMoveEmo: {fileID: 0}
