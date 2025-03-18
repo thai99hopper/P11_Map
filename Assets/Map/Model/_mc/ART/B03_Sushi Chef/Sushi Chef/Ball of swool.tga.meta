@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9d85366ffb0b93a419651cf05c1c1a82
+guid: a27ae2017d36b7d4aa31d8256ab605eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4656007822964393357
-    second: Mat_Sushi_Chef_D_0
+      213: 7926889110932123274
+    second: Ball of swool_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mat_Sushi_Chef_D_0
+      name: Ball of swool_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37a74c8bd89826fb0800000000000000
-      internalID: -4656007822964393357
+      spriteID: a8e650fd5a7f10e60800000000000000
+      internalID: 7926889110932123274
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Mat_Sushi_Chef_D_0: -4656007822964393357
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

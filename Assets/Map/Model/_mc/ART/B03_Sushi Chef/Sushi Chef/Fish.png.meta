@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e66b55cdf33a70443b471e5622ea2b0a
+guid: f31f7104435aa82429ebd567c3787f0e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5664865892723414241
-    second: Mat_Sushi_Chef_Eye_D_0
+      213: -1915776564401465818
+    second: Fish_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mat_Sushi_Chef_Eye_D_0
+      name: Fish_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e451040485ad9e40800000000000000
-      internalID: 5664865892723414241
+      spriteID: 62615d96d5bc965e0800000000000000
+      internalID: -1915776564401465818
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Mat_Sushi_Chef_Eye_D_0: 5664865892723414241
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
