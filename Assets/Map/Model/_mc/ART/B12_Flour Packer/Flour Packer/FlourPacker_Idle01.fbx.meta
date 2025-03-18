@@ -3,7 +3,17 @@ guid: 857b038d625bf53438374bc1534510ab
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luna_rig_Mat_Flour_Packer
+    second: {fileID: 2100000, guid: 5619207411bf9b84da0b7edb0ea761cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luna_rig_Mat_Flour_Packer_Eye
+    second: {fileID: 2100000, guid: 857909fad37165f4ca20a393793d9fa1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

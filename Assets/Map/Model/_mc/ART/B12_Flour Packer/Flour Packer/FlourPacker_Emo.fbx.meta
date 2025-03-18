@@ -18,7 +18,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Flour_Packet
-    second: {fileID: 2100000, guid: 32f9fd09ec632c34f8537eb795a678a4, type: 2}
+    second: {fileID: 2100000, guid: 52c882dd9b834074581225d7817383b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Flour_Packer
+    second: {fileID: 2100000, guid: 15127d9fc7a660d409d4fe0d97f53d40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Flour_Packer_Eye
+    second: {fileID: 2100000, guid: dcb79b428787d3b48be17313cf565f4d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
