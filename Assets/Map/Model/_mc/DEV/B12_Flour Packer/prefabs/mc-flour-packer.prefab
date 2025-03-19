@@ -80,13 +80,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingId: 
+  buildingId: building_basic_12
   animator: {fileID: 7026171782018185184}
   model: {fileID: 1263925261370651710}
   modelEmo: {fileID: 3581943653640508030}
   movePos: {fileID: 6712385803518529953}
-  minFreeTime: 5
-  maxFreeTime: 10
+  interactiveModels: []
+  minFreeTime: 40
+  maxFreeTime: 60
   idleTime: 0
   idleAnimationObjects:
   - idleIdx: 3
