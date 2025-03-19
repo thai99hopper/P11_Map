@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: B07_Ironworks_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: e25afc21eebfa6840a880c802adf749f, type: 2}
+  - {fileID: 11400000, guid: 9c23776cc7e22f94bb9f2236d60d2f9a, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: 5127a2bf42a5eac47addac2e305ab73d, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 2a550a508db799e478c0edecb4f25b6a, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
     requiresBlendModeMaterials: 1
     applyAdditiveMaterial: 1
     additiveMaterials:
     - pageName: B07_Ironworks.png
-      material: {fileID: 2100000, guid: a84e783fd134722488a3b86ed19374e7, type: 2}
+      material: {fileID: 2100000, guid: 0c5a736cb63fe1749a2e563b20955707, type: 2}
     multiplyMaterials: []
     screenMaterials: []
   skeletonDataModifiers: []

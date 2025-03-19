@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 442265bb93e22a64c96e2928c3d6735d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3954358237808821155
+    second: B12_GristMill_0
+  - first:
+      213: 7574717546892841243
+    second: B12_GristMill_1
+  - first:
+      213: -1784475797103049792
+    second: B12_GristMill_2
+  - first:
+      213: -4173895039102560360
+    second: B12_GristMill_3
+  - first:
+      213: 1407151748499375342
+    second: B12_GristMill_4
+  - first:
+      213: 1905182979870763179
+    second: B12_GristMill_5
+  - first:
+      213: 4152350885738930174
+    second: B12_GristMill_6
+  - first:
+      213: 8345357178909220723
+    second: B12_GristMill_7
+  - first:
+      213: -3956353502635897602
+    second: B12_GristMill_8
+  - first:
+      213: 2736588884911250497
+    second: B12_GristMill_9
+  - first:
+      213: 8996252945877507156
+    second: B12_GristMill_10
+  - first:
+      213: -3997504854107785941
+    second: B12_GristMill_11
+  - first:
+      213: -3164893408507840992
+    second: B12_GristMill_12
+  - first:
+      213: -7262366046381375473
+    second: B12_GristMill_13
+  - first:
+      213: 5081466586066263517
+    second: B12_GristMill_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: B12_GristMill_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1751
+        width: 504
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cf3c0422c4f19c0800000000000000
+      internalID: -3954358237808821155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_1
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1751
+        width: 169
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b115770f97dce1960800000000000000
+      internalID: 7574717546892841243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_2
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1938
+        width: 200
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3046397b44c37e0800000000000000
+      internalID: -1784475797103049792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_3
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 944
+        width: 579
+        height: 998
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897d68083985316c0800000000000000
+      internalID: -4173895039102560360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1025
+        width: 995
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee400625f05378310800000000000000
+      internalID: 1407151748499375342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_5
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1306
+        width: 461
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8215b73d1907a10800000000000000
+      internalID: 1905182979870763179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_6
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 638
+        width: 419
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff5f37612d10a930800000000000000
+      internalID: 4152350885738930174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_7
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 945
+        width: 85
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fd3ac732aa0d370800000000000000
+      internalID: 8345357178909220723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_8
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 859
+        width: 121
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcc38573753819c0800000000000000
+      internalID: -3956353502635897602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cda6d77115af520800000000000000
+      internalID: 2736588884911250497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 111
+        width: 1396
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c179cd36c19dc70800000000000000
+      internalID: 8996252945877507156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_11
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 52
+        width: 478
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25710fc3820688c0800000000000000
+      internalID: -3997504854107785941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_12
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 485
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0263ae9963a0414d0800000000000000
+      internalID: -3164893408507840992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_13
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 52
+        width: 136
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f008498fe84e63b90800000000000000
+      internalID: -7262366046381375473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B12_GristMill_14
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 71
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd1f70ffeef48640800000000000000
+      internalID: 5081466586066263517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B12_GristMill_0: -3954358237808821155
+      B12_GristMill_1: 7574717546892841243
+      B12_GristMill_10: 8996252945877507156
+      B12_GristMill_11: -3997504854107785941
+      B12_GristMill_12: -3164893408507840992
+      B12_GristMill_13: -7262366046381375473
+      B12_GristMill_14: 5081466586066263517
+      B12_GristMill_2: -1784475797103049792
+      B12_GristMill_3: -4173895039102560360
+      B12_GristMill_4: 1407151748499375342
+      B12_GristMill_5: 1905182979870763179
+      B12_GristMill_6: 4152350885738930174
+      B12_GristMill_7: 8345357178909220723
+      B12_GristMill_8: -3956353502635897602
+      B12_GristMill_9: 2736588884911250497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

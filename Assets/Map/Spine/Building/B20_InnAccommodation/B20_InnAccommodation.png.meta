@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: b707c335a8d3f324883958140550e78f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5061773356511789291
+    second: B20_InnAccommodation_0
+  - first:
+      213: 3781819145007527072
+    second: B20_InnAccommodation_1
+  - first:
+      213: 6158308106790710184
+    second: B20_InnAccommodation_2
+  - first:
+      213: 1168515233692329715
+    second: B20_InnAccommodation_3
+  - first:
+      213: -720524686425290444
+    second: B20_InnAccommodation_4
+  - first:
+      213: 4652401903694563682
+    second: B20_InnAccommodation_5
+  - first:
+      213: -1884592085065697316
+    second: B20_InnAccommodation_6
+  - first:
+      213: -4080723023915965480
+    second: B20_InnAccommodation_7
+  - first:
+      213: -6248143985531573079
+    second: B20_InnAccommodation_8
+  - first:
+      213: 6090360874470756458
+    second: B20_InnAccommodation_9
+  - first:
+      213: 4271305109843024924
+    second: B20_InnAccommodation_10
+  - first:
+      213: 4701670261580679608
+    second: B20_InnAccommodation_11
+  - first:
+      213: -3502623723621592874
+    second: B20_InnAccommodation_12
+  - first:
+      213: 1475233326979569554
+    second: B20_InnAccommodation_13
+  - first:
+      213: 8549375332059710160
+    second: B20_InnAccommodation_14
+  - first:
+      213: 5834023523727524813
+    second: B20_InnAccommodation_15
+  - first:
+      213: 3853630543304838251
+    second: B20_InnAccommodation_16
+  - first:
+      213: 8720342346726219482
+    second: B20_InnAccommodation_17
+  - first:
+      213: -714895282785120364
+    second: B20_InnAccommodation_18
+  - first:
+      213: 4459578086649477778
+    second: B20_InnAccommodation_19
+  - first:
+      213: 3422021995581981791
+    second: B20_InnAccommodation_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: B20_InnAccommodation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 969
+        width: 986
+        height: 1069
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ff39f53f7f0c9b0800000000000000
+      internalID: -5061773356511789291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1927
+        width: 166
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4f1f6b978bb7430800000000000000
+      internalID: 3781819145007527072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1925
+        width: 161
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab2ba25894b67550800000000000000
+      internalID: 6158308106790710184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2011
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f62ddaf966673010800000000000000
+      internalID: 1168515233692329715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2011
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43988bd7d9e2006f0800000000000000
+      internalID: -720524686425290444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2019
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269c016c1e6a09040800000000000000
+      internalID: 4652401903694563682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 884
+        width: 121
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7752fcb7598d5e0800000000000000
+      internalID: -1884592085065697316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_7
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 969
+        width: 956
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d32bb4c70c5e57c0800000000000000
+      internalID: -4080723023915965480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 136
+        width: 1396
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aca5e436222a49a0800000000000000
+      internalID: -6248143985531573079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_9
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 891
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6054cc72fe458450800000000000000
+      internalID: 6090360874470756458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_10
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 867
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c1187fd59b64b30800000000000000
+      internalID: 4271305109843024924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_11
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 868
+        width: 118
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9c8804130bf3140800000000000000
+      internalID: 4701670261580679608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_12
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 700
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0dda3f74e246fc0800000000000000
+      internalID: -3502623723621592874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_13
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 561
+        width: 361
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2975f6f05e4197410800000000000000
+      internalID: 1475233326979569554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_14
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 769
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d208e6619b75a670800000000000000
+      internalID: 8549375332059710160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc34d0f1c7d96f050800000000000000
+      internalID: 5834023523727524813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_16
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 510
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cc74dcf88da7530800000000000000
+      internalID: 3853630543304838251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_17
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 77
+        width: 409
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade99687921e40970800000000000000
+      internalID: 8720342346726219482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_18
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 375
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f8df9278e2416f0800000000000000
+      internalID: -714895282785120364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_19
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 77
+        width: 136
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29abbd654aa93ed30800000000000000
+      internalID: 4459578086649477778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B20_InnAccommodation_20
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 96
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54cc34dfd67d7f20800000000000000
+      internalID: 3422021995581981791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B20_InnAccommodation_0: -5061773356511789291
+      B20_InnAccommodation_1: 3781819145007527072
+      B20_InnAccommodation_10: 4271305109843024924
+      B20_InnAccommodation_11: 4701670261580679608
+      B20_InnAccommodation_12: -3502623723621592874
+      B20_InnAccommodation_13: 1475233326979569554
+      B20_InnAccommodation_14: 8549375332059710160
+      B20_InnAccommodation_15: 5834023523727524813
+      B20_InnAccommodation_16: 3853630543304838251
+      B20_InnAccommodation_17: 8720342346726219482
+      B20_InnAccommodation_18: -714895282785120364
+      B20_InnAccommodation_19: 4459578086649477778
+      B20_InnAccommodation_2: 6158308106790710184
+      B20_InnAccommodation_20: 3422021995581981791
+      B20_InnAccommodation_3: 1168515233692329715
+      B20_InnAccommodation_4: -720524686425290444
+      B20_InnAccommodation_5: 4652401903694563682
+      B20_InnAccommodation_6: -1884592085065697316
+      B20_InnAccommodation_7: -4080723023915965480
+      B20_InnAccommodation_8: -6248143985531573079
+      B20_InnAccommodation_9: 6090360874470756458
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

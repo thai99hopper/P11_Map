@@ -15,7 +15,7 @@ Material:
   m_InvalidKeywords:
   - _USE8NEIGHBOURHOOD_ON
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b9d7cc5ffa107214da88b4b25df2f6b4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 171bcfdbb4a7ec242bf2e0b0cdf5770f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
