@@ -96,7 +96,7 @@ MonoBehaviour:
   posWillMove: {fileID: 0}
   movePosIdx: 3
   isEmo: 0
-  buildingLevelAllowEmo: 1
+  buildingLevelAllowEmo: 0
   buildingPartAllowEmo: 0
   speedEmoMove: 5
   moveEmoPos: {fileID: 0}
@@ -1171,15 +1171,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6971521006123391146, guid: 9bae2d12596e47b4b9c03e9092f30339, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.522
+      value: -1.46
       objectReference: {fileID: 0}
     - target: {fileID: 6971521006123391146, guid: 9bae2d12596e47b4b9c03e9092f30339, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.783
+      value: -3.81
       objectReference: {fileID: 0}
     - target: {fileID: 6971521006123391146, guid: 9bae2d12596e47b4b9c03e9092f30339, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.23
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6971521006123391146, guid: 9bae2d12596e47b4b9c03e9092f30339, type: 3}
       propertyPath: m_LocalRotation.w
