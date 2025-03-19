@@ -3,7 +3,12 @@ guid: 7058602210fe2714fb877e812965da76
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Wind_Turbine_1
+    second: {fileID: 2100000, guid: 1cb3791a24b74c6478ce799fc6ed80dd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
