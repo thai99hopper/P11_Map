@@ -58,7 +58,7 @@ Transform:
   m_GameObject: {fileID: 5354537632203651228}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.62, y: -2.01, z: 0}
+  m_LocalPosition: {x: 2.514, y: -1.171, z: -2.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -116,6 +116,7 @@ MonoBehaviour:
   model: {fileID: 6239113637330758207}
   modelEmo: {fileID: 8391141513549988491}
   movePos: {fileID: 5836716330813248625}
+  interactiveModels: []
   minFreeTime: 35
   maxFreeTime: 55
   idleTime: 0
@@ -168,7 +169,7 @@ Transform:
   m_GameObject: {fileID: 6784772783276239079}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.77, y: 0.93, z: 0}
+  m_LocalPosition: {x: 4.062, y: 0.029, z: 0.929}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

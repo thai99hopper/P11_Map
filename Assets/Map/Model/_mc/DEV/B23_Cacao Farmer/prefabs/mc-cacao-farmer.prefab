@@ -52,6 +52,7 @@ MonoBehaviour:
   model: {fileID: 5411164315109248790}
   modelEmo: {fileID: 1160123230469650480}
   movePos: {fileID: 1956025489055166653}
+  interactiveModels: []
   minFreeTime: 35
   maxFreeTime: 55
   idleTime: 0
@@ -192,7 +193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 542399018390344761, guid: abda246697a9fc54495fc9eb53859dd2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.63
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 542399018390344761, guid: abda246697a9fc54495fc9eb53859dd2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -258,7 +259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8570212153483979352, guid: 79fb718720a751844843d32321a418bf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.47002077
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8570212153483979352, guid: 79fb718720a751844843d32321a418bf, type: 3}
       propertyPath: m_LocalRotation.w
