@@ -60,10 +60,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8188980638661125446, guid: 5f639a103def6e14aaaaae0ab576764b, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8188980638661125446, guid: 5f639a103def6e14aaaaae0ab576764b, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07b1e443d782a6a4091dfc89052d18b9, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f639a103def6e14aaaaae0ab576764b, type: 3}
       propertyPath: m_Name
       value: Carpenter-emo
       objectReference: {fileID: 0}
+    - target: {fileID: 2149768381900331676, guid: 5f639a103def6e14aaaaae0ab576764b, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149768381900331676, guid: 5f639a103def6e14aaaaae0ab576764b, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 07b1e443d782a6a4091dfc89052d18b9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

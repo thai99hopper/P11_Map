@@ -20,6 +20,7 @@ public partial class McOnMapController : MonoBehaviour
     #region base
     [SerializeField] string buildingId;
     bool isCanChangeToEmo = true;
+    bool isEnableModel = true;
     [SerializeField] Animator animator;
     [SerializeField] Transform model;
     [SerializeField] Transform modelEmo;
@@ -324,7 +325,7 @@ public partial class McOnMapController : MonoBehaviour
             SetAnimInteger("idle-type", idleIdx);
         }
 
-        model.gameObject.SetActive(!isEmo);
+        model.gameObject.SetActive(!isEmo && isEnableModel);
         modelEmo.gameObject.SetActive(isEmo);
     }
     #endregion
