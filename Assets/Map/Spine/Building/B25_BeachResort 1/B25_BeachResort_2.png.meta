@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 4d027c605a589514791d15e363be736d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5397555545522964485
+    second: B25_BeachResort_2_0
+  - first:
+      213: -1394140695031210477
+    second: B25_BeachResort_2_1
+  - first:
+      213: -4853423507874253766
+    second: B25_BeachResort_2_2
+  - first:
+      213: -8529089535360315927
+    second: B25_BeachResort_2_3
+  - first:
+      213: -2478733997550060575
+    second: B25_BeachResort_2_4
+  - first:
+      213: 659602933192115428
+    second: B25_BeachResort_2_5
+  - first:
+      213: -4098825730761701639
+    second: B25_BeachResort_2_6
+  - first:
+      213: -2151086443508904993
+    second: B25_BeachResort_2_7
+  - first:
+      213: 3565163270615005703
+    second: B25_BeachResort_2_8
+  - first:
+      213: -2513746041609927948
+    second: B25_BeachResort_2_9
+  - first:
+      213: -3776693329738030836
+    second: B25_BeachResort_2_10
+  - first:
+      213: 6716971312528533878
+    second: B25_BeachResort_2_11
+  - first:
+      213: 674211396116695987
+    second: B25_BeachResort_2_12
+  - first:
+      213: 765571803631045083
+    second: B25_BeachResort_2_13
+  - first:
+      213: 675924566363085145
+    second: B25_BeachResort_2_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: B25_BeachResort_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1533
+        width: 339
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5080652db28f7ea40800000000000000
+      internalID: 5397555545522964485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 775
+        width: 727
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e9fb1ac6407ace0800000000000000
+      internalID: -1394140695031210477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_2
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1726
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34ff9cb80d25acb0800000000000000
+      internalID: -4853423507874253766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1194
+        width: 133
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edc853b14692a980800000000000000
+      internalID: -8529089535360315927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1143
+        width: 108
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb3857ef84c99dd0800000000000000
+      internalID: -2478733997550060575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_5
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1321
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4c8bd7f51672900800000000000000
+      internalID: 659602933192115428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_6
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 286
+        width: 779
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6c7b1e6bb0e17c0800000000000000
+      internalID: -4098825730761701639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1177
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb4e7dc64ec522e0800000000000000
+      internalID: -2151086443508904993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 288
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70af6470b110a7130800000000000000
+      internalID: 3565163270615005703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_9
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 984
+        width: 87
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2cb462b416d1dd0800000000000000
+      internalID: -2513746041609927948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_10
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 942
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01a0672d6d769bc0800000000000000
+      internalID: -3776693329738030836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 537
+        width: 290
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679a0c912d9773d50800000000000000
+      internalID: 6716971312528533878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_12
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 799
+        width: 91
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb4e0151b74b5900800000000000000
+      internalID: 674211396116695987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 277
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9cb7dcf7bdf9a00800000000000000
+      internalID: 765571803631045083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B25_BeachResort_2_14
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 227
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9591809dfcd516900800000000000000
+      internalID: 675924566363085145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B25_BeachResort_2_0: 5397555545522964485
+      B25_BeachResort_2_1: -1394140695031210477
+      B25_BeachResort_2_10: -3776693329738030836
+      B25_BeachResort_2_11: 6716971312528533878
+      B25_BeachResort_2_12: 674211396116695987
+      B25_BeachResort_2_13: 765571803631045083
+      B25_BeachResort_2_14: 675924566363085145
+      B25_BeachResort_2_2: -4853423507874253766
+      B25_BeachResort_2_3: -8529089535360315927
+      B25_BeachResort_2_4: -2478733997550060575
+      B25_BeachResort_2_5: 659602933192115428
+      B25_BeachResort_2_6: -4098825730761701639
+      B25_BeachResort_2_7: -2151086443508904993
+      B25_BeachResort_2_8: 3565163270615005703
+      B25_BeachResort_2_9: -2513746041609927948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
