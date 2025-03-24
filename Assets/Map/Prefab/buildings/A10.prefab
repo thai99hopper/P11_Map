@@ -156,7 +156,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 37.81, y: 50.04, z: -11}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1092124269463542041}
@@ -186,7 +186,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 419117026097b534f8a6757ce73cb9f3, type: 2}
+  - {fileID: 2100000, guid: 629199764f0317e43810a1d678c61a52, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skeletonDataAsset: {fileID: 11400000, guid: 143b195d9e488a0448812834835e2d05, type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: 3d9a0294793009048942e8bbbcec53c9, type: 2}
   initialSkinName: 
   fixPrefabOverrideViaMeshFilter: 2
   initialFlipX: 0
@@ -245,7 +245,7 @@ MonoBehaviour:
   disableRenderingOnOverride: 1
   updateTiming: 1
   unscaledTime: 0
-  _animationName: AuxiliaryWorks_lv3
+  _animationName: AuxiliaryWorks_lv0
   loop: 1
   timeScale: 1
 --- !u!33 &8843883550103051385
@@ -309,7 +309,14 @@ MonoBehaviour:
   gameplayButton: {fileID: 6518228806107225870}
   popupUpgradePos: {fileID: 1092124269463542041}
   parentPartsPos: {fileID: 1367673253772172346}
+  parentVfxsPos: {fileID: 0}
   slotObjects: []
+  building: {fileID: 0}
+  small: {fileID: 0}
+  nameAnims: []
+  up1: 0
+  up2: 0
+  posChilds: []
 --- !u!114 &6518228806107225870
 MonoBehaviour:
   m_ObjectHideFlags: 0
