@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: B08_Bridge_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: fb8fe862453ce9e44bb65402565ea2f8, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 5d9ed2b5ceb90484891e8ddb8b178a4c, type: 2}
+  - {fileID: 2100000, guid: ff7bff7f057d9404e9955356d664b00d, type: 2}
+  - {fileID: 2100000, guid: e57b3c504387ea140a23dbe972fc9976, type: 2}
