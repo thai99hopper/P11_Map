@@ -349,7 +349,7 @@ Transform:
   m_GameObject: {fileID: 8269539238301123657}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.21, y: 53.3, z: -2.0883522}
+  m_LocalPosition: {x: 6.95, y: 52.77, z: -2.0883522}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -503,7 +503,14 @@ MonoBehaviour:
   gameplayButton: {fileID: 7708075876050518425}
   popupUpgradePos: {fileID: 5070788991206239220}
   parentPartsPos: {fileID: 2055058473273576450}
+  parentVfxsPos: {fileID: 0}
   slotObjects: []
+  building: {fileID: 0}
+  small: {fileID: 0}
+  nameAnims: []
+  up1: 0
+  up2: 0
+  posChilds: []
 --- !u!114 &7708075876050518425
 MonoBehaviour:
   m_ObjectHideFlags: 0
