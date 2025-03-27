@@ -258,16 +258,22 @@ public partial class McOnMapController : MonoBehaviour
             idleIdx = Random.Range(2, 5);
         }
 
+        SetIdleAnim();
+    }
+
+    void SetIdleAnim()
+    {
         foreach (var idleAnim in idleAnimationObjects)
         {
             var isActive = idleAnim.idleIdx == idleIdx;
 
-            foreach(var model in idleAnim.models)
+            foreach (var model in idleAnim.models)
             {
                 if (model == null)
                     Debug.LogError($"[MC Missing] missing idle model {this.name}");
-                model.gameObject.SetActive(isActive);
-            }    
+                else
+                    model.gameObject.SetActive(isActive);
+            }
         }
 
         SetAnimInteger("idle-type", idleIdx);
@@ -303,7 +309,10 @@ public partial class McOnMapController : MonoBehaviour
 
     void SetActiveModel()
     {
-        if(isEmo && isHaveEmoMove)
+        model.gameObject.SetActive(!isEmo && isEnableModel);
+        modelEmo.gameObject.SetActive(isEmo && isEnableModel);
+
+        if (isEmo && isHaveEmoMove)
         {
             isStartPoint = true;
             isEmoMove = false;
@@ -322,11 +331,8 @@ public partial class McOnMapController : MonoBehaviour
             idleIdx = 1;
             isMove = false;
             isMoveAnim = false;
-            SetAnimInteger("idle-type", idleIdx);
+            SetIdleAnim();
         }
-
-        model.gameObject.SetActive(!isEmo && isEnableModel);
-        modelEmo.gameObject.SetActive(isEmo);
     }
     #endregion
 
