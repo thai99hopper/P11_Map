@@ -21,6 +21,7 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] string buildingId;
     bool isCanChangeToEmo = true;
     bool isEnableModel = true;
+    bool isBuildingMaxLv = false;
     [SerializeField] Animator animator;
     [SerializeField] Transform model;
     [SerializeField] Transform modelEmo;
@@ -76,6 +77,9 @@ public partial class McOnMapController : MonoBehaviour
     #region life-cycle
     private void Start()
     {
+        if (isBuildingMaxLv)
+            isEmo = true;
+
         firstAngleModel = model.localEulerAngles;
         SetupMovePos();
         ChangedIdleAnim();
@@ -240,6 +244,10 @@ public partial class McOnMapController : MonoBehaviour
             isEmo = !isEmo;
             if(!isCanChangeToEmo)
                 isEmo = false;
+
+            if(isBuildingMaxLv)
+                isEmo = true;
+
             SetActiveModel();
         }
         this.isOutsideScreen = isOutsideScreen;
