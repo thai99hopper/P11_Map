@@ -151,6 +151,7 @@ MonoBehaviour:
   model: {fileID: 5190364975442012556}
   modelEmo: {fileID: 4550410149901026054}
   movePos: {fileID: 6712385803518529953}
+  interactiveModels: []
   minFreeTime: 35
   maxFreeTime: 50
   idleTime: 0
@@ -314,10 +315,6 @@ PrefabInstance:
       propertyPath: mcController
       value: 
       objectReference: {fileID: 2120919269388945275}
-    - target: {fileID: 8305226540791822542, guid: 66832059e096d764eadcfc9d8688b385, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 8305226540791822542, guid: 66832059e096d764eadcfc9d8688b385, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.05

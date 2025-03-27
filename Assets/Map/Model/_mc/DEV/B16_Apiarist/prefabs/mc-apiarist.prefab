@@ -200,18 +200,6 @@ PrefabInstance:
       value: Apiarist_Emo
       objectReference: {fileID: 0}
     - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5721413691426182240, guid: 38f459a33b914d149a14e5728cfdf22c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.883
       objectReference: {fileID: 0}
@@ -321,18 +309,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6208748178416593940}
     m_Modifications:
-    - target: {fileID: 452222598882059039, guid: 47d1819f5473ab448aac5017d3d245b5, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 452222598882059039, guid: 47d1819f5473ab448aac5017d3d245b5, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 452222598882059039, guid: 47d1819f5473ab448aac5017d3d245b5, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 452222598882059039, guid: 47d1819f5473ab448aac5017d3d245b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1349258
