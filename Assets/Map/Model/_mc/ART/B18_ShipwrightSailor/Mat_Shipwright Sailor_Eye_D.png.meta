@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: dbdcdc17d3fceb54395bff53971a3ddb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6682536746272296979
+    second: Mat_Shipwright Sailor_Eye_D_0
+  - first:
+      213: 4579510856241999343
+    second: Mat_Shipwright Sailor_Eye_D_1
+  - first:
+      213: -2813271812389925526
+    second: Mat_Shipwright Sailor_Eye_D_2
+  - first:
+      213: 5796716500902545488
+    second: Mat_Shipwright Sailor_Eye_D_3
+  - first:
+      213: -1570297833631673731
+    second: Mat_Shipwright Sailor_Eye_D_4
+  - first:
+      213: 4545229692233974203
+    second: Mat_Shipwright Sailor_Eye_D_5
+  - first:
+      213: -5214305559486109816
+    second: Mat_Shipwright Sailor_Eye_D_6
+  - first:
+      213: -2450910584296924920
+    second: Mat_Shipwright Sailor_Eye_D_7
+  - first:
+      213: -2737913130546783681
+    second: Mat_Shipwright Sailor_Eye_D_8
+  - first:
+      213: -2666980114768453873
+    second: Mat_Shipwright Sailor_Eye_D_9
+  - first:
+      213: -712142890930380202
+    second: Mat_Shipwright Sailor_Eye_D_10
+  - first:
+      213: 825232812901346815
+    second: Mat_Shipwright Sailor_Eye_D_11
+  - first:
+      213: -3620653759427395212
+    second: Mat_Shipwright Sailor_Eye_D_12
+  - first:
+      213: 7681653897339892110
+    second: Mat_Shipwright Sailor_Eye_D_13
+  - first:
+      213: -7681402169857845190
+    second: Mat_Shipwright Sailor_Eye_D_14
+  - first:
+      213: -8300527416001358948
+    second: Mat_Shipwright Sailor_Eye_D_15
+  - first:
+      213: -1741578567072169496
+    second: Mat_Shipwright Sailor_Eye_D_16
+  - first:
+      213: 8573286735249920221
+    second: Mat_Shipwright Sailor_Eye_D_17
+  - first:
+      213: 5760518029421793762
+    second: Mat_Shipwright Sailor_Eye_D_18
+  - first:
+      213: 6248020284586447684
+    second: Mat_Shipwright Sailor_Eye_D_19
+  - first:
+      213: -7575473108036599245
+    second: Mat_Shipwright Sailor_Eye_D_20
+  - first:
+      213: -8140873114949710777
+    second: Mat_Shipwright Sailor_Eye_D_21
+  - first:
+      213: -5640770518051961108
+    second: Mat_Shipwright Sailor_Eye_D_22
+  - first:
+      213: 8926114902182054586
+    second: Mat_Shipwright Sailor_Eye_D_23
+  - first:
+      213: -4575827221648711317
+    second: Mat_Shipwright Sailor_Eye_D_24
+  - first:
+      213: 2579348425338506929
+    second: Mat_Shipwright Sailor_Eye_D_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3101e00e3c32dbc50800000000000000
+      internalID: 6682536746272296979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_1
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed69574cd0bd8f30800000000000000
+      internalID: 4579510856241999343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_2
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d01e5213045f8d0800000000000000
+      internalID: -2813271812389925526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_3
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1776
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05801fbf1f2127050800000000000000
+      internalID: 5796716500902545488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_4
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1772
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7291daa07e253ae0800000000000000
+      internalID: -1570297833631673731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_5
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1772
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb10a2cc256e31f30800000000000000
+      internalID: 4545229692233974203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1241
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8876c7068b013a7b0800000000000000
+      internalID: -5214305559486109816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_7
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1241
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8099cbe1fcd9cfdd0800000000000000
+      internalID: -2450910584296924920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_8
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1243
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a91eb838af00ad0800000000000000
+      internalID: -2737913130546783681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1243
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f123447bbfcfad0800000000000000
+      internalID: -2666980114768453873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_10
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1236
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65266c450d5fd16f0800000000000000
+      internalID: -712142890930380202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_11
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1236
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd2bfdfed0d37b00800000000000000
+      internalID: 825232812901346815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 787
+        width: 121
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471c5aeb69ad0cdc0800000000000000
+      internalID: -3620653759427395212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_13
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 680
+        width: 161
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81707e3587ba9a60800000000000000
+      internalID: 7681653897339892110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_14
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 682
+        width: 161
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3855b0ac6d266590800000000000000
+      internalID: -7681402169857845190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_15
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 685
+        width: 153
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9319d01b4a9ecc80800000000000000
+      internalID: -8300527416001358948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_16
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 689
+        width: 153
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1ca31458ba4d7e0800000000000000
+      internalID: -1741578567072169496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_17
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 686
+        width: 159
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0d32cccde6af670800000000000000
+      internalID: 8573286735249920221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_18
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 686
+        width: 161
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e15be190a871ff40800000000000000
+      internalID: 5760518029421793762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 55
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443d53c685d65b650800000000000000
+      internalID: 6248020284586447684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 201
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33244f548538ed690800000000000000
+      internalID: -7575473108036599245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_21
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 55
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c05edb80fc50f80800000000000000
+      internalID: -8140873114949710777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_22
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 56
+        width: 172
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce644049915f7b1b0800000000000000
+      internalID: -5640770518051961108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_23
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 52
+        width: 172
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abac1e0063eefdb70800000000000000
+      internalID: 8926114902182054586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_24
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 97
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61e01cb2656f70c0800000000000000
+      internalID: -4575827221648711317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mat_Shipwright Sailor_Eye_D_25
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 97
+        width: 154
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bec3441abfabc320800000000000000
+      internalID: 2579348425338506929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

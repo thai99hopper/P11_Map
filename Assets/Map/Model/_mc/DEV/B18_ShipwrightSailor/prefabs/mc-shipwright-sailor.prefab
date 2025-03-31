@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &877876448954052126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4695822363259959558}
+  m_Layer: 0
+  m_Name: pos-2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4695822363259959558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877876448954052126}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.66, y: -4.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6685547503417515496}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2120062407026842709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3669140416404103276}
+  m_Layer: 0
+  m_Name: pos-1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3669140416404103276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120062407026842709}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.33, y: -2.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6685547503417515496}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3439223047074004672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6685547503417515496}
+  m_Layer: 0
+  m_Name: move-pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6685547503417515496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3439223047074004672}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3669140416404103276}
+  - {fileID: 4695822363259959558}
+  m_Father: {fileID: 5938472895642263215}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8174821155924207534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5938472895642263215}
+  - component: {fileID: 8825700109361721099}
+  m_Layer: 0
+  m_Name: mc-shipwright-sailor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5938472895642263215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8174821155924207534}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.64, y: 50.95, z: -2.0883522}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3427482071425773533}
+  - {fileID: 2494237907918715602}
+  - {fileID: 6685547503417515496}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8825700109361721099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8174821155924207534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingId: building_basic_18
+  animator: {fileID: 8478677541259511315}
+  model: {fileID: 3427482071425773533}
+  modelEmo: {fileID: 2494237907918715602}
+  movePos: {fileID: 6685547503417515496}
+  interactiveModels: []
+  minFreeTime: 30
+  maxFreeTime: 55
+  idleTime: 0
+  idleAnimationObjects: []
+  speedMove: 4
+  isMove: 0
+  isMoveAnim: 0
+  posWillMove: {fileID: 0}
+  movePosIdx: 0
+  isEmo: 0
+  buildingLevelAllowEmo: 2
+  buildingPartAllowEmo: 2
+  speedEmoMove: 5
+  moveEmoPos: {fileID: 0}
+  posWillMoveEmo: {fileID: 0}
+  isRotationEmoMoveEnd: 0
+  isStartPoint: 1
+  isEmoMove: 0
+  standEmoPos: {fileID: 0}
+  isOutsideScreen: 0
+  firstAngleModel: {x: 0, y: 0, z: 0}
+  idleIdx: 0
+--- !u!1001 &234037986479732390
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5938472895642263215}
+    m_Modifications:
+    - target: {fileID: 2874550191811740609, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_Name
+      value: Shipwright Sailor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.31862205
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.08868374
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9190479
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.21439716
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 19.729
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -138.503
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 18.561
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281225041772441212, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: mcController
+      value: 
+      objectReference: {fileID: 8825700109361721099}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+--- !u!4 &3427482071425773533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3219973161630570875, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+  m_PrefabInstance: {fileID: 234037986479732390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8478677541259511315 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8544779858331922613, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+  m_PrefabInstance: {fileID: 234037986479732390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1357100513072234127
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5938472895642263215}
+    m_Modifications:
+    - target: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.684
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.805
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9069342
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.26846978
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.29863903
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.12731516
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -24.263
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -317.998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -25.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252492323936870119, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: m_Name
+      value: Shipwright Sailor_emo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+--- !u!4 &2494237907918715602 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3479087407606088797, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+  m_PrefabInstance: {fileID: 1357100513072234127}
+  m_PrefabAsset: {fileID: 0}
