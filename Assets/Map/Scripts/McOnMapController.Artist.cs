@@ -48,7 +48,7 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] int buildingLevelAllowEmo;
     [SerializeField] int buildingPartAllowEmo;
 
-    [Header("Special Emo (Can Null)")]
+    [Header("Emo Move (Can Null)")]
     [SerializeField] float speedEmoMove = 5f;
     [SerializeField] Transform moveEmoPos;
     [SerializeField] Transform posWillMoveEmo;
@@ -58,10 +58,16 @@ public partial class McOnMapController : MonoBehaviour
     Transform GetFirstPositionEmoMove { get => moveEmoPos == null ? modelEmo.transform : moveEmoPos.Find($"pos-1"); }
     bool isHaveEmoMove { get => moveEmoPos != null; }
 
+    [Header("Emo Stand (Can Null - if emo have move, stand can't use)")]
+    [SerializeField] Transform standEmoPos;
+    bool isHaveEmoStand { get => standEmoPos != null; }
+
     [Header("Other")]
     [SerializeField] bool isOutsideScreen = false;
     [SerializeField] Vector3 firstAngleModel;
     [SerializeField] int idleIdx;
+
+    bool isHaveEmoSpecial => isHaveEmoMove || isHaveEmoStand;
 
     void SetAnimBool(string name, bool value)
     {
@@ -231,7 +237,16 @@ public partial class McOnMapController : MonoBehaviour
                 Vector3 viewportInteractiveEmoPos = Camera.main.WorldToViewportPoint(item.interactiveModelEmo.transform.position);
                 isOutside &= IsObjectOutsideCamera(viewportInteractiveEmoPos);
             }
-        }    
+        }
+
+        if (standEmoPos != null)
+        {
+            foreach(Transform child in standEmoPos)
+            {
+                Vector3 viewportStandEmoPos = Camera.main.WorldToViewportPoint(model.transform.position);
+                isOutside &= IsObjectOutsideCamera(viewportStandEmoPos);
+            }    
+        }
 
         return isOutside;
     }
@@ -320,12 +335,23 @@ public partial class McOnMapController : MonoBehaviour
         model.gameObject.SetActive(!isEmo && isEnableModel);
         modelEmo.gameObject.SetActive(isEmo && isEnableModel);
 
-        if (isEmo && isHaveEmoMove)
+        if (isEmo && isHaveEmoSpecial)
         {
             isStartPoint = true;
             isEmoMove = false;
-            var posWillMoveEmo1 = moveEmoPos.Find($"pos-1");
-            modelEmo.position = posWillMoveEmo1.position;
+
+            var posWillMoveEmo = transform;
+            if (isHaveEmoMove)
+            {
+                posWillMoveEmo = moveEmoPos.Find($"pos-1");
+            }
+            else if(isHaveEmoStand)
+            {
+                var indexPos = Random.Range(1, standEmoPos.childCount + 1);
+                posWillMoveEmo = standEmoPos.Find($"pos-{movePosIdx}");
+            }    
+
+            modelEmo.position = posWillMoveEmo.position;
 
             if (isRotationEmoMoveEnd)
             {
