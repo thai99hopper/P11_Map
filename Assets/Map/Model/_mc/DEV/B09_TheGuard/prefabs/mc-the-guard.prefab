@@ -214,13 +214,7 @@ MonoBehaviour:
   minFreeTime: 30
   maxFreeTime: 55
   idleTime: 0
-  idleAnimationObjects:
-  - idleIdx: 3
-    models:
-    - {fileID: 0}
-  - idleIdx: 4
-    models:
-    - {fileID: 0}
+  idleAnimationObjects: []
   speedMove: 5
   isMove: 0
   isMoveAnim: 0
@@ -239,6 +233,7 @@ MonoBehaviour:
   isOutsideScreen: 0
   firstAngleModel: {x: 0, y: 0, z: 0}
   idleIdx: 0
+  isAllowIdleToEmo: 0
 --- !u!1 &7785303535700521454
 GameObject:
   m_ObjectHideFlags: 0
