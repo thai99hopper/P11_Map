@@ -243,7 +243,7 @@ public partial class McOnMapController : MonoBehaviour
         {
             foreach(Transform child in standEmoPos)
             {
-                Vector3 viewportStandEmoPos = Camera.main.WorldToViewportPoint(model.transform.position);
+                Vector3 viewportStandEmoPos = Camera.main.WorldToViewportPoint(child.position);
                 isOutside &= IsObjectOutsideCamera(viewportStandEmoPos);
             }    
         }
@@ -348,7 +348,7 @@ public partial class McOnMapController : MonoBehaviour
             else if(isHaveEmoStand)
             {
                 var indexPos = Random.Range(1, standEmoPos.childCount + 1);
-                posWillMoveEmo = standEmoPos.Find($"pos-{movePosIdx}");
+                posWillMoveEmo = standEmoPos.Find($"pos-{indexPos}");
             }    
 
             modelEmo.position = posWillMoveEmo.position;
