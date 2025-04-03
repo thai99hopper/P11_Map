@@ -17,28 +17,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Carpenter_Rig_Eye_Rig_Mat_Carpenter_Eye2
-    second: {fileID: 2100000, guid: 8c2e754a8b3b0a4468ca5d9be2e8783d, type: 2}
+      name: Eye_Rig_Mat_Carpenter_Eye2
+    second: {fileID: 2100000, guid: a1f881af86768cf4ab2a015e5548b39a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Carpenter_Rig_Mat_Beach_Safeguard
-    second: {fileID: 2100000, guid: 79b733cdd3b642b419af1d84f6673cd9, type: 2}
+      name: Mat_Beach_Safeguard
+    second: {fileID: 2100000, guid: 9110ace282b63b04a98cbf3c8a4da892, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Carpenter_Rig_Mat_Beach_Safeguard_Eye
-    second: {fileID: 2100000, guid: a46c6a962afa02f488cc1ce57f6021cc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Carpenter_Rig_Mat_Carpenter2
-    second: {fileID: 2100000, guid: 97d41efc3d2e92a4691c2bc59b0dd5c3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Carpenter_Rig_Mat_Carpenter_Eye2
-    second: {fileID: 2100000, guid: f9daee82e6af01b468ff906539922930, type: 2}
+      name: Mat_Beach_Safeguard_Eye
+    second: {fileID: 2100000, guid: c17f35e504aa6d444a538bb51407e268, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

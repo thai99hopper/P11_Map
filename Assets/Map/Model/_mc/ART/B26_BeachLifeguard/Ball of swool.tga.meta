@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e6167a46d207b30428ab0de0012cd138
+guid: 43bc3770572a5b34ba91779068ca3697
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2837015761138123931
-    second: night 2_0
+      213: 7926889110932123274
+    second: Ball of swool_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: night 2_0
+      name: Ball of swool_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2431
-        height: 2398
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9482d8bdca1f5720800000000000000
-      internalID: 2837015761138123931
+      spriteID: a8e650fd5a7f10e60800000000000000
+      internalID: 7926889110932123274
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      night 2_0: 2837015761138123931
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
