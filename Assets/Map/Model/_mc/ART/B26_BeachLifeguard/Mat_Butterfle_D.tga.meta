@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e6167a46d207b30428ab0de0012cd138
+guid: 814e3c336250cae4891bdb7f5fd502c8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2837015761138123931
-    second: night 2_0
+      213: -6341540653851889219
+    second: Mat_Butterfle_D_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: night 2_0
+      name: Mat_Butterfle_D_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2431
-        height: 2398
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9482d8bdca1f5720800000000000000
-      internalID: 2837015761138123931
+      spriteID: db1b57ecf525ef7a0800000000000000
+      internalID: -6341540653851889219
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      night 2_0: 2837015761138123931
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
