@@ -3,32 +3,7 @@ guid: 12d8156c7ba05ab44a6c34ad0158184c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ball_rig_lambert10
-    second: {fileID: 2100000, guid: d8da78e8332c9854c9872ec2972152d4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Butterfly_rig_Mat_Butterfly
-    second: {fileID: 2100000, guid: f8b270ab14cb3504bb771b2ae163a662, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Eye_Rig_Mat_Carpenter_Eye2
-    second: {fileID: 2100000, guid: a1f881af86768cf4ab2a015e5548b39a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mat_Beach_Safeguard
-    second: {fileID: 2100000, guid: 9110ace282b63b04a98cbf3c8a4da892, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mat_Beach_Safeguard_Eye
-    second: {fileID: 2100000, guid: c17f35e504aa6d444a538bb51407e268, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
