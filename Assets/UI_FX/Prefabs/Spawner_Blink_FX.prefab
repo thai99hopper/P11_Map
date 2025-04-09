@@ -171,7 +171,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 0.1
-      minScalar: 1
+      minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -665,7 +665,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 8
+    type: 4
     angle: 0
     length: 1.2
     boxThickness: {x: 0, y: 0, z: 0}
@@ -2636,7 +2636,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 3
-      minScalar: 0.6
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
