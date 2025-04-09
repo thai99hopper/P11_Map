@@ -21627,7 +21627,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.9583334
         value: {x: -0.6558556, y: 8.5265126e-16, z: 3.9790393e-15}
-        inSlope: {x: -1.5225887e-15, y: -7.24761e-15, z: 3.4106146e-15}
+        inSlope: {x: -1.5225887e-15, y: -7.247616e-15, z: 3.4106148e-15}
         outSlope: {x: 0.000004353272, y: -7.24738e-15, z: 3.4107694e-15}
         tangentMode: 0
         weightedMode: 0
@@ -21706,7 +21706,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.9583334
         value: {x: -0.53401345, y: -5.684342e-16, z: 1.0572876e-13}
-        inSlope: {x: -4.5677666e-15, y: -2.1321437e-16, z: 6.8209484e-15}
+        inSlope: {x: -4.5677666e-15, y: -2.1322015e-16, z: 6.8209484e-15}
         outSlope: {x: -0.0000000051997264, y: -2.1279401e-16, z: 6.8212156e-15}
         tangentMode: 0
         weightedMode: 0
@@ -111506,7 +111506,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.9583334
         value: 8.5265126e-16
-        inSlope: -7.24761e-15
+        inSlope: -7.247616e-15
         outSlope: -7.24738e-15
         tangentMode: 0
         weightedMode: 0
@@ -111590,7 +111590,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.9583334
         value: 3.9790393e-15
-        inSlope: 3.4106146e-15
+        inSlope: 3.4106148e-15
         outSlope: 3.4107694e-15
         tangentMode: 0
         weightedMode: 0
@@ -111758,7 +111758,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.9583334
         value: -5.684342e-16
-        inSlope: -2.1321437e-16
+        inSlope: -2.1322015e-16
         outSlope: -2.1279401e-16
         tangentMode: 0
         weightedMode: 0
@@ -179711,7 +179711,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 4.5416665
+  - time: 4.5
     functionName: OnTriggerEndIdleAnim
     data: 
     objectReferenceParameter: {fileID: 0}

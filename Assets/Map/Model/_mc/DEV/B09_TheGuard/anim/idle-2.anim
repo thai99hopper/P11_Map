@@ -11821,8 +11821,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.75
         value: {x: -0.36646914, y: -3.907985e-16, z: -7.81597e-16}
-        inSlope: {x: 0.007901215, y: 2.131558e-15, z: -8.526846e-16}
-        outSlope: {x: 0.007898793, y: 2.1316793e-15, z: -8.5266376e-16}
+        inSlope: {x: 0.007901215, y: 1.7052339e-15, z: -8.526846e-16}
+        outSlope: {x: 0.007898793, y: 1.7053524e-15, z: -8.5266376e-16}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -11857,8 +11857,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 2.4166667
         value: {x: -0.38430268, y: -2.1316282e-16, z: -4.2632563e-16}
-        inSlope: {x: 0.31591502, y: 1.2789674e-15, z: 1.7052821e-15}
-        outSlope: {x: 0.3159243, y: 1.2790059e-15, z: 1.7050991e-15}
+        inSlope: {x: 0.31591502, y: 1.2789674e-15, z: 2.5579281e-15}
+        outSlope: {x: 0.3159243, y: 1.2790059e-15, z: 2.5578316e-15}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -11866,7 +11866,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 2.5416667
         value: {x: -0.31192333, y: -3.1974422e-16, z: -6.3948843e-16}
-        inSlope: {x: 0.45331228, y: -1.2789623e-15, z: 1.705286e-15}
+        inSlope: {x: 0.45331228, y: -1.2789623e-15, z: 1.7052996e-15}
         outSlope: {x: 0.45332867, y: -1.2788784e-15, z: 1.7054457e-15}
         tangentMode: 0
         weightedMode: 0
@@ -61838,8 +61838,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.75
         value: -3.907985e-16
-        inSlope: 2.131558e-15
-        outSlope: 2.1316793e-15
+        inSlope: 1.7052339e-15
+        outSlope: 1.7053524e-15
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
@@ -62102,8 +62102,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 2.4166667
         value: -4.2632563e-16
-        inSlope: 1.7052821e-15
-        outSlope: 1.7050991e-15
+        inSlope: 2.5579281e-15
+        outSlope: 2.5578316e-15
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
@@ -62111,7 +62111,7 @@ AnimationClip:
       - serializedVersion: 3
         time: 2.5416667
         value: -6.3948843e-16
-        inSlope: 1.705286e-15
+        inSlope: 1.7052996e-15
         outSlope: 1.7054457e-15
         tangentMode: 0
         weightedMode: 0
@@ -100019,7 +100019,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 3.7083333
+  - time: 3.6666667
     functionName: OnTriggerEndIdleAnim
     data: 
     objectReferenceParameter: {fileID: 0}

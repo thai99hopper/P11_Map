@@ -3,7 +3,22 @@ guid: 22f611898c03b8c408d49c30190ac75d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beach_Lifeguard_Rig_Eye_Rig_Mat_Carpenter_Eye2
+    second: {fileID: 2100000, guid: 65602854b467e82449dd9e060399ee14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beach_Lifeguard_Rig_Mat_Beach_Safeguard
+    second: {fileID: 2100000, guid: dedcdcdfec697d04a9ebe9c614b5e4e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beach_Lifeguard_Rig_Mat_Beach_Safeguard_Eye
+    second: {fileID: 2100000, guid: 0cf517613866e3b4ebac9dd96ddb702b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
