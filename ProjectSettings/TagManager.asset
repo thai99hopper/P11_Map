@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - pool-building-part
+  - pool-vfx
+  - order-ui-listview
+  - map
   layers:
   - Default
   - TransparentFX
