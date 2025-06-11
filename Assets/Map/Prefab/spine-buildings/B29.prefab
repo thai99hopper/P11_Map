@@ -63,6 +63,8 @@ MeshRenderer:
   - {fileID: 2100000, guid: c2a7e1a0fa401f74a9b3394be105ce20, type: 2}
   - {fileID: 2100000, guid: b4c5cd148f6088340851f3a194a197c9, type: 2}
   - {fileID: 2100000, guid: c2a7e1a0fa401f74a9b3394be105ce20, type: 2}
+  - {fileID: 2100000, guid: b4c5cd148f6088340851f3a194a197c9, type: 2}
+  - {fileID: 2100000, guid: c2a7e1a0fa401f74a9b3394be105ce20, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -121,7 +123,7 @@ MonoBehaviour:
   disableRenderingOnOverride: 1
   updateTiming: 1
   unscaledTime: 0
-  _animationName: building_lv2_3
+  _animationName: building_lv3
   loop: 1
   timeScale: 1
 --- !u!33 &5055939189122684324

@@ -283,12 +283,12 @@ MonoBehaviour:
   parentPartsPos: {fileID: 5952582361867043127}
   parentVfxsPos: {fileID: 7143837157944610798}
   slotObjects: []
-  building: {fileID: 0}
-  small: {fileID: 0}
-  nameAnims: []
-  up1: 0
-  up2: 0
-  posChilds: []
+  buildingBounds:
+    upOffset: 3.93
+    downOffset: 0.7
+    leftOffset: 2.33
+    rightOffset: 3.4
+    debugBounds: 1
 --- !u!114 &4546808714415992176
 MonoBehaviour:
   m_ObjectHideFlags: 0

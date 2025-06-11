@@ -611,12 +611,12 @@ MonoBehaviour:
   - level: 3
     part: 0
     obj: {fileID: 6934115900723704319}
-  building: {fileID: 2575829690657310910, guid: dada56f7d38efaa4fa5ef8e25200f985, type: 3}
-  small: {fileID: 8576141789558476997, guid: 0d60ed879d34d9a479a080e39417aae8, type: 3}
-  nameAnims: []
-  up1: 0
-  up2: 0
-  posChilds: []
+  buildingBounds:
+    upOffset: 6.8
+    downOffset: 3.08
+    leftOffset: 5.81
+    rightOffset: 5.64
+    debugBounds: 1
 --- !u!114 &2385478097921112423
 MonoBehaviour:
   m_ObjectHideFlags: 0
