@@ -18,8 +18,12 @@ public class SpineBuildingCuller : MonoBehaviour
     
     private void Start()
     {
-        mainCamera = Camera.main;
         RetrieveListBuildingObjs();
+    }
+
+    private void OnEnable()
+    {
+        mainCamera = Camera.main;
     }
 
     private void Update()
