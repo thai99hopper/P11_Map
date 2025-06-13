@@ -7,13 +7,13 @@ public class SpineBuildingCuller : MonoBehaviour
     
     private class BuildingObjInfo
     {
-        public GameObject obj;
+        public BuildingOnMapController obj;
         public Bounds bounds;
     }
     
     public bool debugBounds;
 
-    private List<BuildingObjInfo> lBuildingObj = new();
+    private readonly List<BuildingObjInfo> lBuildingObj = new();
     private Camera mainCamera;
     
     private void Start()
@@ -32,7 +32,7 @@ public class SpineBuildingCuller : MonoBehaviour
         foreach (var obj in lBuildingObj)
         {
             var visible = Intersect(cameraBounds, obj.bounds);
-            obj.obj.SetActive(visible);
+            obj.obj.visibleRx.Value = visible;
         }
     }
     
@@ -47,7 +47,7 @@ public class SpineBuildingCuller : MonoBehaviour
         {
             lBuildingObj.Add(new BuildingObjInfo()
             {
-                obj = building.gameObject,
+                obj = building,
                 bounds = building.CalculateBounds(),
             });
         }
