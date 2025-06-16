@@ -73,7 +73,6 @@ public class BuildingUpgradeVFX : MonoBehaviour
         var stepHalfRest = lifeTimeReal * 0.1f;
 
         var isLeftArray = new List<bool>() { false, true, false, true };
-        isLeftArray.Shuffle();
 
         for (int i = 0; i < step; i++)
         {
