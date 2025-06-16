@@ -14793,6 +14793,7 @@ MonoBehaviour:
   mainParticle: {fileID: 3286063266427398102}
   subParticle: {fileID: 7675485271483252825}
   lifeTime: 0
+  catSpine: {fileID: 6278267683597228474}
   catHammer: {fileID: 6625637487283421701}
   rotationDefault: {x: 0, y: 90, z: 0}
   rangePosMin: {x: 0, y: -1, z: -2}
@@ -14879,9 +14880,9 @@ ParticleSystem:
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1.7
-      minScalar: 5
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -15515,7 +15516,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 4
+      value: 3
       mode: 0
       spread: 0
       speed:
@@ -15744,7 +15745,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 10
+        scalar: 12
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -54044,7 +54045,7 @@ MonoBehaviour:
   unscaledTime: 0
   _animationName: front
   loop: 1
-  timeScale: 1
+  timeScale: 1.3
 --- !u!33 &7680137386523972494
 MeshFilter:
   m_ObjectHideFlags: 0

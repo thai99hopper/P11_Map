@@ -22,6 +22,7 @@ public class BuildingUpgradeVFX : MonoBehaviour
 
     public float lifeTime;
 
+    public SkeletonAnimation catSpine;
     public Transform catHammer;
 
     /// <summary>
@@ -67,16 +68,31 @@ public class BuildingUpgradeVFX : MonoBehaviour
 
     private async UniTask RandomisePositionCatHammer()
     {
-        var step = 4;
-        var lifeTimeStep = lifeTime / step;
+        var step = isPart ? 2 : 4;
+        var lifeTimeReal = isPart ? lifeTime / 2 : lifeTime;
+        var stepHalfRest = lifeTimeReal * 0.1f;
 
         var isLeftArray = new List<bool>() { false, true, false, true };
-
+        isLeftArray.Shuffle();
 
         for (int i = 0; i < step; i++)
         {
+            var runned = i + 1;
+
             RandomCatTransform(isLeftArray[i]);
-            await UniTask.Delay((int)(lifeTimeStep * 1000));
+            var duration = catSpine.skeleton.Data.FindAnimation(GetAnimationName(catHammer.localPosition.y)).Duration / catSpine.timeScale;
+
+            if (lifeTimeReal < duration) break;
+
+            catHammer.gameObject.SetActive(true);
+            await UniTask.Delay((int)(duration * 1000));
+            lifeTimeReal -= duration;
+            catHammer.gameObject.SetActive(false);
+
+            if (runned == step / 2)
+            {
+                await UniTask.Delay((int)(stepHalfRest * 1000));
+            }
         }
     }
 
@@ -129,6 +145,10 @@ public class BuildingUpgradeVFX : MonoBehaviour
 
     private string GetAnimationName(float yValue)
     {
+        if (isPart)
+        {
+            return catSpine.AnimationName;
+        }
         if (yValue < 0)
             return "back";
         return "front";
