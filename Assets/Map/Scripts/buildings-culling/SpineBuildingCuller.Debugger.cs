@@ -1,35 +1,39 @@
 
 using UnityEngine;
 
-public partial class SpineBuildingCuller
+namespace BuildingCulling
 {
-    public bool isDebugMode = false;
-
-    public void LogMsg(string message, string color = "white")
+    public partial class SpineBuildingCuller
     {
-        if (!isDebugMode)
+        public bool isDebugMode = false;
+
+        public void LogMsg(string message, string color = "white")
         {
-            return;
+            if (!isDebugMode)
+            {
+                return;
+            }
+
+            Debug.Log($"<color={color}>[BuildingCulling]</color> {message}");
         }
 
-        Debug.Log($"<color={color}>[BuildingCulling]</color> {message}");
-    }
-
-    public void LogWrn(string message, string color = "white")
-    {
-        if (!isDebugMode)
+        public void LogWrn(string message, string color = "white")
         {
-            return;
+            if (!isDebugMode)
+            {
+                return;
+            }
+            Debug.LogWarning($"<color={color}>[BuildingCulling]</color> {message}");
         }
-        Debug.LogWarning($"<color={color}>[BuildingCulling]</color> {message}");
-    }
 
-    public void LogErr(string message, string color = "white")
-    {
-        if (!isDebugMode)
+        public void LogErr(string message, string color = "white")
         {
-            return;
+            if (!isDebugMode)
+            {
+                return;
+            }
+            Debug.LogError($"<color={color}>[BuildingCulling]</color> {message}");
         }
-        Debug.LogError($"<color={color}>[BuildingCulling]</color> {message}");
     }
 }
+

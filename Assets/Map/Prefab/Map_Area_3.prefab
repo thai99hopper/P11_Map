@@ -16455,6 +16455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5813558239582986641}
+  - component: {fileID: 758403094473103018}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -16495,6 +16496,18 @@ Transform:
   - {fileID: 2950265520528903097}
   m_Father: {fileID: 718878444419137434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &758403094473103018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5839271040882301435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff58b6b5bfabfb4ba4608a453377640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5841747668163917837
 GameObject:
   m_ObjectHideFlags: 0
