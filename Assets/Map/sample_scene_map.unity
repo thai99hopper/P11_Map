@@ -24062,6 +24062,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4480356581034882438, guid: f1bfc977ed6391f43ad8cace8b11f5e6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4866328872359304074, guid: f1bfc977ed6391f43ad8cace8b11f5e6, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -24077,6 +24081,10 @@ PrefabInstance:
     - target: {fileID: 5149514894283678896, guid: f1bfc977ed6391f43ad8cace8b11f5e6, type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308174642994548918, guid: f1bfc977ed6391f43ad8cace8b11f5e6, type: 3}
+      propertyPath: m_Name
+      value: Map_Areas
       objectReference: {fileID: 0}
     - target: {fileID: 5757860889630859017, guid: f1bfc977ed6391f43ad8cace8b11f5e6, type: 3}
       propertyPath: m_Mesh
@@ -24187,7 +24195,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 708098560464386606, guid: f1bfc977ed6391f43ad8cace8b11f5e6, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1bfc977ed6391f43ad8cace8b11f5e6, type: 3}
