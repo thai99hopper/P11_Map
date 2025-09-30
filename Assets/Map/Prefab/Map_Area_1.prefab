@@ -4417,7 +4417,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8274424837940735193}
-  - component: {fileID: 2869333934809954969}
   m_Layer: 0
   m_Name: spine
   m_TagString: Untagged
@@ -4451,25 +4450,6 @@ Transform:
   - {fileID: 2181541474854629320}
   m_Father: {fileID: 5863411789828107744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2869333934809954969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5274155755514169441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 840d8a13c8692fe409ba26731808c33c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  debugBounds: 0
-  isDebugMode: 0
-  cullingGroups:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &5389832997251076558
 GameObject:
   m_ObjectHideFlags: 0
