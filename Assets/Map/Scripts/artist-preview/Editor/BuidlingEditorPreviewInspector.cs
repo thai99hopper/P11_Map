@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using System.IO;
 
 [CustomEditor(typeof(BuildingEditorPreview))]
 public class BuildingEditorPreviewInspector : Editor
@@ -15,7 +16,7 @@ public class BuildingEditorPreviewInspector : Editor
         public bool isShowBuilding = false;
         public Dictionary<string, GameObject> buildings;
 
-        public AreaInfo(string name) 
+        public AreaInfo(string name)
         {
             this.name = name;
             this.isShowed = false;
@@ -24,6 +25,21 @@ public class BuildingEditorPreviewInspector : Editor
         }
     }
 
+    private static string _SpineBuildingPrefabPath = null;
+    public static string SpineBuildingPrefabPath
+    {
+        get
+        {
+            if (_SpineBuildingPrefabPath != null)
+                return _SpineBuildingPrefabPath;
+            var path1 = "Assets/Map/prefab/spine-buildings";
+            var path2 = "Assets/_game/Map/prefab/spine-buildings";
+            _SpineBuildingPrefabPath = path1;
+            if (Directory.Exists(path2))
+                _SpineBuildingPrefabPath = path2;
+            return _SpineBuildingPrefabPath;
+        }
+    }
     private static Dictionary<string, AreaInfo> spineBuildings;
 
     public override void OnInspectorGUI()
@@ -110,7 +126,7 @@ public class BuildingEditorPreviewInspector : Editor
             progress = (float)count / maxCount;
             var name = building.gameObject.name;
             EditorUtility.DisplayProgressBar("Showing Buildings", $"Loading {name}", progress);
-            var prefab = AssetLoader.LoadPrefab("Assets/Map/prefab/spine-buildings", name);
+            var prefab = AssetLoader.LoadPrefab(SpineBuildingPrefabPath, name);
             if (prefab != null)
             {
                 var spineObj = Instantiate(prefab, building.transform);
@@ -127,7 +143,7 @@ public class BuildingEditorPreviewInspector : Editor
             IsInitialize(preview.AreaName);
         var spineBuilding_area = spineBuildings[preview.AreaName];
 
-        if (spineBuilding_area.isShowed && spineBuilding_area .buildings != null)
+        if (spineBuilding_area.isShowed && spineBuilding_area.buildings != null)
         {
             foreach (var building in spineBuilding_area.buildings)
             {
