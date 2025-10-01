@@ -165,7 +165,7 @@ PlayerSettings:
   androidMinAspectRatio: 1
   applicationIdentifier:
     Android: com.DefaultCompany.Game11FULL
-    Standalone: com.DefaultCompany.2DProject
+    Standalone: com.DefaultCompany.Game-11-FULL
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -811,7 +811,7 @@ PlayerSettings:
     PS5: DOTWEEN
     QNX: DOTWEEN
     ReservedCFE: DOTWEEN
-    Standalone: USE_SPINE;DebugLog;DOTWEEN
+    Standalone: USE_SPINE;DebugLog;DOTWEEN;MAP_ARTIST
     VisionOS: DOTWEEN
     WebGL: DOTWEEN
     Windows Store Apps: DOTWEEN
