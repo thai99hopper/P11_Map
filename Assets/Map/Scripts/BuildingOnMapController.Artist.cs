@@ -66,7 +66,19 @@ public partial class BuildingOnMapController : MonoBehaviour
         Gizmos.DrawLine(p1, p2);
         
         Gizmos.color = color;
+        
     }
     
     #endregion
+
+
+    
+#if MAP_ARTIST
+    
+    private void Start()
+    {
+        VisualController.instance.SpawnSpineBuilding(this);
+    }
+    
+#endif
 }
