@@ -2637,6 +2637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5166582322793501194}
+  - component: {fileID: 8220869797913043301}
   m_Layer: 0
   m_Name: buildings
   m_TagString: Untagged
@@ -2660,6 +2661,18 @@ Transform:
   - {fileID: 7546064095854082156}
   m_Father: {fileID: 588634430079834705}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8220869797913043301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2211723278806331931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1429f217e9e7840429a6e8f09c9687d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2220702325474423150
 GameObject:
   m_ObjectHideFlags: 0
