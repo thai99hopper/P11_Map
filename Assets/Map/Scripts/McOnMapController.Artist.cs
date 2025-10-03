@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [System.Serializable]
 public class IdleAnimationObject
@@ -27,6 +29,8 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] Transform modelEmo;
     [SerializeField] Transform movePos;
 
+    public Transform GetModelActivated => isEmo ? modelEmo : model;
+
     [Header("Interactive Model (Can Null)")]
     [SerializeField] List<InteractiveModel> interactiveModels;
 
@@ -48,7 +52,7 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] int buildingLevelAllowEmo;
     [SerializeField] int buildingPartAllowEmo;
 
-    [Header("Emo Move (Can Null)")]
+    [Header("Special Emo (Can Null)")]
     [SerializeField] float speedEmoMove = 5f;
     [SerializeField] Transform moveEmoPos;
     [SerializeField] Transform posWillMoveEmo;
@@ -58,16 +62,22 @@ public partial class McOnMapController : MonoBehaviour
     Transform GetFirstPositionEmoMove { get => moveEmoPos == null ? modelEmo.transform : moveEmoPos.Find($"pos-1"); }
     bool isHaveEmoMove { get => moveEmoPos != null; }
 
-    [Header("Emo Stand (Can Null - if emo have move, stand can't use)")]
-    [SerializeField] Transform standEmoPos;
-    bool isHaveEmoStand { get => standEmoPos != null; }
-
     [Header("Other")]
     [SerializeField] bool isOutsideScreen = false;
     [SerializeField] Vector3 firstAngleModel;
     [SerializeField] int idleIdx;
 
-    bool isHaveEmoSpecial => isHaveEmoMove || isHaveEmoStand;
+
+    [Header("Collider")]
+    [SerializeField] BoxCollider2D boxCollider;
+    [SerializeField] GameplayButton gameplayButton;
+
+    [Header("Move Emo To Idle Position")]
+    [SerializeField] Transform parentEmoToIdlePos;
+    List<Transform> emoToIdlesPositions = new List<Transform>();
+    [HideInInspector] public int currentIndexPositionEmoToIdle = 0;
+    public bool IsMoveFromEmoToIdlePos { get => currentIndexPositionEmoToIdle < emoToIdlesPositions.Count; }
+
 
     void SetAnimBool(string name, bool value)
     {
@@ -83,20 +93,32 @@ public partial class McOnMapController : MonoBehaviour
     #region life-cycle
     private void Start()
     {
+        if (parentEmoToIdlePos != null)
+        {
+            foreach (Transform child in parentEmoToIdlePos)
+            {
+                emoToIdlesPositions.Add(child);
+            }
+        }
+
         if (isBuildingMaxLv)
             isEmo = true;
 
         firstAngleModel = model.localEulerAngles;
-        SetupMovePos();
+
         ChangedIdleAnim();
         RandomFreeTime();
         SetActiveModel();
         isOutsideScreen = IsObjectOutsideCamera();
+
+        if (gameplayButton != null)
+            gameplayButton.AddListener(OnPressModel);
     }
 
     private void Update()
     {
         UpdateOutsideCam();
+        DelectCollider();
 
         if (!isMove && !isEmo)
         {
@@ -121,6 +143,48 @@ public partial class McOnMapController : MonoBehaviour
         if (isEmoMove)
         {
             UpdateMovementEmo();
+        }
+    }
+    #endregion
+
+    #region collider 
+    private void DelectCollider()
+    {
+        if (boxCollider == null) return;
+        var isEmoActive = isEmo && isEnableModel;
+
+        var x = 0f;
+        var y = 0f;
+
+        if (isEmoActive)
+        {
+            x = modelEmo.transform.localPosition.x;
+            y = modelEmo.transform.localPosition.y + boxCollider.size.y / 2f;
+        }
+        else
+        {
+            x = model.transform.localPosition.x;
+            y = model.transform.localPosition.y + boxCollider.size.y / 2f;
+        }
+        boxCollider.offset = new Vector3(x, y);
+    }
+
+    private void OnPressModel()
+    {
+        if (isEmo)
+        {
+            isEmo = false;
+            idleIdx = 1;
+            isMove = false;
+            isMoveAnim = false;
+            SetIdleAnim();
+
+            MoveFromEmoToIdlePos();
+        }
+        else
+        {
+            ChangedIdleAnim();
+            RandomFreeTime();
         }
     }
     #endregion
@@ -167,6 +231,12 @@ public partial class McOnMapController : MonoBehaviour
     {
         if (Vector3.SqrMagnitude(posWillMove.position - model.position) < 0.1f * 0.1f)
         {
+            if (IsMoveFromEmoToIdlePos)
+            {
+                MoveNextEmoToIdlePos();
+                return;
+            }
+
             SetActiveMoveAni(false);
             RandomFreeTime();
 
@@ -186,10 +256,11 @@ public partial class McOnMapController : MonoBehaviour
 
     protected void UpdateRotation()
     {
-        var normalized = (posWillMove.localPosition - model.localPosition).normalized;
+        // Use world positions consistently to get the correct direction
+        var normalized = (posWillMove.position - model.position).normalized;
 
         float targetYAngle = Mathf.Atan2(normalized.x, normalized.z) * Mathf.Rad2Deg;
-        model.localRotation = Quaternion.Euler(0, targetYAngle, 0);
+        model.rotation = Quaternion.Euler(0, targetYAngle, 0);
     }
 
     void SetActiveMoveAni(bool val)
@@ -239,15 +310,6 @@ public partial class McOnMapController : MonoBehaviour
             }
         }
 
-        if (standEmoPos != null)
-        {
-            foreach(Transform child in standEmoPos)
-            {
-                Vector3 viewportStandEmoPos = Camera.main.WorldToViewportPoint(child.position);
-                isOutside &= IsObjectOutsideCamera(viewportStandEmoPos);
-            }    
-        }
-
         return isOutside;
     }
 
@@ -257,10 +319,10 @@ public partial class McOnMapController : MonoBehaviour
         if (isOutsideScreen && !this.isOutsideScreen)
         {
             isEmo = !isEmo;
-            if(!isCanChangeToEmo)
+            if (!isCanChangeToEmo)
                 isEmo = false;
 
-            if(isBuildingMaxLv)
+            if (isBuildingMaxLv)
                 isEmo = true;
 
             SetActiveModel();
@@ -304,27 +366,6 @@ public partial class McOnMapController : MonoBehaviour
     #endregion
 
     #region other
-    void SetupMovePos()
-    {
-        foreach (Transform item in movePos)
-        {
-            var posCurrent = item.localPosition;
-            item.localPosition = new Vector3(posCurrent.x, posCurrent.y, posCurrent.y);
-        }
-
-        //if (moveEmoPos != null)
-        //{
-        //    foreach (Transform item in moveEmoPos)
-        //    {
-        //        var posCurrent = item.localPosition;
-        //        item.localPosition = new Vector3(posCurrent.x, posCurrent.y, posCurrent.y);
-        //    }
-        //}
-
-        //var emoPosCurrent = emoPos.localPosition;
-        //emoPos.localPosition = new Vector3(emoPosCurrent.x, emoPosCurrent.y, emoPosCurrent.y);
-    }
-
     void RandomFreeTime()
     {
         idleTime = Random.Range(minFreeTime, maxFreeTime);
@@ -335,23 +376,12 @@ public partial class McOnMapController : MonoBehaviour
         model.gameObject.SetActive(!isEmo && isEnableModel);
         modelEmo.gameObject.SetActive(isEmo && isEnableModel);
 
-        if (isEmo && isHaveEmoSpecial)
+        if (isEmo && isHaveEmoMove)
         {
             isStartPoint = true;
             isEmoMove = false;
-
-            var posWillMoveEmo = transform;
-            if (isHaveEmoMove)
-            {
-                posWillMoveEmo = moveEmoPos.Find($"pos-1");
-            }
-            else if(isHaveEmoStand)
-            {
-                var indexPos = Random.Range(1, standEmoPos.childCount + 1);
-                posWillMoveEmo = standEmoPos.Find($"pos-{indexPos}");
-            }    
-
-            modelEmo.position = posWillMoveEmo.position;
+            var posWillMoveEmo1 = moveEmoPos.Find($"pos-1");
+            modelEmo.position = posWillMoveEmo1.position;
 
             if (isRotationEmoMoveEnd)
             {
@@ -390,6 +420,24 @@ public partial class McOnMapController : MonoBehaviour
     public void OnTriggerEndEmoMove()
     {
         isEmoMove = false;
+    }
+    #endregion
+
+    #region emo move to normal position
+    private void MoveFromEmoToIdlePos()
+    {
+        modelEmo.gameObject.SetActive(false);
+        model.gameObject.SetActive(true);
+        model.position = modelEmo.position;
+        currentIndexPositionEmoToIdle = 0;
+        MoveNextEmoToIdlePos();
+
+        SetActiveMoveAni(true);
+    }
+
+    public void MoveNextEmoToIdlePos()
+    {
+        posWillMove = emoToIdlesPositions[currentIndexPositionEmoToIdle++];
     }
     #endregion
 }
