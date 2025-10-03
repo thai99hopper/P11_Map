@@ -7134,10 +7134,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7072083629336269879}
     m_Modifications:
-    - target: {fileID: 2221863166144827192, guid: 0b0e0322d268d864da249b90d97811e1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.18
-      objectReference: {fileID: 0}
     - target: {fileID: 4764145088181073201, guid: 0b0e0322d268d864da249b90d97811e1, type: 3}
       propertyPath: m_Name
       value: mc-fisher-man
@@ -7149,10 +7145,6 @@ PrefabInstance:
     - target: {fileID: 6094203137398564599, guid: 0b0e0322d268d864da249b90d97811e1, type: 3}
       propertyPath: m_LocalPosition.y
       value: -12.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 6094203137398564599, guid: 0b0e0322d268d864da249b90d97811e1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6094203137398564599, guid: 0b0e0322d268d864da249b90d97811e1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7189,10 +7181,6 @@ PrefabInstance:
     - target: {fileID: 6831907081366039110, guid: 0b0e0322d268d864da249b90d97811e1, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.8494854
-      objectReference: {fileID: 0}
-    - target: {fileID: 6831907081366039110, guid: 0b0e0322d268d864da249b90d97811e1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.06
       objectReference: {fileID: 0}
     - target: {fileID: 6831907081366039110, guid: 0b0e0322d268d864da249b90d97811e1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8552,6 +8540,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4993927228366987373, guid: 5cd989f70a7868e4db73857912cf0ace, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8461633102200578783, guid: 5cd989f70a7868e4db73857912cf0ace, type: 3}
       propertyPath: m_Name
       value: B05
@@ -8559,6 +8551,10 @@ PrefabInstance:
     - target: {fileID: 8461633102200578783, guid: 5cd989f70a7868e4db73857912cf0ace, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069568893127103417, guid: 5cd989f70a7868e4db73857912cf0ace, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
