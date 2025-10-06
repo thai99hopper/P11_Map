@@ -118,7 +118,6 @@ public partial class McOnMapController : MonoBehaviour
     private void Update()
     {
         UpdateOutsideCam();
-        DelectCollider();
 
         if (!isMove && !isEmo)
         {
@@ -145,11 +144,18 @@ public partial class McOnMapController : MonoBehaviour
             UpdateMovementEmo();
         }
     }
+
+    private void LateUpdate()
+    {
+        DelectCollider();
+    }
     #endregion
 
     #region collider 
     private void DelectCollider()
     {
+        if (!isEnableModel) return;
+        if (isOutsideScreen) return;
         if (boxCollider == null) return;
         var isEmoActive = isEmo && isEnableModel;
 
@@ -166,7 +172,13 @@ public partial class McOnMapController : MonoBehaviour
             x = model.transform.localPosition.x;
             y = model.transform.localPosition.y + boxCollider.size.y / 2f;
         }
-        boxCollider.offset = new Vector3(x, y);
+
+        var boxPos = boxCollider.transform.localPosition;
+        if (boxPos.x != x || boxPos.y != y)
+        {
+            Debug.Log("run bitch");
+            boxCollider.transform.localPosition = new Vector3(x, y);
+        }
     }
 
     private void OnPressModel()
