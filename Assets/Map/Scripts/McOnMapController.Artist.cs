@@ -176,7 +176,6 @@ public partial class McOnMapController : MonoBehaviour
         var boxPos = boxCollider.transform.localPosition;
         if (boxPos.x != x || boxPos.y != y)
         {
-            Debug.Log("run bitch");
             boxCollider.transform.localPosition = new Vector3(x, y);
         }
     }
