@@ -28,6 +28,7 @@ public partial class McOnMapController : MonoBehaviour
     [SerializeField] Transform model;
     [SerializeField] Transform modelEmo;
     [SerializeField] Transform movePos;
+    [SerializeField] private Transform modelInitialize; // can be nullable
 
     public Transform GetModelActivated => isEmo ? modelEmo : model;
 
