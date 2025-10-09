@@ -1219,6 +1219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7072083629336269879}
+  - component: {fileID: 7618880588460947728}
   m_Layer: 0
   m_Name: skinned-objects
   m_TagString: Untagged
@@ -1247,6 +1248,18 @@ Transform:
   - {fileID: 1344406485934168395}
   m_Father: {fileID: 8461004587702730368}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7618880588460947728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2473737850332733035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7929872610ed0d943acbf1a171e7d8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2564653630561229808
 GameObject:
   m_ObjectHideFlags: 0

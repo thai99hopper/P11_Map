@@ -16,7 +16,7 @@ public class BuildingEditorPreviewInspector : Editor
         public bool isShowBuilding = false;
         public Dictionary<string, GameObject> buildings;
 
-        public AreaInfo(string name)
+        public AreaInfo(string name) 
         {
             this.name = name;
             this.isShowed = false;
@@ -143,7 +143,7 @@ public class BuildingEditorPreviewInspector : Editor
             IsInitialize(preview.AreaName);
         var spineBuilding_area = spineBuildings[preview.AreaName];
 
-        if (spineBuilding_area.isShowed && spineBuilding_area.buildings != null)
+        if (spineBuilding_area.isShowed && spineBuilding_area .buildings != null)
         {
             foreach (var building in spineBuilding_area.buildings)
             {
