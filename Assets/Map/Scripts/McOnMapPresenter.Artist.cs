@@ -8,11 +8,11 @@ public partial class McOnMapPresenter
 	//Mapping <BuildingId, Character_prefab_address>
 	public static Dictionary<(string building_id, int order_in_building), string> AddressMapping = new Dictionary<(string building_id, int order_in_building), string>()
 	{
-		 { ("building_basic_01", 0) , "B01_Luna/prefabs/mc-luna" },
+		 { ("building_basic_01", 0) , "B05_Clam Raker/prefabs/mc-clam-raker" },
 		 { ("building_basic_02", 0) , "B02_Fisher Man/prefabs/mc-fisher-man" },
-		 { ("building_basic_03", 0) , "B03_Sushi Chef/prefabs/mc-sushi-chef" },
-		 { ("building_basic_04", 0) , "B04_Carpenter/prefabs/mc-carpenter" },
-		 { ("building_basic_05", 0) , "B05_Clam Raker/prefabs/mc-clam-raker" },
+		 { ("building_basic_03", 0) , "B04_Carpenter/prefabs/mc-carpenter" },
+		 { ("building_basic_04", 0) , "B03_Sushi Chef/prefabs/mc-sushi-chef" },
+		 { ("building_basic_05", 0) , "B01_Luna/prefabs/mc-luna" },
 		 //{ ("building_basic_06", 0) , "" },
 		 { ("building_basic_07", 0) , "B07_Blacksmith/prefabs/mc-blacksmith" },
 		 //{ ("building_basic_08", 0) , "" },
