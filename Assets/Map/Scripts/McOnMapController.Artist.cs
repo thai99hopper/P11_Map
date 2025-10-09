@@ -25,6 +25,7 @@ public partial class McOnMapController : MonoBehaviour
     bool isEnableModel = true;
     bool isBuildingMaxLv = false;
     [SerializeField] Animator animator;
+    [SerializeField] Animator animatorInitialize;
     [SerializeField] Transform model;
     [SerializeField] Transform modelEmo;
     [SerializeField] Transform movePos;
