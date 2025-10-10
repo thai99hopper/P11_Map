@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1708d6b936ecd2e498d59aa1bf795036, type: 3}
+  m_Name: EditorDataBuilding
+  m_EditorClassIdentifier: 
+  buildings:
+  - buildingId: building_basic_01
+    buildingIdMapping: building_basic_05
+    nameTextLocalizeMapping: name_text_building_basic_05
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_05
+    buildingCharacterResourceIdMapping: 500005
+    modelLoadPaths:
+    - modelPath: B05_Clam Raker/prefabs/mc-clam-raker
+      orderBuilding: 0
+    buildingIdSpine: B01
+    buildingIdSpineMapping: B05
+  - buildingId: building_basic_02
+    buildingIdMapping: building_basic_02
+    nameTextLocalizeMapping: name_text_building_basic_02
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_02
+    buildingCharacterResourceIdMapping: 500002
+    modelLoadPaths:
+    - modelPath: B02_Fisher Man/prefabs/mc-fisher-man
+      orderBuilding: 0
+    buildingIdSpine: B02
+    buildingIdSpineMapping: B02
+  - buildingId: building_basic_03
+    buildingIdMapping: building_basic_04
+    nameTextLocalizeMapping: name_text_building_basic_04
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_04
+    buildingCharacterResourceIdMapping: 500004
+    modelLoadPaths:
+    - modelPath: B04_Carpenter/prefabs/mc-carpenter
+      orderBuilding: 0
+    buildingIdSpine: B03
+    buildingIdSpineMapping: B04
+  - buildingId: building_basic_04
+    buildingIdMapping: building_basic_03
+    nameTextLocalizeMapping: name_text_building_basic_03
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_03
+    buildingCharacterResourceIdMapping: 500003
+    modelLoadPaths:
+    - modelPath: B03_Sushi Chef/prefabs/mc-sushi-chef
+      orderBuilding: 0
+    buildingIdSpine: B04
+    buildingIdSpineMapping: B03
+  - buildingId: building_basic_05
+    buildingIdMapping: building_basic_01
+    nameTextLocalizeMapping: name_text_building_basic_01
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_01
+    buildingCharacterResourceIdMapping: 500001
+    modelLoadPaths:
+    - modelPath: B01_Luna/prefabs/mc-luna
+      orderBuilding: 0
+    buildingIdSpine: B05
+    buildingIdSpineMapping: B01
+  - buildingId: building_basic_07
+    buildingIdMapping: building_basic_07
+    nameTextLocalizeMapping: name_text_building_basic_07
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_07
+    buildingCharacterResourceIdMapping: 500007
+    modelLoadPaths:
+    - modelPath: B07_Blacksmith/prefabs/mc-blacksmith
+      orderBuilding: 0
+    buildingIdSpine: B07
+    buildingIdSpineMapping: B07
+  - buildingId: building_basic_08
+    buildingIdMapping: building_basic_08
+    nameTextLocalizeMapping: name_text_building_basic_08
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_08
+    buildingCharacterResourceIdMapping: 500008
+    modelLoadPaths: []
+    buildingIdSpine: B08
+    buildingIdSpineMapping: B08
+  - buildingId: building_basic_09
+    buildingIdMapping: building_basic_09
+    nameTextLocalizeMapping: name_text_building_basic_09
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_09
+    buildingCharacterResourceIdMapping: 500009
+    modelLoadPaths:
+    - modelPath: B09_TheGuard/prefabs/mc-the-guard
+      orderBuilding: 0
+    buildingIdSpine: B09
+    buildingIdSpineMapping: B09
+  - buildingId: building_basic_10
+    buildingIdMapping: building_basic_10
+    nameTextLocalizeMapping: name_text_building_basic_10
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_10
+    buildingCharacterResourceIdMapping: 500010
+    modelLoadPaths:
+    - modelPath: B10_Monk Cat/prefabs/mc-monk-cat
+      orderBuilding: 0
+    buildingIdSpine: B10
+    buildingIdSpineMapping: B10
+  - buildingId: building_basic_11
+    buildingIdMapping: building_basic_11
+    nameTextLocalizeMapping: name_text_building_basic_11
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_11
+    buildingCharacterResourceIdMapping: 500011
+    modelLoadPaths:
+    - modelPath: B11_Wheat Farmer/prefabs/mc-whear-farmer
+      orderBuilding: 0
+    buildingIdSpine: B11
+    buildingIdSpineMapping: B11
+  - buildingId: building_basic_12
+    buildingIdMapping: building_basic_12
+    nameTextLocalizeMapping: name_text_building_basic_12
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_12
+    buildingCharacterResourceIdMapping: 500012
+    modelLoadPaths:
+    - modelPath: B12_Flour Packer/prefabs/mc-flour-packer
+      orderBuilding: 0
+    buildingIdSpine: B12
+    buildingIdSpineMapping: B12
+  - buildingId: building_basic_13
+    buildingIdMapping: building_basic_13
+    nameTextLocalizeMapping: name_text_building_basic_13
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_13
+    buildingCharacterResourceIdMapping: 500013
+    modelLoadPaths:
+    - modelPath: B13_Baker/prefabs/mc-baker
+      orderBuilding: 0
+    buildingIdSpine: B13
+    buildingIdSpineMapping: B13
+  - buildingId: building_basic_14
+    buildingIdMapping: building_basic_14
+    nameTextLocalizeMapping: name_text_building_basic_14
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_14
+    buildingCharacterResourceIdMapping: 500014
+    modelLoadPaths:
+    - modelPath: B14_Coffee Farmer/prefabs/mc-coffee-farmer
+      orderBuilding: 0
+    buildingIdSpine: B14
+    buildingIdSpineMapping: B14
+  - buildingId: building_basic_15
+    buildingIdMapping: building_basic_15
+    nameTextLocalizeMapping: name_text_building_basic_15
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_15
+    buildingCharacterResourceIdMapping: 500015
+    modelLoadPaths:
+    - modelPath: B15_The Waiter/prefabs/mc-the-waiter
+      orderBuilding: 0
+    buildingIdSpine: B15
+    buildingIdSpineMapping: B15
+  - buildingId: building_basic_16
+    buildingIdMapping: building_basic_16
+    nameTextLocalizeMapping: name_text_building_basic_16
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_16
+    buildingCharacterResourceIdMapping: 500016
+    modelLoadPaths:
+    - modelPath: B16_Apiarist/prefabs/mc-apiarist
+      orderBuilding: 0
+    buildingIdSpine: B16
+    buildingIdSpineMapping: B16
+  - buildingId: building_basic_17
+    buildingIdMapping: building_basic_17
+    nameTextLocalizeMapping: name_text_building_basic_17
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_17
+    buildingCharacterResourceIdMapping: 500017
+    modelLoadPaths:
+    - modelPath: B17_Merchant_1/prefabs/mc-merchant-1
+      orderBuilding: 0
+    - modelPath: B17_Merchant_2/prefabs/mc-merchant-2
+      orderBuilding: 1
+    - modelPath: B17_Merchant_3/prefabs/mc-merchant-3
+      orderBuilding: 2
+    buildingIdSpine: B17
+    buildingIdSpineMapping: B17
+  - buildingId: building_basic_18
+    buildingIdMapping: building_basic_18
+    nameTextLocalizeMapping: name_text_building_basic_18
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_18
+    buildingCharacterResourceIdMapping: 500018
+    modelLoadPaths:
+    - modelPath: B18_ShipwrightSailor/prefabs/mc-shipwright-sailor
+      orderBuilding: 0
+    buildingIdSpine: B18
+    buildingIdSpineMapping: B18
+  - buildingId: building_basic_19
+    buildingIdMapping: building_basic_19
+    nameTextLocalizeMapping: name_text_building_basic_19
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_19
+    buildingCharacterResourceIdMapping: 500019
+    modelLoadPaths: []
+    buildingIdSpine: B19
+    buildingIdSpineMapping: B19
+  - buildingId: building_basic_20
+    buildingIdMapping: building_basic_20
+    nameTextLocalizeMapping: name_text_building_basic_20
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_20
+    buildingCharacterResourceIdMapping: 500020
+    modelLoadPaths:
+    - modelPath: B20_Traveler/prefabs/mc-traveler
+      orderBuilding: 0
+    buildingIdSpine: B20
+    buildingIdSpineMapping: B20
+  - buildingId: building_basic_21
+    buildingIdMapping: building_basic_21
+    nameTextLocalizeMapping: name_text_building_basic_21
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_21
+    buildingCharacterResourceIdMapping: 500021
+    modelLoadPaths:
+    - modelPath: B21_Cat in bath/prefabs/mc-cat-in-bath
+      orderBuilding: 0
+    buildingIdSpine: B21
+    buildingIdSpineMapping: B21
+  - buildingId: building_basic_22
+    buildingIdMapping: building_basic_22
+    nameTextLocalizeMapping: name_text_building_basic_22
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_22
+    buildingCharacterResourceIdMapping: 500022
+    modelLoadPaths:
+    - modelPath: B22_Strawberry Farmer/prefabs/mc-strawberry-farmer
+      orderBuilding: 0
+    buildingIdSpine: B22
+    buildingIdSpineMapping: B22
+  - buildingId: building_basic_23
+    buildingIdMapping: building_basic_23
+    nameTextLocalizeMapping: name_text_building_basic_23
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_23
+    buildingCharacterResourceIdMapping: 500023
+    modelLoadPaths:
+    - modelPath: B23_Cacao Farmer/prefabs/mc-cacao-farmer
+      orderBuilding: 0
+    buildingIdSpine: B23
+    buildingIdSpineMapping: B23
+  - buildingId: building_basic_24
+    buildingIdMapping: building_basic_24
+    nameTextLocalizeMapping: name_text_building_basic_24
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_24
+    buildingCharacterResourceIdMapping: 500024
+    modelLoadPaths:
+    - modelPath: B24_Seller/prefabs/mc-seller
+      orderBuilding: 0
+    buildingIdSpine: B24
+    buildingIdSpineMapping: B24
+  - buildingId: building_basic_25
+    buildingIdMapping: building_basic_25
+    nameTextLocalizeMapping: name_text_building_basic_25
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_25
+    buildingCharacterResourceIdMapping: 500025
+    modelLoadPaths:
+    - modelPath: B25_Touris 1/prefabs/mc-tourist-1
+      orderBuilding: 0
+    buildingIdSpine: B25
+    buildingIdSpineMapping: B25
+  - buildingId: building_basic_26
+    buildingIdMapping: building_basic_26
+    nameTextLocalizeMapping: name_text_building_basic_26
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_26
+    buildingCharacterResourceIdMapping: 500026
+    modelLoadPaths:
+    - modelPath: B26_BeachLifeguard/prefabs/mc-beach-lifeguard
+      orderBuilding: 0
+    buildingIdSpine: B26
+    buildingIdSpineMapping: B26
+  - buildingId: building_basic_27
+    buildingIdMapping: building_basic_27
+    nameTextLocalizeMapping: name_text_building_basic_27
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_27
+    buildingCharacterResourceIdMapping: 500027
+    modelLoadPaths:
+    - modelPath: B27_Touris 2/prefabs/mc-tourist-2
+      orderBuilding: 0
+    buildingIdSpine: B27
+    buildingIdSpineMapping: B27
+  - buildingId: building_basic_28
+    buildingIdMapping: building_basic_28
+    nameTextLocalizeMapping: name_text_building_basic_28
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_28
+    buildingCharacterResourceIdMapping: 500028
+    modelLoadPaths: []
+    buildingIdSpine: B28
+    buildingIdSpineMapping: B28
+  - buildingId: building_basic_29
+    buildingIdMapping: building_basic_29
+    nameTextLocalizeMapping: name_text_building_basic_29
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_29
+    buildingCharacterResourceIdMapping: 500029
+    modelLoadPaths:
+    - modelPath: B29_Doctor/prefabs/mc-doctor
+      orderBuilding: 0
+    buildingIdSpine: B29
+    buildingIdSpineMapping: B29
+  - buildingId: building_basic_30
+    buildingIdMapping: building_basic_30
+    nameTextLocalizeMapping: name_text_building_basic_30
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_30
+    buildingCharacterResourceIdMapping: 500030
+    modelLoadPaths:
+    - modelPath: B30_FireFighter/prefabs/mc-fire-fighter
+      orderBuilding: 0
+    buildingIdSpine: B30
+    buildingIdSpineMapping: B30
+  - buildingId: building_basic_31
+    buildingIdMapping: building_basic_31
+    nameTextLocalizeMapping: name_text_building_basic_31
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_31
+    buildingCharacterResourceIdMapping: 500031
+    modelLoadPaths:
+    - modelPath: B31_Policecat/prefabs/mc-police-cat
+      orderBuilding: 0
+    buildingIdSpine: B31
+    buildingIdSpineMapping: B31
+  - buildingId: auxiliary_building_basic_01
+    buildingIdMapping: auxiliary_building_basic_01
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_01
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_01
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A01
+    buildingIdSpineMapping: A01
+  - buildingId: auxiliary_building_basic_02
+    buildingIdMapping: auxiliary_building_basic_02
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_02
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_02
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A02
+    buildingIdSpineMapping: A02
+  - buildingId: auxiliary_building_basic_03
+    buildingIdMapping: auxiliary_building_basic_03
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_03
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_03
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A03
+    buildingIdSpineMapping: A03
+  - buildingId: auxiliary_building_basic_04
+    buildingIdMapping: auxiliary_building_basic_04
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_04
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_04
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A04
+    buildingIdSpineMapping: A04
+  - buildingId: auxiliary_building_basic_05
+    buildingIdMapping: auxiliary_building_basic_05
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_05
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_05
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A05
+    buildingIdSpineMapping: A05
+  - buildingId: auxiliary_building_basic_06
+    buildingIdMapping: auxiliary_building_basic_06
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_06
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_06
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A06
+    buildingIdSpineMapping: A06
+  - buildingId: auxiliary_building_basic_07
+    buildingIdMapping: auxiliary_building_basic_07
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_07
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_07
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A07
+    buildingIdSpineMapping: A07
+  - buildingId: auxiliary_building_basic_08
+    buildingIdMapping: auxiliary_building_basic_08
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_08
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_08
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A08
+    buildingIdSpineMapping: A08
+  - buildingId: auxiliary_building_basic_09
+    buildingIdMapping: auxiliary_building_basic_09
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_09
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_09
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A09
+    buildingIdSpineMapping: A09
+  - buildingId: auxiliary_building_basic_10
+    buildingIdMapping: auxiliary_building_basic_10
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_10
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_10
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A10
+    buildingIdSpineMapping: A10
+  - buildingId: auxiliary_building_basic_11
+    buildingIdMapping: auxiliary_building_basic_11
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_11
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_11
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A11
+    buildingIdSpineMapping: A11
+  - buildingId: auxiliary_building_basic_12
+    buildingIdMapping: auxiliary_building_basic_12
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_12
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_12
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A12
+    buildingIdSpineMapping: A12
+  - buildingId: auxiliary_building_basic_13
+    buildingIdMapping: auxiliary_building_basic_13
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_13
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_13
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A13
+    buildingIdSpineMapping: A13
+  - buildingId: auxiliary_building_basic_14
+    buildingIdMapping: auxiliary_building_basic_14
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_14
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_14
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A14
+    buildingIdSpineMapping: A14
+  - buildingId: auxiliary_building_basic_15
+    buildingIdMapping: auxiliary_building_basic_15
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_15
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_15
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A15
+    buildingIdSpineMapping: A15
+  - buildingId: auxiliary_building_basic_16
+    buildingIdMapping: auxiliary_building_basic_16
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_16
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_16
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: A16
+    buildingIdSpineMapping: A16
+  - buildingId: auxiliary_building_basic_17
+    buildingIdMapping: auxiliary_building_basic_17
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_17
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_17
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: 
+    buildingIdSpineMapping: 
+  - buildingId: auxiliary_building_basic_18
+    buildingIdMapping: auxiliary_building_basic_18
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_18
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_18
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: 
+    buildingIdSpineMapping: 
+  - buildingId: auxiliary_building_basic_19
+    buildingIdMapping: auxiliary_building_basic_19
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_19
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_19
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: 
+    buildingIdSpineMapping: 
+  - buildingId: auxiliary_building_basic_20
+    buildingIdMapping: auxiliary_building_basic_20
+    nameTextLocalizeMapping: name_text_auxiliary_building_basic_20
+    nameTextTooltipLocalizeMapping: tooltip_text_auxiliary_building_basic_20
+    buildingCharacterResourceIdMapping: 0
+    modelLoadPaths: []
+    buildingIdSpine: 
+    buildingIdSpineMapping: 

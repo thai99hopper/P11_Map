@@ -10,6 +10,26 @@ public static class AssetLoader
         var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(fullPath);
         return prefab;
     }
+    
+    public static T LoadScriptableObject<T>(string assetPath, string assetName) where T : ScriptableObject
+    {
+        var fullPath = System.IO.Path.Combine(assetPath, assetName + ".asset");
+        var scriptableObject = AssetDatabase.LoadAssetAtPath<T>(fullPath);
+        return scriptableObject;
+    }
+    
+    public static ScriptableObject LoadScriptableObject(string assetPath, string assetName)
+    {
+        var fullPath = System.IO.Path.Combine(assetPath, assetName + ".asset");
+        var scriptableObject = AssetDatabase.LoadAssetAtPath<ScriptableObject>(fullPath);
+        return scriptableObject;
+    }
+    
+    public static ScriptableDataBuildings GetDataBuildings()
+    {
+        return LoadScriptableObject<ScriptableDataBuildings>("Assets/ScriptableObject", "EditorDataBuilding");
+    }
+    
 }
 
 #endif

@@ -112,7 +112,7 @@ public class BuildingEditorPreviewInspector : Editor
 
         var progress = 0f;
         var count = 0;
-        var buildingList = preview.GetBuldingList();
+        var buildingList = preview.GetBuldingList(); 
         var maxCount = buildingList.Count;
 
         Debug.Log("Show Building");
@@ -124,7 +124,15 @@ public class BuildingEditorPreviewInspector : Editor
         {
             count++;
             progress = (float)count / maxCount;
-            var name = building.gameObject.name;
+            var data = AssetLoader.GetDataBuildings();
+            var dataBuilding = data.GetBuildingDataSpine(building.gameObject.name);
+            if (dataBuilding == null)
+            {
+                Debug.LogWarning($"Building {building.gameObject.name} not found in data");
+                continue;           
+            }
+            var name = dataBuilding.buildingIdSpineMapping;
+            UnityEngine.Debug.Log($"{name}");
             EditorUtility.DisplayProgressBar("Showing Buildings", $"Loading {name}", progress);
             var prefab = AssetLoader.LoadPrefab(SpineBuildingPrefabPath, name);
             if (prefab != null)

@@ -116,8 +116,10 @@ public class McEditorPreviewInspector : Editor
         {
             count++;
             progress = (float)count / maxCount;
+            var data = AssetLoader.GetDataBuildings();
+            var dataBuilding = data.GetBuildingData(mcPresenter.buildingId); 
+            var prefabPath = dataBuilding.GetModelLoadPath(mcPresenter.orderInBuilding).modelPath;
             var name = mcPresenter.gameObject.name;
-            var prefabPath = mcPresenter.GetPrefabPath_Editor();
             var position = mcPresenter.transform.position;
 
             EditorUtility.DisplayProgressBar("Showing Cat Characters", $"Loading {name}", progress);
