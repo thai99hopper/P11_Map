@@ -34,15 +34,15 @@ MonoBehaviour:
     buildingIdSpine: B02
     buildingIdSpineMapping: B02
   - buildingId: building_basic_03
-    buildingIdMapping: building_basic_04
-    nameTextLocalizeMapping: name_text_building_basic_04
-    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_04
-    buildingCharacterResourceIdMapping: 500004
+    buildingIdMapping: building_basic_13
+    nameTextLocalizeMapping: name_text_building_basic_13
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_13
+    buildingCharacterResourceIdMapping: 500013
     modelLoadPaths:
-    - modelPath: B04_Carpenter/prefabs/mc-carpenter
+    - modelPath: B13_Baker/prefabs/mc-baker
       orderBuilding: 0
     buildingIdSpine: B03
-    buildingIdSpineMapping: B04
+    buildingIdSpineMapping: B13
   - buildingId: building_basic_04
     buildingIdMapping: building_basic_03
     nameTextLocalizeMapping: name_text_building_basic_03
@@ -122,15 +122,15 @@ MonoBehaviour:
     buildingIdSpine: B12
     buildingIdSpineMapping: B12
   - buildingId: building_basic_13
-    buildingIdMapping: building_basic_13
-    nameTextLocalizeMapping: name_text_building_basic_13
-    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_13
-    buildingCharacterResourceIdMapping: 500013
+    buildingIdMapping: building_basic_04
+    nameTextLocalizeMapping: name_text_building_basic_04
+    nameTextTooltipLocalizeMapping: tooltip_text_building_basic_04
+    buildingCharacterResourceIdMapping: 500004
     modelLoadPaths:
-    - modelPath: B13_Baker/prefabs/mc-baker
+    - modelPath: B04_Carpenter/prefabs/mc-carpenter
       orderBuilding: 0
     buildingIdSpine: B13
-    buildingIdSpineMapping: B13
+    buildingIdSpineMapping: B04
   - buildingId: building_basic_14
     buildingIdMapping: building_basic_14
     nameTextLocalizeMapping: name_text_building_basic_14
