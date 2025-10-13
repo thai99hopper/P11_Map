@@ -84,11 +84,15 @@ public partial class McOnMapController : MonoBehaviour
     void SetAnimBool(string name, bool value)
     {
         animator.SetBool(name, value);
+        if(animatorInitialize)
+            animatorInitialize.SetBool(name, value); 
     }
 
     void SetAnimInteger(string name, int value)
     {
         animator.SetInteger(name, value);
+        if(animatorInitialize)
+            animatorInitialize.SetInteger(name, value); 
     }
     #endregion
 
