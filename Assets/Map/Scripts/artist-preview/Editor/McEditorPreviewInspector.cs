@@ -133,6 +133,7 @@ public class McEditorPreviewInspector : Editor
                 areaInfo.mcGo[name] = mcGo.gameObject;
                 mcGo.SetupBuildingId(mcPresenter.buildingId, prefab.name);
                 
+                UnityEngine.Debug.Log($"Prefab name : {prefab.name}");
                 var lPos = dataCharacter.GetCharacterOnMapData(mcPresenter.buildingId, prefab.name); 
                 mcGo.SetupPosition_Editor(lPos);
             }

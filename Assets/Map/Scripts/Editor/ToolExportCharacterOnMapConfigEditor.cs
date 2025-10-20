@@ -9,7 +9,7 @@ namespace Map.Scripts.Editor
     public class ToolExportCharacterOnMapConfigEditor : EditorWindow
     {
         private ScriptableCharacterOnMapData targetScriptableObject;
-        private string exportFileName = "CatBuilding";
+        private string exportFileName = "CatBuildingConfig";
         private string exportPath = "";
         private Vector2 scrollPosition;
         

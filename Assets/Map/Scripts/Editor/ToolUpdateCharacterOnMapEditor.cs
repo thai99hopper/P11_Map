@@ -712,9 +712,9 @@ namespace Map.Scripts.Editor
         {
             // Sử dụng world position (transform.position) cho tất cả coordinates
             // Lý do: Character spawning cần vị trí tuyệt đối trên map, không phụ thuộc parent
-            data.position_x = transform.position.x;
-            data.position_y = transform.position.y;
-            data.position_z = transform.position.z;
+            data.position_x = transform.localPosition.x;
+            data.position_y = transform.localPosition.y;
+            data.position_z = transform.localPosition.z;
 
             // World rotation
             data.rotation_x = transform.eulerAngles.x;
