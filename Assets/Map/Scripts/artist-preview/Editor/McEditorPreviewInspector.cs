@@ -127,9 +127,10 @@ public class McEditorPreviewInspector : Editor
             var prefab = AssetLoader.LoadPrefab(SpineMcPrefabPath, prefabPath);
             if (prefab != null)
             {
-                var mcGo = Instantiate(prefab, position, Quaternion.identity, mcPresenter.transform);
+                var mcGo = Instantiate(prefab, position, Quaternion.identity, mcPresenter.transform).GetComponent<McOnMapController>();
                 mcGo.transform.localPosition = Vector3.zero;
-                areaInfo.mcGo[name] = mcGo;
+                areaInfo.mcGo[name] = mcGo.gameObject;
+                mcGo.SetupBuildingId(mcPresenter.buildingId); 
             }
         }
         EditorUtility.ClearProgressBar();

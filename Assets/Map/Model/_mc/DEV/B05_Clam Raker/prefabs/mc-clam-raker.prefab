@@ -237,8 +237,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingId: building_basic_01
+  buildingId: 
   animator: {fileID: 2501492682800392846}
+  animatorInitialize: {fileID: 0}
   model: {fileID: 6239113637330758207}
   modelEmo: {fileID: 8391141513549988491}
   movePos: {fileID: 5836716330813248625}

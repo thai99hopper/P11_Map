@@ -173,11 +173,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingId: building_basic_07
+  buildingId: 
   animator: {fileID: 861792525009353869}
+  animatorInitialize: {fileID: 0}
   model: {fileID: 6354551316403368741}
   modelEmo: {fileID: 2698367853946179032}
   movePos: {fileID: 6712385803518529953}
+  modelInitialize: {fileID: 0}
   interactiveModels: []
   minFreeTime: 45
   maxFreeTime: 55

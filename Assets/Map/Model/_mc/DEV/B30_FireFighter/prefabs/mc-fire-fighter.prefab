@@ -81,11 +81,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingId: building_basic_30
+  buildingId: 
   animator: {fileID: 2696497432380652390}
+  animatorInitialize: {fileID: 0}
   model: {fileID: 8173408278716135573}
   modelEmo: {fileID: 7623945644057167394}
   movePos: {fileID: 6712385803518529953}
+  modelInitialize: {fileID: 0}
   interactiveModels: []
   minFreeTime: 45
   maxFreeTime: 55
@@ -108,6 +110,10 @@ MonoBehaviour:
   isOutsideScreen: 0
   firstAngleModel: {x: 0, y: 0, z: 0}
   idleIdx: 0
+  boxCollider: {fileID: 0}
+  gameplayButton: {fileID: 0}
+  parentEmoToIdlePos: {fileID: 0}
+  currentIndexPositionEmoToIdle: 0
 --- !u!1 &4794128788220778812
 GameObject:
   m_ObjectHideFlags: 0
