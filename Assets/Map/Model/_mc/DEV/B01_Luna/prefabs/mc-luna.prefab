@@ -123,6 +123,23 @@ MonoBehaviour:
   gameplayButton: {fileID: 5716934377011911813}
   parentEmoToIdlePos: {fileID: 8278222987995767437}
   currentIndexPositionEmoToIdle: 0
+  characterPositions:
+  - pos: {fileID: 8417639422574530133}
+    type: 3
+  - pos: {fileID: 7447222923687360684}
+    type: 0
+  - pos: {fileID: 4646198010857335623}
+    type: 1
+  - pos: {fileID: 4800312577429868949}
+    type: 2
+  - pos: {fileID: 5050455131754926532}
+    type: 9
+  - pos: {fileID: 5011753603110840605}
+    type: 4
+  - pos: {fileID: 7886799789966600813}
+    type: 5
+  - pos: {fileID: 1902912622663337744}
+    type: 6
 --- !u!1 &2599776576913219092
 GameObject:
   m_ObjectHideFlags: 0

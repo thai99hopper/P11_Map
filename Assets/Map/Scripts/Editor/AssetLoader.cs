@@ -29,6 +29,11 @@ public static class AssetLoader
     {
         return LoadScriptableObject<ScriptableDataBuildings>("Assets/ScriptableObject", "EditorDataBuilding");
     }
+
+    public static ScriptableCharacterOnMapData GetDataCharacterOnMap()
+    {
+        return LoadScriptableObject<ScriptableCharacterOnMapData>("Assets/Map/Scriptable", "EditorDataCharacterOnMap");
+    }
     
 }
 

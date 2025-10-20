@@ -117,6 +117,7 @@ public class McEditorPreviewInspector : Editor
             count++;
             progress = (float)count / maxCount;
             var data = AssetLoader.GetDataBuildings();
+            var dataCharacter = AssetLoader.GetDataCharacterOnMap();
             var dataBuilding = data.GetBuildingData(mcPresenter.buildingId); 
             var prefabPath = dataBuilding.GetModelLoadPath(mcPresenter.orderInBuilding).modelPath;
             var name = mcPresenter.gameObject.name;
@@ -130,7 +131,10 @@ public class McEditorPreviewInspector : Editor
                 var mcGo = Instantiate(prefab, position, Quaternion.identity, mcPresenter.transform).GetComponent<McOnMapController>();
                 mcGo.transform.localPosition = Vector3.zero;
                 areaInfo.mcGo[name] = mcGo.gameObject;
-                mcGo.SetupBuildingId(mcPresenter.buildingId); 
+                mcGo.SetupBuildingId(mcPresenter.buildingId, prefab.name);
+                
+                var lPos = dataCharacter.GetCharacterOnMapData(mcPresenter.buildingId, prefab.name); 
+                mcGo.SetupPosition_Editor(lPos);
             }
         }
         EditorUtility.ClearProgressBar();
