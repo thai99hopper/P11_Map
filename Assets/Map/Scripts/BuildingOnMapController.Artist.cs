@@ -17,7 +17,6 @@ public partial class BuildingOnMapController : MonoBehaviour
     
     public string buildingId;
     public GameplayButton gameplayButton;
-    public Transform popupUpgradePos;
     public Transform parentPartsPos;
     public Transform parentVfxsPos;
     public List<BuildingSlotObject> slotObjects;
