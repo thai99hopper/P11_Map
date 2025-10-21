@@ -181,13 +181,30 @@ MonoBehaviour:
   gameplayButton: {fileID: 4080345746307844776}
   parentPartsPos: {fileID: 8426672669235003576}
   parentVfxsPos: {fileID: 7750799609847239282}
-  slotObjects: []
   buildingBounds:
     upOffset: 3.78
     downOffset: 1.34
     leftOffset: 2.22
     rightOffset: 2.06
     debugBounds: 1
+  lPosParts:
+  - name: building_main_0
+    transf: {fileID: 5142396827285891388}
+  - name: building_main_1
+    transf: {fileID: 2893591035101612035}
+  - name: building_main_2
+    transf: {fileID: 1681726280066422656}
+  - name: building_main_3
+    transf: {fileID: 2612737522942688588}
+  lPosVfxs:
+  - name: building_main_0
+    transf: {fileID: 4242301475930162780}
+  - name: building_main_1
+    transf: {fileID: 8075569373870218231}
+  - name: building_main_2
+    transf: {fileID: 6278497070344473506}
+  - name: building_main_3
+    transf: {fileID: 5930008560296879405}
 --- !u!114 &4080345746307844776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7750799609847239282}
   m_Layer: 0
-  m_Name: vfx-parts-pos
+  m_Name: vfx-part-pos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

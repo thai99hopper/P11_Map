@@ -531,13 +531,50 @@ MonoBehaviour:
   gameplayButton: {fileID: 2708765930523745388}
   parentPartsPos: {fileID: 629863380655472531}
   parentVfxsPos: {fileID: 8583545317498796615}
-  slotObjects: []
   buildingBounds:
     upOffset: 8.01
     downOffset: 3.47
     leftOffset: 4.27
     rightOffset: 4.75
     debugBounds: 1
+  lPosParts:
+  - name: small_prop_1_1
+    transf: {fileID: 4429145744893943500}
+  - name: small_prop_1_2
+    transf: {fileID: 2850789342507320205}
+  - name: small_prop_2_1
+    transf: {fileID: 963989737093824388}
+  - name: small_prop_2_2
+    transf: {fileID: 3310827593257337666}
+  - name: small_prop_2_3
+    transf: {fileID: 6311495877536258540}
+  - name: building_main_0
+    transf: {fileID: 623237302221381643}
+  - name: building_main_1
+    transf: {fileID: 1720115350699656388}
+  - name: building_main_2
+    transf: {fileID: 6091889849159893947}
+  - name: building_main_3
+    transf: {fileID: 1023274916569324411}
+  lPosVfxs:
+  - name: building_main_0
+    transf: {fileID: 1008843099871288177}
+  - name: building_main_1
+    transf: {fileID: 4913892488629557706}
+  - name: small_prop_1_1
+    transf: {fileID: 6257001739654226231}
+  - name: small_prop_1_2
+    transf: {fileID: 7749963251756809243}
+  - name: building_main_2
+    transf: {fileID: 852435479626365832}
+  - name: small_prop_2_1
+    transf: {fileID: 5186354389339381594}
+  - name: small_prop_2_2
+    transf: {fileID: 6628547023900521996}
+  - name: small_prop_2_3
+    transf: {fileID: 3020210143667716728}
+  - name: building_main_3
+    transf: {fileID: 969933009669258362}
 --- !u!114 &2708765930523745388
 MonoBehaviour:
   m_ObjectHideFlags: 0

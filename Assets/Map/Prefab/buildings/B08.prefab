@@ -249,13 +249,26 @@ MonoBehaviour:
   gameplayButton: {fileID: 2462230840920278936}
   parentPartsPos: {fileID: 5999768791846282763}
   parentVfxsPos: {fileID: 1460130868049510693}
-  slotObjects: []
   buildingBounds:
     upOffset: 4.69
     downOffset: 2.12
     leftOffset: 3.75
     rightOffset: 3.55
     debugBounds: 1
+  lPosParts:
+  - name: building_main_0
+    transf: {fileID: 7992690844113592281}
+  - name: building_main_1
+    transf: {fileID: 2796236620458143731}
+  - name: building_main_2
+    transf: {fileID: 1300910048570626126}
+  lPosVfxs:
+  - name: building_main_0
+    transf: {fileID: 4469666937753135402}
+  - name: building_main_1
+    transf: {fileID: 4816134028915127592}
+  - name: building_main_2
+    transf: {fileID: 9061891949667198290}
 --- !u!114 &2462230840920278936
 MonoBehaviour:
   m_ObjectHideFlags: 0
