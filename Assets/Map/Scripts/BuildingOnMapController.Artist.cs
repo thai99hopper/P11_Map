@@ -19,7 +19,7 @@ public partial class BuildingOnMapController : MonoBehaviour
     public GameplayButton gameplayButton;
     public Transform parentPartsPos;
     public Transform parentVfxsPos;
-    [NonSerialized] public List<BuildingSlotObject> slotObjects;
+    [NonSerialized] public List<BuildingSlotObject> slotObjects = new();
     public BuildingBounds buildingBounds;
 
     public Bounds CalculateBounds()
