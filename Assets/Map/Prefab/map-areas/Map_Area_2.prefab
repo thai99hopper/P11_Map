@@ -10538,6 +10538,7 @@ Transform:
   - {fileID: 2101798997780324929}
   - {fileID: 9202217349913094872}
   - {fileID: 3010476408935846982}
+  - {fileID: 4032467202160528438}
   - {fileID: 605671716656293171}
   - {fileID: 432779654716861252}
   - {fileID: 4923459232620390660}
@@ -11952,6 +11953,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7988461107818505248}
   m_Mesh: {fileID: 0}
+--- !u!1 &8012344389323711728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4032467202160528438}
+  - component: {fileID: 5937157650984855477}
+  m_Layer: 0
+  m_Name: mc-merchant-1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4032467202160528438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012344389323711728}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.211589, y: 38.552097, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8348061838140012858}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5937157650984855477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012344389323711728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e1964ff4a3d3147867d482769d3dc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingId: building_basic_17
+  orderInBuilding: 0
 --- !u!1 &8029562719617697344
 GameObject:
   m_ObjectHideFlags: 0
