@@ -20,7 +20,7 @@ public class ToolUpdatePartPosOnMapEditor : EditorWindow
     private Dictionary<string, List<ScriptableDataPartBuildings.PosData>> scannedDataByBuilding = new();
     private bool hasScannedData = false;
     
-    [MenuItem("Tools/Update Part Position On Map")]
+    [MenuItem("Map/ScriptableObject/Update Building Part Position On Map")]
     public static void ShowWindow()
     {
         var window = GetWindow<ToolUpdatePartPosOnMapEditor>("Part Position Tool");

@@ -12,7 +12,7 @@ public class TransferDataBuildingEditor : EditorWindow
     private bool showPreview = false;
     private bool autoUpdate = true;
     
-    [MenuItem("Tools/Building Data Importer")]
+    [MenuItem("Map/ScriptableObject/Update Building On Map")]
     public static void ShowWindow()
     {
         var window = GetWindow<TransferDataBuildingEditor>("Building Data Importer");

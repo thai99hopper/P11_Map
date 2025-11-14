@@ -56,7 +56,7 @@ namespace Map.Scripts.Editor
             {"move_pos_5", CharacterOnMapType.move_pos_5},
         };
 
-        [MenuItem("Tools/Update Character On Map")]
+        [MenuItem("Map/ScriptableObject/Update Character On Map")]
         public static void ShowWindow()
         {
             GetWindow<ToolUpdateCharacterOnMapEditor>("Character Map Updater");

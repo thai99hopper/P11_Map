@@ -16,7 +16,7 @@ namespace Map.Scripts.Editor
         // Options
         private bool sortByBuildingId = true;
 
-        [MenuItem("Tools/Export Part Buildings Config")]
+        [MenuItem("Map/Export/Export Part Buildings CSV (PartBuildingConfig)")]
         public static void ShowWindow()
         {
             GetWindow<ToolExportPartPosOnmapConfigEditor>("Part Buildings CSV Exporter");

@@ -16,7 +16,7 @@ namespace Map.Scripts.Editor
         // Thêm option để sort dữ liệu
         private bool sortByBuildingId = true;
         
-        [MenuItem("Tools/Export Character Map Config")]
+        [MenuItem("Map/Export/Export Character Map CSV (CatBuildingConfig)")]
         public static void ShowWindow()
         {
             GetWindow<ToolExportCharacterOnMapConfigEditor>("CSV Exporter");
