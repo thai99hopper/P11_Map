@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67bd0a71a365b2341859c36ad83f6f1f, type: 3}
+  m_Name: sequence-zz
+  m_EditorClassIdentifier: 
+  nameTween: zz-animation
+  sequenceStepConfigs:
+  - tweens:
+    - {fileID: 11400000, guid: 14c71de6b2a50b84ab136e3112adb99b, type: 2}
+    - {fileID: 11400000, guid: cb292d7e149b9ee4b982134a0b842a37, type: 2}
+    delay: 0
+  - tweens:
+    - {fileID: 11400000, guid: ef860a7eb132b6046938109c84f52670, type: 2}
+    - {fileID: 11400000, guid: 1fbf2ac3c2389a94b8a4d3bb63d7bfbb, type: 2}
+    - {fileID: 11400000, guid: 22530e36c61cbce47913cafda63c9ce7, type: 2}
+    delay: 0
+  - tweens:
+    - {fileID: 11400000, guid: dcb5118d48e5d0e4ca57995074bbc454, type: 2}
+    - {fileID: 11400000, guid: b158d94d62b20ca488c69e0a850c669b, type: 2}
+    - {fileID: 11400000, guid: ef860a7eb132b6046938109c84f52670, type: 2}
+    delay: 0
+  resetAll: 1
+  resetPos: 1

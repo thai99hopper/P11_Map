@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67bd0a71a365b2341859c36ad83f6f1f, type: 3}
+  m_Name: sequence-smoosh
+  m_EditorClassIdentifier: 
+  nameTween: smoosh-sequence
+  sequenceStepConfigs:
+  - tweens:
+    - {fileID: 11400000, guid: 761579eb20cad4f4caa5a51aaa61f45f, type: 2}
+    - {fileID: 11400000, guid: d8e0532646b1c5d4a9607bc8a34634b9, type: 2}
+    delay: 0
+  - tweens:
+    - {fileID: 11400000, guid: ea4280530b5abd74890bca873bd655d9, type: 2}
+    - {fileID: 11400000, guid: f60512a6eac78f7499fdaeacbb779594, type: 2}
+    - {fileID: 11400000, guid: b98094bce99159c47965c9209762179f, type: 2}
+    delay: 0
+  - tweens:
+    - {fileID: 11400000, guid: bf788a7808a9b85479dabaa9eadbd11d, type: 2}
+    delay: 0
+  resetAll: 1
+  resetPos: 1
