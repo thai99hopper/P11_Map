@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe526d75267e4349a4d56a615463e00, type: 3}
   m_Name: tween-add-move-random-duration
   m_EditorClassIdentifier: 
-  _duration: 1
+  _duration: 0.8
   isLoop: 0
   _loop: 2147483647
   _loopType: 1
@@ -28,7 +28,7 @@ MonoBehaviour:
   addLocalMove: 0
   _endVectorMove: {x: 0, y: 0, z: 0}
   enableRandomMove: 1
-  _randomVectorMove: {x: 0.5, y: 0.5, z: 0}
+  _randomVectorMove: {x: 0.2, y: 0.2, z: 0}
   _easeMove: 1
   enableFillAmount: 0
   _endFillAmount: 0
