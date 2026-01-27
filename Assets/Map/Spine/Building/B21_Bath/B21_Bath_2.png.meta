@@ -17,33 +17,6 @@ TextureImporter:
   - first:
       213: 5690591422890526775
     second: B21_Bath_2_4
-  - first:
-      213: 702092200792753119
-    second: B21_Bath_2_5
-  - first:
-      213: 1306494954227343760
-    second: B21_Bath_2_6
-  - first:
-      213: -469197643616646210
-    second: B21_Bath_2_7
-  - first:
-      213: -6796105021163371968
-    second: B21_Bath_2_8
-  - first:
-      213: -7100283279033513884
-    second: B21_Bath_2_9
-  - first:
-      213: 2831108614499130277
-    second: B21_Bath_2_10
-  - first:
-      213: 2875073703587098092
-    second: B21_Bath_2_11
-  - first:
-      213: 6410485062116966591
-    second: B21_Bath_2_12
-  - first:
-      213: -6979694971750386597
-    second: B21_Bath_2_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -168,10 +141,10 @@ TextureImporter:
       name: B21_Bath_2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1223
-        width: 814
-        height: 793
+        x: 1
+        y: 775
+        width: 916
+        height: 851
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +163,10 @@ TextureImporter:
       name: B21_Bath_2_1
       rect:
         serializedVersion: 2
-        x: 691
-        y: 1209
-        width: 136
-        height: 91
+        x: 917
+        y: 828
+        width: 851
+        height: 821
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +185,10 @@ TextureImporter:
       name: B21_Bath_2_2
       rect:
         serializedVersion: 2
-        x: 827
-        y: 1227
-        width: 851
-        height: 821
+        x: 1701
+        y: 692
+        width: 91
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +207,10 @@ TextureImporter:
       name: B21_Bath_2_3
       rect:
         serializedVersion: 2
-        x: 1473
-        y: 1220
-        width: 9
-        height: 8
+        x: 1
+        y: 1
+        width: 984
+        height: 774
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +229,10 @@ TextureImporter:
       name: B21_Bath_2_4
       rect:
         serializedVersion: 2
-        x: 346
-        y: 1201
-        width: 9
-        height: 8
+        x: 985
+        y: 1
+        width: 793
+        height: 814
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,204 +243,6 @@ TextureImporter:
       bones: []
       spriteID: 7384643cfba09fe40800000000000000
       internalID: 5690591422890526775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B21_Bath_2_5
-      rect:
-        serializedVersion: 2
-        x: 1127
-        y: 858
-        width: 646
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd303d303255eb900800000000000000
-      internalID: 702092200792753119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B21_Bath_2_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 839
-        width: 646
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 091af8f1d3a912210800000000000000
-      internalID: 1306494954227343760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B21_Bath_2_7
-      rect:
-        serializedVersion: 2
-        x: 697
-        y: 485
-        width: 520
-        height: 372
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebb87c2aa331d79f0800000000000000
-      internalID: -469197643616646210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B21_Bath_2_8
-      rect:
-        serializedVersion: 2
-        x: 1242
-        y: 856
-        width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0420f459d726fa1a0800000000000000
-      internalID: -6796105021163371968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B21_Bath_2_9
-      rect:
-        serializedVersion: 2
-        x: 1564
-        y: 848
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 468cf840af9b67d90800000000000000
-      internalID: -7100283279033513884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B21_Bath_2_10
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 837
-        width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5abd4c7f84e1a4720800000000000000
-      internalID: 2831108614499130277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B21_Bath_2_11
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 485
-        width: 694
-        height: 351
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ced2065fc4056e720800000000000000
-      internalID: 2875073703587098092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B21_Bath_2_12
-      rect:
-        serializedVersion: 2
-        x: 1218
-        y: 486
-        width: 646
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb00e65233e96f850800000000000000
-      internalID: 6410485062116966591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B21_Bath_2_13
-      rect:
-        serializedVersion: 2
-        x: 1333
-        y: 484
-        width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b54fc383764232f90800000000000000
-      internalID: -6979694971750386597
       vertices: []
       indices: 
       edges: []
@@ -488,18 +263,9 @@ TextureImporter:
     nameFileIdTable:
       B21_Bath_2_0: 3153781526494462345
       B21_Bath_2_1: 7305129139682233927
-      B21_Bath_2_10: 2831108614499130277
-      B21_Bath_2_11: 2875073703587098092
-      B21_Bath_2_12: 6410485062116966591
-      B21_Bath_2_13: -6979694971750386597
       B21_Bath_2_2: -2378456071912214186
       B21_Bath_2_3: -3123604174828895802
       B21_Bath_2_4: 5690591422890526775
-      B21_Bath_2_5: 702092200792753119
-      B21_Bath_2_6: 1306494954227343760
-      B21_Bath_2_7: -469197643616646210
-      B21_Bath_2_8: -6796105021163371968
-      B21_Bath_2_9: -7100283279033513884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

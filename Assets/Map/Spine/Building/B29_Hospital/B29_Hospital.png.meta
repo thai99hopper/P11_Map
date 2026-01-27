@@ -41,15 +41,6 @@ TextureImporter:
   - first:
       213: 3848943531597296879
     second: B29_Hospital_12
-  - first:
-      213: -6687894960919496764
-    second: B29_Hospital_13
-  - first:
-      213: 6044209656048787362
-    second: B29_Hospital_14
-  - first:
-      213: 8726924832903162252
-    second: B29_Hospital_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -174,9 +165,9 @@ TextureImporter:
       name: B29_Hospital_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1323
-        width: 904
+        x: 1
+        y: 1315
+        width: 845
         height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -196,10 +187,10 @@ TextureImporter:
       name: B29_Hospital_1
       rect:
         serializedVersion: 2
-        x: 980
-        y: 1053
-        width: 727
-        height: 995
+        x: 1
+        y: 665
+        width: 871
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +209,10 @@ TextureImporter:
       name: B29_Hospital_2
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 1599
-        width: 64
-        height: 85
+        x: 872
+        y: 1010
+        width: 900
+        height: 695
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +231,10 @@ TextureImporter:
       name: B29_Hospital_3
       rect:
         serializedVersion: 2
-        x: 1786
-        y: 1633
-        width: 118
-        height: 152
+        x: 1
+        y: 126
+        width: 423
+        height: 398
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +253,10 @@ TextureImporter:
       name: B29_Hospital_4
       rect:
         serializedVersion: 2
-        x: 1786
-        y: 1080
-        width: 256
-        height: 555
+        x: 424
+        y: 255
+        width: 517
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +275,10 @@ TextureImporter:
       name: B29_Hospital_5
       rect:
         serializedVersion: 2
-        x: 609
-        y: 1052
-        width: 372
-        height: 235
+        x: 941
+        y: 360
+        width: 864
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +297,10 @@ TextureImporter:
       name: B29_Hospital_6
       rect:
         serializedVersion: 2
-        x: 756
-        y: 967
-        width: 121
-        height: 87
+        x: 1569
+        y: 1
+        width: 377
+        height: 359
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +319,10 @@ TextureImporter:
       name: B29_Hospital_7
       rect:
         serializedVersion: 2
-        x: 1624
-        y: 723
-        width: 376
-        height: 358
+        x: 1
+        y: 1
+        width: 150
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +341,10 @@ TextureImporter:
       name: B29_Hospital_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 683
-        width: 38
-        height: 34
+        x: 151
+        y: 1
+        width: 304
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +363,10 @@ TextureImporter:
       name: B29_Hospital_9
       rect:
         serializedVersion: 2
-        x: 58
-        y: 219
-        width: 1396
-        height: 779
+        x: 455
+        y: 1
+        width: 286
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +385,10 @@ TextureImporter:
       name: B29_Hospital_10
       rect:
         serializedVersion: 2
-        x: 1568
-        y: 355
-        width: 250
-        height: 368
+        x: 741
+        y: 1
+        width: 267
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,10 +407,10 @@ TextureImporter:
       name: B29_Hospital_11
       rect:
         serializedVersion: 2
-        x: 1900
-        y: 442
-        width: 127
-        height: 305
+        x: 1008
+        y: 1
+        width: 149
+        height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,10 +429,10 @@ TextureImporter:
       name: B29_Hospital_12
       rect:
         serializedVersion: 2
-        x: 1498
-        y: 593
-        width: 72
-        height: 63
+        x: 1202
+        y: 84
+        width: 367
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,72 +443,6 @@ TextureImporter:
       bones: []
       spriteID: fe4f469dfb13a6530800000000000000
       internalID: 3848943531597296879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B29_Hospital_13
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 160
-        width: 136
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4c7b44f87f2df23a0800000000000000
-      internalID: -6687894960919496764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B29_Hospital_14
-      rect:
-        serializedVersion: 2
-        x: 714
-        y: 179
-        width: 59
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2af16c898a851e350800000000000000
-      internalID: 6044209656048787362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B29_Hospital_15
-      rect:
-        serializedVersion: 2
-        x: 1695
-        y: 160
-        width: 207
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c896ab6f5e34c1970800000000000000
-      internalID: 8726924832903162252
       vertices: []
       indices: 
       edges: []
@@ -541,9 +466,6 @@ TextureImporter:
       B29_Hospital_10: 8614152534507579963
       B29_Hospital_11: 1690220240886417649
       B29_Hospital_12: 3848943531597296879
-      B29_Hospital_13: -6687894960919496764
-      B29_Hospital_14: 6044209656048787362
-      B29_Hospital_15: 8726924832903162252
       B29_Hospital_2: -8708189790985313999
       B29_Hospital_3: 981999391453090559
       B29_Hospital_4: -7930323643579694692

@@ -11,15 +11,6 @@ TextureImporter:
   - first:
       213: 4394836249324753524
     second: B24_FurnitureStore_2_2
-  - first:
-      213: 3175970788853111212
-    second: B24_FurnitureStore_2_3
-  - first:
-      213: 7573913170156973886
-    second: B24_FurnitureStore_2_4
-  - first:
-      213: -6159726878146658069
-    second: B24_FurnitureStore_2_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -144,10 +135,10 @@ TextureImporter:
       name: B24_FurnitureStore_2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1240
-        width: 873
-        height: 767
+        x: 1
+        y: 894
+        width: 1191
+        height: 830
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +157,10 @@ TextureImporter:
       name: B24_FurnitureStore_2_1
       rect:
         serializedVersion: 2
-        x: 872
-        y: 1321
-        width: 995
-        height: 727
+        x: 1
+        y: 1
+        width: 1245
+        height: 893
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +179,10 @@ TextureImporter:
       name: B24_FurnitureStore_2_2
       rect:
         serializedVersion: 2
-        x: 835
-        y: 757
-        width: 636
-        height: 485
+        x: 1246
+        y: 1
+        width: 765
+        height: 872
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,72 +193,6 @@ TextureImporter:
       bones: []
       spriteID: 472130fa8489dfc30800000000000000
       internalID: 4394836249324753524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_2_3
-      rect:
-        serializedVersion: 2
-        x: 1418
-        y: 1241
-        width: 85
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca95b9efa90531c20800000000000000
-      internalID: 3175970788853111212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_2_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 757
-        width: 319
-        height: 274
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3febd266e1fb1960800000000000000
-      internalID: 7573913170156973886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_2_5
-      rect:
-        serializedVersion: 2
-        x: 318
-        y: 759
-        width: 518
-        height: 450
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be084aa3a01448aa0800000000000000
-      internalID: -6159726878146658069
       vertices: []
       indices: 
       edges: []
@@ -289,9 +214,6 @@ TextureImporter:
       B24_FurnitureStore_2_0: 7775930022031862469
       B24_FurnitureStore_2_1: 8211836537343777013
       B24_FurnitureStore_2_2: 4394836249324753524
-      B24_FurnitureStore_2_3: 3175970788853111212
-      B24_FurnitureStore_2_4: 7573913170156973886
-      B24_FurnitureStore_2_5: -6159726878146658069
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

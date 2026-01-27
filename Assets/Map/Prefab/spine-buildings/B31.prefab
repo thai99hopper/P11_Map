@@ -57,11 +57,6 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 640bb6bd3d5caa543b95c768c2540534, type: 2}
-  - {fileID: 2100000, guid: 79348e6a649129148aa4539fd85ecfc0, type: 2}
-  - {fileID: 2100000, guid: 640bb6bd3d5caa543b95c768c2540534, type: 2}
-  - {fileID: 2100000, guid: 79348e6a649129148aa4539fd85ecfc0, type: 2}
-  - {fileID: 2100000, guid: 640bb6bd3d5caa543b95c768c2540534, type: 2}
   - {fileID: 2100000, guid: 79348e6a649129148aa4539fd85ecfc0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -121,7 +116,7 @@ MonoBehaviour:
   disableRenderingOnOverride: 1
   updateTiming: 1
   unscaledTime: 0
-  _animationName: building_lv3
+  _animationName: building_lv0
   loop: 1
   timeScale: 1
 --- !u!33 &2664478066898293781

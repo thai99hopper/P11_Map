@@ -8,21 +8,6 @@ TextureImporter:
   - first:
       213: 3919436418379399908
     second: B23_Cacaofarm_3_1
-  - first:
-      213: 1143966524456015170
-    second: B23_Cacaofarm_3_2
-  - first:
-      213: 7560158990868767167
-    second: B23_Cacaofarm_3_3
-  - first:
-      213: -7564587604036954770
-    second: B23_Cacaofarm_3_4
-  - first:
-      213: 7403311573401076260
-    second: B23_Cacaofarm_3_5
-  - first:
-      213: -8198939157871494474
-    second: B23_Cacaofarm_3_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,10 +132,10 @@ TextureImporter:
       name: B23_Cacaofarm_3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 965
-        width: 1176
-        height: 1083
+        x: 1
+        y: 1
+        width: 1081
+        height: 957
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +154,10 @@ TextureImporter:
       name: B23_Cacaofarm_3_1
       rect:
         serializedVersion: 2
-        x: 756
-        y: 879
-        width: 121
-        height: 87
+        x: 1082
+        y: 1
+        width: 957
+        height: 1081
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,116 +168,6 @@ TextureImporter:
       bones: []
       spriteID: 4e2cb3d08a2a46630800000000000000
       internalID: 3919436418379399908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B23_Cacaofarm_3_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 595
-        width: 38
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24593253e7f20ef00800000000000000
-      internalID: 1143966524456015170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B23_Cacaofarm_3_3
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 131
-        width: 1396
-        height: 779
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb16538fb841be860800000000000000
-      internalID: 7560158990868767167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B23_Cacaofarm_3_4
-      rect:
-        serializedVersion: 2
-        x: 1498
-        y: 505
-        width: 72
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e65dd0d27af250790800000000000000
-      internalID: -7564587604036954770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B23_Cacaofarm_3_5
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 72
-        width: 136
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4220c1ec6a8ddb660800000000000000
-      internalID: 7403311573401076260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B23_Cacaofarm_3_6
-      rect:
-        serializedVersion: 2
-        x: 714
-        y: 91
-        width: 59
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ba77089644873e80800000000000000
-      internalID: -8198939157871494474
       vertices: []
       indices: 
       edges: []
@@ -313,11 +188,6 @@ TextureImporter:
     nameFileIdTable:
       B23_Cacaofarm_3_0: 2046457539271127099
       B23_Cacaofarm_3_1: 3919436418379399908
-      B23_Cacaofarm_3_2: 1143966524456015170
-      B23_Cacaofarm_3_3: 7560158990868767167
-      B23_Cacaofarm_3_4: -7564587604036954770
-      B23_Cacaofarm_3_5: 7403311573401076260
-      B23_Cacaofarm_3_6: -8198939157871494474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

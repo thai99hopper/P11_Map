@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: 5107308292378917853
     second: B30_FireStation_2_3
+  - first:
+      213: 6997765300831795992
+    second: B30_FireStation_2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -138,10 +141,10 @@ TextureImporter:
       name: B30_FireStation_2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1053
-        width: 727
-        height: 995
+        x: 247
+        y: 790
+        width: 378
+        height: 360
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +163,10 @@ TextureImporter:
       name: B30_FireStation_2_1
       rect:
         serializedVersion: 2
-        x: 743
-        y: 1599
-        width: 64
-        height: 85
+        x: 1
+        y: 127
+        width: 427
+        height: 579
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +185,10 @@ TextureImporter:
       name: B30_FireStation_2_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 130
-        width: 798
-        height: 924
+        x: 442
+        y: 383
+        width: 301
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +207,10 @@ TextureImporter:
       name: B30_FireStation_2_3
       rect:
         serializedVersion: 2
-        x: 806
-        y: 130
-        width: 983
-        height: 1033
+        x: 838
+        y: 318
+        width: 361
+        height: 281
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,6 +221,28 @@ TextureImporter:
       bones: []
       spriteID: ddbf6ad05ddc0e640800000000000000
       internalID: 5107308292378917853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B30_FireStation_2_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1
+        width: 78
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b32a1277e0d1160800000000000000
+      internalID: 6997765300831795992
       vertices: []
       indices: 
       edges: []
@@ -240,6 +265,7 @@ TextureImporter:
       B30_FireStation_2_1: 4177380161881576910
       B30_FireStation_2_2: -3070418837329385628
       B30_FireStation_2_3: 5107308292378917853
+      B30_FireStation_2_4: 6997765300831795992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,21 +8,6 @@ TextureImporter:
   - first:
       213: 6227889649900370230
     second: B31_PoliceOffice_2_1
-  - first:
-      213: 7786128365966617090
-    second: B31_PoliceOffice_2_2
-  - first:
-      213: 1642813062022310040
-    second: B31_PoliceOffice_2_3
-  - first:
-      213: 6772903691877479323
-    second: B31_PoliceOffice_2_4
-  - first:
-      213: 807903062395852518
-    second: B31_PoliceOffice_2_5
-  - first:
-      213: 4753251561133696751
-    second: B31_PoliceOffice_2_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,10 +132,10 @@ TextureImporter:
       name: B31_PoliceOffice_2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1186
-        width: 1430
-        height: 862
+        x: 1
+        y: 862
+        width: 984
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +154,10 @@ TextureImporter:
       name: B31_PoliceOffice_2_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 293
-        width: 831
-        height: 894
+        x: 1
+        y: 1
+        width: 1429
+        height: 861
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,116 +168,6 @@ TextureImporter:
       bones: []
       spriteID: 639b4aac3a8ed6650800000000000000
       internalID: 6227889649900370230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_2_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 135
-        width: 71
-        height: 149
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20a68050f72ed0c60800000000000000
-      internalID: 7786128365966617090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_2_3
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 28
-        width: 76
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8982632a6c17cc610800000000000000
-      internalID: 1642813062022310040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_2_4
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 97
-        width: 70
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b93f94cf5003efd50800000000000000
-      internalID: 6772903691877479323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_2_5
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 28
-        width: 249
-        height: 268
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e61e070e8f363b00800000000000000
-      internalID: 807903062395852518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_2_6
-      rect:
-        serializedVersion: 2
-        x: 829
-        y: 29
-        width: 952
-        height: 985
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe6e17d6c11f6f140800000000000000
-      internalID: 4753251561133696751
       vertices: []
       indices: 
       edges: []
@@ -313,11 +188,6 @@ TextureImporter:
     nameFileIdTable:
       B31_PoliceOffice_2_0: -9125187544084123556
       B31_PoliceOffice_2_1: 6227889649900370230
-      B31_PoliceOffice_2_2: 7786128365966617090
-      B31_PoliceOffice_2_3: 1642813062022310040
-      B31_PoliceOffice_2_4: 6772903691877479323
-      B31_PoliceOffice_2_5: 807903062395852518
-      B31_PoliceOffice_2_6: 4753251561133696751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

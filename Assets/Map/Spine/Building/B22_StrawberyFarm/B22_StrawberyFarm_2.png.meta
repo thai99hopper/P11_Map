@@ -5,24 +5,6 @@ TextureImporter:
   - first:
       213: -2895577926846390775
     second: B22_StrawberyFarm_2_0
-  - first:
-      213: -2869510738443894611
-    second: B22_StrawberyFarm_2_1
-  - first:
-      213: 8273704948542209604
-    second: B22_StrawberyFarm_2_2
-  - first:
-      213: -194306036085367720
-    second: B22_StrawberyFarm_2_3
-  - first:
-      213: 9064249520678071312
-    second: B22_StrawberyFarm_2_4
-  - first:
-      213: 2257217875125781223
-    second: B22_StrawberyFarm_2_5
-  - first:
-      213: 6500033346557701873
-    second: B22_StrawberyFarm_2_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,10 +129,10 @@ TextureImporter:
       name: B22_StrawberyFarm_2_0
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 1977
-        width: 63
-        height: 71
+        x: 1
+        y: 1
+        width: 1095
+        height: 1031
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,138 +143,6 @@ TextureImporter:
       bones: []
       spriteID: 90edbda8737d0d7d0800000000000000
       internalID: -2895577926846390775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B22_StrawberyFarm_2_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 479
-        width: 1031
-        height: 1095
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da002ebcf237d28d0800000000000000
-      internalID: -2869510738443894611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B22_StrawberyFarm_2_2
-      rect:
-        serializedVersion: 2
-        x: 1029
-        y: 1235
-        width: 87
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44eff3290da12d270800000000000000
-      internalID: 8273704948542209604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B22_StrawberyFarm_2_3
-      rect:
-        serializedVersion: 2
-        x: 1085
-        y: 537
-        width: 779
-        height: 1396
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85cda6d80bfad4df0800000000000000
-      internalID: -194306036085367720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B22_StrawberyFarm_2_4
-      rect:
-        serializedVersion: 2
-        x: 1868
-        y: 1193
-        width: 36
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01c65832aeeaacd70800000000000000
-      internalID: 9064249520678071312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B22_StrawberyFarm_2_5
-      rect:
-        serializedVersion: 2
-        x: 1832
-        y: 1050
-        width: 91
-        height: 136
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e2c88bb2bf335f10800000000000000
-      internalID: 2257217875125781223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B22_StrawberyFarm_2_6
-      rect:
-        serializedVersion: 2
-        x: 1366
-        y: 478
-        width: 34
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fee3c9d3e1c43a50800000000000000
-      internalID: 6500033346557701873
       vertices: []
       indices: 
       edges: []
@@ -312,12 +162,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       B22_StrawberyFarm_2_0: -2895577926846390775
-      B22_StrawberyFarm_2_1: -2869510738443894611
-      B22_StrawberyFarm_2_2: 8273704948542209604
-      B22_StrawberyFarm_2_3: -194306036085367720
-      B22_StrawberyFarm_2_4: 9064249520678071312
-      B22_StrawberyFarm_2_5: 2257217875125781223
-      B22_StrawberyFarm_2_6: 6500033346557701873
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

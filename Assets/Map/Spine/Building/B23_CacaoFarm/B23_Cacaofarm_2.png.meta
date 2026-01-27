@@ -5,12 +5,6 @@ TextureImporter:
   - first:
       213: -154100441471132079
     second: B23_Cacaofarm_2_0
-  - first:
-      213: -7771451461909405757
-    second: B23_Cacaofarm_2_1
-  - first:
-      213: -1836948550788751404
-    second: B23_Cacaofarm_2_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,10 +129,10 @@ TextureImporter:
       name: B23_Cacaofarm_2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1091
-        width: 1081
-        height: 957
+        x: 1
+        y: 1
+        width: 1192
+        height: 1471
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,50 +143,6 @@ TextureImporter:
       bones: []
       spriteID: 15ed16607768cddf0800000000000000
       internalID: -154100441471132079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B23_Cacaofarm_2_1
-      rect:
-        serializedVersion: 2
-        x: 664
-        y: 200
-        width: 938
-        height: 891
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3cf13bff112462490800000000000000
-      internalID: -7771451461909405757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B23_Cacaofarm_2_2
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 201
-        width: 664
-        height: 693
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4df519f8609d186e0800000000000000
-      internalID: -1836948550788751404
       vertices: []
       indices: 
       edges: []
@@ -212,8 +162,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       B23_Cacaofarm_2_0: -154100441471132079
-      B23_Cacaofarm_2_1: -7771451461909405757
-      B23_Cacaofarm_2_2: -1836948550788751404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
