@@ -8,6 +8,21 @@ TextureImporter:
   - first:
       213: -8470226482520568402
     second: B07_Ironworks_2_1
+  - first:
+      213: 5191608557292172817
+    second: B07_Ironworks_2_2
+  - first:
+      213: 7251242870426759235
+    second: B07_Ironworks_2_3
+  - first:
+      213: 2703097758560436879
+    second: B07_Ironworks_2_4
+  - first:
+      213: -2649978342017075772
+    second: B07_Ironworks_2_5
+  - first:
+      213: -2039953242133413244
+    second: B07_Ironworks_2_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,10 +147,10 @@ TextureImporter:
       name: B07_Ironworks_2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 184
-        width: 586
-        height: 840
+        x: 398
+        y: 1499
+        width: 63
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,10 +169,10 @@ TextureImporter:
       name: B07_Ironworks_2_1
       rect:
         serializedVersion: 2
-        x: 585
-        y: 185
-        width: 1097
-        height: 666
+        x: 1
+        y: 757
+        width: 86
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,6 +183,116 @@ TextureImporter:
       bones: []
       spriteID: ead414e24e5b37a80800000000000000
       internalID: -8470226482520568402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B07_Ironworks_2_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 59
+        width: 779
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116374ef97c4c0840800000000000000
+      internalID: 5191608557292172817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B07_Ironworks_2_3
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 715
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340fedfc8f691a460800000000000000
+      internalID: 7251242870426759235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B07_Ironworks_2_4
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1
+        width: 868
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82462cf615538520800000000000000
+      internalID: 2703097758560436879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B07_Ironworks_2_5
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 572
+        width: 90
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5f795fcb2693bd0800000000000000
+      internalID: -2649978342017075772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B07_Ironworks_2_6
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4824b3c9551a0b3e0800000000000000
+      internalID: -2039953242133413244
       vertices: []
       indices: 
       edges: []
@@ -188,6 +313,11 @@ TextureImporter:
     nameFileIdTable:
       B07_Ironworks_2_0: 6833602327390624272
       B07_Ironworks_2_1: -8470226482520568402
+      B07_Ironworks_2_2: 5191608557292172817
+      B07_Ironworks_2_3: 7251242870426759235
+      B07_Ironworks_2_4: 2703097758560436879
+      B07_Ironworks_2_5: -2649978342017075772
+      B07_Ironworks_2_6: -2039953242133413244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
