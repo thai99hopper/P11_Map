@@ -1,9 +1,87 @@
 fileFormatVersion: 2
 guid: 99b1a3018afca014fa2b7db8080e2ac3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6060088556040128310
+    second: B14_CoffeeFarm_0
+  - first:
+      213: 6085764981295836152
+    second: B14_CoffeeFarm_1
+  - first:
+      213: -3923990148789092748
+    second: B14_CoffeeFarm_2
+  - first:
+      213: 101592840231119599
+    second: B14_CoffeeFarm_3
+  - first:
+      213: -3254696178282222161
+    second: B14_CoffeeFarm_4
+  - first:
+      213: -4541656040950486458
+    second: B14_CoffeeFarm_5
+  - first:
+      213: -7396044717397875957
+    second: B14_CoffeeFarm_6
+  - first:
+      213: 2136265507751341909
+    second: B14_CoffeeFarm_7
+  - first:
+      213: 1991370372521524781
+    second: B14_CoffeeFarm_8
+  - first:
+      213: -8039471330321866080
+    second: B14_CoffeeFarm_9
+  - first:
+      213: -5982215159154785477
+    second: B14_CoffeeFarm_10
+  - first:
+      213: 1077916894833844602
+    second: B14_CoffeeFarm_11
+  - first:
+      213: 3579716752127212003
+    second: B14_CoffeeFarm_12
+  - first:
+      213: -7326994083912815013
+    second: B14_CoffeeFarm_13
+  - first:
+      213: 2085680034248147504
+    second: B14_CoffeeFarm_14
+  - first:
+      213: 7512914040873523215
+    second: B14_CoffeeFarm_15
+  - first:
+      213: 3336038329179090441
+    second: B14_CoffeeFarm_16
+  - first:
+      213: 8390086801929591898
+    second: B14_CoffeeFarm_17
+  - first:
+      213: -6676696487732713241
+    second: B14_CoffeeFarm_18
+  - first:
+      213: 4631718911265615153
+    second: B14_CoffeeFarm_19
+  - first:
+      213: 8157572676880287951
+    second: B14_CoffeeFarm_20
+  - first:
+      213: -1377422181152491683
+    second: B14_CoffeeFarm_21
+  - first:
+      213: 5956018799241973439
+    second: B14_CoffeeFarm_22
+  - first:
+      213: 7822014924894598155
+    second: B14_CoffeeFarm_23
+  - first:
+      213: 3387769208939878336
+    second: B14_CoffeeFarm_24
+  - first:
+      213: -5547967924181236849
+    second: B14_CoffeeFarm_25
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +98,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,8 +142,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,25 +155,665 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 457
+        width: 833
+        height: 818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac871d5e09d36eba0800000000000000
+      internalID: -6060088556040128310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_1
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 960
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb66a8b10bf47450800000000000000
+      internalID: 6085764981295836152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_2
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 737
+        width: 1000
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e3b47ffbf2b89c0800000000000000
+      internalID: -3923990148789092748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_3
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 919
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feae2b1662ee86100800000000000000
+      internalID: 101592840231119599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 85
+        width: 368
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadaaa9e11ff4d2d0800000000000000
+      internalID: -3254696178282222161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 113
+        width: 301
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64aa32bb4ebc8f0c0800000000000000
+      internalID: -4541656040950486458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_6
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 143
+        width: 477
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b036894f388fb5990800000000000000
+      internalID: -7396044717397875957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_7
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 233
+        width: 588
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f207f292a85ad10800000000000000
+      internalID: 2136265507751341909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_8
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1
+        width: 412
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ef1669dc4c2ab10800000000000000
+      internalID: 1991370372521524781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1
+        width: 206
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a26a368b6f0e6090800000000000000
+      internalID: -8039471330321866080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_10
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1
+        width: 119
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b334f940207eafca0800000000000000
+      internalID: -5982215159154785477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_11
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 86
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71a6fd64b785fe00800000000000000
+      internalID: 1077916894833844602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_12
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9be0f7b65bda130800000000000000
+      internalID: 3579716752127212003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_13
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1
+        width: 135
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eecf463b9415a90800000000000000
+      internalID: -7326994083912815013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_14
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1
+        width: 156
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0324c74d0f2d1fc10800000000000000
+      internalID: 2085680034248147504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_15
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 81
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f089f4ad38b334860800000000000000
+      internalID: 7512914040873523215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_16
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 54
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eaecf6f2dfb4e20800000000000000
+      internalID: 3336038329179090441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_17
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 14
+        width: 94
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cd4b76e739f6470800000000000000
+      internalID: 8390086801929591898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8e7974beb9753a0800000000000000
+      internalID: -6676696487732713241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_19
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1
+        width: 120
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d22755fcb274040800000000000000
+      internalID: 4631718911265615153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 57
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8c1e20125853170800000000000000
+      internalID: 8157572676880287951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_21
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5779aaf2d962ece0800000000000000
+      internalID: -1377422181152491683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 191
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbecd54aa8708a250800000000000000
+      internalID: 5956018799241973439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b047522a1216d8c60800000000000000
+      internalID: 7822014924894598155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_24
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c71ed77526c30f20800000000000000
+      internalID: 3387769208939878336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B14_CoffeeFarm_25
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 14
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f838aed3198a103b0800000000000000
+      internalID: -5547967924181236849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B14_CoffeeFarm_0: -6060088556040128310
+      B14_CoffeeFarm_1: 6085764981295836152
+      B14_CoffeeFarm_10: -5982215159154785477
+      B14_CoffeeFarm_11: 1077916894833844602
+      B14_CoffeeFarm_12: 3579716752127212003
+      B14_CoffeeFarm_13: -7326994083912815013
+      B14_CoffeeFarm_14: 2085680034248147504
+      B14_CoffeeFarm_15: 7512914040873523215
+      B14_CoffeeFarm_16: 3336038329179090441
+      B14_CoffeeFarm_17: 8390086801929591898
+      B14_CoffeeFarm_18: -6676696487732713241
+      B14_CoffeeFarm_19: 4631718911265615153
+      B14_CoffeeFarm_2: -3923990148789092748
+      B14_CoffeeFarm_20: 8157572676880287951
+      B14_CoffeeFarm_21: -1377422181152491683
+      B14_CoffeeFarm_22: 5956018799241973439
+      B14_CoffeeFarm_23: 7822014924894598155
+      B14_CoffeeFarm_24: 3387769208939878336
+      B14_CoffeeFarm_25: -5547967924181236849
+      B14_CoffeeFarm_3: 101592840231119599
+      B14_CoffeeFarm_4: -3254696178282222161
+      B14_CoffeeFarm_5: -4541656040950486458
+      B14_CoffeeFarm_6: -7396044717397875957
+      B14_CoffeeFarm_7: 2136265507751341909
+      B14_CoffeeFarm_8: 1991370372521524781
+      B14_CoffeeFarm_9: -8039471330321866080
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
