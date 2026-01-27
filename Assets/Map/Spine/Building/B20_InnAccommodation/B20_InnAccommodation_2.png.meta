@@ -17,12 +17,6 @@ TextureImporter:
   - first:
       213: 5858151472916650996
     second: B20_InnAccommodation_2_4
-  - first:
-      213: -7240102179839236740
-    second: B20_InnAccommodation_2_5
-  - first:
-      213: 4620582586203435437
-    second: B20_InnAccommodation_2_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,10 +141,10 @@ TextureImporter:
       name: B20_InnAccommodation_2_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 708
-        width: 685
-        height: 707
+        x: 1
+        y: 986
+        width: 974
+        height: 804
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +163,10 @@ TextureImporter:
       name: B20_InnAccommodation_2_1
       rect:
         serializedVersion: 2
-        x: 569
-        y: 1243
-        width: 976
-        height: 805
+        x: 975
+        y: 992
+        width: 871
+        height: 773
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +185,10 @@ TextureImporter:
       name: B20_InnAccommodation_2_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 372
-        width: 304
-        height: 324
+        x: 1722
+        y: 981
+        width: 113
+        height: 178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +207,10 @@ TextureImporter:
       name: B20_InnAccommodation_2_3
       rect:
         serializedVersion: 2
-        x: 302
-        y: 158
-        width: 356
-        height: 549
+        x: 1
+        y: 1
+        width: 956
+        height: 985
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +229,10 @@ TextureImporter:
       name: B20_InnAccommodation_2_4
       rect:
         serializedVersion: 2
-        x: 594
-        y: 569
-        width: 75
-        height: 62
+        x: 957
+        y: 1
+        width: 954
+        height: 980
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,50 +243,6 @@ TextureImporter:
       bones: []
       spriteID: 4fbd0af0ab55c4150800000000000000
       internalID: 5858151472916650996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B20_InnAccommodation_2_5
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 158
-        width: 741
-        height: 993
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c75a6295d6df58b90800000000000000
-      internalID: -7240102179839236740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B20_InnAccommodation_2_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 158
-        width: 231
-        height: 215
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da1f20a916b9f1040800000000000000
-      internalID: 4620582586203435437
       vertices: []
       indices: 
       edges: []
@@ -316,8 +266,6 @@ TextureImporter:
       B20_InnAccommodation_2_2: 5524998534107295284
       B20_InnAccommodation_2_3: 4750301687692443427
       B20_InnAccommodation_2_4: 5858151472916650996
-      B20_InnAccommodation_2_5: -7240102179839236740
-      B20_InnAccommodation_2_6: 4620582586203435437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 036eb808f083e8b40bd9121062464b64
+guid: 92132e3e0434733428f73bd07a91bd1f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7370006376303783621
-    second: B20_InnAccommodation_3_0
-  - first:
-      213: -2748313033324938634
-    second: B20_InnAccommodation_3_1
+      213: -8641770348621865531
+    second: B18_Shipyard_3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: B20_InnAccommodation_3_0
+      name: B18_Shipyard_3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 297
-        width: 995
-        height: 727
+        x: 1
+        y: 1
+        width: 1026
+        height: 1291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,30 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b319c0caf3a78b990800000000000000
-      internalID: -7370006376303783621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B20_InnAccommodation_3_1
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 217
-        width: 85
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 67a371d7bd70cd9d0800000000000000
-      internalID: -2748313033324938634
+      spriteID: 5cdd3eb67a3421880800000000000000
+      internalID: -8641770348621865531
       vertices: []
       indices: 
       edges: []
@@ -186,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      B20_InnAccommodation_3_0: -7370006376303783621
-      B20_InnAccommodation_3_1: -2748313033324938634
+      B18_Shipyard_3_0: -8641770348621865531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
