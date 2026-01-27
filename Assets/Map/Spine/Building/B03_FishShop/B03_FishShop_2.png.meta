@@ -1,9 +1,42 @@
 fileFormatVersion: 2
 guid: 0426ed11682fa574b8246f6e6505b5dd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6715871131785166789
+    second: B03_FishShop_2_0
+  - first:
+      213: -8353204158045580218
+    second: B03_FishShop_2_1
+  - first:
+      213: -1616971015952871414
+    second: B03_FishShop_2_2
+  - first:
+      213: 3852853793736163596
+    second: B03_FishShop_2_3
+  - first:
+      213: 6550271927006871600
+    second: B03_FishShop_2_4
+  - first:
+      213: -907264200234541936
+    second: B03_FishShop_2_5
+  - first:
+      213: -5995150100044661486
+    second: B03_FishShop_2_6
+  - first:
+      213: -7915032389033586191
+    second: B03_FishShop_2_7
+  - first:
+      213: -112798760417673294
+    second: B03_FishShop_2_8
+  - first:
+      213: 4039797757551491321
+    second: B03_FishShop_2_9
+  - first:
+      213: 7299545529346444770
+    second: B03_FishShop_2_10
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +53,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,8 +97,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,25 +110,320 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: B03_FishShop_2_0
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1213
+        width: 324
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cffa5f4631933d50800000000000000
+      internalID: 6715871131785166789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B03_FishShop_2_1
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1571
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644906f4315731c80800000000000000
+      internalID: -8353204158045580218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B03_FishShop_2_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 816
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00d6069d6d5f89e0800000000000000
+      internalID: -1616971015952871414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B03_FishShop_2_3
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 814
+        width: 270
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c010923bc16187530800000000000000
+      internalID: 3852853793736163596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B03_FishShop_2_4
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 988
+        width: 220
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030457fdc9d37ea50800000000000000
+      internalID: 6550271927006871600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B03_FishShop_2_5
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1075
+        width: 220
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c579b4400c863f0800000000000000
+      internalID: -907264200234541936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B03_FishShop_2_6
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 400
+        width: 324
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21db0b76fb2fccca0800000000000000
+      internalID: -5995150100044661486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B03_FishShop_2_7
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 758
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f111f15af7282290800000000000000
+      internalID: -7915032389033586191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B03_FishShop_2_8
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1
+        width: 270
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf333200224f6ef0800000000000000
+      internalID: -112798760417673294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B03_FishShop_2_9
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 175
+        width: 220
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8b64f18ae301830800000000000000
+      internalID: 4039797757551491321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B03_FishShop_2_10
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 262
+        width: 220
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed4c7afbf13d4560800000000000000
+      internalID: 7299545529346444770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B03_FishShop_2_0: 6715871131785166789
+      B03_FishShop_2_1: -8353204158045580218
+      B03_FishShop_2_10: 7299545529346444770
+      B03_FishShop_2_2: -1616971015952871414
+      B03_FishShop_2_3: 3852853793736163596
+      B03_FishShop_2_4: 6550271927006871600
+      B03_FishShop_2_5: -907264200234541936
+      B03_FishShop_2_6: -5995150100044661486
+      B03_FishShop_2_7: -7915032389033586191
+      B03_FishShop_2_8: -112798760417673294
+      B03_FishShop_2_9: 4039797757551491321
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
