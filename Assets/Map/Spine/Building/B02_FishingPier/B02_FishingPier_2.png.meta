@@ -11,12 +11,6 @@ TextureImporter:
   - first:
       213: -1330287245067160507
     second: B02_FishingPier_2_2
-  - first:
-      213: 2885478956284409074
-    second: B02_FishingPier_2_3
-  - first:
-      213: 8704161852282911943
-    second: B02_FishingPier_2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,10 +135,10 @@ TextureImporter:
       name: B02_FishingPier_2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1412
-        width: 1001
-        height: 636
+        x: 1
+        y: 1
+        width: 829
+        height: 1173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,10 +157,10 @@ TextureImporter:
       name: B02_FishingPier_2_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 897
-        width: 1001
-        height: 515
+        x: 830
+        y: 734
+        width: 951
+        height: 733
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,10 +179,10 @@ TextureImporter:
       name: B02_FishingPier_2_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 463
-        width: 887
-        height: 436
+        x: 830
+        y: 1
+        width: 951
+        height: 733
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,50 +193,6 @@ TextureImporter:
       bones: []
       spriteID: 544f98c7cced98de0800000000000000
       internalID: -1330287245067160507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B02_FishingPier_2_3
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 41
-        width: 492
-        height: 424
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f47234a2d74b0820800000000000000
-      internalID: 2885478956284409074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B02_FishingPier_2_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 41
-        width: 469
-        height: 417
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7cc34d886156bc870800000000000000
-      internalID: 8704161852282911943
       vertices: []
       indices: 
       edges: []
@@ -264,8 +214,6 @@ TextureImporter:
       B02_FishingPier_2_0: 1501863405015917509
       B02_FishingPier_2_1: -7434892233877275954
       B02_FishingPier_2_2: -1330287245067160507
-      B02_FishingPier_2_3: 2885478956284409074
-      B02_FishingPier_2_4: 8704161852282911943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
