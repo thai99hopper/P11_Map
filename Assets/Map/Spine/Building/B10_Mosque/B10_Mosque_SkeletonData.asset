@@ -15,7 +15,7 @@ MonoBehaviour:
   atlasAssets:
   - {fileID: 11400000, guid: 73e85ba0e5f08344f972de574dade6a9, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: c3d9a2493873e9d47910426d42c1cf72, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 88086826d61f31348aa9d34a0c089eb5, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
     requiresBlendModeMaterials: 1
@@ -23,8 +23,6 @@ MonoBehaviour:
     additiveMaterials:
     - pageName: B10_Mosque.png
       material: {fileID: 2100000, guid: 19b7e242f5d16aa4d81523b94fc3c4e0, type: 2}
-    - pageName: B10_Mosque_2.png
-      material: {fileID: 2100000, guid: 5322b3ac27fd7f548a2b26fb2999c09a, type: 2}
     multiplyMaterials: []
     screenMaterials: []
   skeletonDataModifiers: []

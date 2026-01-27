@@ -1,9 +1,132 @@
 fileFormatVersion: 2
 guid: 434ea66ee0a589c43b6ad1c2daed27db
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -190919761205838203
+    second: B10_Mosque_0
+  - first:
+      213: 7792244333136959092
+    second: B10_Mosque_1
+  - first:
+      213: -2978561032792294884
+    second: B10_Mosque_2
+  - first:
+      213: -6496026469096241727
+    second: B10_Mosque_3
+  - first:
+      213: 8344685877605503056
+    second: B10_Mosque_4
+  - first:
+      213: 3905487532458859281
+    second: B10_Mosque_5
+  - first:
+      213: 9043753350885076550
+    second: B10_Mosque_6
+  - first:
+      213: -1905138697024236249
+    second: B10_Mosque_7
+  - first:
+      213: -800765787317769375
+    second: B10_Mosque_8
+  - first:
+      213: -4659399633127051269
+    second: B10_Mosque_9
+  - first:
+      213: 6405511848105599705
+    second: B10_Mosque_10
+  - first:
+      213: -2485693089186371655
+    second: B10_Mosque_11
+  - first:
+      213: -952051351993734395
+    second: B10_Mosque_12
+  - first:
+      213: 5534161898634334626
+    second: B10_Mosque_13
+  - first:
+      213: -5902024620444749454
+    second: B10_Mosque_14
+  - first:
+      213: 1403176636800352604
+    second: B10_Mosque_15
+  - first:
+      213: -4849155907768659991
+    second: B10_Mosque_16
+  - first:
+      213: -7636794648269047230
+    second: B10_Mosque_17
+  - first:
+      213: -5682447717477216552
+    second: B10_Mosque_18
+  - first:
+      213: -1873153892864951676
+    second: B10_Mosque_19
+  - first:
+      213: 4672632981863119755
+    second: B10_Mosque_20
+  - first:
+      213: -2770969127836539030
+    second: B10_Mosque_21
+  - first:
+      213: 4661323125289934657
+    second: B10_Mosque_22
+  - first:
+      213: -6711780989843360144
+    second: B10_Mosque_23
+  - first:
+      213: 6285368334827846516
+    second: B10_Mosque_24
+  - first:
+      213: -3929644368610098008
+    second: B10_Mosque_25
+  - first:
+      213: 1389799349122655547
+    second: B10_Mosque_26
+  - first:
+      213: 7691031602150168547
+    second: B10_Mosque_27
+  - first:
+      213: -7611655578868515344
+    second: B10_Mosque_28
+  - first:
+      213: 4298518060681254562
+    second: B10_Mosque_29
+  - first:
+      213: -5367412268434079203
+    second: B10_Mosque_30
+  - first:
+      213: 5570042191309445484
+    second: B10_Mosque_31
+  - first:
+      213: -212790651925851050
+    second: B10_Mosque_32
+  - first:
+      213: 3082887760027134976
+    second: B10_Mosque_33
+  - first:
+      213: 340753153527299588
+    second: B10_Mosque_34
+  - first:
+      213: 5203176562232270179
+    second: B10_Mosque_35
+  - first:
+      213: 6565153189507269737
+    second: B10_Mosque_36
+  - first:
+      213: 3194156182058648804
+    second: B10_Mosque_37
+  - first:
+      213: 9079774936991878019
+    second: B10_Mosque_38
+  - first:
+      213: 8435641966353673876
+    second: B10_Mosque_39
+  - first:
+      213: 1464417584919550528
+    second: B10_Mosque_40
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +143,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,8 +187,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,25 +200,1010 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: B10_Mosque_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1690
+        width: 240
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e39bc1d77b95df0800000000000000
+      internalID: -190919761205838203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1451
+        width: 389
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476dda79fec932c60800000000000000
+      internalID: 7792244333136959092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_2
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1443
+        width: 240
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a389295860aa6d0800000000000000
+      internalID: -2978561032792294884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_3
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1443
+        width: 240
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5cbf1085a79d5a0800000000000000
+      internalID: -6496026469096241727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1128
+        width: 240
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05015e8f7974ec370800000000000000
+      internalID: 8344685877605503056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 889
+        width: 389
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b5de6f734133630800000000000000
+      internalID: 3905487532458859281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_6
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1204
+        width: 389
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ee0cbb1cdd18d70800000000000000
+      internalID: 9043753350885076550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_7
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 697
+        width: 641
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725150ce2769f85e0800000000000000
+      internalID: -1905138697024236249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_8
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1204
+        width: 389
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b63a252cb13e4f0800000000000000
+      internalID: -800765787317769375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_9
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 792
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff60e068bc765fb0800000000000000
+      internalID: -4659399633127051269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_10
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 458
+        width: 490
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2e3e68613f4e850800000000000000
+      internalID: 6405511848105599705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 373
+        width: 555
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7276e1e4b018dd0800000000000000
+      internalID: -2485693089186371655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_12
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 225
+        width: 358
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bab7ce652a9c2f0800000000000000
+      internalID: -952051351993734395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_13
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 502
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1d991fcea4dcc40800000000000000
+      internalID: 5534161898634334626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_14
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 225
+        width: 394
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271f7c2c0ebc71ea0800000000000000
+      internalID: -5902024620444749454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_15
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 102
+        width: 346
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51cc9187b5197310800000000000000
+      internalID: 1403176636800352604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_16
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 379
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef46f0d46654bcb0800000000000000
+      internalID: -4849155907768659991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_17
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 373
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ab1579ab7a40690800000000000000
+      internalID: -7636794648269047230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 352
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de8a0968e3e321b0800000000000000
+      internalID: -5682447717477216552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_19
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 74
+        width: 303
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48af42675783106e0800000000000000
+      internalID: -1873153892864951676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_20
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 250
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bb9b9b0f688d040800000000000000
+      internalID: 4672632981863119755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1
+        width: 171
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67aabb624a8b89d0800000000000000
+      internalID: -2770969127836539030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1
+        width: 125
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f583a8fa850b040800000000000000
+      internalID: 4661323125289934657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_23
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 32
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076ba2210c6fad2a0800000000000000
+      internalID: -6711780989843360144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_24
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 64
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bf6eff23d1a3750800000000000000
+      internalID: 6285368334827846516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_25
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1
+        width: 114
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4816354491779c0800000000000000
+      internalID: -3929644368610098008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_26
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1
+        width: 149
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b356681052f894310800000000000000
+      internalID: 1389799349122655547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_27
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1
+        width: 264
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7d67a4e780cba60800000000000000
+      internalID: 7691031602150168547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_28
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1
+        width: 321
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdfbec4497fd5690800000000000000
+      internalID: -7611655578868515344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 213
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6d183d66767ab30800000000000000
+      internalID: 4298518060681254562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12c9e8cafe1385b0800000000000000
+      internalID: -5367412268434079203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_31
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 37
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6910f49cd3cc4d40800000000000000
+      internalID: 5570042191309445484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_32
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6549f6c87040c0df0800000000000000
+      internalID: -212790651925851050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 39
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c21da751e98ca20800000000000000
+      internalID: 3082887760027134976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_34
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40eb61010399ab400800000000000000
+      internalID: 340753153527299588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_35
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d1e770485653840800000000000000
+      internalID: 5203176562232270179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_36
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 35
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9648a9cca0c1c1b50800000000000000
+      internalID: 6565153189507269737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_37
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 12
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e449bccf1ce35c20800000000000000
+      internalID: 3194156182058648804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_38
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 11
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b45efc237d10e70800000000000000
+      internalID: 9079774936991878019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_39
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 14
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e63e8acab611570800000000000000
+      internalID: 8435641966353673876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B10_Mosque_40
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a17ffd808a25410800000000000000
+      internalID: 1464417584919550528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      B10_Mosque_0: -190919761205838203
+      B10_Mosque_1: 7792244333136959092
+      B10_Mosque_10: 6405511848105599705
+      B10_Mosque_11: -2485693089186371655
+      B10_Mosque_12: -952051351993734395
+      B10_Mosque_13: 5534161898634334626
+      B10_Mosque_14: -5902024620444749454
+      B10_Mosque_15: 1403176636800352604
+      B10_Mosque_16: -4849155907768659991
+      B10_Mosque_17: -7636794648269047230
+      B10_Mosque_18: -5682447717477216552
+      B10_Mosque_19: -1873153892864951676
+      B10_Mosque_2: -2978561032792294884
+      B10_Mosque_20: 4672632981863119755
+      B10_Mosque_21: -2770969127836539030
+      B10_Mosque_22: 4661323125289934657
+      B10_Mosque_23: -6711780989843360144
+      B10_Mosque_24: 6285368334827846516
+      B10_Mosque_25: -3929644368610098008
+      B10_Mosque_26: 1389799349122655547
+      B10_Mosque_27: 7691031602150168547
+      B10_Mosque_28: -7611655578868515344
+      B10_Mosque_29: 4298518060681254562
+      B10_Mosque_3: -6496026469096241727
+      B10_Mosque_30: -5367412268434079203
+      B10_Mosque_31: 5570042191309445484
+      B10_Mosque_32: -212790651925851050
+      B10_Mosque_33: 3082887760027134976
+      B10_Mosque_34: 340753153527299588
+      B10_Mosque_35: 5203176562232270179
+      B10_Mosque_36: 6565153189507269737
+      B10_Mosque_37: 3194156182058648804
+      B10_Mosque_38: 9079774936991878019
+      B10_Mosque_39: 8435641966353673876
+      B10_Mosque_4: 8344685877605503056
+      B10_Mosque_40: 1464417584919550528
+      B10_Mosque_5: 3905487532458859281
+      B10_Mosque_6: 9043753350885076550
+      B10_Mosque_7: -1905138697024236249
+      B10_Mosque_8: -800765787317769375
+      B10_Mosque_9: -4659399633127051269
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
