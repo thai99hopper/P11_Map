@@ -60,6 +60,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7270495787659771008, guid: 44d1edd2639ead546a1104679dd86bdc, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7270495787659771008, guid: 44d1edd2639ead546a1104679dd86bdc, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b8537f5fb2f2c470e8b29dc4c3b8faad, type: 2}
     - target: {fileID: 919132149155446097, guid: 44d1edd2639ead546a1104679dd86bdc, type: 3}
       propertyPath: m_Name
       value: Coffee_Farmer_Idle1
