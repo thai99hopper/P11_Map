@@ -71,9 +71,6 @@ TextureImporter:
   - first:
       213: 802342916455708963
     second: A13_WaterRockery_22
-  - first:
-      213: 6017498125700194999
-    second: A13_WaterRockery_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -153,7 +150,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -179,7 +176,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -198,10 +208,10 @@ TextureImporter:
       name: A13_WaterRockery_0
       rect:
         serializedVersion: 2
-        x: 1255
-        y: 997
-        width: 13
-        height: 23
+        x: 1
+        y: 1
+        width: 474
+        height: 634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +230,10 @@ TextureImporter:
       name: A13_WaterRockery_1
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 763
-        width: 186
-        height: 257
+        x: 475
+        y: 34
+        width: 433
+        height: 588
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +252,10 @@ TextureImporter:
       name: A13_WaterRockery_2
       rect:
         serializedVersion: 2
-        x: 1386
-        y: 1016
-        width: 9
-        height: 8
+        x: 956
+        y: 461
+        width: 351
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +274,10 @@ TextureImporter:
       name: A13_WaterRockery_3
       rect:
         serializedVersion: 2
-        x: 1356
-        y: 995
-        width: 14
-        height: 12
+        x: 1307
+        y: 461
+        width: 115
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +296,10 @@ TextureImporter:
       name: A13_WaterRockery_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 777
-        width: 351
-        height: 209
+        x: 1422
+        y: 482
+        width: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +318,10 @@ TextureImporter:
       name: A13_WaterRockery_5
       rect:
         serializedVersion: 2
-        x: 351
-        y: 777
-        width: 202
-        height: 115
+        x: 1426
+        y: 467
+        width: 257
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,8 +340,8 @@ TextureImporter:
       name: A13_WaterRockery_6
       rect:
         serializedVersion: 2
-        x: 554
-        y: 785
+        x: 1684
+        y: 352
         width: 161
         height: 138
       alignment: 0
@@ -352,10 +362,10 @@ TextureImporter:
       name: A13_WaterRockery_7
       rect:
         serializedVersion: 2
-        x: 1655
-        y: 398
-        width: 302
-        height: 398
+        x: 914
+        y: 425
+        width: 26
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +384,10 @@ TextureImporter:
       name: A13_WaterRockery_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 303
-        width: 634
-        height: 474
+        x: 965
+        y: 33
+        width: 391
+        height: 428
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +406,10 @@ TextureImporter:
       name: A13_WaterRockery_9
       rect:
         serializedVersion: 2
-        x: 667
-        y: 351
-        width: 588
-        height: 433
+        x: 1439
+        y: 452
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,10 +428,10 @@ TextureImporter:
       name: A13_WaterRockery_10
       rect:
         serializedVersion: 2
-        x: 1264
-        y: 335
-        width: 391
-        height: 428
+        x: 1426
+        y: 351
+        width: 23
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,10 +450,10 @@ TextureImporter:
       name: A13_WaterRockery_11
       rect:
         serializedVersion: 2
-        x: 1963
-        y: 599
-        width: 26
-        height: 31
+        x: 1451
+        y: 49
+        width: 398
+        height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +472,10 @@ TextureImporter:
       name: A13_WaterRockery_12
       rect:
         serializedVersion: 2
-        x: 1261
-        y: 512
-        width: 7
-        height: 6
+        x: 924
+        y: 289
+        width: 32
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,10 +494,10 @@ TextureImporter:
       name: A13_WaterRockery_13
       rect:
         serializedVersion: 2
-        x: 634
-        y: 441
-        width: 86
-        height: 56
+        x: 962
+        y: 210
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,10 +516,10 @@ TextureImporter:
       name: A13_WaterRockery_14
       rect:
         serializedVersion: 2
-        x: 1973
-        y: 463
-        width: 32
-        height: 42
+        x: 1364
+        y: 190
+        width: 62
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,8 +538,8 @@ TextureImporter:
       name: A13_WaterRockery_15
       rect:
         serializedVersion: 2
-        x: 1255
-        y: 450
+        x: 956
+        y: 148
         width: 6
         height: 6
       alignment: 0
@@ -550,10 +560,10 @@ TextureImporter:
       name: A13_WaterRockery_16
       rect:
         serializedVersion: 2
-        x: 922
-        y: 303
-        width: 42
-        height: 32
+        x: 1356
+        y: 103
+        width: 47
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,10 +582,10 @@ TextureImporter:
       name: A13_WaterRockery_17
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 319
-        width: 31
-        height: 26
+        x: 762
+        y: 1
+        width: 56
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,10 +604,10 @@ TextureImporter:
       name: A13_WaterRockery_18
       rect:
         serializedVersion: 2
-        x: 1775
-        y: 311
-        width: 41
-        height: 62
+        x: 1516
+        y: 1
+        width: 42
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,10 +626,10 @@ TextureImporter:
       name: A13_WaterRockery_19
       rect:
         serializedVersion: 2
-        x: 1870
-        y: 303
-        width: 33
-        height: 47
+        x: 1652
+        y: 17
+        width: 31
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,10 +648,10 @@ TextureImporter:
       name: A13_WaterRockery_20
       rect:
         serializedVersion: 2
-        x: 1377
-        y: 309
-        width: 11
-        height: 8
+        x: 1078
+        y: 1
+        width: 21
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -660,10 +670,10 @@ TextureImporter:
       name: A13_WaterRockery_21
       rect:
         serializedVersion: 2
-        x: 1413
-        y: 302
+        x: 1114
+        y: 1
         width: 8
-        height: 9
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -682,8 +692,8 @@ TextureImporter:
       name: A13_WaterRockery_22
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 305
+        x: 1128
+        y: 3
         width: 8
         height: 8
       alignment: 0
@@ -696,28 +706,6 @@ TextureImporter:
       bones: []
       spriteID: 329b46ba1ae722b00800000000000000
       internalID: 802342916455708963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A13_WaterRockery_23
-      rect:
-        serializedVersion: 2
-        x: 1390
-        y: 302
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b260fac9a2728350800000000000000
-      internalID: 6017498125700194999
       vertices: []
       indices: 
       edges: []
@@ -752,7 +740,6 @@ TextureImporter:
       A13_WaterRockery_20: 2041795203741816831
       A13_WaterRockery_21: -3491412542862836421
       A13_WaterRockery_22: 802342916455708963
-      A13_WaterRockery_23: 6017498125700194999
       A13_WaterRockery_3: -74375685038422870
       A13_WaterRockery_4: 6599551649175981742
       A13_WaterRockery_5: 8546940551116843979

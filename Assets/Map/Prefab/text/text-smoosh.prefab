@@ -92,6 +92,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: text-smoosh
       objectReference: {fileID: 0}
+    - target: {fileID: 5442380465006992576, guid: 8df27db4b45c4404f82d274838467cbd, type: 3}
+      propertyPath: key
+      value: uitext_sound_text_smoosh
+      objectReference: {fileID: 0}
     - target: {fileID: 5970529235284224615, guid: 8df27db4b45c4404f82d274838467cbd, type: 3}
       propertyPath: type
       value: 2
@@ -100,8 +104,57 @@ PrefabInstance:
       propertyPath: m_text
       value: Smoosh
       objectReference: {fileID: 0}
+    - target: {fileID: 6153441811952223149, guid: 8df27db4b45c4404f82d274838467cbd, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4282206071
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3804581667248653344, guid: 8df27db4b45c4404f82d274838467cbd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9168828397484365469}
+    - targetCorrespondingSourceObject: {fileID: 3804581667248653344, guid: 8df27db4b45c4404f82d274838467cbd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2406826131083779197}
   m_SourcePrefab: {fileID: 100100000, guid: 8df27db4b45c4404f82d274838467cbd, type: 3}
+--- !u!1 &4791198527996433026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3804581667248653344, guid: 8df27db4b45c4404f82d274838467cbd, type: 3}
+  m_PrefabInstance: {fileID: 8552713320108119714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9168828397484365469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4791198527996433026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d702b2f8695a8c4496e5831c5654a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: uitext_sound_text_smoosh
+  underlayColor: {r: 1, g: 0.9882353, b: 0.9647059, a: 1}
+--- !u!114 &-2406826131083779197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4791198527996433026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f6cb074f7362f4a9f21fdb51c55c19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedText: {fileID: 9168828397484365469}
+  vfxFont: {fileID: 11400000, guid: db3da8bc268abf443a8027480285e7c8, type: 2}
+  fontVietnamese: {fileID: 11400000, guid: 1e8df38455b46ae4ebb81887c1ba46f9, type: 2}
+  fontHindi: {fileID: 11400000, guid: 680e94a5c23f9a34b891f36b485f2ab6, type: 2}
+  fontJapanese: {fileID: 11400000, guid: 261fb96693d78cb43bea2f487af01477, type: 2}
+  fontThai: {fileID: 11400000, guid: 1fd60c63e9c09fb43bb4837a765657d8, type: 2}
+  fontChinese: {fileID: 11400000, guid: 8eaae6872d5bb5744bd72057af6fd100, type: 2}
+  fontLatin: {fileID: 11400000, guid: 7f94efbbc92b89b4bbff467efcc6742f, type: 2}

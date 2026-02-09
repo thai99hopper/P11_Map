@@ -210,7 +210,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -236,7 +236,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -255,10 +268,10 @@ TextureImporter:
       name: A09_FishingSpot_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 990
-        width: 11
-        height: 31
+        x: 587
+        y: 800
+        width: 269
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +290,10 @@ TextureImporter:
       name: A09_FishingSpot_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 972
-        width: 36
-        height: 52
+        x: 858
+        y: 1009
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +312,10 @@ TextureImporter:
       name: A09_FishingSpot_2
       rect:
         serializedVersion: 2
-        x: 123
-        y: 979
-        width: 96
-        height: 37
+        x: 871
+        y: 975
+        width: 37
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +334,10 @@ TextureImporter:
       name: A09_FishingSpot_3
       rect:
         serializedVersion: 2
-        x: 315
-        y: 943
-        width: 88
-        height: 69
+        x: 58
+        y: 967
+        width: 18
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,10 +356,10 @@ TextureImporter:
       name: A09_FishingSpot_4
       rect:
         serializedVersion: 2
-        x: 373
-        y: 993
-        width: 10
-        height: 11
+        x: 153
+        y: 990
+        width: 25
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +378,10 @@ TextureImporter:
       name: A09_FishingSpot_5
       rect:
         serializedVersion: 2
-        x: 467
-        y: 998
-        width: 6
-        height: 6
+        x: 1
+        y: 922
+        width: 143
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,10 +400,10 @@ TextureImporter:
       name: A09_FishingSpot_6
       rect:
         serializedVersion: 2
-        x: 508
-        y: 996
-        width: 22
-        height: 16
+        x: 145
+        y: 963
+        width: 14
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +422,10 @@ TextureImporter:
       name: A09_FishingSpot_7
       rect:
         serializedVersion: 2
-        x: 650
-        y: 902
-        width: 134
-        height: 122
+        x: 190
+        y: 983
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,10 +444,10 @@ TextureImporter:
       name: A09_FishingSpot_8
       rect:
         serializedVersion: 2
-        x: 780
-        y: 944
-        width: 194
-        height: 63
+        x: 144
+        y: 926
+        width: 74
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,10 +466,10 @@ TextureImporter:
       name: A09_FishingSpot_9
       rect:
         serializedVersion: 2
-        x: 466
-        y: 986
-        width: 9
-        height: 11
+        x: 856
+        y: 952
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +488,10 @@ TextureImporter:
       name: A09_FishingSpot_10
       rect:
         serializedVersion: 2
-        x: 490
-        y: 952
-        width: 46
-        height: 37
+        x: 863
+        y: 951
+        width: 11
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,10 +510,10 @@ TextureImporter:
       name: A09_FishingSpot_11
       rect:
         serializedVersion: 2
-        x: 416
-        y: 973
-        width: 39
-        height: 12
+        x: 323
+        y: 914
+        width: 11
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +532,10 @@ TextureImporter:
       name: A09_FishingSpot_12
       rect:
         serializedVersion: 2
-        x: 60
-        y: 966
-        width: 10
-        height: 6
+        x: 353
+        y: 896
+        width: 36
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,10 +554,10 @@ TextureImporter:
       name: A09_FishingSpot_13
       rect:
         serializedVersion: 2
-        x: 250
-        y: 958
-        width: 25
-        height: 8
+        x: 446
+        y: 903
+        width: 96
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,10 +576,10 @@ TextureImporter:
       name: A09_FishingSpot_14
       rect:
         serializedVersion: 2
-        x: 98
-        y: 889
-        width: 143
-        height: 68
+        x: 875
+        y: 901
+        width: 12
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -585,10 +598,10 @@ TextureImporter:
       name: A09_FishingSpot_15
       rect:
         serializedVersion: 2
-        x: 155
-        y: 935
-        width: 18
-        height: 27
+        x: 911
+        y: 923
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,10 +620,10 @@ TextureImporter:
       name: A09_FishingSpot_16
       rect:
         serializedVersion: 2
-        x: 242
-        y: 931
-        width: 14
-        height: 21
+        x: 917
+        y: 797
+        width: 119
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -629,10 +642,10 @@ TextureImporter:
       name: A09_FishingSpot_17
       rect:
         serializedVersion: 2
-        x: 287
-        y: 951
-        width: 7
-        height: 6
+        x: 1
+        y: 604
+        width: 322
+        height: 318
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -651,10 +664,10 @@ TextureImporter:
       name: A09_FishingSpot_18
       rect:
         serializedVersion: 2
-        x: 241
-        y: 894
-        width: 74
-        height: 54
+        x: 383
+        y: 890
+        width: 10
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -673,10 +686,10 @@ TextureImporter:
       name: A09_FishingSpot_19
       rect:
         serializedVersion: 2
-        x: 249
-        y: 622
-        width: 318
-        height: 321
+        x: 418
+        y: 744
+        width: 169
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -695,10 +708,10 @@ TextureImporter:
       name: A09_FishingSpot_20
       rect:
         serializedVersion: 2
-        x: 438
-        y: 943
-        width: 8
-        height: 6
+        x: 856
+        y: 858
+        width: 11
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,10 +730,10 @@ TextureImporter:
       name: A09_FishingSpot_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 725
-        width: 99
-        height: 183
+        x: 859
+        y: 800
+        width: 58
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -739,10 +752,10 @@ TextureImporter:
       name: A09_FishingSpot_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 569
-        width: 318
-        height: 321
+        x: 364
+        y: 641
+        width: 101
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -761,10 +774,10 @@ TextureImporter:
       name: A09_FishingSpot_23
       rect:
         serializedVersion: 2
-        x: 574
-        y: 613
-        width: 321
-        height: 318
+        x: 587
+        y: 583
+        width: 318
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -783,10 +796,10 @@ TextureImporter:
       name: A09_FishingSpot_24
       rect:
         serializedVersion: 2
-        x: 791
-        y: 791
-        width: 141
-        height: 150
+        x: 905
+        y: 684
+        width: 118
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -805,10 +818,10 @@ TextureImporter:
       name: A09_FishingSpot_25
       rect:
         serializedVersion: 2
-        x: 265
-        y: 303
-        width: 219
-        height: 320
+        x: 905
+        y: 490
+        width: 63
+        height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -827,10 +840,10 @@ TextureImporter:
       name: A09_FishingSpot_26
       rect:
         serializedVersion: 2
-        x: 482
-        y: 533
-        width: 264
-        height: 218
+        x: 323
+        y: 624
+        width: 11
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -849,10 +862,10 @@ TextureImporter:
       name: A09_FishingSpot_27
       rect:
         serializedVersion: 2
-        x: 894
-        y: 501
-        width: 121
-        height: 123
+        x: 323
+        y: 286
+        width: 251
+        height: 338
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -871,10 +884,10 @@ TextureImporter:
       name: A09_FishingSpot_28
       rect:
         serializedVersion: 2
-        x: 895
-        y: 623
-        width: 119
-        height: 113
+        x: 968
+        y: 490
+        width: 98
+        height: 181
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -893,10 +906,10 @@ TextureImporter:
       name: A09_FishingSpot_29
       rect:
         serializedVersion: 2
-        x: 0
-        y: 557
-        width: 6
-        height: 11
+        x: 1
+        y: 286
+        width: 322
+        height: 318
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -915,10 +928,10 @@ TextureImporter:
       name: A09_FishingSpot_30
       rect:
         serializedVersion: 2
-        x: 17
-        y: 426
-        width: 96
-        height: 101
+        x: 574
+        y: 265
+        width: 331
+        height: 318
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -937,10 +950,10 @@ TextureImporter:
       name: A09_FishingSpot_31
       rect:
         serializedVersion: 2
-        x: 539
-        y: 283
-        width: 348
-        height: 252
+        x: 906
+        y: 276
+        width: 70
+        height: 214
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -959,10 +972,10 @@ TextureImporter:
       name: A09_FishingSpot_32
       rect:
         serializedVersion: 2
-        x: 888
-        y: 283
-        width: 66
-        height: 214
+        x: 906
+        y: 460
+        width: 6
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -981,10 +994,10 @@ TextureImporter:
       name: A09_FishingSpot_33
       rect:
         serializedVersion: 2
-        x: 929
-        y: 496
-        width: 21
-        height: 6
+        x: 980
+        y: 276
+        width: 62
+        height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1003,10 +1016,10 @@ TextureImporter:
       name: A09_FishingSpot_34
       rect:
         serializedVersion: 2
-        x: 0
-        y: 19
-        width: 541
-        height: 454
+        x: 896
+        y: 424
+        width: 10
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1025,10 +1038,10 @@ TextureImporter:
       name: A09_FishingSpot_35
       rect:
         serializedVersion: 2
-        x: 888
-        y: 467
-        width: 6
-        height: 10
+        x: 971
+        y: 413
+        width: 11
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1047,10 +1060,10 @@ TextureImporter:
       name: A09_FishingSpot_36
       rect:
         serializedVersion: 2
-        x: 878
-        y: 431
-        width: 10
-        height: 29
+        x: 907
+        y: 333
+        width: 24
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1069,10 +1082,10 @@ TextureImporter:
       name: A09_FishingSpot_37
       rect:
         serializedVersion: 2
-        x: 889
-        y: 340
-        width: 24
-        height: 30
+        x: 976
+        y: 328
+        width: 6
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1091,8 +1104,8 @@ TextureImporter:
       name: A09_FishingSpot_38
       rect:
         serializedVersion: 2
-        x: 887
-        y: 311
+        x: 905
+        y: 304
         width: 6
         height: 11
       alignment: 0
@@ -1113,10 +1126,10 @@ TextureImporter:
       name: A09_FishingSpot_39
       rect:
         serializedVersion: 2
-        x: 539
-        y: 18
-        width: 375
-        height: 266
+        x: 1
+        y: 1
+        width: 540
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1135,10 +1148,10 @@ TextureImporter:
       name: A09_FishingSpot_40
       rect:
         serializedVersion: 2
-        x: 909
-        y: 156
-        width: 11
-        height: 36
+        x: 541
+        y: 1
+        width: 373
+        height: 264
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1157,10 +1170,10 @@ TextureImporter:
       name: A09_FishingSpot_41
       rect:
         serializedVersion: 2
-        x: 918
-        y: 19
-        width: 63
-        height: 204
+        x: 910
+        y: 155
+        width: 130
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1179,10 +1192,10 @@ TextureImporter:
       name: A09_FishingSpot_42
       rect:
         serializedVersion: 2
-        x: 914
-        y: 71
-        width: 6
-        height: 11
+        x: 921
+        y: 1
+        width: 140
+        height: 151
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

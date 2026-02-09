@@ -1,26 +1,29 @@
 A13_WaterRockery.png
-size:2048,1024
+size:1850,671
 filter:Linear,Linear
 pma:true
 grass
-bounds:554,101,161,138
+bounds:1684,181,161,138
 lv 00
-bounds:1656,229,491,348
+bounds:1357,321,491,348
 offsets:1,2,493,351
-rotate:90
 lv 01
-bounds:635,241,619,479
+bounds:476,50,619,479
 offsets:1,2,621,482
+rotate:90
 lv 02
-bounds:1,248,632,472
+bounds:2,37,632,472
 offsets:1,2,634,475
+rotate:90
 lv 03
-bounds:1256,1,300,259
+bounds:1423,19,300,259
 offsets:2,1,303,262
+rotate:90
 water wheel
-bounds:1256,262,398,458
+bounds:957,211,398,458
 offsets:12,1,411,459
 water1
-bounds:352,133,200,113
+bounds:1308,9,200,113
+rotate:90
 water2
-bounds:1,39,349,207
+bounds:957,2,349,207

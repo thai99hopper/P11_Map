@@ -129,7 +129,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -155,7 +155,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -174,10 +187,10 @@ TextureImporter:
       name: A11_Well_0
       rect:
         serializedVersion: 2
-        x: 141
-        y: 623
-        width: 314
-        height: 308
+        x: 1
+        y: 797
+        width: 546
+        height: 373
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +209,10 @@ TextureImporter:
       name: A11_Well_1
       rect:
         serializedVersion: 2
-        x: 462
-        y: 705
-        width: 89
-        height: 178
+        x: 1200
+        y: 1076
+        width: 57
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +231,10 @@ TextureImporter:
       name: A11_Well_2
       rect:
         serializedVersion: 2
-        x: 796
-        y: 718
-        width: 219
-        height: 49
+        x: 1261
+        y: 1089
+        width: 29
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +253,10 @@ TextureImporter:
       name: A11_Well_3
       rect:
         serializedVersion: 2
-        x: 796
-        y: 17
-        width: 697
-        height: 701
+        x: 1019
+        y: 702
+        width: 472
+        height: 354
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +275,10 @@ TextureImporter:
       name: A11_Well_4
       rect:
         serializedVersion: 2
-        x: 1493
-        y: 651
-        width: 546
-        height: 373
+        x: 1496
+        y: 969
+        width: 53
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +297,10 @@ TextureImporter:
       name: A11_Well_5
       rect:
         serializedVersion: 2
-        x: 1615
-        y: 598
-        width: 32
-        height: 53
+        x: 915
+        y: 901
+        width: 87
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +319,10 @@ TextureImporter:
       name: A11_Well_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 171
-        width: 208
-        height: 216
+        x: 1549
+        y: 702
+        width: 49
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +341,10 @@ TextureImporter:
       name: A11_Well_7
       rect:
         serializedVersion: 2
-        x: 622
-        y: 208
-        width: 174
-        height: 226
+        x: 498
+        y: 623
+        width: 226
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +363,10 @@ TextureImporter:
       name: A11_Well_8
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 363
-        width: 27
-        height: 29
+        x: 915
+        y: 1
+        width: 697
+        height: 701
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +385,10 @@ TextureImporter:
       name: A11_Well_9
       rect:
         serializedVersion: 2
-        x: 1560
-        y: 121
-        width: 354
-        height: 472
+        x: 49
+        y: 463
+        width: 178
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +407,10 @@ TextureImporter:
       name: A11_Well_10
       rect:
         serializedVersion: 2
-        x: 1493
-        y: 302
-        width: 47
-        height: 57
+        x: 697
+        y: 523
+        width: 93
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,10 +429,10 @@ TextureImporter:
       name: A11_Well_11
       rect:
         serializedVersion: 2
-        x: 522
+        x: 1
         y: 142
-        width: 87
-        height: 93
+        width: 308
+        height: 314
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,10 +451,10 @@ TextureImporter:
       name: A11_Well_12
       rect:
         serializedVersion: 2
-        x: 220
-        y: 47
-        width: 49
-        height: 38
+        x: 850
+        y: 430
+        width: 31
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,10 +473,10 @@ TextureImporter:
       name: A11_Well_13
       rect:
         serializedVersion: 2
-        x: 289
-        y: 17
-        width: 87
-        height: 48
+        x: 867
+        y: 290
+        width: 48
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,10 +495,10 @@ TextureImporter:
       name: A11_Well_14
       rect:
         serializedVersion: 2
-        x: 429
-        y: 51
-        width: 52
-        height: 31
+        x: 847
+        y: 221
+        width: 38
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +517,10 @@ TextureImporter:
       name: A11_Well_15
       rect:
         serializedVersion: 2
-        x: 1669
-        y: 17
-        width: 46
-        height: 87
+        x: 545
+        y: 1
+        width: 216
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -132,7 +132,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -158,7 +158,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -177,10 +190,10 @@ TextureImporter:
       name: A07_Lotuspond_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 638
-        width: 706
-        height: 386
+        x: 1
+        y: 1
+        width: 385
+        height: 705
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +212,10 @@ TextureImporter:
       name: A07_Lotuspond_1
       rect:
         serializedVersion: 2
-        x: 704
-        y: 318
-        width: 387
-        height: 706
+        x: 386
+        y: 1
+        width: 385
+        height: 705
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +234,10 @@ TextureImporter:
       name: A07_Lotuspond_2
       rect:
         serializedVersion: 2
-        x: 1090
-        y: 821
-        width: 75
-        height: 165
+        x: 771
+        y: 1
+        width: 385
+        height: 705
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,10 +256,10 @@ TextureImporter:
       name: A07_Lotuspond_3
       rect:
         serializedVersion: 2
-        x: 1135
-        y: 847
-        width: 65
-        height: 153
+        x: 1156
+        y: 520
+        width: 75
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +278,10 @@ TextureImporter:
       name: A07_Lotuspond_4
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 821
-        width: 34
-        height: 172
+        x: 1231
+        y: 673
+        width: 172
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +300,10 @@ TextureImporter:
       name: A07_Lotuspond_5
       rect:
         serializedVersion: 2
-        x: 1233
-        y: 924
-        width: 64
-        height: 70
+        x: 1231
+        y: 520
+        width: 65
+        height: 153
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +322,10 @@ TextureImporter:
       name: A07_Lotuspond_6
       rect:
         serializedVersion: 2
-        x: 1296
-        y: 873
-        width: 43
-        height: 146
+        x: 1156
+        y: 376
+        width: 127
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +344,10 @@ TextureImporter:
       name: A07_Lotuspond_7
       rect:
         serializedVersion: 2
-        x: 1334
-        y: 922
-        width: 44
-        height: 91
+        x: 1283
+        y: 472
+        width: 99
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,10 +366,10 @@ TextureImporter:
       name: A07_Lotuspond_8
       rect:
         serializedVersion: 2
-        x: 1378
-        y: 922
-        width: 41
-        height: 99
+        x: 1283
+        y: 429
+        width: 146
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,10 +388,10 @@ TextureImporter:
       name: A07_Lotuspond_9
       rect:
         serializedVersion: 2
-        x: 1418
-        y: 940
-        width: 33
-        height: 70
+        x: 1382
+        y: 472
+        width: 31
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +410,10 @@ TextureImporter:
       name: A07_Lotuspond_10
       rect:
         serializedVersion: 2
-        x: 1089
-        y: 693
-        width: 146
-        height: 129
+        x: 1429
+        y: 429
+        width: 68
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +432,10 @@ TextureImporter:
       name: A07_Lotuspond_11
       rect:
         serializedVersion: 2
-        x: 1339
-        y: 775
-        width: 53
-        height: 147
+        x: 1156
+        y: 9
+        width: 366
+        height: 367
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +454,10 @@ TextureImporter:
       name: A07_Lotuspond_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 253
-        width: 706
-        height: 387
+        x: 1283
+        y: 376
+        width: 147
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,10 +476,10 @@ TextureImporter:
       name: A07_Lotuspond_13
       rect:
         serializedVersion: 2
-        x: 1089
-        y: 327
-        width: 367
-        height: 367
+        x: 1430
+        y: 376
+        width: 91
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,8 +498,8 @@ TextureImporter:
       name: A07_Lotuspond_14
       rect:
         serializedVersion: 2
-        x: 1442
-        y: 384
+        x: 1508
+        y: 66
         width: 17
         height: 26
       alignment: 0
@@ -507,10 +520,10 @@ TextureImporter:
       name: A07_Lotuspond_15
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 318
+        x: 1331
+        y: 1
         width: 34
-        height: 28
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,8 +542,8 @@ TextureImporter:
       name: A07_Lotuspond_16
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 323
+        x: 1386
+        y: 5
         width: 26
         height: 24
       alignment: 0

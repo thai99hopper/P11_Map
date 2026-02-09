@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 2535709322337445147}
   - component: {fileID: 3155189194060273114}
   - component: {fileID: 4568129756622843981}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: B30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,18 +427,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingId: building_basic_30
-  skeletonAnimation: {fileID: 0}
   gameplayButton: {fileID: 4568129756622843981}
-  popupUpgradePos: {fileID: 1233833273301499315}
   parentPartsPos: {fileID: 8093872843846869962}
   parentVfxsPos: {fileID: 171091004167024841}
-  slotObjects: []
   buildingBounds:
     upOffset: 7.85
     downOffset: 3.66
     leftOffset: 6.17
     rightOffset: 5.64
     debugBounds: 1
+  mapArea: 0
+  lPosParts: []
+  lPosVfxs: []
+  mainLv_CatPlacement: 0
+  partLv_CatPlacement: 0
 --- !u!114 &4568129756622843981
 MonoBehaviour:
   m_ObjectHideFlags: 0

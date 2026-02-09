@@ -29,6 +29,9 @@ TextureImporter:
   - first:
       213: 268533261843000441
     second: A15_CampingCookingPlace_8
+  - first:
+      213: -1903056381178412158
+    second: A15_CampingCookingPlace_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,7 +111,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -134,7 +137,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -153,10 +169,10 @@ TextureImporter:
       name: A15_CampingCookingPlace_0
       rect:
         serializedVersion: 2
-        x: 254
-        y: 175
-        width: 298
-        height: 849
+        x: 1
+        y: 847
+        width: 343
+        height: 282
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +191,10 @@ TextureImporter:
       name: A15_CampingCookingPlace_1
       rect:
         serializedVersion: 2
-        x: 719
-        y: 357
-        width: 453
-        height: 667
+        x: 255
+        y: 1
+        width: 296
+        height: 846
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +213,10 @@ TextureImporter:
       name: A15_CampingCookingPlace_2
       rect:
         serializedVersion: 2
-        x: 1171
-        y: 619
-        width: 350
-        height: 405
+        x: 344
+        y: 847
+        width: 329
+        height: 253
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +235,10 @@ TextureImporter:
       name: A15_CampingCookingPlace_3
       rect:
         serializedVersion: 2
-        x: 1295
-        y: 460
-        width: 329
-        height: 253
+        x: 718
+        y: 812
+        width: 95
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +257,10 @@ TextureImporter:
       name: A15_CampingCookingPlace_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 305
-        width: 186
-        height: 242
+        x: 719
+        y: 780
+        width: 407
+        height: 346
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +279,10 @@ TextureImporter:
       name: A15_CampingCookingPlace_5
       rect:
         serializedVersion: 2
-        x: 676
-        y: 513
-        width: 43
-        height: 73
+        x: 1
+        y: 130
+        width: 184
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,10 +301,10 @@ TextureImporter:
       name: A15_CampingCookingPlace_6
       rect:
         serializedVersion: 2
-        x: 207
-        y: 404
-        width: 36
-        height: 53
+        x: 677
+        y: 338
+        width: 41
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +323,10 @@ TextureImporter:
       name: A15_CampingCookingPlace_7
       rect:
         serializedVersion: 2
-        x: 1171
-        y: 175
-        width: 347
-        height: 286
+        x: 718
+        y: 113
+        width: 453
+        height: 667
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,10 +345,10 @@ TextureImporter:
       name: A15_CampingCookingPlace_8
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 245
-        width: 41
-        height: 48
+        x: 208
+        y: 229
+        width: 34
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,6 +359,28 @@ TextureImporter:
       bones: []
       spriteID: 97c678234950ab300800000000000000
       internalID: 268533261843000441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A15_CampingCookingPlace_9
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283025cdd4cf695e0800000000000000
+      internalID: -1903056381178412158
       vertices: []
       indices: 
       edges: []
@@ -370,6 +408,7 @@ TextureImporter:
       A15_CampingCookingPlace_6: 6327668687154296072
       A15_CampingCookingPlace_7: -4599815518918272128
       A15_CampingCookingPlace_8: 268533261843000441
+      A15_CampingCookingPlace_9: -1903056381178412158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

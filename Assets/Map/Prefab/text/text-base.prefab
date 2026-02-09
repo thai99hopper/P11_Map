@@ -47,15 +47,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3804581667248653344}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afeee6b2d58d1714782151f237a887ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 86bb545604c5d5b4b9fc84ddd2b09b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animation: {fileID: 11400000, guid: d4f378e5620a65640917d978a200886f, type: 2}
-  objAnimation: {fileID: 3804581667248653344}
-  delayBeforeAnimation: 0
   tmpAmount: {fileID: 6153441811952223149}
   type: -1
-  buildingId: 
 --- !u!23 &4350143971197587928
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -76,10 +72,12 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -97,9 +95,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5000
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &6153441811952223149
 MonoBehaviour:
@@ -124,14 +124,14 @@ MonoBehaviour:
   m_text: Woosh
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4280958825
-  m_fontColor: {r: 0.41176474, g: 0.24705884, b: 0.16470589, a: 1}
+  m_fontColor: {r: 0.46666667, g: 0.2784314, b: 0.23921569, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -159,6 +159,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

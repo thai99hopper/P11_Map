@@ -53,6 +53,9 @@ TextureImporter:
   - first:
       213: -1870860718881567901
     second: A06_Swing_16
+  - first:
+      213: 5464541733742358160
+    second: A06_Swing_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,7 +135,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -158,7 +161,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -177,10 +193,10 @@ TextureImporter:
       name: A06_Swing_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1881
-        width: 6
-        height: 6
+        x: 1
+        y: 779
+        width: 509
+        height: 458
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +215,10 @@ TextureImporter:
       name: A06_Swing_1
       rect:
         serializedVersion: 2
-        x: 362
-        y: 1633
-        width: 262
-        height: 315
+        x: 510
+        y: 713
+        width: 459
+        height: 509
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +237,8 @@ TextureImporter:
       name: A06_Swing_2
       rect:
         serializedVersion: 2
-        x: 623
-        y: 1834
+        x: 969
+        y: 1004
         width: 269
         height: 214
       alignment: 0
@@ -243,10 +259,10 @@ TextureImporter:
       name: A06_Swing_3
       rect:
         serializedVersion: 2
-        x: 894
-        y: 1711
-        width: 318
-        height: 283
+        x: 1505
+        y: 892
+        width: 167
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +281,10 @@ TextureImporter:
       name: A06_Swing_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1175
-        width: 509
-        height: 458
+        x: 1676
+        y: 886
+        width: 183
+        height: 326
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +303,10 @@ TextureImporter:
       name: A06_Swing_5
       rect:
         serializedVersion: 2
-        x: 509
-        y: 677
-        width: 284
-        height: 778
+        x: 1238
+        y: 830
+        width: 265
+        height: 155
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +325,10 @@ TextureImporter:
       name: A06_Swing_6
       rect:
         serializedVersion: 2
-        x: 643
-        y: 1455
-        width: 6
-        height: 6
+        x: 1238
+        y: 625
+        width: 287
+        height: 205
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +347,10 @@ TextureImporter:
       name: A06_Swing_7
       rect:
         serializedVersion: 2
-        x: 793
-        y: 1026
-        width: 340
-        height: 429
+        x: 1525
+        y: 715
+        width: 320
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,10 +369,10 @@ TextureImporter:
       name: A06_Swing_8
       rect:
         serializedVersion: 2
-        x: 893
-        y: 1455
-        width: 177
-        height: 320
+        x: 1
+        y: 1
+        width: 284
+        height: 778
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,10 +391,10 @@ TextureImporter:
       name: A06_Swing_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 716
-        width: 509
-        height: 459
+        x: 300
+        y: 2
+        width: 619
+        height: 710
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +413,10 @@ TextureImporter:
       name: A06_Swing_10
       rect:
         serializedVersion: 2
-        x: 15
-        y: 6
-        width: 619
-        height: 710
+        x: 920
+        y: 363
+        width: 315
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +435,10 @@ TextureImporter:
       name: A06_Swing_11
       rect:
         serializedVersion: 2
-        x: 793
-        y: 629
-        width: 177
-        height: 320
+        x: 989
+        y: 625
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,8 +457,8 @@ TextureImporter:
       name: A06_Swing_12
       rect:
         serializedVersion: 2
-        x: 634
-        y: 367
+        x: 1235
+        y: 363
         width: 315
         height: 262
       alignment: 0
@@ -463,10 +479,10 @@ TextureImporter:
       name: A06_Swing_13
       rect:
         serializedVersion: 2
-        x: 950
-        y: 378
-        width: 159
-        height: 251
+        x: 1551
+        y: 431
+        width: 318
+        height: 283
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +501,10 @@ TextureImporter:
       name: A06_Swing_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 7
-        width: 167
-        height: 320
+        x: 286
+        y: 434
+        width: 17
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,8 +523,8 @@ TextureImporter:
       name: A06_Swing_15
       rect:
         serializedVersion: 2
-        x: 695
-        y: 5
+        x: 981
+        y: 1
         width: 6
         height: 6
       alignment: 0
@@ -529,10 +545,10 @@ TextureImporter:
       name: A06_Swing_16
       rect:
         serializedVersion: 2
-        x: 950
-        y: 5
-        width: 201
-        height: 287
+        x: 1296
+        y: 1
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,6 +559,28 @@ TextureImporter:
       bones: []
       spriteID: 36b05d2a61e5906e0800000000000000
       internalID: -1870860718881567901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A06_Swing_17
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1
+        width: 340
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ea20421c3f5db40800000000000000
+      internalID: 5464541733742358160
       vertices: []
       indices: 
       edges: []
@@ -570,6 +608,7 @@ TextureImporter:
       A06_Swing_14: 1468946624871986687
       A06_Swing_15: 5537938823940392735
       A06_Swing_16: -1870860718881567901
+      A06_Swing_17: 5464541733742358160
       A06_Swing_2: 1156555355997479215
       A06_Swing_3: 7304641950782572055
       A06_Swing_4: -4915099623834273216

@@ -424,7 +424,7 @@ GameObject:
   - component: {fileID: 6910876887758266291}
   - component: {fileID: 7807880150229569193}
   - component: {fileID: 8603096822006439661}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: B23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,18 +498,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildingId: building_basic_23
-  skeletonAnimation: {fileID: 0}
   gameplayButton: {fileID: 8603096822006439661}
-  popupUpgradePos: {fileID: 6443986665309234435}
   parentPartsPos: {fileID: 4173278702818265483}
   parentVfxsPos: {fileID: 2600914842394367777}
-  slotObjects: []
   buildingBounds:
     upOffset: 10.22
     downOffset: 4.03
     leftOffset: 6.16
     rightOffset: 9.47
     debugBounds: 1
+  mapArea: 0
+  lPosParts: []
+  lPosVfxs: []
+  mainLv_CatPlacement: 0
+  partLv_CatPlacement: 0
 --- !u!114 &8603096822006439661
 MonoBehaviour:
   m_ObjectHideFlags: 0

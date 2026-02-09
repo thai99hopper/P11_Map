@@ -120,7 +120,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -146,7 +146,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -165,10 +178,10 @@ TextureImporter:
       name: A04_BulletinBoard_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 842
-        width: 295
-        height: 182
+        x: 196
+        y: 1
+        width: 489
+        height: 732
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +200,10 @@ TextureImporter:
       name: A04_BulletinBoard_1
       rect:
         serializedVersion: 2
-        x: 276
-        y: 109
-        width: 489
-        height: 734
+        x: 685
+        y: 687
+        width: 360
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +222,10 @@ TextureImporter:
       name: A04_BulletinBoard_2
       rect:
         serializedVersion: 2
-        x: 293
-        y: 841
-        width: 218
-        height: 173
+        x: 988
+        y: 666
+        width: 32
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +244,10 @@ TextureImporter:
       name: A04_BulletinBoard_3
       rect:
         serializedVersion: 2
-        x: 764
-        y: 775
-        width: 295
-        height: 183
+        x: 1045
+        y: 666
+        width: 216
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +266,10 @@ TextureImporter:
       name: A04_BulletinBoard_4
       rect:
         serializedVersion: 2
-        x: 1347
-        y: 692
-        width: 293
-        height: 230
+        x: 1268
+        y: 584
+        width: 182
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +288,10 @@ TextureImporter:
       name: A04_BulletinBoard_5
       rect:
         serializedVersion: 2
-        x: 1638
-        y: 714
-        width: 362
-        height: 161
+        x: 1450
+        y: 584
+        width: 182
+        height: 294
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +310,10 @@ TextureImporter:
       name: A04_BulletinBoard_6
       rect:
         serializedVersion: 2
-        x: 867
-        y: 109
-        width: 481
-        height: 667
+        x: 1632
+        y: 584
+        width: 229
+        height: 291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +332,10 @@ TextureImporter:
       name: A04_BulletinBoard_7
       rect:
         serializedVersion: 2
-        x: 1513
-        y: 110
-        width: 418
-        height: 584
+        x: 78
+        y: 380
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,10 +354,10 @@ TextureImporter:
       name: A04_BulletinBoard_8
       rect:
         serializedVersion: 2
-        x: 1942
-        y: 692
-        width: 32
-        height: 25
+        x: 787
+        y: 1
+        width: 481
+        height: 665
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +376,10 @@ TextureImporter:
       name: A04_BulletinBoard_9
       rect:
         serializedVersion: 2
-        x: 158
-        y: 489
-        width: 13
-        height: 13
+        x: 1433
+        y: 1
+        width: 418
+        height: 583
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,10 +398,10 @@ TextureImporter:
       name: A04_BulletinBoard_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 216
-        width: 182
-        height: 195
+        x: 1
+        y: 284
+        width: 101
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,8 +420,8 @@ TextureImporter:
       name: A04_BulletinBoard_11
       rect:
         serializedVersion: 2
-        x: 765
-        y: 393
+        x: 685
+        y: 284
         width: 8
         height: 7
       alignment: 0
@@ -429,8 +442,8 @@ TextureImporter:
       name: A04_BulletinBoard_12
       rect:
         serializedVersion: 2
-        x: 1348
-        y: 393
+        x: 1268
+        y: 284
         width: 8
         height: 7
       alignment: 0

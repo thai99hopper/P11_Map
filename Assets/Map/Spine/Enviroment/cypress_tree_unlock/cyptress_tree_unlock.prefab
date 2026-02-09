@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7650950824118153013}
   - component: {fileID: 6345136603965709764}
   - component: {fileID: 2302441404495351524}
-  - component: {fileID: 1779691251769772613}
+  - component: {fileID: 4027843375714561820}
   m_Layer: 0
   m_Name: cyptress_tree_unlock
   m_TagString: Untagged
@@ -55,6 +55,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -76,9 +78,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &6345136603965709764
 MonoBehaviour:
@@ -128,7 +132,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128227652261240753}
   m_Mesh: {fileID: 0}
---- !u!114 &1779691251769772613
+--- !u!114 &4027843375714561820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,8 +141,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 128227652261240753}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb8ebc584a1bb46428f62b8121d33d49, type: 3}
+  m_Script: {fileID: 11500000, guid: 584ad0be6cbdd4b449d3f20b8533cd84, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::CypressTreePresenter
   skelAnim: {fileID: 6345136603965709764}
-  debug: 1
+  debug: 0
