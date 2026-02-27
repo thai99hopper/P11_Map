@@ -109,10 +109,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -126,7 +126,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -144,7 +144,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -157,7 +157,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -170,7 +170,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -183,7 +183,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -193,535 +193,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: B27_StreetBar_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1511
-        width: 209
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7ea6c100e63451b0800000000000000
-      internalID: -5668845695222239617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_1
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 1511
-        width: 74
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5479feacc263da200800000000000000
-      internalID: 192869925057959749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_2
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 1555
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebe6f9ff6847f8c40800000000000000
-      internalID: 5516756191715225278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_3
-      rect:
-        serializedVersion: 2
-        x: 295
-        y: 1558
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e1ed5b61b0b130c0800000000000000
-      internalID: -4597699468511551007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_4
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 1511
-        width: 69
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 67d9176d10f8ee3f0800000000000000
-      internalID: -869600439980417674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_5
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 1341
-        width: 326
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52db1893ae81ac3e0800000000000000
-      internalID: -2032784887538139867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_6
-      rect:
-        serializedVersion: 2
-        x: 285
-        y: 1518
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d006304761cbc0e70800000000000000
-      internalID: 9082841353121128461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_7
-      rect:
-        serializedVersion: 2
-        x: 605
-        y: 765
-        width: 323
-        height: 783
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 150fad97d7d381a40800000000000000
-      internalID: 5339084967372320849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_8
-      rect:
-        serializedVersion: 2
-        x: 1285
-        y: 1172
-        width: 400
-        height: 349
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ab029ab0bc69d080800000000000000
-      internalID: -9162172460608386140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_9
-      rect:
-        serializedVersion: 2
-        x: 1692
-        y: 1373
-        width: 201
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 970dcd520c8d4f0a0800000000000000
-      internalID: -6848610813543133063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_10
-      rect:
-        serializedVersion: 2
-        x: 1893
-        y: 1452
-        width: 64
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 358f5441ff44d6040800000000000000
-      internalID: 4642442653236328531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_11
-      rect:
-        serializedVersion: 2
-        x: 1899
-        y: 1520
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 929f5e3fb9a8b3700800000000000000
-      internalID: 521162584307923241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_12
-      rect:
-        serializedVersion: 2
-        x: 1935
-        y: 1520
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d78cf1043b7c9e8b0800000000000000
-      internalID: -5122343528468330371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_13
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 765
-        width: 604
-        height: 746
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8091f5828ebdc8630800000000000000
-      internalID: 3930758364943816968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_14
-      rect:
-        serializedVersion: 2
-        x: 1692
-        y: 1068
-        width: 295
-        height: 305
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8112828e83fa2cc90800000000000000
-      internalID: -7150960599362952936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_15
-      rect:
-        serializedVersion: 2
-        x: 1893
-        y: 1373
-        width: 75
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 097151c22c3625fc0800000000000000
-      internalID: -3507631474153810032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_16
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 758
-        height: 764
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db6751a35fc3390d0800000000000000
-      internalID: -3417320668304935235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_17
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 765
-        width: 355
-        height: 576
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07bc51eb45b200600800000000000000
-      internalID: 432393207193914224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_18
-      rect:
-        serializedVersion: 2
-        x: 1283
-        y: 747
-        width: 387
-        height: 412
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea72d6f0d3cd11610800000000000000
-      internalID: 1590294298248423342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_19
-      rect:
-        serializedVersion: 2
-        x: 1670
-        y: 690
-        width: 308
-        height: 378
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb44bb6ddffa9f4f0800000000000000
-      internalID: -794410354489998149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_20
-      rect:
-        serializedVersion: 2
-        x: 1063
-        y: 1
-        width: 604
-        height: 746
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 860bad3863e00e150800000000000000
-      internalID: 5899731139158519912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_21
-      rect:
-        serializedVersion: 2
-        x: 1667
-        y: 426
-        width: 8
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5af8c25c56c9e3170800000000000000
-      internalID: 8160131535755579301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_22
-      rect:
-        serializedVersion: 2
-        x: 1671
-        y: 1
-        width: 297
-        height: 689
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31b43bbb3a7d9a040800000000000000
-      internalID: 4659492387720219411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B27_StreetBar_23
-      rect:
-        serializedVersion: 2
-        x: 902
-        y: 57
-        width: 161
-        height: 207
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e5aa386b9c86d9e0800000000000000
-      internalID: -1596934418759768608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -735,31 +207,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      B27_StreetBar_0: -5668845695222239617
-      B27_StreetBar_1: 192869925057959749
-      B27_StreetBar_10: 4642442653236328531
-      B27_StreetBar_11: 521162584307923241
-      B27_StreetBar_12: -5122343528468330371
-      B27_StreetBar_13: 3930758364943816968
-      B27_StreetBar_14: -7150960599362952936
-      B27_StreetBar_15: -3507631474153810032
-      B27_StreetBar_16: -3417320668304935235
-      B27_StreetBar_17: 432393207193914224
-      B27_StreetBar_18: 1590294298248423342
-      B27_StreetBar_19: -794410354489998149
-      B27_StreetBar_2: 5516756191715225278
-      B27_StreetBar_20: 5899731139158519912
-      B27_StreetBar_21: 8160131535755579301
-      B27_StreetBar_22: 4659492387720219411
-      B27_StreetBar_23: -1596934418759768608
-      B27_StreetBar_3: -4597699468511551007
-      B27_StreetBar_4: -869600439980417674
-      B27_StreetBar_5: -2032784887538139867
-      B27_StreetBar_6: 9082841353121128461
-      B27_StreetBar_7: 5339084967372320849
-      B27_StreetBar_8: -9162172460608386140
-      B27_StreetBar_9: -6848610813543133063
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

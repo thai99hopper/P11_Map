@@ -97,10 +97,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -114,7 +114,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -132,32 +132,6 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -171,7 +145,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -180,11 +154,24 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WindowsStoreApps
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -194,447 +181,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: A05_PaintingArea_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 34
-        width: 383
-        height: 688
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a48a58c656efdb3c0800000000000000
-      internalID: -4342034754149439414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_1
-      rect:
-        serializedVersion: 2
-        x: 526
-        y: 608
-        width: 179
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ffd5c01225a27590800000000000000
-      internalID: -7677892848984399885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_2
-      rect:
-        serializedVersion: 2
-        x: 687
-        y: 569
-        width: 29
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 144d64c9d1a41fea0800000000000000
-      internalID: -5840805750686428095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_3
-      rect:
-        serializedVersion: 2
-        x: 716
-        y: 569
-        width: 129
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1866d7560495a8700800000000000000
-      internalID: 543344838167062145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_4
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 379
-        width: 183
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06f069cdd90144b60800000000000000
-      internalID: 7729321130671345504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_5
-      rect:
-        serializedVersion: 2
-        x: 1158
-        y: 469
-        width: 288
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69463359e436ef060800000000000000
-      internalID: 6989132860887360662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_6
-      rect:
-        serializedVersion: 2
-        x: 1623
-        y: 582
-        width: 14
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90d6152fc64d8cb30800000000000000
-      internalID: 4307926607966858505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_7
-      rect:
-        serializedVersion: 2
-        x: 1759
-        y: 580
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dcff8aaf02c9bdd10800000000000000
-      internalID: 2151484912457809869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_8
-      rect:
-        serializedVersion: 2
-        x: 365
-        y: 503
-        width: 47
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fab1dbfca68a8e090800000000000000
-      internalID: -8004963160945779793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_9
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 537
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5a149de3b7482c80800000000000000
-      internalID: -8347343071220589988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_10
-      rect:
-        serializedVersion: 2
-        x: 526
-        y: 1
-        width: 424
-        height: 568
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5245bec45d46f2f30800000000000000
-      internalID: 4552968615576163365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_11
-      rect:
-        serializedVersion: 2
-        x: 1452
-        y: 295
-        width: 468
-        height: 283
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a601d4e3dfa64a50800000000000000
-      internalID: 6505080036395124385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_12
-      rect:
-        serializedVersion: 2
-        x: 950
-        y: 1
-        width: 182
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 487321e642e4d52e0800000000000000
-      internalID: -2135464729931270268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_13
-      rect:
-        serializedVersion: 2
-        x: 1158
-        y: 1
-        width: 283
-        height: 468
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 610f2cbc618c46380800000000000000
-      internalID: -8978831756836540394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_14
-      rect:
-        serializedVersion: 2
-        x: 1445
-        y: 284
-        width: 6
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fdce7e7754cfa3f30800000000000000
-      internalID: 4556231348333309151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_15
-      rect:
-        serializedVersion: 2
-        x: 1623
-        y: 288
-        width: 14
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5ea41f32a86f9720800000000000000
-      internalID: 2855115734828494428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_16
-      rect:
-        serializedVersion: 2
-        x: 1759
-        y: 286
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f61bf6cc5bb51a80800000000000000
-      internalID: -8496679114814843144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_17
-      rect:
-        serializedVersion: 2
-        x: 1443
-        y: 153
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 701f8c0c4289c4ff0800000000000000
-      internalID: -50498212187279097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_18
-      rect:
-        serializedVersion: 2
-        x: 1452
-        y: 1
-        width: 468
-        height: 283
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa9998be1be7ac660800000000000000
-      internalID: 7406871839790176682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A05_PaintingArea_19
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 1
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 375406c15892c95f0800000000000000
-      internalID: -748677786366884493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -648,27 +195,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      A05_PaintingArea_0: -4342034754149439414
-      A05_PaintingArea_1: -7677892848984399885
-      A05_PaintingArea_10: 4552968615576163365
-      A05_PaintingArea_11: 6505080036395124385
-      A05_PaintingArea_12: -2135464729931270268
-      A05_PaintingArea_13: -8978831756836540394
-      A05_PaintingArea_14: 4556231348333309151
-      A05_PaintingArea_15: 2855115734828494428
-      A05_PaintingArea_16: -8496679114814843144
-      A05_PaintingArea_17: -50498212187279097
-      A05_PaintingArea_18: 7406871839790176682
-      A05_PaintingArea_19: -748677786366884493
-      A05_PaintingArea_2: -5840805750686428095
-      A05_PaintingArea_3: 543344838167062145
-      A05_PaintingArea_4: 7729321130671345504
-      A05_PaintingArea_5: 6989132860887360662
-      A05_PaintingArea_6: 4307926607966858505
-      A05_PaintingArea_7: 2151484912457809869
-      A05_PaintingArea_8: -8004963160945779793
-      A05_PaintingArea_9: -8347343071220589988
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

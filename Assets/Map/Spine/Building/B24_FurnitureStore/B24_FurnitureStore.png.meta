@@ -70,10 +70,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -87,7 +87,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -105,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,7 +118,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,7 +131,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -144,7 +144,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -154,249 +154,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: B24_FurnitureStore_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 756
-        width: 872
-        height: 765
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab7c4790bcec57280800000000000000
-      internalID: -9046096905071441990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_1
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 273
-        width: 634
-        height: 483
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 396ef07d40c261470800000000000000
-      internalID: 8364921757186909843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_2
-      rect:
-        serializedVersion: 2
-        x: 1205
-        y: 519
-        width: 765
-        height: 872
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b69051f5e891a60d0800000000000000
-      internalID: -3428900067017946773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_3
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 188
-        width: 570
-        height: 391
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ab5cbbacdb0005f0800000000000000
-      internalID: -792620492015248480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_4
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 1
-        width: 211
-        height: 187
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36570d042b2dbead0800000000000000
-      internalID: -2671810290880842397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_5
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 1
-        width: 295
-        height: 207
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c37cf32335de6ab0800000000000000
-      internalID: -5012834919592987703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_6
-      rect:
-        serializedVersion: 2
-        x: 901
-        y: 1
-        width: 318
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b905e9018bcb95f0800000000000000
-      internalID: -748781157949830728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_7
-      rect:
-        serializedVersion: 2
-        x: 1219
-        y: 1
-        width: 323
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48bc60e7e2b372350800000000000000
-      internalID: 5991822900108643204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_8
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 1
-        width: 451
-        height: 518
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8fe8a4e9a940ce2e0800000000000000
-      internalID: -2095294664506962184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_9
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 191
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb076f2b82a3501c0800000000000000
-      internalID: -4538157103030308677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B24_FurnitureStore_10
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 1
-        width: 199
-        height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ae9afcd4964cc890800000000000000
-      internalID: -7436491279519015258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -410,18 +168,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      B24_FurnitureStore_0: -9046096905071441990
-      B24_FurnitureStore_1: 8364921757186909843
-      B24_FurnitureStore_10: -7436491279519015258
-      B24_FurnitureStore_2: -3428900067017946773
-      B24_FurnitureStore_3: -792620492015248480
-      B24_FurnitureStore_4: -2671810290880842397
-      B24_FurnitureStore_5: -5012834919592987703
-      B24_FurnitureStore_6: -748781157949830728
-      B24_FurnitureStore_7: 5991822900108643204
-      B24_FurnitureStore_8: -2095294664506962184
-      B24_FurnitureStore_9: -4538157103030308677
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

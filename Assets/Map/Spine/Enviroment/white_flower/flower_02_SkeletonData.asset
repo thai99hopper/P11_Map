@@ -11,15 +11,15 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
   m_Name: flower_02_SkeletonData
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: spine-unity::Spine.Unity.SkeletonDataAsset
   atlasAssets:
   - {fileID: 11400000, guid: 95c05e5acad87c84f9f5018f4e7e01e5, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: 284d410819e4efc4ca8f2ada84589402, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 39950f02e7412b4429498193a9bad57b, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
     requiresBlendModeMaterials: 0
-    applyAdditiveMaterial: 1
+    applyAdditiveMaterial: 0
     additiveMaterials: []
     multiplyMaterials: []
     screenMaterials: []

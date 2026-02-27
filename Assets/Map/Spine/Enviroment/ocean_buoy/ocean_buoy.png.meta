@@ -1,9 +1,102 @@
 fileFormatVersion: 2
 guid: a6614f1517b4a0c42a24424daf002cc8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5495765971751168228
+    second: ocean_buoy_0
+  - first:
+      213: 1346854069692373929
+    second: ocean_buoy_1
+  - first:
+      213: -8657141064289654447
+    second: ocean_buoy_2
+  - first:
+      213: -3046202854860958898
+    second: ocean_buoy_3
+  - first:
+      213: 2179138279734492584
+    second: ocean_buoy_4
+  - first:
+      213: -3043753208750762482
+    second: ocean_buoy_5
+  - first:
+      213: -438700875707097758
+    second: ocean_buoy_6
+  - first:
+      213: 9190930709646275135
+    second: ocean_buoy_7
+  - first:
+      213: 598285748960640407
+    second: ocean_buoy_8
+  - first:
+      213: -8700131125192968833
+    second: ocean_buoy_9
+  - first:
+      213: -2285510577415287168
+    second: ocean_buoy_10
+  - first:
+      213: 6585330953996664321
+    second: ocean_buoy_11
+  - first:
+      213: -8176501646567709809
+    second: ocean_buoy_12
+  - first:
+      213: 4274144317729208830
+    second: ocean_buoy_13
+  - first:
+      213: -2309211189954323585
+    second: ocean_buoy_14
+  - first:
+      213: 7440209216096880634
+    second: ocean_buoy_15
+  - first:
+      213: 1041752556575025345
+    second: ocean_buoy_16
+  - first:
+      213: -4692066368880179176
+    second: ocean_buoy_17
+  - first:
+      213: -2349512906106621984
+    second: ocean_buoy_18
+  - first:
+      213: -7763920944398695147
+    second: ocean_buoy_19
+  - first:
+      213: 105996018698417327
+    second: ocean_buoy_20
+  - first:
+      213: -3698673383252490166
+    second: ocean_buoy_21
+  - first:
+      213: -2431161715983751643
+    second: ocean_buoy_22
+  - first:
+      213: -4112388400818831234
+    second: ocean_buoy_23
+  - first:
+      213: -190923427290612570
+    second: ocean_buoy_24
+  - first:
+      213: 7562882966367723675
+    second: ocean_buoy_25
+  - first:
+      213: -228729955807654524
+    second: ocean_buoy_26
+  - first:
+      213: 4085589591421569371
+    second: ocean_buoy_27
+  - first:
+      213: -1688020745012557717
+    second: ocean_buoy_28
+  - first:
+      213: -8756527202330693594
+    second: ocean_buoy_29
+  - first:
+      213: 5486124493994779853
+    second: ocean_buoy_30
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +113,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -36,10 +130,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -53,7 +147,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -63,9 +157,24 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -74,25 +183,54 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable: {}
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

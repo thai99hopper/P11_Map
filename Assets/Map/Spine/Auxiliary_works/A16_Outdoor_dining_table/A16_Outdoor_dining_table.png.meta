@@ -79,10 +79,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -96,7 +96,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -114,32 +114,6 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -153,7 +127,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -162,11 +136,24 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WindowsStoreApps
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -176,315 +163,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 336
-        height: 755
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e13aacf3b850aee50800000000000000
-      internalID: 6839285079744357150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_1
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 607
-        width: 513
-        height: 329
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f165428f6221b5ef0800000000000000
-      internalID: -118481006613998049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_2
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 1
-        width: 411
-        height: 606
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02161e263a49fc1f0800000000000000
-      internalID: -1022435160930295520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_3
-      rect:
-        serializedVersion: 2
-        x: 850
-        y: 603
-        width: 419
-        height: 316
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8885fb3084a28eed0800000000000000
-      internalID: -2384609513903794040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_4
-      rect:
-        serializedVersion: 2
-        x: 1269
-        y: 489
-        width: 339
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a783a792852be9c80800000000000000
-      internalID: -8314011770356615046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_5
-      rect:
-        serializedVersion: 2
-        x: 1608
-        y: 458
-        width: 300
-        height: 415
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: caaf687126c75e690800000000000000
-      internalID: -7573510437610259796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_6
-      rect:
-        serializedVersion: 2
-        x: 748
-        y: 1
-        width: 483
-        height: 602
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2adeba0c60f51f860800000000000000
-      internalID: 7561929731938708898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_7
-      rect:
-        serializedVersion: 2
-        x: 1273
-        y: 282
-        width: 134
-        height: 207
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b00cdc1a5b45010c0800000000000000
-      internalID: -4607089279719587829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_8
-      rect:
-        serializedVersion: 2
-        x: 1474
-        y: 327
-        width: 128
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c15107840a796c30800000000000000
-      internalID: 4353144674693763523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_9
-      rect:
-        serializedVersion: 2
-        x: 1776
-        y: 191
-        width: 212
-        height: 267
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0639db5c15d9a1c80800000000000000
-      internalID: -8351189584469716128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_10
-      rect:
-        serializedVersion: 2
-        x: 1608
-        y: 1
-        width: 227
-        height: 223
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2b993069dd849990800000000000000
-      internalID: -7380117924591592659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_11
-      rect:
-        serializedVersion: 2
-        x: 1726
-        y: 210
-        width: 114
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a0580a0e2473ab70800000000000000
-      internalID: 8909092228954607780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_12
-      rect:
-        serializedVersion: 2
-        x: 1231
-        y: 127
-        width: 107
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a31cb9d57b3c855f0800000000000000
-      internalID: -767648544149749446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: A16_Outdoor_dining_table_13
-      rect:
-        serializedVersion: 2
-        x: 1330
-        y: 1
-        width: 77
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57fd23aceb7e536f0800000000000000
-      internalID: -705402959991480459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -498,21 +177,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      A16_Outdoor_dining_table_0: 6839285079744357150
-      A16_Outdoor_dining_table_1: -118481006613998049
-      A16_Outdoor_dining_table_10: -7380117924591592659
-      A16_Outdoor_dining_table_11: 8909092228954607780
-      A16_Outdoor_dining_table_12: -767648544149749446
-      A16_Outdoor_dining_table_13: -705402959991480459
-      A16_Outdoor_dining_table_2: -1022435160930295520
-      A16_Outdoor_dining_table_3: -2384609513903794040
-      A16_Outdoor_dining_table_4: -8314011770356615046
-      A16_Outdoor_dining_table_5: -7573510437610259796
-      A16_Outdoor_dining_table_6: 7561929731938708898
-      A16_Outdoor_dining_table_7: -4607089279719587829
-      A16_Outdoor_dining_table_8: 4353144674693763523
-      A16_Outdoor_dining_table_9: -8351189584469716128
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

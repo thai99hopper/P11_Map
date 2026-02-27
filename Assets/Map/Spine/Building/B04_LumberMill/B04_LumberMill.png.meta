@@ -94,10 +94,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -111,7 +111,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -129,7 +129,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -142,7 +142,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -155,7 +155,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -168,7 +168,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -178,425 +178,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: B04_LumberMill_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 661
-        width: 584
-        height: 459
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed812e506eccfa650800000000000000
-      internalID: 6246436496499415262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_1
-      rect:
-        serializedVersion: 2
-        x: 585
-        y: 765
-        width: 906
-        height: 955
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a4a191c8e53e7be0800000000000000
-      internalID: -1477684353934711646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_2
-      rect:
-        serializedVersion: 2
-        x: 749
-        y: 324
-        width: 748
-        height: 441
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5d7d4092474334d0800000000000000
-      internalID: -3156100562642174629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_3
-      rect:
-        serializedVersion: 2
-        x: 1497
-        y: 537
-        width: 463
-        height: 567
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0df11ab91afda04b0800000000000000
-      internalID: -5473316511921659952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_4
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 220
-        width: 748
-        height: 441
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a2cea4c4154df3f0800000000000000
-      internalID: -865459597883817306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_5
-      rect:
-        serializedVersion: 2
-        x: 1710
-        y: 246
-        width: 180
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50fa247e00a262e20800000000000000
-      internalID: 3325391558227963653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_6
-      rect:
-        serializedVersion: 2
-        x: 1839
-        y: 527
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec82c037cdfc45b70800000000000000
-      internalID: 8886956510438762702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_7
-      rect:
-        serializedVersion: 2
-        x: 1899
-        y: 432
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da4b456b03df4b9d0800000000000000
-      internalID: -2759302286012009299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_8
-      rect:
-        serializedVersion: 2
-        x: 949
-        y: 293
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e68bce591a1e36ed0800000000000000
-      internalID: -2421844090473891730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_9
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 1
-        width: 420
-        height: 323
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 359bebf811a3c4080800000000000000
-      internalID: -9201916091524269741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_10
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 212
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7fd18869882b0f890800000000000000
-      internalID: -7426239485823148553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_11
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 1
-        width: 242
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46091f3a8f665cf60800000000000000
-      internalID: 8053956726710440036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_12
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 1
-        width: 368
-        height: 219
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0bf5aea861dfe39d0800000000000000
-      internalID: -2792516445661405264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_13
-      rect:
-        serializedVersion: 2
-        x: 823
-        y: 163
-        width: 162
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27988caa58e372c50800000000000000
-      internalID: 6640344919397927282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_14
-      rect:
-        serializedVersion: 2
-        x: 967
-        y: 1
-        width: 182
-        height: 189
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa55cf1985dc03a90800000000000000
-      internalID: -7336138012696488534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_15
-      rect:
-        serializedVersion: 2
-        x: 1572
-        y: 40
-        width: 125
-        height: 224
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6f0b6fe23ef6d7b0800000000000000
-      internalID: -5199689225034068116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_16
-      rect:
-        serializedVersion: 2
-        x: 1640
-        y: 1
-        width: 122
-        height: 191
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 16f5b37754e2bdd10800000000000000
-      internalID: 2151364122887544673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_17
-      rect:
-        serializedVersion: 2
-        x: 1158
-        y: 130
-        width: 11
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e36cc6a1b28340f0800000000000000
-      internalID: -1133918981647997975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B04_LumberMill_18
-      rect:
-        serializedVersion: 2
-        x: 867
-        y: 65
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e25e3da00ade219f0800000000000000
-      internalID: -499075337052494546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -610,26 +192,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      B04_LumberMill_0: 6246436496499415262
-      B04_LumberMill_1: -1477684353934711646
-      B04_LumberMill_10: -7426239485823148553
-      B04_LumberMill_11: 8053956726710440036
-      B04_LumberMill_12: -2792516445661405264
-      B04_LumberMill_13: 6640344919397927282
-      B04_LumberMill_14: -7336138012696488534
-      B04_LumberMill_15: -5199689225034068116
-      B04_LumberMill_16: 2151364122887544673
-      B04_LumberMill_17: -1133918981647997975
-      B04_LumberMill_18: -499075337052494546
-      B04_LumberMill_2: -3156100562642174629
-      B04_LumberMill_3: -5473316511921659952
-      B04_LumberMill_4: -865459597883817306
-      B04_LumberMill_5: 3325391558227963653
-      B04_LumberMill_6: 8886956510438762702
-      B04_LumberMill_7: -2759302286012009299
-      B04_LumberMill_8: -2421844090473891730
-      B04_LumberMill_9: -9201916091524269741
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

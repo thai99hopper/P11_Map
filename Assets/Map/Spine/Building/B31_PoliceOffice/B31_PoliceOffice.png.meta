@@ -70,10 +70,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -87,7 +87,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -105,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,7 +118,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,7 +131,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -144,7 +144,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -154,249 +154,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: B31_PoliceOffice_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 282
-        width: 892
-        height: 830
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50a642110b8bbdd60800000000000000
-      internalID: 7916123836375132677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_1
-      rect:
-        serializedVersion: 2
-        x: 893
-        y: 375
-        width: 1006
-        height: 830
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f53b086227fc8d6c0800000000000000
-      internalID: -4118313770051128481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_2
-      rect:
-        serializedVersion: 2
-        x: 1361
-        y: 356
-        width: 25
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: abefe03644ad42650800000000000000
-      internalID: 6207326173677944506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_3
-      rect:
-        serializedVersion: 2
-        x: 1387
-        y: 357
-        width: 46
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f46a5ec34f752210800000000000000
-      internalID: 1307591196022564081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_4
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 172
-        width: 155
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fef8087293bd98f30800000000000000
-      internalID: 4578431534721175535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_5
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 1
-        width: 271
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c221b319c59b34d20800000000000000
-      internalID: 3261654362371068460
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_6
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 1
-        width: 248
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6fb6389830869480800000000000000
-      internalID: -8892779433636216982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_7
-      rect:
-        serializedVersion: 2
-        x: 824
-        y: 1
-        width: 326
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea9e90e5a51838560800000000000000
-      internalID: 7314832444904565166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_8
-      rect:
-        serializedVersion: 2
-        x: 1150
-        y: 1
-        width: 368
-        height: 355
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: decc735c3b594ad70800000000000000
-      internalID: 9053525750261992685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_9
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 148
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef0f11864b44b0950800000000000000
-      internalID: 6416297635750211838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B31_PoliceOffice_10
-      rect:
-        serializedVersion: 2
-        x: 526
-        y: 69
-        width: 69
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98957fb41fd8eb800800000000000000
-      internalID: 630097065379584393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -410,18 +168,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      B31_PoliceOffice_0: 7916123836375132677
-      B31_PoliceOffice_1: -4118313770051128481
-      B31_PoliceOffice_10: 630097065379584393
-      B31_PoliceOffice_2: 6207326173677944506
-      B31_PoliceOffice_3: 1307591196022564081
-      B31_PoliceOffice_4: 4578431534721175535
-      B31_PoliceOffice_5: 3261654362371068460
-      B31_PoliceOffice_6: -8892779433636216982
-      B31_PoliceOffice_7: 7314832444904565166
-      B31_PoliceOffice_8: 9053525750261992685
-      B31_PoliceOffice_9: 6416297635750211838
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

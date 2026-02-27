@@ -79,10 +79,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -96,7 +96,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -114,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,7 +127,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,7 +140,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -153,7 +153,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -163,315 +163,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 653
-        width: 673
-        height: 647
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b527e5a180e391230800000000000000
-      internalID: 3609984780837220955
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_1
-      rect:
-        serializedVersion: 2
-        x: 674
-        y: 789
-        width: 673
-        height: 647
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b21006867a740c70800000000000000
-      internalID: 8936402210082788017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_2
-      rect:
-        serializedVersion: 2
-        x: 1304
-        y: 532
-        width: 292
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6cc7d6cafabe4ce60800000000000000
-      internalID: 7981763579352022214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_3
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 265
-        width: 449
-        height: 345
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56473cf67b91d2650800000000000000
-      internalID: 6209647736858571877
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_4
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 280
-        width: 647
-        height: 373
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d47e17a62b7e2f70800000000000000
-      internalID: 9164397697688302807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_5
-      rect:
-        serializedVersion: 2
-        x: 1097
-        y: 292
-        width: 400
-        height: 372
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc9c541e442da5550800000000000000
-      internalID: 6150459434406889933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_6
-      rect:
-        serializedVersion: 2
-        x: 1713
-        y: 102
-        width: 169
-        height: 190
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef9b1cc1573136970800000000000000
-      internalID: 8746856294998194686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_7
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 134
-        width: 245
-        height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27aec8a568d4c6090800000000000000
-      internalID: -8039965995323037070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_8
-      rect:
-        serializedVersion: 2
-        x: 479
-        y: 1
-        width: 151
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 885432a35b121d1e0800000000000000
-      internalID: -2174920082795051640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_9
-      rect:
-        serializedVersion: 2
-        x: 741
-        y: 76
-        width: 169
-        height: 190
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee6a1d922ebdf4440800000000000000
-      internalID: 4922394682149938926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_10
-      rect:
-        serializedVersion: 2
-        x: 910
-        y: 1
-        width: 509
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a5905e17e0c8e6b60800000000000000
-      internalID: 7741278803164727642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_11
-      rect:
-        serializedVersion: 2
-        x: 1419
-        y: 1
-        width: 176
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1df4740a6ee566b10800000000000000
-      internalID: 1974369831273058257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_12
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 164
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 14f003289ba20f150800000000000000
-      internalID: 5904266087724224321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B26_BeachsafetyHouse_13
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 1
-        width: 245
-        height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 785c499a86e3407e0800000000000000
-      internalID: -1800245331798735481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -485,21 +177,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      B26_BeachsafetyHouse_0: 3609984780837220955
-      B26_BeachsafetyHouse_1: 8936402210082788017
-      B26_BeachsafetyHouse_10: 7741278803164727642
-      B26_BeachsafetyHouse_11: 1974369831273058257
-      B26_BeachsafetyHouse_12: 5904266087724224321
-      B26_BeachsafetyHouse_13: -1800245331798735481
-      B26_BeachsafetyHouse_2: 7981763579352022214
-      B26_BeachsafetyHouse_3: 6209647736858571877
-      B26_BeachsafetyHouse_4: 9164397697688302807
-      B26_BeachsafetyHouse_5: 6150459434406889933
-      B26_BeachsafetyHouse_6: 8746856294998194686
-      B26_BeachsafetyHouse_7: -8039965995323037070
-      B26_BeachsafetyHouse_8: -2174920082795051640
-      B26_BeachsafetyHouse_9: 4922394682149938926
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

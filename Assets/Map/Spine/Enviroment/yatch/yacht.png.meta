@@ -1,9 +1,123 @@
 fileFormatVersion: 2
 guid: e68eca2678d8280469cccb9ae975b826
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7592545925130625240
+    second: yacht_0
+  - first:
+      213: 5015632110742339477
+    second: yacht_1
+  - first:
+      213: 4151769724802108743
+    second: yacht_2
+  - first:
+      213: -6674095300430099945
+    second: yacht_3
+  - first:
+      213: 7942974072658269157
+    second: yacht_4
+  - first:
+      213: 6749761481846865060
+    second: yacht_5
+  - first:
+      213: -4380024888818631601
+    second: yacht_6
+  - first:
+      213: 2011871063776479763
+    second: yacht_7
+  - first:
+      213: -4083652869518750817
+    second: yacht_8
+  - first:
+      213: 844778266440737610
+    second: yacht_9
+  - first:
+      213: -6187699818482258815
+    second: yacht_10
+  - first:
+      213: -5654218916428835365
+    second: yacht_11
+  - first:
+      213: -4853645580058165609
+    second: yacht_12
+  - first:
+      213: 5651841749075757835
+    second: yacht_13
+  - first:
+      213: -8754605494441236761
+    second: yacht_14
+  - first:
+      213: -669560625353596846
+    second: yacht_15
+  - first:
+      213: -934343804456407724
+    second: yacht_16
+  - first:
+      213: 340074343771475411
+    second: yacht_17
+  - first:
+      213: 5773473916604182514
+    second: yacht_18
+  - first:
+      213: 6806435821332335725
+    second: yacht_19
+  - first:
+      213: -980311940385641400
+    second: yacht_20
+  - first:
+      213: 854117755598127812
+    second: yacht_21
+  - first:
+      213: 5624863244749307353
+    second: yacht_22
+  - first:
+      213: 234563292001295069
+    second: yacht_23
+  - first:
+      213: 6137779471551541538
+    second: yacht_24
+  - first:
+      213: 7851929903772352716
+    second: yacht_25
+  - first:
+      213: -3245851580340836468
+    second: yacht_26
+  - first:
+      213: 2170870209248496249
+    second: yacht_27
+  - first:
+      213: 2089652654897534298
+    second: yacht_28
+  - first:
+      213: -5505748491695263788
+    second: yacht_29
+  - first:
+      213: 7009144299772045021
+    second: yacht_30
+  - first:
+      213: -8042201912356614566
+    second: yacht_31
+  - first:
+      213: 172880616794940506
+    second: yacht_32
+  - first:
+      213: 8867508791331069746
+    second: yacht_33
+  - first:
+      213: -8803357156460210571
+    second: yacht_34
+  - first:
+      213: -1440433985715610982
+    second: yacht_35
+  - first:
+      213: -5936690167071195385
+    second: yacht_36
+  - first:
+      213: 6813889245195927621
+    second: yacht_37
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +134,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -36,10 +151,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -53,7 +168,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -63,9 +178,24 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -74,25 +204,54 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable: {}
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

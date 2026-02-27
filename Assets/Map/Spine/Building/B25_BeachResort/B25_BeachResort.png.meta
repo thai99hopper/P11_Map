@@ -112,10 +112,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -129,7 +129,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -147,7 +147,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -160,7 +160,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -173,7 +173,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -186,7 +186,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -196,557 +196,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: B25_BeachResort_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 583
-        width: 458
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2bd986c0386b22d0800000000000000
-      internalID: -3302431343047484630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_1
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 706
-        width: 605
-        height: 496
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94b6dea6803017320800000000000000
-      internalID: 2553825798384347977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_2
-      rect:
-        serializedVersion: 2
-        x: 775
-        y: 654
-        width: 1216
-        height: 1052
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13eace77baa9fbd40800000000000000
-      internalID: 5602366522714271281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_3
-      rect:
-        serializedVersion: 2
-        x: 706
-        y: 244
-        width: 515
-        height: 339
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c4b6ae48ea7a7c10800000000000000
-      internalID: 2052087718391231681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_4
-      rect:
-        serializedVersion: 2
-        x: 1647
-        y: 518
-        width: 260
-        height: 136
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 342073357b0e05450800000000000000
-      internalID: 6075602975302550083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_5
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 76
-        width: 290
-        height: 339
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 587de71b710d8b6f0800000000000000
-      internalID: -668555744483813499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_6
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 163
-        width: 253
-        height: 316
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a245a40691ae8e50800000000000000
-      internalID: 6813560951953244832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_7
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 284
-        width: 138
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a618c9bffba1e0020800000000000000
-      internalID: 2309813070750056810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_8
-      rect:
-        serializedVersion: 2
-        x: 1221
-        y: 278
-        width: 359
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d7e39c72a8a63d20800000000000000
-      internalID: 3257976796277368793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_9
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 1
-        width: 298
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f93035fabeb297860800000000000000
-      internalID: 7528096543385256863
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_10
-      rect:
-        serializedVersion: 2
-        x: 994
-        y: 137
-        width: 271
-        height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d88d3421d3b200230800000000000000
-      internalID: 3602927243195832461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_11
-      rect:
-        serializedVersion: 2
-        x: 1265
-        y: 1
-        width: 287
-        height: 268
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 176dd44c24e7fb740800000000000000
-      internalID: 5169989722470995569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_12
-      rect:
-        serializedVersion: 2
-        x: 1552
-        y: 1
-        width: 366
-        height: 277
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d092792c8f54106a0800000000000000
-      internalID: -6484825053717911283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_13
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 1
-        width: 251
-        height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b76fb7d2882780a0800000000000000
-      internalID: -6879485363354638413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_14
-      rect:
-        serializedVersion: 2
-        x: 876
-        y: 1
-        width: 339
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b20fffbefa29bbf0800000000000000
-      internalID: -308167825866947916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_15
-      rect:
-        serializedVersion: 2
-        x: 1213
-        y: 107
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7107a06c622c7d6a0800000000000000
-      internalID: -6424452871633604585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_16
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 43
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87eab5429be4535b0800000000000000
-      internalID: -5389314821993025928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_17
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 1
-        width: 71
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a21e3bda11c5b990800000000000000
-      internalID: -7370772894030359896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_18
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 45
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03c8fbbf9d465f950800000000000000
-      internalID: 6482198126064012336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_19
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 48
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9ce4465fde9bd980800000000000000
-      internalID: -8513035988551537509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_20
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 1
-        width: 69
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b2fd559ca5ee9950800000000000000
-      internalID: 6457851445098967732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_21
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 1
-        width: 80
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 304b2023560a98980800000000000000
-      internalID: -8536115262212885501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_22
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 1
-        width: 79
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 856c9f5d40c8cb830800000000000000
-      internalID: 4088296514143241816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_23
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 7
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 251cb98b126439ad0800000000000000
-      internalID: -2696734641219714734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B25_BeachResort_24
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 8
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f3a5ca683171e310800000000000000
-      internalID: 1432550643603973109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -760,32 +210,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      B25_BeachResort_0: -3302431343047484630
-      B25_BeachResort_1: 2553825798384347977
-      B25_BeachResort_10: 3602927243195832461
-      B25_BeachResort_11: 5169989722470995569
-      B25_BeachResort_12: -6484825053717911283
-      B25_BeachResort_13: -6879485363354638413
-      B25_BeachResort_14: -308167825866947916
-      B25_BeachResort_15: -6424452871633604585
-      B25_BeachResort_16: -5389314821993025928
-      B25_BeachResort_17: -7370772894030359896
-      B25_BeachResort_18: 6482198126064012336
-      B25_BeachResort_19: -8513035988551537509
-      B25_BeachResort_2: 5602366522714271281
-      B25_BeachResort_20: 6457851445098967732
-      B25_BeachResort_21: -8536115262212885501
-      B25_BeachResort_22: 4088296514143241816
-      B25_BeachResort_23: -2696734641219714734
-      B25_BeachResort_24: 1432550643603973109
-      B25_BeachResort_3: 2052087718391231681
-      B25_BeachResort_4: 6075602975302550083
-      B25_BeachResort_5: -668555744483813499
-      B25_BeachResort_6: 6813560951953244832
-      B25_BeachResort_7: 2309813070750056810
-      B25_BeachResort_8: 3257976796277368793
-      B25_BeachResort_9: 7528096543385256863
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

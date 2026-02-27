@@ -85,10 +85,10 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
@@ -102,7 +102,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -133,7 +133,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -146,7 +146,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -159,7 +159,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -169,359 +169,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: B30_FireStation_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 883
-        width: 271
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c054c762c0055a3a0800000000000000
-      internalID: -6654824861254531828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_1
-      rect:
-        serializedVersion: 2
-        x: 643
-        y: 794
-        width: 922
-        height: 798
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6706511ed3c211c0800000000000000
-      internalID: -4534346516267661458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_2
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 620
-        width: 309
-        height: 233
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba984566a6f801550800000000000000
-      internalID: 6129556779997366699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_3
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 195
-        width: 506
-        height: 425
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff87dcf938acb7cd0800000000000000
-      internalID: -2559229296559425281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_4
-      rect:
-        serializedVersion: 2
-        x: 1573
-        y: 565
-        width: 258
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: edf36cb172cbe4aa0800000000000000
-      internalID: -6174791162922647586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_5
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 169
-        width: 517
-        height: 410
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e71061cc4ccc961a0800000000000000
-      internalID: -6815691415438884482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_6
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 341
-        width: 259
-        height: 231
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0186366fe58276030800000000000000
-      internalID: 3487800824747485200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_7
-      rect:
-        serializedVersion: 2
-        x: 1420
-        y: 1
-        width: 533
-        height: 340
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 551390537e7e3aad0800000000000000
-      internalID: -2692053172024168107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_8
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 1
-        width: 208
-        height: 157
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2a6162bf23e9d120800000000000000
-      internalID: 2439230467193530925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_9
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 1
-        width: 337
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 892a2eca33113df20800000000000000
-      internalID: 3446117053510099608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_10
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 59
-        width: 75
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 18a4d2a3971060570800000000000000
-      internalID: 8432428972476549761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_11
-      rect:
-        serializedVersion: 2
-        x: 623
-        y: 79
-        width: 58
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9b350d0c2147dd90800000000000000
-      internalID: -7073113032309261409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_12
-      rect:
-        serializedVersion: 2
-        x: 658
-        y: 1
-        width: 46
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d324225b305059ed0800000000000000
-      internalID: -2408012912277700035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_13
-      rect:
-        serializedVersion: 2
-        x: 721
-        y: 71
-        width: 56
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d479d4ce210376e0800000000000000
-      internalID: -1841126522281691949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_14
-      rect:
-        serializedVersion: 2
-        x: 777
-        y: 1
-        width: 297
-        height: 194
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 769f69749100a9580800000000000000
-      internalID: -8819736811676436121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: B30_FireStation_15
-      rect:
-        serializedVersion: 2
-        x: 1074
-        y: 1
-        width: 346
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db04b72a9fafdde80800000000000000
-      internalID: -8152083800390942531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -535,23 +183,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      B30_FireStation_0: -6654824861254531828
-      B30_FireStation_1: -4534346516267661458
-      B30_FireStation_10: 8432428972476549761
-      B30_FireStation_11: -7073113032309261409
-      B30_FireStation_12: -2408012912277700035
-      B30_FireStation_13: -1841126522281691949
-      B30_FireStation_14: -8819736811676436121
-      B30_FireStation_15: -8152083800390942531
-      B30_FireStation_2: 6129556779997366699
-      B30_FireStation_3: -2559229296559425281
-      B30_FireStation_4: -6174791162922647586
-      B30_FireStation_5: -6815691415438884482
-      B30_FireStation_6: 3487800824747485200
-      B30_FireStation_7: -2692053172024168107
-      B30_FireStation_8: 2439230467193530925
-      B30_FireStation_9: 3446117053510099608
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
