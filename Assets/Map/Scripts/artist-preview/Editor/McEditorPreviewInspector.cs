@@ -1,9 +1,6 @@
-
-using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Security.Cryptography;
-using TMPro;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
@@ -66,6 +63,11 @@ public class McEditorPreviewInspector : Editor
             else
                 HideMc(preview);
         }
+
+        if (GUILayout.Button("Apply All Prefabs"))
+        {
+            ApplyAllPrefabs(preview);
+        }
     }
 
     public bool IsInitialize()
@@ -118,23 +120,24 @@ public class McEditorPreviewInspector : Editor
             progress = (float)count / maxCount;
             var data = AssetLoader.GetDataBuildings();
             var dataCharacter = AssetLoader.GetDataCharacterOnMap();
-            var dataBuilding = data.GetBuildingData(mcPresenter.buildingId); 
+            var dataBuilding = data.GetBuildingData(mcPresenter.buildingId);
             var prefabPath = dataBuilding.GetModelLoadPath(mcPresenter.orderInBuilding).modelPath;
             var name = mcPresenter.gameObject.name;
             var position = mcPresenter.transform.position;
 
             EditorUtility.DisplayProgressBar("Showing Cat Characters", $"Loading {name}", progress);
-            
+
             var prefab = AssetLoader.LoadPrefab(SpineMcPrefabPath, prefabPath);
             if (prefab != null)
             {
-                var mcGo = Instantiate(prefab, position, Quaternion.identity, mcPresenter.transform).GetComponent<McOnMapController>();
+                //var mcGo = Instantiate(prefab, position, Quaternion.identity, mcPresenter.transform).GetComponent<McOnMapController>();
+                var mcGo = PrefabUtility.InstantiatePrefab(prefab, mcPresenter.transform).GetComponent<McOnMapController>();
                 mcGo.transform.localPosition = Vector3.zero;
                 areaInfo.mcGo[name] = mcGo.gameObject;
                 mcGo.SetupBuildingId(mcPresenter.buildingId, prefab.name);
-                
+
                 UnityEngine.Debug.Log($"Prefab name : {prefab.name}");
-                var lPos = dataCharacter.GetCharacterOnMapData(mcPresenter.buildingId, prefab.name); 
+                var lPos = dataCharacter.GetCharacterOnMapData(mcPresenter.buildingId, prefab.name);
                 mcGo.SetupPosition_Editor(lPos);
             }
         }
@@ -150,10 +153,30 @@ public class McEditorPreviewInspector : Editor
 
         if (spineMc_area.isShowed && spineMc_area.mcGo != null)
         {
-            foreach (var building in spineMc_area.mcGo)
+            foreach (var mc in spineMc_area.mcGo)
             {
-                if (building.Value != null)
-                    DestroyImmediate(building.Value);
+                if (mc.Value != null)
+                    DestroyImmediate(mc.Value);
+            }
+            spineMc_area.mcGo.Clear();
+        }
+        spineMc_area.isShowed = false;
+    }
+
+    public void ApplyAllPrefabs(McEditorPreview preview)
+    {
+        if (!IsInitialize())
+            IsInitialize(preview.AreaName);
+        var spineMc_area = areaInfos[preview.AreaName];
+
+        if (spineMc_area.isShowed && spineMc_area.mcGo != null)
+        {
+            foreach (var mc in spineMc_area.mcGo)
+            {
+                if (mc.Value != null)
+                {
+                    PrefabUtility.ApplyPrefabInstance(mc.Value, InteractionMode.UserAction);
+                }
             }
             spineMc_area.mcGo.Clear();
         }

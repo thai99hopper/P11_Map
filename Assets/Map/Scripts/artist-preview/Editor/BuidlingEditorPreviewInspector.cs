@@ -1,10 +1,7 @@
-
-using System;
 using System.Collections.Generic;
-using TMPro;
+using System.IO;
 using UnityEditor;
 using UnityEngine;
-using System.IO;
 
 [CustomEditor(typeof(BuildingEditorPreview))]
 public class BuildingEditorPreviewInspector : Editor
@@ -16,7 +13,7 @@ public class BuildingEditorPreviewInspector : Editor
         public bool isShowBuilding = false;
         public Dictionary<string, GameObject> buildings;
 
-        public AreaInfo(string name) 
+        public AreaInfo(string name)
         {
             this.name = name;
             this.isShowed = false;
@@ -74,6 +71,11 @@ public class BuildingEditorPreviewInspector : Editor
 
         //if (GUILayout.Button("Full"))
         //    preview.PlayAnimation("full");
+
+        if (GUILayout.Button("Apply All Prefabs"))
+        {
+            ApplyAllPrefabs(preview);
+        }
     }
 
     public bool IsInitialize()
@@ -112,7 +114,7 @@ public class BuildingEditorPreviewInspector : Editor
 
         var progress = 0f;
         var count = 0;
-        var buildingList = preview.GetBuldingList(); 
+        var buildingList = preview.GetBuldingList();
         var maxCount = buildingList.Count;
 
         Debug.Log("Show Building");
@@ -129,7 +131,7 @@ public class BuildingEditorPreviewInspector : Editor
             if (dataBuilding == null)
             {
                 Debug.LogWarning($"Building {building.gameObject.name} not found in data");
-                continue;           
+                continue;
             }
             var name = dataBuilding.buildingIdSpineMapping;
             UnityEngine.Debug.Log($"{name}");
@@ -137,7 +139,9 @@ public class BuildingEditorPreviewInspector : Editor
             var prefab = AssetLoader.LoadPrefab(SpineBuildingPrefabPath, name);
             if (prefab != null)
             {
-                var spineObj = Instantiate(prefab, building.transform);
+                //var spineObj = Instantiate(prefab, building.transform);
+                var spineObj = PrefabUtility.InstantiatePrefab(prefab) as GameObject;
+                spineObj.transform.SetParent(building.transform);
                 spineBuilding_area.buildings[name] = spineObj;
             }
         }
@@ -151,12 +155,32 @@ public class BuildingEditorPreviewInspector : Editor
             IsInitialize(preview.AreaName);
         var spineBuilding_area = spineBuildings[preview.AreaName];
 
-        if (spineBuilding_area.isShowed && spineBuilding_area .buildings != null)
+        if (spineBuilding_area.isShowed && spineBuilding_area.buildings != null)
         {
             foreach (var building in spineBuilding_area.buildings)
             {
                 if (building.Value != null)
                     DestroyImmediate(building.Value);
+            }
+            spineBuilding_area.buildings.Clear();
+        }
+        spineBuilding_area.isShowed = false;
+    }
+
+    public void ApplyAllPrefabs(BuildingEditorPreview preview)
+    {
+        if (!IsInitialize())
+            IsInitialize(preview.AreaName);
+        var spineBuilding_area = spineBuildings[preview.AreaName];
+
+        if (spineBuilding_area.isShowed && spineBuilding_area.buildings != null)
+        {
+            foreach (var building in spineBuilding_area.buildings)
+            {
+                if (building.Value != null)
+                {
+                    PrefabUtility.ApplyPrefabInstance(building.Value, InteractionMode.UserAction);
+                }
             }
             spineBuilding_area.buildings.Clear();
         }
