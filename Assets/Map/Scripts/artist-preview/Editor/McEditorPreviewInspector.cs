@@ -131,7 +131,7 @@ public class McEditorPreviewInspector : Editor
             if (prefab != null)
             {
                 //var mcGo = Instantiate(prefab, position, Quaternion.identity, mcPresenter.transform).GetComponent<McOnMapController>();
-                var mcGo = PrefabUtility.InstantiatePrefab(prefab, mcPresenter.transform).GetComponent<McOnMapController>();
+                var mcGo = (PrefabUtility.InstantiatePrefab(prefab, mcPresenter.transform) as GameObject).GetComponent<McOnMapController>();
                 mcGo.transform.localPosition = Vector3.zero;
                 areaInfo.mcGo[name] = mcGo.gameObject;
                 mcGo.SetupBuildingId(mcPresenter.buildingId, prefab.name);
