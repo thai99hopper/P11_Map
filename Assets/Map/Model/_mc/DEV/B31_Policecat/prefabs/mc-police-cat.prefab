@@ -346,6 +346,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6208748178416593940}
     m_Modifications:
+    - target: {fileID: 5587679381029953460, guid: f2375b37d9462304fbcac769fb5c480c, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 54900b9a0a297df419f2fcee4eafa13a, type: 2}
     - target: {fileID: 6271508987618359680, guid: f2375b37d9462304fbcac769fb5c480c, type: 3}
       propertyPath: m_Name
       value: PoliceCat_Idle01_Cp
@@ -759,6 +763,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.093382
       objectReference: {fileID: 0}
+    - target: {fileID: 5402172099929124276, guid: 7f424ac5298069a418af7ab672f0534d, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 54900b9a0a297df419f2fcee4eafa13a, type: 2}
     - target: {fileID: 5438050373713744867, guid: 7f424ac5298069a418af7ab672f0534d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 8.10337

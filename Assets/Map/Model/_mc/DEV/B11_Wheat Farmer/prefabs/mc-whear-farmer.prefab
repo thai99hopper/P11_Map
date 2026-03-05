@@ -474,6 +474,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3699462981192104205}
     m_Modifications:
+    - target: {fileID: 2872077054511776715, guid: 66832059e096d764eadcfc9d8688b385, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 21f89fb426b46394d993ab59f2478374, type: 2}
     - target: {fileID: 3792289728167193514, guid: 66832059e096d764eadcfc9d8688b385, type: 3}
       propertyPath: mcController
       value: 
@@ -588,6 +592,10 @@ PrefabInstance:
       propertyPath: mcController
       value: 
       objectReference: {fileID: 2120919269388945275}
+    - target: {fileID: 5793204540620275319, guid: fe41a597c05e90949b04ee786e0023c9, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 21f89fb426b46394d993ab59f2478374, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

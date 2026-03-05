@@ -681,6 +681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beach lifeguard_emo
       objectReference: {fileID: 0}
+    - target: {fileID: 7096694187010602820, guid: 07c0677ec36859f49b5e273907bb8ae5, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 54900b9a0a297df419f2fcee4eafa13a, type: 2}
     - target: {fileID: 7150347527338570713, guid: 07c0677ec36859f49b5e273907bb8ae5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -0.11921147
@@ -851,6 +855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beach lifeguard_idle2
       objectReference: {fileID: 0}
+    - target: {fileID: 8712783920427253843, guid: a08b54afb526f0e44aab17e164da2909, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 54900b9a0a297df419f2fcee4eafa13a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

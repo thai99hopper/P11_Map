@@ -416,6 +416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bath_Emotion
       objectReference: {fileID: 0}
+    - target: {fileID: 4579691866400267331, guid: 24e818398f2738649ad89e676c587362, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b2490452caf3c324ca556744f2a02c9b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -434,6 +438,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3699462981192104205}
     m_Modifications:
+    - target: {fileID: 676377084572674960, guid: 04237edf846e97f43939836d53c307b0, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b2490452caf3c324ca556744f2a02c9b, type: 2}
     - target: {fileID: 1961056446528206307, guid: 04237edf846e97f43939836d53c307b0, type: 3}
       propertyPath: mcController
       value: 

@@ -428,6 +428,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 95.807755
       objectReference: {fileID: 0}
+    - target: {fileID: 2558745219758917381, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b2490452caf3c324ca556744f2a02c9b, type: 2}
     - target: {fileID: 2954233197740368742, guid: 1d0c9c8408dcb814890fbf23591ce1f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -16.704588
@@ -734,6 +738,10 @@ PrefabInstance:
       propertyPath: mcController
       value: 
       objectReference: {fileID: 8825700109361721099}
+    - target: {fileID: 7699091430413951359, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b2490452caf3c324ca556744f2a02c9b, type: 2}
     - target: {fileID: 8148844010751813305, guid: 70459c9eeb615fb4abedbc9079f3ff89, type: 3}
       propertyPath: m_Name
       value: Shipwright Sailor

@@ -340,6 +340,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8197949826287554427}
     m_Modifications:
+    - target: {fileID: 3918743036199187208, guid: 64d2d846c26ac854e92678cdf04cb48c, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c622e03f445d0df4c898681f5917810e, type: 2}
     - target: {fileID: 4779197611747637199, guid: 64d2d846c26ac854e92678cdf04cb48c, type: 3}
       propertyPath: m_Name
       value: Merchant 1
@@ -411,6 +415,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8197949826287554427}
     m_Modifications:
+    - target: {fileID: 315274808187475361, guid: 11b636b213a0ddf4b8c742a3394b02a1, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c622e03f445d0df4c898681f5917810e, type: 2}
     - target: {fileID: 8160852008231483151, guid: 11b636b213a0ddf4b8c742a3394b02a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.58

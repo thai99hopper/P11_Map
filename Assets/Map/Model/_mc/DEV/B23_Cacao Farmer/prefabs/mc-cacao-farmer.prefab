@@ -390,6 +390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CacaoFarmer_Emo
       objectReference: {fileID: 0}
+    - target: {fileID: 7861038727136572331, guid: abda246697a9fc54495fc9eb53859dd2, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 54900b9a0a297df419f2fcee4eafa13a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -412,6 +416,10 @@ PrefabInstance:
       propertyPath: mcController
       value: 
       objectReference: {fileID: 5856218249000212418}
+    - target: {fileID: 2049554071892315594, guid: 79fb718720a751844843d32321a418bf, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 54900b9a0a297df419f2fcee4eafa13a, type: 2}
     - target: {fileID: 8570212153483979352, guid: 79fb718720a751844843d32321a418bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.5435276
