@@ -178,8 +178,6 @@ public class McEditorPreviewInspector : Editor
                     PrefabUtility.ApplyPrefabInstance(mc.Value, InteractionMode.UserAction);
                 }
             }
-            spineMc_area.mcGo.Clear();
         }
-        spineMc_area.isShowed = false;
     }
 }

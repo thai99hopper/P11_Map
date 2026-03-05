@@ -182,8 +182,6 @@ public class BuildingEditorPreviewInspector : Editor
                     PrefabUtility.ApplyPrefabInstance(building.Value, InteractionMode.UserAction);
                 }
             }
-            spineBuilding_area.buildings.Clear();
         }
-        spineBuilding_area.isShowed = false;
     }
 }
