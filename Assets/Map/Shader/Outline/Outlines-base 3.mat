@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outlines-base
+  m_Name: Outlines-base 3
   m_Shader: {fileID: 4800000, guid: 64fb8001ba44643269fb70ccd87f43d0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -107,7 +107,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _Thickness: 0.035
+    - _Thickness: 0.065
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
