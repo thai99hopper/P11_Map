@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingId: 
+  buildingId: building_basic_25
   animator: {fileID: 304034173579450824}
   animatorInitialize: {fileID: 0}
   model: {fileID: 8728441529570480959}
@@ -427,7 +427,7 @@ PrefabInstance:
     - target: {fileID: 8981950759245701109, guid: 33fe135c531315a4d9fc2cd8c57c753c, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2490452caf3c324ca556744f2a02c9b, type: 2}
+      objectReference: {fileID: 2100000, guid: c622e03f445d0df4c898681f5917810e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -582,7 +582,7 @@ PrefabInstance:
     - target: {fileID: 1179631813025078547, guid: 0091c77bb0a7e0f49a032367d9d57519, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2490452caf3c324ca556744f2a02c9b, type: 2}
+      objectReference: {fileID: 2100000, guid: c622e03f445d0df4c898681f5917810e, type: 2}
     - target: {fileID: 1896551338462111693, guid: 0091c77bb0a7e0f49a032367d9d57519, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 2.1075127

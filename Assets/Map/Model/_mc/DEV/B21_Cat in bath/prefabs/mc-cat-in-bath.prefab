@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingId: 
+  buildingId: building_basic_21
   animator: {fileID: 3047210135102389372}
   animatorInitialize: {fileID: 0}
   model: {fileID: 8808168050468395989}
@@ -419,7 +419,7 @@ PrefabInstance:
     - target: {fileID: 4579691866400267331, guid: 24e818398f2738649ad89e676c587362, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2490452caf3c324ca556744f2a02c9b, type: 2}
+      objectReference: {fileID: 2100000, guid: c622e03f445d0df4c898681f5917810e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -441,7 +441,7 @@ PrefabInstance:
     - target: {fileID: 676377084572674960, guid: 04237edf846e97f43939836d53c307b0, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2490452caf3c324ca556744f2a02c9b, type: 2}
+      objectReference: {fileID: 2100000, guid: c622e03f445d0df4c898681f5917810e, type: 2}
     - target: {fileID: 1961056446528206307, guid: 04237edf846e97f43939836d53c307b0, type: 3}
       propertyPath: mcController
       value: 

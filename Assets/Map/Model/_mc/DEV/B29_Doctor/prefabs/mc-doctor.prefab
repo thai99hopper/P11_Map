@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingId: 
+  buildingId: building_basic_29
   animator: {fileID: 1532359164886185453}
   animatorInitialize: {fileID: 0}
   model: {fileID: 5049492172159882303}
@@ -376,6 +376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doctor-emo
       objectReference: {fileID: 0}
+    - target: {fileID: 3950105989888337465, guid: b017490fcc9868e4898378cfd5bcadcd, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 54900b9a0a297df419f2fcee4eafa13a, type: 2}
     - target: {fileID: 4485623764046530238, guid: b017490fcc9868e4898378cfd5bcadcd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.75
@@ -482,6 +486,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 15.259
       objectReference: {fileID: 0}
+    - target: {fileID: 6415757225354756339, guid: 6c0faed144c7878479d0940b6cd36dfa, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 54900b9a0a297df419f2fcee4eafa13a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

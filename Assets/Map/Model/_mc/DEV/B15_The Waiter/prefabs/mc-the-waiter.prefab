@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingId: 
+  buildingId: building_basic_15
   animator: {fileID: 8707643675901647215}
   animatorInitialize: {fileID: 0}
   model: {fileID: 6603761566211254761}
@@ -353,7 +353,7 @@ PrefabInstance:
     - target: {fileID: 6160685272682949678, guid: 2307f3fff32dcdd4c9b7d3265f3d6948, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: b8537f5fb2f2c470e8b29dc4c3b8faad, type: 2}
+      objectReference: {fileID: 2100000, guid: 54900b9a0a297df419f2fcee4eafa13a, type: 2}
     - target: {fileID: 6353893134287909317, guid: 2307f3fff32dcdd4c9b7d3265f3d6948, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.31
@@ -434,7 +434,7 @@ PrefabInstance:
     - target: {fileID: 3588550120372842839, guid: b95cf0ea957e0254dbd218c8bf1eaed2, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: b8537f5fb2f2c470e8b29dc4c3b8faad, type: 2}
+      objectReference: {fileID: 2100000, guid: 54900b9a0a297df419f2fcee4eafa13a, type: 2}
     - target: {fileID: 4022964919523292678, guid: b95cf0ea957e0254dbd218c8bf1eaed2, type: 3}
       propertyPath: m_Name
       value: CafeWaiter_Emo

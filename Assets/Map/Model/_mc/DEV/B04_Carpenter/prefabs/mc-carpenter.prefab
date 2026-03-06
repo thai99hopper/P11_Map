@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eadaadecb591b944399a82c2eaa3877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingId: 
+  buildingId: building_basic_13
   animator: {fileID: 1043478009429821452}
   animatorInitialize: {fileID: 0}
   model: {fileID: 7262620378604038280}
@@ -611,7 +611,7 @@ PrefabInstance:
     - target: {fileID: 4000652686861584826, guid: 99cfbc9c479782a4c94858a361ba4202, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2490452caf3c324ca556744f2a02c9b, type: 2}
+      objectReference: {fileID: 2100000, guid: c622e03f445d0df4c898681f5917810e, type: 2}
     - target: {fileID: 4072285274893136634, guid: 99cfbc9c479782a4c94858a361ba4202, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 3.7563903
@@ -929,7 +929,7 @@ PrefabInstance:
     - target: {fileID: 1502235994688182356, guid: b4d7b8634d524144abd83b3ae00ecc43, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2490452caf3c324ca556744f2a02c9b, type: 2}
+      objectReference: {fileID: 2100000, guid: c622e03f445d0df4c898681f5917810e, type: 2}
     - target: {fileID: 1524049566822439554, guid: b4d7b8634d524144abd83b3ae00ecc43, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0.93875843
